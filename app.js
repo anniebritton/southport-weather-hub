@@ -493,8 +493,11 @@ function setupTabs() {
       t.tabIndex = selected ? 0 : -1;
       panels[i].hidden = !selected;
     });
-    if (focus) tab.focus();
+    if (focus) tab.focus({ preventScroll: true });
     if (updateHash) history.replaceState(null, "", `#${tab.getAttribute("aria-controls")}`);
+    // On narrow screens the tab bar scrolls — keep the selected pill centered
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    tab.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "nearest", inline: "center" });
   }
 
   tabs.forEach((tab) => {
