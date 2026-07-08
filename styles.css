@@ -177,6 +177,15 @@ a:hover { color: var(--sea-deep); }
   padding-bottom: 0.55rem;
 }
 
+/* On phones, wrap into rows so every tab is visible — no hidden scroll */
+@media (max-width: 700px) {
+  .section-nav .wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: visible;
+  }
+}
+
 .section-nav a {
   flex-shrink: 0;
   text-decoration: none;
