@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-07-08 19:30:08",
+ "lastUpdated": "2026-07-08 21:10:08",
  "totals": {
   "customers": 688624,
-  "outages": 957,
+  "outages": 3,
   "incidents": 1
  },
  "southport": null,
@@ -14,17 +14,7 @@
    "county": "CUMBERLAND",
    "town": "GRAY",
    "customers": 5217,
-   "Outages": 254,
-   "incidents": 1,
-   "EstRest": "7/8/2026 9:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "NEW GLOUCESTER",
-   "customers": 3095,
-   "Outages": 703,
+   "Outages": 3,
    "incidents": 1,
    "EstRest": "7/8/2026 9:15:00 PM"
   },
@@ -34,28 +24,13 @@
    "county": "CUMBERLAND",
    "town": "GRAY",
    "hamlet": "GRAY",
-   "street": "LEGROW RD",
-   "customers": 18,
-   "Outages": 18,
+   "street": "LEWISTON RD",
+   "customers": 136,
+   "Outages": 3,
    "incidents": 1,
    "EstRest": "7/8/2026 9:15:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003JWC"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "NEW GLOUCESTER",
-   "hamlet": "NEW GLOUCESTER",
-   "street": "BENNETT RD",
-   "customers": 59,
-   "Outages": 56,
-   "incidents": 1,
-   "EstRest": "7/8/2026 9:15:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
+   "crewstatus": "ONST ",
+   "cause": "Animal",
    "incidentnumber": "003JWC"
   }
  ]
