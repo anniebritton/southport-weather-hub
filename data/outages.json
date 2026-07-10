@@ -1,13 +1,43 @@
 {
- "lastUpdated": "2026-07-10 18:40:08",
+ "lastUpdated": "2026-07-10 19:36:48",
  "totals": {
   "customers": 688624,
-  "outages": 2,
-  "incidents": 1
+  "outages": 172,
+  "incidents": 5
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "PALMYRA",
+   "customers": 1133,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "7/10/2026 9:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "SAINT ALBANS",
+   "customers": 1456,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/10/2026 9:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "SIDNEY",
+   "customers": 2568,
+   "Outages": 125,
+   "incidents": 1,
+   "EstRest": "7/10/2026 9:15:00 PM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -17,6 +47,61 @@
    "Outages": 2,
    "incidents": 1,
    "EstRest": "7/10/2026 8:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "CHESTERVILLE",
+   "customers": 868,
+   "Outages": 40,
+   "incidents": 1,
+   "EstRest": "7/10/2026 9:30:00 PM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "PALMYRA",
+   "hamlet": "PALMYRA",
+   "street": "MAIN ST",
+   "customers": 63,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "7/10/2026 9:30:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003KD2"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "SAINT ALBANS",
+   "hamlet": "SAINT ALBANS",
+   "street": "INDIAN HEIGHTS DR",
+   "customers": 5,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/10/2026 9:30:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003KD4"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "SIDNEY",
+   "hamlet": "SIDNEY",
+   "street": "TOWN FARM RD",
+   "customers": 52,
+   "Outages": 21,
+   "incidents": 1,
+   "EstRest": "7/10/2026 9:15:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003KCX"
   },
   {
    "level": "street",
@@ -29,9 +114,24 @@
    "Outages": 2,
    "incidents": 1,
    "EstRest": "7/10/2026 8:45:00 PM",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003KCQ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "CHESTERVILLE",
+   "hamlet": "CHESTERVILLE",
+   "street": "CHESTERVILLE HILL RD",
+   "customers": 7,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "7/10/2026 9:30:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003KD0"
   }
  ]
 }
