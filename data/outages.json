@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-07-11 15:46:48",
+ "lastUpdated": "2026-07-11 16:46:48",
  "totals": {
   "customers": 688624,
-  "outages": 0,
-  "incidents": 0
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "WOODSTOCK",
+   "customers": 1124,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/11/2026 6:30:00 PM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "WOODSTOCK",
+   "hamlet": "WOODSTOCK",
+   "street": "OLD COUNTY RD",
+   "customers": 36,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/11/2026 6:30:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003KFM"
+  }
+ ]
 }
