@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-07-11 02:36:48",
+ "lastUpdated": "2026-07-11 04:23:28",
  "totals": {
   "customers": 688624,
-  "outages": 0,
-  "incidents": 0
+  "outages": 2,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "HARRISON",
+   "customers": 2250,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "7/11/2026 6:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "HARRISON",
+   "hamlet": "HARRISON",
+   "street": "SCENIC DR",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "7/11/2026 6:00:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003KDP"
+  }
+ ]
 }
