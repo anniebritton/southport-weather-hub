@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-07-11 00:23:28",
+ "lastUpdated": "2026-07-11 02:36:48",
  "totals": {
   "customers": 688624,
-  "outages": 33,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRIDGTON",
-   "customers": 5687,
-   "Outages": 33,
-   "incidents": 1,
-   "EstRest": "7/11/2026 1:45:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRIDGTON",
-   "hamlet": "BRIDGTON",
-   "street": "S MALCOLM RD",
-   "customers": 6,
-   "Outages": 6,
-   "incidents": 1,
-   "EstRest": "7/11/2026 1:45:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003KDK"
-  }
- ]
+ "towns": []
 }
