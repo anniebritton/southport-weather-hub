@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-07-11 08:23:28",
+ "lastUpdated": "2026-07-11 10:00:08",
  "totals": {
   "customers": 688624,
-  "outages": 115,
-  "incidents": 4
+  "outages": 3,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -12,101 +12,51 @@
    "level": "town",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "BUCKFIELD",
-   "customers": 1188,
-   "Outages": 7,
+   "town": "PORTER",
+   "customers": 960,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "7/11/2026 9:45:00 AM"
+   "EstRest": "7/11/2026 12:00:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "YORK",
-   "town": "HOLLIS",
-   "customers": 2415,
-   "Outages": 21,
+   "town": "SACO",
+   "customers": 11676,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/11/2026 10:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SCARBOROUGH",
-   "customers": 13113,
-   "Outages": 45,
-   "incidents": 1,
-   "EstRest": "7/11/2026 9:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "LITCHFIELD",
-   "customers": 2320,
-   "Outages": 42,
-   "incidents": 1,
-   "EstRest": "7/11/2026 10:00:00 AM"
+   "EstRest": "7/11/2026 11:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "BUCKFIELD",
-   "hamlet": "BUCKFIELD",
-   "street": "BENSON RD",
-   "customers": 7,
-   "Outages": 7,
+   "town": "PORTER",
+   "hamlet": "PORTER",
+   "street": "CAPPY LN",
+   "customers": 1,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/11/2026 9:45:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "7/11/2026 12:00:00 PM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003KE9"
+   "incidentnumber": "003KER"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "YORK",
-   "town": "HOLLIS",
-   "hamlet": "HOLLIS",
-   "street": "CHADBOURNE RIDGE RD",
+   "town": "SACO",
+   "hamlet": "SACO",
+   "street": "BAY VIEW RD",
    "customers": 11,
-   "Outages": 9,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/11/2026 10:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KEI"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SCARBOROUGH",
-   "hamlet": "SCARBOROUGH",
-   "street": "PINE POINT RD",
-   "customers": 186,
-   "Outages": 15,
-   "incidents": 1,
-   "EstRest": "7/11/2026 9:00:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003KE7"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "LITCHFIELD",
-   "hamlet": "LITCHFIELD",
-   "street": "MACE RD",
-   "customers": 24,
-   "Outages": 24,
-   "incidents": 1,
-   "EstRest": "7/11/2026 10:00:00 AM",
+   "EstRest": "7/11/2026 11:15:00 AM",
    "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003KEH"
+   "incidentnumber": "003KEM"
   }
  ]
 }
