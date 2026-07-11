@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-07-11 10:00:08",
+ "lastUpdated": "2026-07-11 11:10:08",
  "totals": {
   "customers": 688624,
-  "outages": 3,
-  "incidents": 2
+  "outages": 9,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,12 +11,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "PORTER",
-   "customers": 960,
-   "Outages": 2,
+   "county": "SAGADAHOC",
+   "town": "PHIPPSBURG",
+   "customers": 2132,
+   "Outages": 6,
    "incidents": 1,
-   "EstRest": "7/11/2026 12:00:00 PM"
+   "EstRest": "7/11/2026 12:30:00 PM"
   },
   {
    "level": "town",
@@ -26,22 +26,32 @@
    "customers": 11676,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/11/2026 11:15:00 AM"
+   "EstRest": "7/11/2026 3:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "PORTER",
+   "customers": 960,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "7/11/2026 1:00:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "PORTER",
-   "hamlet": "PORTER",
-   "street": "CAPPY LN",
-   "customers": 1,
-   "Outages": 1,
+   "county": "SAGADAHOC",
+   "town": "PHIPPSBURG",
+   "hamlet": "PHIPPSBURG",
+   "street": "WHITE POINT RD",
+   "customers": 3,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "7/11/2026 12:00:00 PM",
+   "EstRest": "7/11/2026 12:30:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003KER"
+   "incidentnumber": "003KEU"
   },
   {
    "level": "street",
@@ -53,10 +63,25 @@
    "customers": 11,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/11/2026 11:15:00 AM",
-   "crewstatus": "ENRT ",
+   "EstRest": "7/11/2026 3:00:00 PM",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003KEM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "PORTER",
+   "hamlet": "PORTER",
+   "street": "CAPPY LN",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/11/2026 1:00:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003KER"
   }
  ]
 }
