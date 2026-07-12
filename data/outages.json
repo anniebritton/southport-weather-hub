@@ -1,31 +1,13 @@
 {
- "lastUpdated": "2026-07-12 08:36:48",
+ "lastUpdated": "2026-07-12 10:10:08",
  "totals": {
   "customers": 688624,
-  "outages": 57,
-  "incidents": 5
+  "outages": 9,
+  "incidents": 1
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 28935,
-  "Outages": 39,
-  "incidents": 1,
-  "EstRest": "7/12/2026 10:15:00 AM"
- },
+ "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "DEXTER",
-   "customers": 2365,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/12/2026 9:15:00 AM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -34,52 +16,7 @@
    "customers": 2761,
    "Outages": 9,
    "incidents": 1,
-   "EstRest": "7/12/2026 10:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "WISCASSET",
-   "customers": 2481,
-   "Outages": 39,
-   "incidents": 1,
-   "EstRest": "7/12/2026 10:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "PHILLIPS",
-   "customers": 724,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/12/2026 10:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "GUILFORD",
-   "customers": 923,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "7/12/2026 10:15:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "DEXTER",
-   "hamlet": "DEXTER",
-   "street": "CHARLESTON RD",
-   "customers": 63,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/12/2026 9:15:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003KGU"
+   "EstRest": "7/12/2026 12:00:00 PM"
   },
   {
    "level": "street",
@@ -91,55 +28,10 @@
    "customers": 8,
    "Outages": 7,
    "incidents": 1,
-   "EstRest": "7/12/2026 10:15:00 AM",
-   "crewstatus": "ACKN ",
-   "cause": "",
-   "incidentnumber": "003KH8"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "WISCASSET",
-   "hamlet": "WISCASSET",
-   "street": "READY POINT RD",
-   "customers": 11,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "7/12/2026 10:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KH9"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "PHILLIPS",
-   "hamlet": "PHILLIPS",
-   "street": "TOOTHAKER POND RD",
-   "customers": 53,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/12/2026 10:15:00 AM",
+   "EstRest": "7/12/2026 12:00:00 PM",
    "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003KHA"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "GUILFORD",
-   "hamlet": "GUILFORD",
-   "street": "ALICE AND LORIN DR",
-   "customers": 6,
-   "Outages": 6,
-   "incidents": 1,
-   "EstRest": "7/12/2026 10:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KH5"
+   "incidentnumber": "003KH8"
   }
  ]
 }
