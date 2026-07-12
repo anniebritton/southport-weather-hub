@@ -1,11 +1,137 @@
 {
- "lastUpdated": "2026-07-12 06:06:48",
+ "lastUpdated": "2026-07-12 07:26:48",
  "totals": {
   "customers": 688624,
-  "outages": 0,
-  "incidents": 0
+  "outages": 59,
+  "incidents": 5
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "NEW PORTLAND",
+   "customers": 694,
+   "Outages": 10,
+   "incidents": 1,
+   "EstRest": "7/12/2026 8:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRUNSWICK",
+   "customers": 12090,
+   "Outages": 43,
+   "incidents": 1,
+   "EstRest": "7/12/2026 9:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PENOBSCOT",
+   "town": "DEXTER",
+   "customers": 2365,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/12/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BUXTON",
+   "customers": 4213,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "7/12/2026 8:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "SACO",
+   "customers": 11676,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/12/2026 8:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "NEW PORTLAND",
+   "hamlet": "NEW PORTLAND",
+   "street": "KATIE CROTCH RD",
+   "customers": 13,
+   "Outages": 10,
+   "incidents": 1,
+   "EstRest": "7/12/2026 8:45:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003KGN"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRUNSWICK",
+   "hamlet": "BRUNSWICK",
+   "street": "B ST",
+   "customers": 11,
+   "Outages": 11,
+   "incidents": 1,
+   "EstRest": "7/12/2026 9:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003KGQ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PENOBSCOT",
+   "town": "DEXTER",
+   "hamlet": "DEXTER",
+   "street": "CHARLESTON RD",
+   "customers": 63,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/12/2026 9:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003KGU"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BUXTON",
+   "hamlet": "BUXTON",
+   "street": "CEMETERY RD",
+   "customers": 54,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "7/12/2026 8:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003KGJ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "SACO",
+   "hamlet": "SACO",
+   "street": "NORTH ST",
+   "customers": 260,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/12/2026 8:30:00 AM",
+   "crewstatus": "CMPL ",
+   "cause": "Animal",
+   "incidentnumber": "003KGK"
+  }
+ ]
 }
