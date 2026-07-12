@@ -1,33 +1,21 @@
 {
- "lastUpdated": "2026-07-12 07:26:48",
+ "lastUpdated": "2026-07-12 08:36:48",
  "totals": {
   "customers": 688624,
-  "outages": 59,
+  "outages": 57,
   "incidents": 5
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 39,
+  "incidents": 1,
+  "EstRest": "7/12/2026 10:15:00 AM"
+ },
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "NEW PORTLAND",
-   "customers": 694,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "7/12/2026 8:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "customers": 12090,
-   "Outages": 43,
-   "incidents": 1,
-   "EstRest": "7/12/2026 9:00:00 AM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -41,52 +29,42 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "BUXTON",
-   "customers": 4213,
-   "Outages": 4,
+   "county": "KNOX",
+   "town": "ROCKPORT",
+   "customers": 2761,
+   "Outages": 9,
    "incidents": 1,
-   "EstRest": "7/12/2026 8:15:00 AM"
+   "EstRest": "7/12/2026 10:15:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "SACO",
-   "customers": 11676,
+   "county": "LINCOLN",
+   "town": "WISCASSET",
+   "customers": 2481,
+   "Outages": 39,
+   "incidents": 1,
+   "EstRest": "7/12/2026 10:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "PHILLIPS",
+   "customers": 724,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/12/2026 8:30:00 AM"
+   "EstRest": "7/12/2026 10:15:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "NEW PORTLAND",
-   "hamlet": "NEW PORTLAND",
-   "street": "KATIE CROTCH RD",
-   "customers": 13,
-   "Outages": 10,
+   "county": "PISCATAQUIS",
+   "town": "GUILFORD",
+   "customers": 923,
+   "Outages": 7,
    "incidents": 1,
-   "EstRest": "7/12/2026 8:45:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003KGN"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "hamlet": "BRUNSWICK",
-   "street": "B ST",
-   "customers": 11,
-   "Outages": 11,
-   "incidents": 1,
-   "EstRest": "7/12/2026 9:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KGQ"
+   "EstRest": "7/12/2026 10:15:00 AM"
   },
   {
    "level": "street",
@@ -99,39 +77,69 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "7/12/2026 9:15:00 AM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003KGU"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "BUXTON",
-   "hamlet": "BUXTON",
-   "street": "CEMETERY RD",
-   "customers": 54,
-   "Outages": 4,
+   "county": "KNOX",
+   "town": "ROCKPORT",
+   "hamlet": "ROCKPORT",
+   "street": "ROCKPORT SHORES",
+   "customers": 8,
+   "Outages": 7,
    "incidents": 1,
-   "EstRest": "7/12/2026 8:15:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "7/12/2026 10:15:00 AM",
+   "crewstatus": "ACKN ",
    "cause": "",
-   "incidentnumber": "003KGJ"
+   "incidentnumber": "003KH8"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "SACO",
-   "hamlet": "SACO",
-   "street": "NORTH ST",
-   "customers": 260,
+   "county": "LINCOLN",
+   "town": "WISCASSET",
+   "hamlet": "WISCASSET",
+   "street": "READY POINT RD",
+   "customers": 11,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "7/12/2026 10:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003KH9"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "PHILLIPS",
+   "hamlet": "PHILLIPS",
+   "street": "TOOTHAKER POND RD",
+   "customers": 53,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/12/2026 8:30:00 AM",
-   "crewstatus": "CMPL ",
-   "cause": "Animal",
-   "incidentnumber": "003KGK"
+   "EstRest": "7/12/2026 10:15:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003KHA"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "GUILFORD",
+   "hamlet": "GUILFORD",
+   "street": "ALICE AND LORIN DR",
+   "customers": 6,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "7/12/2026 10:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003KH5"
   }
  ]
 }
