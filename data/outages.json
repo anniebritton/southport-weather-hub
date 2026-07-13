@@ -1,62 +1,11 @@
 {
- "lastUpdated": "2026-07-13 18:33:28",
+ "lastUpdated": "2026-07-13 19:30:08",
  "totals": {
   "customers": 688519,
-  "outages": 31,
-  "incidents": 2
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "FREEPORT",
-   "customers": 5263,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "7/13/2026 8:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "RAYMOND",
-   "customers": 3661,
-   "Outages": 26,
-   "incidents": 1,
-   "EstRest": "7/13/2026 8:30:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "FREEPORT",
-   "hamlet": "FREEPORT",
-   "street": "SPENCERS RIDGE RD",
-   "customers": 5,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "7/13/2026 8:15:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003KPI"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "RAYMOND",
-   "hamlet": "RAYMOND",
-   "street": "ARBOR WOODS RD",
-   "customers": 7,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "7/13/2026 8:30:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003KPN"
-  }
- ]
+ "towns": []
 }
