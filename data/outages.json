@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-07-14 00:10:08",
+ "lastUpdated": "2026-07-14 02:30:08",
  "totals": {
   "customers": 688519,
-  "outages": 25,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "SANGERVILLE",
-   "customers": 917,
-   "Outages": 25,
-   "incidents": 1,
-   "EstRest": "7/14/2026 1:00:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "SANGERVILLE",
-   "hamlet": "SANGERVILLE",
-   "street": "MOULTON RD",
-   "customers": 7,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "7/14/2026 1:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KQ0"
-  }
- ]
+ "towns": []
 }
