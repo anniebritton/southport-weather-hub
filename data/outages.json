@@ -1,13 +1,23 @@
 {
- "lastUpdated": "2026-07-14 13:20:08",
+ "lastUpdated": "2026-07-14 14:36:04",
  "totals": {
   "customers": 688519,
-  "outages": 68,
-  "incidents": 1
+  "outages": 69,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "NEW VINEYARD",
+   "customers": 553,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/14/2026 4:30:00 PM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -16,7 +26,22 @@
    "customers": 3212,
    "Outages": 68,
    "incidents": 1,
-   "EstRest": "7/14/2026 2:15:00 PM"
+   "EstRest": "7/14/2026 3:15:00 PM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "NEW VINEYARD",
+   "hamlet": "NEW VINEYARD",
+   "street": "ALLEN DR",
+   "customers": 2,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/14/2026 4:30:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003KU7"
   },
   {
    "level": "street",
@@ -28,7 +53,7 @@
    "customers": 4,
    "Outages": 4,
    "incidents": 1,
-   "EstRest": "7/14/2026 2:15:00 PM",
+   "EstRest": "7/14/2026 3:15:00 PM",
    "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003KTD"
