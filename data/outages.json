@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-07-14 06:43:28",
+ "lastUpdated": "2026-07-14 08:10:08",
  "totals": {
   "customers": 688519,
-  "outages": 41,
+  "outages": 14,
   "incidents": 4
  },
  "southport": null,
@@ -11,32 +11,32 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "CANTON",
-   "customers": 566,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "7/14/2026 7:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "GREENVILLE",
-   "customers": 2039,
-   "Outages": 28,
-   "incidents": 1,
-   "EstRest": "7/14/2026 8:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WINDHAM",
-   "customers": 10261,
+   "county": "SAGADAHOC",
+   "town": "ARROWSIC",
+   "customers": 328,
    "Outages": 8,
    "incidents": 1,
-   "EstRest": "7/14/2026 8:30:00 AM"
+   "EstRest": "7/14/2026 9:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "HARMONY",
+   "customers": 619,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "7/14/2026 10:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "ATHENS",
+   "customers": 646,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "7/14/2026 9:30:00 AM"
   },
   {
    "level": "town",
@@ -51,47 +51,47 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "CANTON",
-   "hamlet": "CANTON",
-   "street": "KEENE RD",
-   "customers": 4,
-   "Outages": 4,
+   "county": "SAGADAHOC",
+   "town": "ARROWSIC",
+   "hamlet": "ARROWSIC",
+   "street": "FIELD RD",
+   "customers": 7,
+   "Outages": 7,
    "incidents": 1,
-   "EstRest": "7/14/2026 7:45:00 AM",
-   "crewstatus": "     ",
+   "EstRest": "7/14/2026 9:30:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003KQF"
+   "incidentnumber": "003KQS"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "GREENVILLE",
-   "hamlet": "GREENVILLE",
-   "street": "CROSS ST",
-   "customers": 2,
+   "county": "SOMERSET",
+   "town": "HARMONY",
+   "hamlet": "HARMONY",
+   "street": "MUD POND DR",
+   "customers": 1,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/14/2026 8:00:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "7/14/2026 10:15:00 AM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003KQG"
+   "incidentnumber": "003KR1"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WINDHAM",
-   "hamlet": "WINDHAM",
-   "street": "CONRAD DR",
-   "customers": 6,
-   "Outages": 6,
+   "county": "SOMERSET",
+   "town": "ATHENS",
+   "hamlet": "ATHENS",
+   "street": "LORDS HILL CIR",
+   "customers": 8,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "7/14/2026 8:30:00 AM",
-   "crewstatus": "ENRT ",
+   "EstRest": "7/14/2026 9:30:00 AM",
+   "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "003KQH"
+   "incidentnumber": "003KQQ"
   },
   {
    "level": "street",
@@ -104,7 +104,7 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "7/14/2026 8:30:00 AM",
-   "crewstatus": "     ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003KQI"
   }
