@@ -1,53 +1,13 @@
 {
- "lastUpdated": "2026-07-14 19:06:04",
+ "lastUpdated": "2026-07-14 20:02:44",
  "totals": {
   "customers": 688602,
-  "outages": 54,
-  "incidents": 5
+  "outages": 20,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "PALERMO",
-   "customers": 1120,
-   "Outages": 22,
-   "incidents": 1,
-   "EstRest": "7/14/2026 8:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "RANGELEY PLT",
-   "customers": 642,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "7/14/2026 8:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "WELD",
-   "customers": 651,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/14/2026 9:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "HARRISON",
-   "customers": 2250,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/14/2026 8:00:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -71,66 +31,6 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "PALERMO",
-   "hamlet": "PALERMO",
-   "street": "PLUMMER RD",
-   "customers": 21,
-   "Outages": 20,
-   "incidents": 1,
-   "EstRest": "7/14/2026 8:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KW1"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "RANGELEY PLT",
-   "hamlet": "RANGELEY PLT",
-   "street": "S SHORE DR",
-   "customers": 86,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "7/14/2026 8:00:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KVQ"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "WELD",
-   "hamlet": "WELD",
-   "street": "WEST BROOK RD",
-   "customers": 3,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/14/2026 9:00:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KW4"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "HARRISON",
-   "hamlet": "HARRISON",
-   "street": "POUND RD",
-   "customers": 10,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/14/2026 8:00:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KVX"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
    "county": "OXFORD",
    "town": "DENMARK",
    "hamlet": "DENMARK",
@@ -139,7 +39,7 @@
    "Outages": 13,
    "incidents": 1,
    "EstRest": "7/14/2026 9:00:00 PM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003KW6"
   },
@@ -154,7 +54,7 @@
    "Outages": 6,
    "incidents": 1,
    "EstRest": "7/14/2026 9:00:00 PM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003KW6"
   }
