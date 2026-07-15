@@ -1,120 +1,37 @@
 {
- "lastUpdated": "2026-07-15 10:02:44",
+ "lastUpdated": "2026-07-15 11:46:04",
  "totals": {
   "customers": 688602,
-  "outages": 46,
-  "incidents": 3
+  "outages": 3,
+  "incidents": 1
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 28935,
-  "Outages": 1,
-  "incidents": 1,
-  "EstRest": "7/15/2026 11:45:00 AM"
- },
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "PORTLAND",
-   "customers": 41206,
-   "Outages": 13,
+   "county": "OXFORD",
+   "town": "GREENWOOD",
+   "customers": 937,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "7/15/2026 11:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "SOMERVILLE PLT",
-   "customers": 380,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/15/2026 11:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "RANGELEY",
-   "customers": 2121,
-   "Outages": 22,
-   "incidents": 1,
-   "EstRest": "7/15/2026 11:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "DALLAS PLT",
-   "customers": 542,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "7/15/2026 11:30:00 AM"
+   "EstRest": "7/15/2026 1:15:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "PORTLAND",
-   "hamlet": "PORTLAND",
-   "street": "WAVERLY ST",
-   "customers": 27,
-   "Outages": 13,
+   "county": "OXFORD",
+   "town": "GREENWOOD",
+   "hamlet": "GREENWOOD",
+   "street": "HOWE HILL RD",
+   "customers": 94,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "7/15/2026 11:00:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "System Upgrade",
-   "incidentnumber": "003KYE"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "SOMERVILLE PLT",
-   "hamlet": "SOMERVILLE PLT",
-   "street": "GUIDES WAY",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/15/2026 11:45:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003KYK"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "RANGELEY",
-   "hamlet": "RANGELEY",
-   "street": "MOOSE RIDGE RD",
-   "customers": 2,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "7/15/2026 11:30:00 AM",
+   "EstRest": "7/15/2026 1:15:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003KYJ"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "DALLAS PLT",
-   "hamlet": "DALLAS PLT",
-   "street": "MOOSE RIDGE RD",
-   "customers": 7,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "7/15/2026 11:30:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KYJ"
+   "incidentnumber": "003KZD"
   }
  ]
 }
