@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-07-14 23:29:24",
+ "lastUpdated": "2026-07-15 01:49:24",
  "totals": {
   "customers": 688602,
-  "outages": 133,
+  "outages": 907,
   "incidents": 3
  },
  "southport": null,
@@ -12,46 +12,31 @@
    "level": "town",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "BROWNFIELD",
-   "customers": 1203,
-   "Outages": 33,
-   "incidents": 1,
-   "EstRest": "7/15/2026 1:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
    "town": "DENMARK",
    "customers": 1303,
-   "Outages": 43,
+   "Outages": 28,
    "incidents": 1,
-   "EstRest": "7/15/2026 12:30:00 AM"
+   "EstRest": "7/15/2026 7:00:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "WATERBORO",
-   "customers": 4327,
-   "Outages": 57,
+   "county": "CUMBERLAND",
+   "town": "RAYMOND",
+   "customers": 3661,
+   "Outages": 61,
    "incidents": 1,
-   "EstRest": "7/15/2026 1:00:00 AM"
+   "EstRest": "7/15/2026 2:45:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "BROWNFIELD",
-   "hamlet": "BROWNFIELD",
-   "street": "PAINE BROOK LN",
-   "customers": 2,
-   "Outages": 2,
+   "county": "CUMBERLAND",
+   "town": "WINDHAM",
+   "customers": 10261,
+   "Outages": 818,
    "incidents": 1,
-   "EstRest": "7/15/2026 1:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003KWI"
+   "EstRest": "7/15/2026 2:15:00 AM"
   },
   {
    "level": "street",
@@ -59,29 +44,44 @@
    "county": "OXFORD",
    "town": "DENMARK",
    "hamlet": "DENMARK",
-   "street": "TURTLE COVE",
-   "customers": 1,
-   "Outages": 1,
+   "street": "DOUGLAS LN",
+   "customers": 4,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "7/15/2026 12:30:00 AM",
-   "crewstatus": "DISP ",
+   "EstRest": "7/15/2026 7:00:00 AM",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003KWF"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "WATERBORO",
-   "hamlet": "WATERBORO",
-   "street": "BROOKSIDE DR",
-   "customers": 19,
-   "Outages": 19,
+   "county": "CUMBERLAND",
+   "town": "RAYMOND",
+   "hamlet": "RAYMOND",
+   "street": "WILD ACRES LN",
+   "customers": 3,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "7/15/2026 1:00:00 AM",
+   "EstRest": "7/15/2026 2:45:00 AM",
    "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "003KWJ"
+   "incidentnumber": "003KWV"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "WINDHAM",
+   "hamlet": "WINDHAM",
+   "street": "BALSAM LN",
+   "customers": 6,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "7/15/2026 2:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003KWS"
   }
  ]
 }
