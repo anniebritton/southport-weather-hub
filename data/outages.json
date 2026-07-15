@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-07-15 04:22:44",
+ "lastUpdated": "2026-07-15 06:22:44",
  "totals": {
   "customers": 688602,
-  "outages": 28,
-  "incidents": 1
+  "outages": 127,
+  "incidents": 6
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,27 +11,112 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "DENMARK",
-   "customers": 1303,
-   "Outages": 28,
+   "county": "CUMBERLAND",
+   "town": "FREEPORT",
+   "customers": 5263,
+   "Outages": 7,
    "incidents": 1,
-   "EstRest": "7/15/2026 7:00:00 AM"
+   "EstRest": "7/15/2026 8:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "NORTH YARMOUTH",
+   "customers": 1958,
+   "Outages": 73,
+   "incidents": 1,
+   "EstRest": "7/15/2026 8:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "SKOWHEGAN",
+   "customers": 5421,
+   "Outages": 45,
+   "incidents": 2,
+   "EstRest": "7/15/2026 8:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "WATERBORO",
+   "customers": 4327,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/15/2026 8:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BROWNFIELD",
+   "customers": 1203,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/15/2026 8:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "FREEPORT",
+   "hamlet": "FREEPORT",
+   "street": "REAVES LN",
+   "customers": 4,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "7/15/2026 8:15:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003KXB"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "NORTH YARMOUTH",
+   "hamlet": "NORTH YARMOUTH",
+   "street": "MILL RD",
+   "customers": 53,
+   "Outages": 45,
+   "incidents": 1,
+   "EstRest": "7/15/2026 8:00:00 AM",
+   "crewstatus": "ACKN ",
+   "cause": "",
+   "incidentnumber": "003KX7"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "WATERBORO",
+   "hamlet": "WATERBORO",
+   "street": "STARLIGHT DR",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/15/2026 8:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003KXF"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "DENMARK",
-   "hamlet": "DENMARK",
-   "street": "TURTLE COVE",
-   "customers": 1,
+   "town": "BROWNFIELD",
+   "hamlet": "BROWNFIELD",
+   "street": "OAK HILL CIR",
+   "customers": 17,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/15/2026 7:00:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "7/15/2026 8:30:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003KWF"
+   "incidentnumber": "003KXA"
   }
  ]
 }
