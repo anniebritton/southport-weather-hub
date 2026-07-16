@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-07-16 01:59:24",
+ "lastUpdated": "2026-07-16 04:29:24",
  "totals": {
   "customers": 688656,
-  "outages": 9,
+  "outages": 47,
   "incidents": 1
  },
  "southport": null,
@@ -11,27 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "PALMYRA",
-   "customers": 1133,
-   "Outages": 9,
+   "county": "PISCATAQUIS",
+   "town": "ELLIOTSVILLE",
+   "customers": 93,
+   "Outages": 47,
    "incidents": 1,
-   "EstRest": "7/16/2026 3:45:00 AM"
+   "EstRest": "7/16/2026 6:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "PALMYRA",
-   "hamlet": "PALMYRA",
-   "street": "GALE RD",
-   "customers": 9,
-   "Outages": 9,
+   "county": "PISCATAQUIS",
+   "town": "ELLIOTSVILLE",
+   "hamlet": "ELLIOTSVILLE",
+   "street": "ONAWA RD",
+   "customers": 8,
+   "Outages": 8,
    "incidents": 1,
-   "EstRest": "7/16/2026 3:45:00 AM",
+   "EstRest": "7/16/2026 6:15:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003L5N"
+   "incidentnumber": "003L5P"
   }
  ]
 }
