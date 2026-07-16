@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-07-15 23:36:04",
+ "lastUpdated": "2026-07-16 01:59:24",
  "totals": {
   "customers": 688656,
-  "outages": 1,
+  "outages": 9,
   "incidents": 1
  },
  "southport": null,
@@ -11,27 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "PHILLIPS",
-   "customers": 724,
-   "Outages": 1,
+   "county": "SOMERSET",
+   "town": "PALMYRA",
+   "customers": 1133,
+   "Outages": 9,
    "incidents": 1,
-   "EstRest": "7/16/2026 1:30:00 AM"
+   "EstRest": "7/16/2026 3:45:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "PHILLIPS",
-   "hamlet": "PHILLIPS",
-   "street": "NUMBER 6 RD",
-   "customers": 4,
-   "Outages": 1,
+   "county": "SOMERSET",
+   "town": "PALMYRA",
+   "hamlet": "PALMYRA",
+   "street": "GALE RD",
+   "customers": 9,
+   "Outages": 9,
    "incidents": 1,
-   "EstRest": "7/16/2026 1:30:00 AM",
+   "EstRest": "7/16/2026 3:45:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003L5J"
+   "incidentnumber": "003L5N"
   }
  ]
 }
