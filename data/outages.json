@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-07-16 04:29:24",
+ "lastUpdated": "2026-07-16 06:39:24",
  "totals": {
   "customers": 688656,
-  "outages": 47,
+  "outages": 76,
   "incidents": 1
  },
  "southport": null,
@@ -11,27 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "ELLIOTSVILLE",
-   "customers": 93,
-   "Outages": 47,
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "customers": 41206,
+   "Outages": 76,
    "incidents": 1,
-   "EstRest": "7/16/2026 6:15:00 AM"
+   "EstRest": "7/16/2026 8:30:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "ELLIOTSVILLE",
-   "hamlet": "ELLIOTSVILLE",
-   "street": "ONAWA RD",
-   "customers": 8,
-   "Outages": 8,
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "hamlet": "PORTLAND",
+   "street": "BRIGHTON AVE",
+   "customers": 539,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "7/16/2026 6:15:00 AM",
+   "EstRest": "7/16/2026 8:30:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003L5P"
+   "incidentnumber": "003L61"
   }
  ]
 }
