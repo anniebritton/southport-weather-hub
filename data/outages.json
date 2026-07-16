@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-07-15 20:06:04",
+ "lastUpdated": "2026-07-15 23:36:04",
  "totals": {
   "customers": 688656,
-  "outages": 162,
-  "incidents": 7
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,162 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "SUMNER",
-   "customers": 619,
-   "Outages": 46,
-   "incidents": 1,
-   "EstRest": "7/15/2026 9:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WOODSTOCK",
-   "customers": 1124,
-   "Outages": 43,
-   "incidents": 1,
-   "EstRest": "7/15/2026 9:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WEST BATH",
-   "customers": 1394,
-   "Outages": 5,
-   "incidents": 2,
-   "EstRest": "7/15/2026 9:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "RICHMOND",
-   "customers": 2107,
+   "county": "FRANKLIN",
+   "town": "PHILLIPS",
+   "customers": 724,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/15/2026 8:45:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "ROCKWOOD",
-   "customers": 487,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "7/15/2026 9:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "STANDISH",
-   "customers": 5600,
-   "Outages": 24,
-   "incidents": 1,
-   "EstRest": "7/15/2026 8:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "FREEPORT",
-   "customers": 5263,
-   "Outages": 40,
-   "incidents": 1,
-   "EstRest": "7/15/2026 9:00:00 PM"
+   "EstRest": "7/16/2026 1:30:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "SUMNER",
-   "hamlet": "SUMNER",
-   "street": "ANDREWS RD",
-   "customers": 7,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "7/15/2026 9:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003L3P"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WOODSTOCK",
-   "hamlet": "WOODSTOCK",
-   "street": "REDDING RD",
-   "customers": 20,
-   "Outages": 20,
-   "incidents": 1,
-   "EstRest": "7/15/2026 9:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003L3P"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "RICHMOND",
-   "hamlet": "RICHMOND",
-   "street": "TOOTHAKER RD",
-   "customers": 29,
+   "county": "FRANKLIN",
+   "town": "PHILLIPS",
+   "hamlet": "PHILLIPS",
+   "street": "NUMBER 6 RD",
+   "customers": 4,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/15/2026 8:45:00 PM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003L44"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "ROCKWOOD",
-   "hamlet": "ROCKWOOD",
-   "street": "MAYNARD CAMP RD",
-   "customers": 37,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/15/2026 9:30:00 PM",
+   "EstRest": "7/16/2026 1:30:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003L4N"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "STANDISH",
-   "hamlet": "STANDISH",
-   "street": "BINFORD RD",
-   "customers": 5,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "7/15/2026 8:30:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003L41"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "FREEPORT",
-   "hamlet": "FREEPORT",
-   "street": "JOSHUA CHAMBERLAIN WAY",
-   "customers": 2,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "7/15/2026 9:00:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003L4D"
+   "incidentnumber": "003L5J"
   }
  ]
 }
