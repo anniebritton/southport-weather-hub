@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-07-17 02:34:54",
+ "lastUpdated": "2026-07-17 04:54:54",
  "totals": {
   "customers": 688546,
-  "outages": 20689,
-  "incidents": 622
+  "outages": 17901,
+  "incidents": 582
  },
  "southport": null,
  "lincolnCounty": {
@@ -11,8 +11,8 @@
   "opco": "CMP",
   "county": "LINCOLN",
   "customers": 28935,
-  "Outages": 2075,
-  "incidents": 71,
+  "Outages": 1508,
+  "incidents": 73,
   "EstRest": "7/18/2026 2:00:00 PM"
  },
  "towns": [
@@ -34,76 +34,6 @@
    "customers": 11241,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SCARBOROUGH",
-   "customers": 13113,
-   "Outages": 95,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "customers": 12090,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "PHIPPSBURG",
-   "customers": 2132,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "RICHMOND",
-   "customers": 2107,
-   "Outages": 54,
-   "incidents": 6,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "BOWDOINHAM",
-   "customers": 1695,
-   "Outages": 8,
-   "incidents": 5,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "BOWDOIN",
-   "customers": 1517,
-   "Outages": 44,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WOOLWICH",
-   "customers": 1848,
-   "Outages": 2,
-   "incidents": 2,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -160,20 +90,40 @@
    "level": "town",
    "opco": "CMP",
    "county": "PENOBSCOT",
-   "town": "CORINNA",
-   "customers": 1244,
-   "Outages": 36,
+   "town": "DIXMONT",
+   "customers": 557,
+   "Outages": 2,
+   "incidents": 2,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "WELLINGTON",
+   "customers": 189,
+   "Outages": 1,
    "incidents": 1,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "DIXMONT",
-   "customers": 557,
-   "Outages": 2,
-   "incidents": 2,
+   "county": "CUMBERLAND",
+   "town": "SCARBOROUGH",
+   "customers": 13113,
+   "Outages": 95,
+   "incidents": 1,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRUNSWICK",
+   "customers": 12090,
+   "Outages": 1,
+   "incidents": 1,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -219,31 +169,51 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "PARKMAN",
-   "customers": 545,
-   "Outages": 1,
+   "county": "SAGADAHOC",
+   "town": "PHIPPSBURG",
+   "customers": 2132,
+   "Outages": 7,
    "incidents": 1,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "WELLINGTON",
-   "customers": 189,
-   "Outages": 1,
+   "county": "SAGADAHOC",
+   "town": "RICHMOND",
+   "customers": 2107,
+   "Outages": 54,
+   "incidents": 6,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "BOWDOINHAM",
+   "customers": 1695,
+   "Outages": 8,
+   "incidents": 5,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "BOWDOIN",
+   "customers": 1517,
+   "Outages": 44,
    "incidents": 1,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "MONROE",
-   "customers": 2,
+   "county": "SAGADAHOC",
+   "town": "WOOLWICH",
+   "customers": 1848,
    "Outages": 2,
-   "incidents": 1,
+   "incidents": 2,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -282,8 +252,8 @@
    "county": "KNOX",
    "town": "WASHINGTON",
    "customers": 1013,
-   "Outages": 66,
-   "incidents": 8,
+   "Outages": 90,
+   "incidents": 11,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -310,20 +280,20 @@
    "level": "town",
    "opco": "CMP",
    "county": "KNOX",
-   "town": "ROCKLAND",
-   "customers": 4919,
-   "Outages": 49,
-   "incidents": 4,
+   "town": "THOMASTON",
+   "customers": 1736,
+   "Outages": 24,
+   "incidents": 2,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "KNOX",
-   "town": "THOMASTON",
-   "customers": 1736,
-   "Outages": 23,
-   "incidents": 3,
+   "town": "ROCKLAND",
+   "customers": 4919,
+   "Outages": 49,
+   "incidents": 4,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -382,8 +352,8 @@
    "county": "ANDROSCOGGIN",
    "town": "GREENE",
    "customers": 2290,
-   "Outages": 109,
-   "incidents": 6,
+   "Outages": 108,
+   "incidents": 5,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -392,18 +362,8 @@
    "county": "ANDROSCOGGIN",
    "town": "WALES",
    "customers": 786,
-   "Outages": 65,
-   "incidents": 5,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "TURNER",
-   "customers": 3212,
-   "Outages": 418,
-   "incidents": 12,
+   "Outages": 64,
+   "incidents": 4,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -422,8 +382,18 @@
    "county": "ANDROSCOGGIN",
    "town": "LIVERMORE",
    "customers": 1390,
-   "Outages": 358,
-   "incidents": 10,
+   "Outages": 357,
+   "incidents": 9,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "TURNER",
+   "customers": 3212,
+   "Outages": 418,
+   "incidents": 12,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -432,8 +402,8 @@
    "county": "ANDROSCOGGIN",
    "town": "LEEDS",
    "customers": 1286,
-   "Outages": 157,
-   "incidents": 6,
+   "Outages": 154,
+   "incidents": 3,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -442,8 +412,8 @@
    "county": "ANDROSCOGGIN",
    "town": "LISBON",
    "customers": 4880,
-   "Outages": 3,
-   "incidents": 2,
+   "Outages": 2,
+   "incidents": 1,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -452,8 +422,8 @@
    "county": "ANDROSCOGGIN",
    "town": "LEWISTON",
    "customers": 19412,
-   "Outages": 281,
-   "incidents": 8,
+   "Outages": 280,
+   "incidents": 7,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -462,8 +432,8 @@
    "county": "ANDROSCOGGIN",
    "town": "AUBURN",
    "customers": 13589,
-   "Outages": 163,
-   "incidents": 7,
+   "Outages": 161,
+   "incidents": 5,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -489,21 +459,11 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "MECHANIC FALLS",
-   "customers": 1648,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "OXFORD",
    "town": "DIXFIELD",
    "customers": 1343,
-   "Outages": 145,
-   "incidents": 5,
+   "Outages": 149,
+   "incidents": 4,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -622,8 +582,8 @@
    "county": "OXFORD",
    "town": "ANDOVER",
    "customers": 708,
-   "Outages": 44,
-   "incidents": 4,
+   "Outages": 63,
+   "incidents": 3,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -633,16 +593,6 @@
    "town": "ROXBURY",
    "customers": 478,
    "Outages": 11,
-   "incidents": 2,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "BETHEL",
-   "customers": 2778,
-   "Outages": 52,
    "incidents": 2,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
@@ -662,7 +612,7 @@
    "county": "OXFORD",
    "town": "WOODSTOCK",
    "customers": 1124,
-   "Outages": 492,
+   "Outages": 298,
    "incidents": 2,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
@@ -720,6 +670,16 @@
    "level": "town",
    "opco": "CMP",
    "county": "OXFORD",
+   "town": "BETHEL",
+   "customers": 2778,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
    "town": "WEST PARIS",
    "customers": 995,
    "Outages": 3,
@@ -742,8 +702,8 @@
    "county": "FRANKLIN",
    "town": "CHESTERVILLE",
    "customers": 868,
-   "Outages": 242,
-   "incidents": 14,
+   "Outages": 251,
+   "incidents": 7,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -752,8 +712,8 @@
    "county": "FRANKLIN",
    "town": "WILTON",
    "customers": 2355,
-   "Outages": 124,
-   "incidents": 9,
+   "Outages": 130,
+   "incidents": 10,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -762,8 +722,8 @@
    "county": "FRANKLIN",
    "town": "NEW SHARON",
    "customers": 874,
-   "Outages": 72,
-   "incidents": 4,
+   "Outages": 24,
+   "incidents": 2,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -862,8 +822,8 @@
    "county": "FRANKLIN",
    "town": "WELD",
    "customers": 651,
-   "Outages": 213,
-   "incidents": 6,
+   "Outages": 74,
+   "incidents": 2,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -902,8 +862,8 @@
    "county": "LINCOLN",
    "town": "SOUTH BRISTOL",
    "customers": 1205,
-   "Outages": 38,
-   "incidents": 5,
+   "Outages": 39,
+   "incidents": 6,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -952,8 +912,8 @@
    "county": "LINCOLN",
    "town": "JEFFERSON",
    "customers": 1938,
-   "Outages": 290,
-   "incidents": 10,
+   "Outages": 295,
+   "incidents": 11,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -980,30 +940,20 @@
    "level": "town",
    "opco": "CMP",
    "county": "LINCOLN",
-   "town": "WHITEFIELD",
-   "customers": 1325,
-   "Outages": 176,
-   "incidents": 10,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "LINCOLN",
    "town": "SOMERVILLE PLT",
    "customers": 380,
-   "Outages": 25,
-   "incidents": 2,
+   "Outages": 29,
+   "incidents": 6,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "LINCOLN",
-   "town": "WISCASSET",
-   "customers": 2481,
-   "Outages": 133,
-   "incidents": 4,
+   "town": "WHITEFIELD",
+   "customers": 1325,
+   "Outages": 104,
+   "incidents": 10,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -1012,8 +962,8 @@
    "county": "LINCOLN",
    "town": "ALNA",
    "customers": 439,
-   "Outages": 66,
-   "incidents": 8,
+   "Outages": 51,
+   "incidents": 7,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -1022,8 +972,18 @@
    "county": "LINCOLN",
    "town": "DRESDEN",
    "customers": 1039,
-   "Outages": 393,
-   "incidents": 6,
+   "Outages": 17,
+   "incidents": 4,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WISCASSET",
+   "customers": 2481,
+   "Outages": 19,
+   "incidents": 2,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -1042,8 +1002,8 @@
    "county": "WALDO",
    "town": "LINCOLNVILLE",
    "customers": 1926,
-   "Outages": 482,
-   "incidents": 13,
+   "Outages": 488,
+   "incidents": 15,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -1062,7 +1022,7 @@
    "county": "WALDO",
    "town": "NORTHPORT",
    "customers": 1430,
-   "Outages": 585,
+   "Outages": 582,
    "incidents": 8,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
@@ -1093,7 +1053,7 @@
    "town": "SEARSMONT",
    "customers": 927,
    "Outages": 222,
-   "incidents": 13,
+   "incidents": 12,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -1102,8 +1062,8 @@
    "county": "WALDO",
    "town": "BELFAST",
    "customers": 4819,
-   "Outages": 506,
-   "incidents": 16,
+   "Outages": 390,
+   "incidents": 15,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -1122,8 +1082,8 @@
    "county": "WALDO",
    "town": "MONTVILLE",
    "customers": 621,
-   "Outages": 331,
-   "incidents": 12,
+   "Outages": 326,
+   "incidents": 11,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -1162,7 +1122,7 @@
    "county": "WALDO",
    "town": "SEARSPORT",
    "customers": 1941,
-   "Outages": 71,
+   "Outages": 2,
    "incidents": 2,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
@@ -1230,6 +1190,26 @@
    "level": "town",
    "opco": "CMP",
    "county": "WALDO",
+   "town": "WALDO",
+   "customers": 437,
+   "Outages": 82,
+   "incidents": 4,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "SWANVILLE",
+   "customers": 987,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
    "town": "LIBERTY",
    "customers": 880,
    "Outages": 758,
@@ -1239,51 +1219,11 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "SWANVILLE",
-   "customers": 987,
-   "Outages": 848,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "WALDO",
-   "customers": 437,
-   "Outages": 84,
-   "incidents": 5,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "FRANKFORT",
-   "customers": 686,
-   "Outages": 19,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "MONROE",
-   "customers": 576,
-   "Outages": 32,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "KENNEBEC",
    "town": "MONMOUTH",
    "customers": 2462,
-   "Outages": 316,
-   "incidents": 23,
+   "Outages": 317,
+   "incidents": 21,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -1310,6 +1250,46 @@
    "level": "town",
    "opco": "CMP",
    "county": "KENNEBEC",
+   "town": "CLINTON",
+   "customers": 1781,
+   "Outages": 39,
+   "incidents": 3,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "VIENNA",
+   "customers": 482,
+   "Outages": 356,
+   "incidents": 4,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "OAKLAND",
+   "customers": 3829,
+   "Outages": 65,
+   "incidents": 7,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "SIDNEY",
+   "customers": 2568,
+   "Outages": 9,
+   "incidents": 2,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
    "town": "AUGUSTA",
    "customers": 12313,
    "Outages": 45,
@@ -1330,10 +1310,20 @@
    "level": "town",
    "opco": "CMP",
    "county": "KENNEBEC",
+   "town": "NEW VINEYARD",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
    "town": "CHELSEA",
    "customers": 1405,
-   "Outages": 64,
-   "incidents": 5,
+   "Outages": 56,
+   "incidents": 4,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -1360,96 +1350,6 @@
    "level": "town",
    "opco": "CMP",
    "county": "KENNEBEC",
-   "town": "CLINTON",
-   "customers": 1781,
-   "Outages": 39,
-   "incidents": 3,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "VIENNA",
-   "customers": 482,
-   "Outages": 356,
-   "incidents": 4,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "GARDINER",
-   "customers": 3506,
-   "Outages": 162,
-   "incidents": 6,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "WINTHROP",
-   "customers": 3988,
-   "Outages": 717,
-   "incidents": 34,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "MANCHESTER",
-   "customers": 1587,
-   "Outages": 515,
-   "incidents": 11,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "OAKLAND",
-   "customers": 3829,
-   "Outages": 86,
-   "incidents": 8,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "SIDNEY",
-   "customers": 2568,
-   "Outages": 9,
-   "incidents": 2,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "READFIELD",
-   "customers": 1646,
-   "Outages": 248,
-   "incidents": 10,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "NEW VINEYARD",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
    "town": "ALBION",
    "customers": 1161,
    "Outages": 3,
@@ -1460,30 +1360,10 @@
    "level": "town",
    "opco": "CMP",
    "county": "KENNEBEC",
-   "town": "PITTSTON",
-   "customers": 1544,
-   "Outages": 224,
-   "incidents": 10,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
    "town": "WINSLOW",
    "customers": 4443,
-   "Outages": 67,
-   "incidents": 7,
-   "EstRest": "7/18/2026 2:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "CHINA",
-   "customers": 2806,
-   "Outages": 93,
-   "incidents": 16,
+   "Outages": 45,
+   "incidents": 6,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
   {
@@ -1502,7 +1382,7 @@
    "county": "KENNEBEC",
    "town": "BENTON",
    "customers": 1425,
-   "Outages": 25,
+   "Outages": 3,
    "incidents": 1,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
@@ -1530,9 +1410,69 @@
    "level": "town",
    "opco": "CMP",
    "county": "KENNEBEC",
+   "town": "GARDINER",
+   "customers": 3506,
+   "Outages": 162,
+   "incidents": 6,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "WINTHROP",
+   "customers": 3988,
+   "Outages": 729,
+   "incidents": 30,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "MANCHESTER",
+   "customers": 1587,
+   "Outages": 515,
+   "incidents": 4,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "READFIELD",
+   "customers": 1646,
+   "Outages": 248,
+   "incidents": 10,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "PITTSTON",
+   "customers": 1544,
+   "Outages": 205,
+   "incidents": 9,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "CHINA",
+   "customers": 2806,
+   "Outages": 93,
+   "incidents": 16,
+   "EstRest": "7/18/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
    "town": "WAYNE",
    "customers": 976,
-   "Outages": 722,
+   "Outages": 83,
    "incidents": 7,
    "EstRest": "7/18/2026 2:00:00 PM"
   },
@@ -1594,66 +1534,6 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SCARBOROUGH",
-   "hamlet": "SCARBOROUGH",
-   "street": "BEECH RIDGE RD",
-   "customers": 130,
-   "Outages": 44,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "CMPL ",
-   "cause": "Tree",
-   "incidentnumber": "003MB7"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "hamlet": "BRUNSWICK",
-   "street": "PLEASANT ST",
-   "customers": 277,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "CMPL ",
-   "cause": "",
-   "incidentnumber": "003MFT"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "PHIPPSBURG",
-   "hamlet": "PHIPPSBURG",
-   "street": "N NICHOLS FARM WAY",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003NQY"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "BOWDOIN",
-   "hamlet": "BOWDOIN",
-   "street": "BURR LN",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003LN1"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
    "county": "HANCOCK",
    "town": "CASTINE",
    "hamlet": "CASTINE",
@@ -1684,17 +1564,47 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "CORINNA",
-   "hamlet": "CORINNA",
-   "street": "HICKS RD",
-   "customers": 6,
-   "Outages": 6,
+   "county": "PISCATAQUIS",
+   "town": "WELLINGTON",
+   "hamlet": "WELLINGTON",
+   "street": "REED RD",
+   "customers": 12,
+   "Outages": 1,
    "incidents": 1,
    "EstRest": "7/18/2026 2:00:00 PM",
    "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003NSC"
+   "incidentnumber": "003NH6"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "SCARBOROUGH",
+   "hamlet": "SCARBOROUGH",
+   "street": "BEECH RIDGE RD",
+   "customers": 130,
+   "Outages": 44,
+   "incidents": 1,
+   "EstRest": "7/18/2026 2:00:00 PM",
+   "crewstatus": "CMPL ",
+   "cause": "Tree",
+   "incidentnumber": "003MB7"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRUNSWICK",
+   "hamlet": "BRUNSWICK",
+   "street": "PLEASANT ST",
+   "customers": 277,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/18/2026 2:00:00 PM",
+   "crewstatus": "CMPL ",
+   "cause": "",
+   "incidentnumber": "003MFT"
   },
   {
    "level": "street",
@@ -1729,47 +1639,32 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "PARKMAN",
-   "hamlet": "PARKMAN",
-   "street": "PACKARD RD",
-   "customers": 6,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003N73"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "WELLINGTON",
-   "hamlet": "WELLINGTON",
-   "street": "REED RD",
-   "customers": 12,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003NH6"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "MONROE",
-   "hamlet": "MONROE",
-   "street": "CLEMENTS RD",
-   "customers": 2,
-   "Outages": 2,
+   "county": "SAGADAHOC",
+   "town": "PHIPPSBURG",
+   "hamlet": "PHIPPSBURG",
+   "street": "N NICHOLS FARM WAY",
+   "customers": 3,
+   "Outages": 3,
    "incidents": 1,
    "EstRest": "7/18/2026 2:00:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003N5H"
+   "incidentnumber": "003NQY"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "BOWDOIN",
+   "hamlet": "BOWDOIN",
+   "street": "BURR LN",
+   "customers": 3,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "7/18/2026 2:00:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003LN1"
   },
   {
    "level": "street",
@@ -1835,6 +1730,21 @@
    "level": "street",
    "opco": "CMP",
    "county": "ANDROSCOGGIN",
+   "town": "LISBON",
+   "hamlet": "LISBON",
+   "street": "BOWDOINHAM RD",
+   "customers": 55,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "7/18/2026 2:00:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003NT4"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
    "town": "POLAND",
    "hamlet": "POLAND",
    "street": "DEERFIELD RD",
@@ -1845,21 +1755,6 @@
    "crewstatus": "     ",
    "cause": "",
    "incidentnumber": "003MD6"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "MECHANIC FALLS",
-   "hamlet": "MECHANIC FALLS",
-   "street": "LEWISTON ST",
-   "customers": 85,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003NR1"
   },
   {
    "level": "street",
@@ -1950,6 +1845,21 @@
    "crewstatus": "     ",
    "cause": "",
    "incidentnumber": "003MBX"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BETHEL",
+   "hamlet": "BETHEL",
+   "street": "INTERVALE RD",
+   "customers": 146,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "7/18/2026 2:00:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003MJ0"
   },
   {
    "level": "street",
@@ -2152,44 +2062,14 @@
    "county": "WALDO",
    "town": "SWANVILLE",
    "hamlet": "SWANVILLE",
-   "street": "OAK HILL RD",
-   "customers": 115,
-   "Outages": 115,
+   "street": "TOWN HOUSE RD",
+   "customers": 53,
+   "Outages": 1,
    "incidents": 1,
    "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "DISP ",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003N5H"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "FRANKFORT",
-   "hamlet": "FRANKFORT",
-   "street": "WINDY HILL LN",
-   "customers": 6,
-   "Outages": 6,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003N5H"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "MONROE",
-   "hamlet": "MONROE",
-   "street": "CLEMENTS RD",
-   "customers": 2,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003N5H"
+   "incidentnumber": "003O24"
   },
   {
    "level": "street",
@@ -2229,12 +2109,12 @@
    "hamlet": "BENTON",
    "street": "PINES RD",
    "customers": 21,
-   "Outages": 20,
+   "Outages": 2,
    "incidents": 1,
    "EstRest": "7/18/2026 2:00:00 PM",
-   "crewstatus": "DISP ",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003LJI"
+   "incidentnumber": "003O31"
   },
   {
    "level": "street",
@@ -2257,14 +2137,14 @@
    "county": "LINCOLN",
    "town": "WHITEFIELD",
    "hamlet": "WHITEFIELD",
-   "street": "HEATH RD",
-   "customers": 32,
-   "Outages": 15,
+   "street": "HEAD TIDE RD",
+   "customers": 36,
+   "Outages": 35,
    "incidents": 1,
-   "EstRest": "7/17/2026 4:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "Tree",
-   "incidentnumber": "003NUQ"
+   "EstRest": "7/18/2026 2:00:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003NXS"
   }
  ]
 }
