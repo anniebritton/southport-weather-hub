@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-07-20 07:08:14",
+ "lastUpdated": "2026-07-20 09:14:54",
  "totals": {
   "customers": 688572,
-  "outages": 188,
-  "incidents": 4
+  "outages": 234,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,12 +11,42 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "FARMINGDALE",
-   "customers": 1657,
-   "Outages": 51,
+   "county": "SAGADAHOC",
+   "town": "BOWDOINHAM",
+   "customers": 1695,
+   "Outages": 59,
    "incidents": 1,
-   "EstRest": "7/20/2026 8:30:00 AM"
+   "EstRest": "7/20/2026 10:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "BOWDOIN",
+   "customers": 1517,
+   "Outages": 21,
+   "incidents": 1,
+   "EstRest": "7/20/2026 10:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "RICHMOND",
+   "customers": 2107,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "7/20/2026 10:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "WARREN",
+   "customers": 2419,
+   "Outages": 146,
+   "incidents": 1,
+   "EstRest": "7/20/2026 11:15:00 AM"
   },
   {
    "level": "town",
@@ -29,49 +59,64 @@
    "EstRest": ""
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "SACO",
-   "customers": 11676,
-   "Outages": 75,
+   "county": "SAGADAHOC",
+   "town": "BOWDOINHAM",
+   "hamlet": "BOWDOINHAM",
+   "street": "POST RD",
+   "customers": 193,
+   "Outages": 41,
    "incidents": 1,
-   "EstRest": "7/20/2026 9:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "STOCKTON SPRINGS",
-   "customers": 1188,
-   "Outages": 35,
-   "incidents": 1,
-   "EstRest": "7/20/2026 8:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "SEARSPORT",
-   "customers": 1941,
-   "Outages": 26,
-   "incidents": 1,
-   "EstRest": "7/20/2026 8:30:00 AM"
+   "EstRest": "7/20/2026 10:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003PWP"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "FARMINGDALE",
-   "hamlet": "FARMINGDALE",
-   "street": "RUSSELL ST",
-   "customers": 23,
-   "Outages": 23,
+   "county": "SAGADAHOC",
+   "town": "BOWDOIN",
+   "hamlet": "BOWDOIN",
+   "street": "AUGUSTA RD",
+   "customers": 140,
+   "Outages": 18,
    "incidents": 1,
-   "EstRest": "7/20/2026 8:30:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "7/20/2026 10:00:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003PVQ"
+   "incidentnumber": "003PWP"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "RICHMOND",
+   "hamlet": "RICHMOND",
+   "street": "POST RD",
+   "customers": 7,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "7/20/2026 10:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003PWP"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "WARREN",
+   "hamlet": "WARREN",
+   "street": "HIGHLAND RD",
+   "customers": 51,
+   "Outages": 46,
+   "incidents": 1,
+   "EstRest": "7/20/2026 11:15:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003PXK"
   },
   {
    "level": "street",
@@ -87,51 +132,6 @@
    "crewstatus": "     ",
    "cause": "",
    "incidentnumber": "003LJT"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "SACO",
-   "hamlet": "SACO",
-   "street": "OAK ST",
-   "customers": 24,
-   "Outages": 24,
-   "incidents": 1,
-   "EstRest": "7/20/2026 9:00:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003PVS"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "STOCKTON SPRINGS",
-   "hamlet": "STOCKTON SPRINGS",
-   "street": "HARRIS RD",
-   "customers": 39,
-   "Outages": 16,
-   "incidents": 1,
-   "EstRest": "7/20/2026 8:30:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003PVP"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "SEARSPORT",
-   "hamlet": "SEARSPORT",
-   "street": "RUSSELL RIDGE RD",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/20/2026 8:30:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003PVP"
   }
  ]
 }
