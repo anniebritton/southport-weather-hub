@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-07-20 00:51:34",
+ "lastUpdated": "2026-07-20 04:01:34",
  "totals": {
   "customers": 688572,
-  "outages": 319,
-  "incidents": 3
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
@@ -17,16 +17,6 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": ""
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WATERFORD",
-   "customers": 1568,
-   "Outages": 318,
-   "incidents": 2,
-   "EstRest": "7/20/2026 2:00:00 AM"
   },
   {
    "level": "street",
