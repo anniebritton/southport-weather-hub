@@ -1,23 +1,13 @@
 {
- "lastUpdated": "2026-07-20 20:01:34",
+ "lastUpdated": "2026-07-20 23:38:14",
  "totals": {
   "customers": 688589,
-  "outages": 9,
-  "incidents": 2
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "UNION",
-   "customers": 1554,
-   "Outages": 8,
-   "incidents": 1,
-   "EstRest": "7/20/2026 9:30:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -27,21 +17,6 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": ""
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "UNION",
-   "hamlet": "UNION",
-   "street": "UPHAM RD",
-   "customers": 8,
-   "Outages": 8,
-   "incidents": 1,
-   "EstRest": "7/20/2026 9:30:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003Q3B"
   },
   {
    "level": "street",
