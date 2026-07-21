@@ -1,13 +1,23 @@
 {
- "lastUpdated": "2026-07-21 02:21:34",
+ "lastUpdated": "2026-07-21 05:08:14",
  "totals": {
   "customers": 688589,
-  "outages": 1,
-  "incidents": 1
+  "outages": 6,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "HOPE",
+   "customers": 1085,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/21/2026 6:30:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -17,6 +27,31 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": ""
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "YARMOUTH",
+   "customers": 4738,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "7/21/2026 6:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "HOPE",
+   "hamlet": "HOPE",
+   "street": "HATCHET MOUNTAIN RD",
+   "customers": 78,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/21/2026 6:30:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003Q40"
   },
   {
    "level": "street",
@@ -32,6 +67,21 @@
    "crewstatus": "     ",
    "cause": "",
    "incidentnumber": "003LJT"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "YARMOUTH",
+   "hamlet": "YARMOUTH",
+   "street": "GLOWOOD FARM RD",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "7/21/2026 6:00:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003Q3Z"
   }
  ]
 }
