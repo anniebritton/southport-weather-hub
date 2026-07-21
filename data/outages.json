@@ -1,120 +1,87 @@
 {
- "lastUpdated": "2026-07-21 08:51:34",
+ "lastUpdated": "2026-07-21 10:58:14",
  "totals": {
   "customers": 688589,
-  "outages": 12,
-  "incidents": 4
+  "outages": 21,
+  "incidents": 3
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 28935,
-  "Outages": 1,
-  "incidents": 1,
-  "EstRest": "7/21/2026 10:30:00 AM"
- },
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "SOUTH BRISTOL",
-   "customers": 1205,
-   "Outages": 1,
+   "county": "CUMBERLAND",
+   "town": "HARRISON",
+   "customers": 2250,
+   "Outages": 4,
    "incidents": 1,
-   "EstRest": "7/21/2026 10:30:00 AM"
+   "EstRest": "7/21/2026 2:00:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "ATHENS",
-   "customers": 646,
-   "Outages": 1,
+   "county": "WALDO",
+   "town": "NORTHPORT",
+   "customers": 1430,
+   "Outages": 16,
    "incidents": 1,
-   "EstRest": "7/21/2026 10:45:00 AM"
+   "EstRest": "7/21/2026 12:00:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "BUCKSPORT",
-   "customers": 2816,
-   "Outages": 9,
-   "incidents": 1,
-   "EstRest": "7/21/2026 10:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "GARDINER",
-   "customers": 3506,
+   "county": "OXFORD",
+   "town": "HEBRON",
+   "customers": 598,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/21/2026 10:45:00 AM"
+   "EstRest": "7/21/2026 1:00:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "SOUTH BRISTOL",
-   "hamlet": "SOUTH BRISTOL",
-   "street": "E BRANCH RD",
-   "customers": 6,
-   "Outages": 1,
+   "county": "CUMBERLAND",
+   "town": "HARRISON",
+   "hamlet": "HARRISON",
+   "street": "BASSWOOD BAY RD",
+   "customers": 14,
+   "Outages": 4,
    "incidents": 1,
-   "EstRest": "7/21/2026 10:30:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003Q4Z"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "ATHENS",
-   "hamlet": "ATHENS",
-   "street": "BRIGHTON RD",
-   "customers": 64,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/21/2026 10:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003Q52"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "BUCKSPORT",
-   "hamlet": "BUCKSPORT",
-   "street": "ARCHERS WAY",
-   "customers": 2,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "7/21/2026 10:00:00 AM",
+   "EstRest": "7/21/2026 2:00:00 PM",
    "crewstatus": "ENRT ",
-   "cause": "Tree",
-   "incidentnumber": "003Q4P"
+   "cause": "",
+   "incidentnumber": "003Q57"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "GARDINER",
-   "hamlet": "GARDINER",
-   "street": "FOUNTAIN ST",
-   "customers": 20,
+   "county": "WALDO",
+   "town": "NORTHPORT",
+   "hamlet": "NORTHPORT",
+   "street": "PARKINSON LN",
+   "customers": 5,
+   "Outages": 5,
+   "incidents": 1,
+   "EstRest": "7/21/2026 12:00:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003Q5L"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "HEBRON",
+   "hamlet": "HEBRON",
+   "street": "HEBRON ACADEMY RD",
+   "customers": 7,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/21/2026 10:45:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "Tree",
-   "incidentnumber": "003Q50"
+   "EstRest": "7/21/2026 1:00:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003Q64"
   }
  ]
 }
