@@ -1,13 +1,43 @@
 {
- "lastUpdated": "2026-07-22 02:28:14",
+ "lastUpdated": "2026-07-22 05:11:34",
  "totals": {
   "customers": 688530,
-  "outages": 5941,
-  "incidents": 16
+  "outages": 3188,
+  "incidents": 7
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "FALMOUTH",
+   "customers": 6547,
+   "Outages": 334,
+   "incidents": 1,
+   "EstRest": "7/22/2026 5:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "WINDHAM",
+   "customers": 10261,
+   "Outages": 250,
+   "incidents": 1,
+   "EstRest": "7/22/2026 5:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "CUMBERLAND",
+   "customers": 4143,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/22/2026 6:30:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -16,7 +46,7 @@
    "customers": 1517,
    "Outages": 44,
    "incidents": 1,
-   "EstRest": "7/22/2026 4:30:00 AM"
+   "EstRest": "7/22/2026 6:30:00 AM"
   },
   {
    "level": "town",
@@ -26,97 +56,17 @@
    "customers": 1695,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/22/2026 4:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "BOWER BANK",
-   "customers": 33,
-   "Outages": 28,
-   "incidents": 1,
-   "EstRest": "7/22/2026 4:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "JAY",
-   "customers": 2543,
-   "Outages": 62,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "INDUSTRY",
-   "customers": 606,
-   "Outages": 14,
-   "incidents": 1,
-   "EstRest": "7/22/2026 4:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "FARMINGTON",
-   "customers": 4230,
-   "Outages": 33,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "WILTON",
-   "customers": 2355,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM"
+   "EstRest": "7/22/2026 6:30:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "ANDROSCOGGIN",
-   "town": "LEWISTON",
-   "customers": 19412,
-   "Outages": 28,
+   "town": "LIVERMORE",
+   "customers": 1390,
+   "Outages": 51,
    "incidents": 1,
-   "EstRest": "7/22/2026 4:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "BUXTON",
-   "customers": 4213,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "PITTSFIELD",
-   "customers": 2216,
-   "Outages": 347,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "SMITHFIELD",
-   "customers": 858,
-   "Outages": 16,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:30:00 AM"
+   "EstRest": "7/22/2026 7:15:00 AM"
   },
   {
    "level": "town",
@@ -124,19 +74,9 @@
    "county": "KENNEBEC",
    "town": "CHELSEA",
    "customers": 1405,
-   "Outages": 43,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/22/2026 4:00:39 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "MANCHESTER",
-   "customers": 1587,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "7/22/2026 6:00:00 AM"
+   "EstRest": ""
   },
   {
    "level": "town",
@@ -146,7 +86,7 @@
    "customers": 2320,
    "Outages": 179,
    "incidents": 1,
-   "EstRest": "7/22/2026 4:30:00 AM"
+   "EstRest": "7/22/2026 6:30:00 AM"
   },
   {
    "level": "town",
@@ -156,7 +96,7 @@
    "customers": 3829,
    "Outages": 34,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:15:00 AM"
+   "EstRest": "7/22/2026 9:00:00 AM"
   },
   {
    "level": "town",
@@ -166,7 +106,7 @@
    "customers": 551,
    "Outages": 552,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM"
+   "EstRest": "7/22/2026 6:00:00 AM"
   },
   {
    "level": "town",
@@ -176,7 +116,7 @@
    "customers": 927,
    "Outages": 852,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM"
+   "EstRest": "7/22/2026 6:00:00 AM"
   },
   {
    "level": "town",
@@ -184,9 +124,9 @@
    "county": "WALDO",
    "town": "BELFAST",
    "customers": 4819,
-   "Outages": 562,
+   "Outages": 452,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM"
+   "EstRest": "7/22/2026 6:00:00 AM"
   },
   {
    "level": "town",
@@ -196,7 +136,7 @@
    "customers": 502,
    "Outages": 181,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM"
+   "EstRest": "7/22/2026 6:00:00 AM"
   },
   {
    "level": "town",
@@ -206,7 +146,7 @@
    "customers": 621,
    "Outages": 247,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM"
+   "EstRest": "7/22/2026 6:00:00 AM"
   },
   {
    "level": "town",
@@ -216,7 +156,7 @@
    "customers": 1926,
    "Outages": 7,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM"
+   "EstRest": "7/22/2026 6:00:00 AM"
   },
   {
    "level": "town",
@@ -226,37 +166,52 @@
    "customers": 1430,
    "Outages": 2,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM"
+   "EstRest": "7/22/2026 6:00:00 AM"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "BURNHAM",
-   "customers": 804,
-   "Outages": 35,
+   "county": "CUMBERLAND",
+   "town": "FALMOUTH",
+   "hamlet": "FALMOUTH",
+   "street": "MAST RD",
+   "customers": 37,
+   "Outages": 28,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:30:00 AM"
+   "EstRest": "7/22/2026 5:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003QDG"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "HARPSWELL",
-   "customers": 4764,
-   "Outages": 1753,
-   "incidents": 2,
-   "EstRest": "7/22/2026 4:30:00 AM"
+   "town": "WINDHAM",
+   "hamlet": "WINDHAM",
+   "street": "HINMAN FOREST RD",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "7/22/2026 5:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003QDG"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "customers": 12090,
-   "Outages": 909,
-   "incidents": 2,
-   "EstRest": "7/22/2026 4:30:00 AM"
+   "town": "CUMBERLAND",
+   "hamlet": "CUMBERLAND",
+   "street": "MAIN ST",
+   "customers": 141,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/22/2026 6:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003QDK"
   },
   {
    "level": "street",
@@ -268,8 +223,8 @@
    "customers": 20,
    "Outages": 20,
    "incidents": 1,
-   "EstRest": "7/22/2026 4:30:00 AM",
-   "crewstatus": "DISP ",
+   "EstRest": "7/22/2026 6:30:00 AM",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003QCG"
   },
@@ -283,145 +238,25 @@
    "customers": 1,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/22/2026 4:30:00 AM",
-   "crewstatus": "DISP ",
+   "EstRest": "7/22/2026 6:30:00 AM",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003QCG"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "BOWER BANK",
-   "hamlet": "BOWER BANK",
-   "street": "SHORE RD N",
-   "customers": 15,
-   "Outages": 9,
-   "incidents": 1,
-   "EstRest": "7/22/2026 4:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003QD8"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "JAY",
-   "hamlet": "JAY",
-   "street": "FOREST CIR",
-   "customers": 28,
-   "Outages": 28,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003QCT"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "INDUSTRY",
-   "hamlet": "INDUSTRY",
-   "street": "RAND RD",
-   "customers": 38,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "7/22/2026 4:00:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003QCU"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "FARMINGTON",
-   "hamlet": "FARMINGTON",
-   "street": "NORTH ST",
-   "customers": 56,
-   "Outages": 32,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003QCR"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "WILTON",
-   "hamlet": "WILTON",
-   "street": "ARKAY ST",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003QCR"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
    "county": "ANDROSCOGGIN",
-   "town": "LEWISTON",
-   "hamlet": "LEWISTON",
-   "street": "EUSTIS ST",
-   "customers": 24,
-   "Outages": 24,
-   "incidents": 1,
-   "EstRest": "7/22/2026 4:15:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QD6"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "BUXTON",
-   "hamlet": "BUXTON",
-   "street": "BRADBURY LN",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003QBX"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "PITTSFIELD",
-   "hamlet": "PITTSFIELD",
-   "street": "HIGGINS RD",
-   "customers": 57,
-   "Outages": 37,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:30:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QCC"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "SMITHFIELD",
-   "hamlet": "SMITHFIELD",
-   "street": "HORN HILL RD",
+   "town": "LIVERMORE",
+   "hamlet": "LIVERMORE",
+   "street": "POLAND HILL RD",
    "customers": 3,
    "Outages": 3,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:30:00 AM",
+   "EstRest": "7/22/2026 7:15:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003QCM"
+   "incidentnumber": "003QDT"
   },
   {
    "level": "street",
@@ -429,29 +264,14 @@
    "county": "KENNEBEC",
    "town": "CHELSEA",
    "hamlet": "CHELSEA",
-   "street": "FERRY RD",
-   "customers": 26,
-   "Outages": 11,
+   "street": "DR MANN RD",
+   "customers": 31,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/22/2026 4:00:39 AM",
+   "EstRest": "",
    "crewstatus": "     ",
-   "cause": "",
+   "cause": "Equipment Interruption",
    "incidentnumber": "003QD4"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "MANCHESTER",
-   "hamlet": "MANCHESTER",
-   "street": "HERON CV",
-   "customers": 5,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "7/22/2026 6:00:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003QBZ"
   },
   {
    "level": "street",
@@ -463,8 +283,8 @@
    "customers": 18,
    "Outages": 6,
    "incidents": 1,
-   "EstRest": "7/22/2026 4:30:00 AM",
-   "crewstatus": "DISP ",
+   "EstRest": "7/22/2026 6:30:00 AM",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003QCG"
   },
@@ -478,9 +298,9 @@
    "customers": 14,
    "Outages": 13,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:15:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
+   "EstRest": "7/22/2026 9:00:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "Tree",
    "incidentnumber": "003QCJ"
   },
   {
@@ -493,10 +313,10 @@
    "customers": 96,
    "Outages": 96,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM",
+   "EstRest": "7/22/2026 6:00:00 AM",
    "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QCQ"
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003QDD"
   },
   {
    "level": "street",
@@ -508,10 +328,10 @@
    "customers": 65,
    "Outages": 60,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM",
+   "EstRest": "7/22/2026 6:00:00 AM",
    "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QCQ"
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003QDD"
   },
   {
    "level": "street",
@@ -523,10 +343,10 @@
    "customers": 79,
    "Outages": 77,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM",
+   "EstRest": "7/22/2026 6:00:00 AM",
    "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QCQ"
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003QDD"
   },
   {
    "level": "street",
@@ -538,10 +358,10 @@
    "customers": 51,
    "Outages": 50,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM",
+   "EstRest": "7/22/2026 6:00:00 AM",
    "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QCQ"
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003QDD"
   },
   {
    "level": "street",
@@ -553,10 +373,10 @@
    "customers": 8,
    "Outages": 3,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM",
+   "EstRest": "7/22/2026 6:00:00 AM",
    "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QCQ"
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003QDD"
   },
   {
    "level": "street",
@@ -568,10 +388,10 @@
    "customers": 43,
    "Outages": 6,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM",
+   "EstRest": "7/22/2026 6:00:00 AM",
    "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QCQ"
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003QDD"
   },
   {
    "level": "street",
@@ -583,25 +403,10 @@
    "customers": 2,
    "Outages": 2,
    "incidents": 1,
-   "EstRest": "7/22/2026 3:45:00 AM",
+   "EstRest": "7/22/2026 6:00:00 AM",
    "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QCQ"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BURNHAM",
-   "hamlet": "BURNHAM",
-   "street": "MOUNT RD",
-   "customers": 44,
-   "Outages": 20,
-   "incidents": 1,
-   "EstRest": "7/22/2026 3:30:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QCC"
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003QDD"
   }
  ]
 }
