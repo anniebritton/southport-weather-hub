@@ -1,13 +1,43 @@
 {
- "lastUpdated": "2026-07-22 19:11:34",
+ "lastUpdated": "2026-07-22 20:54:54",
  "totals": {
   "customers": 688530,
-  "outages": 2748,
-  "incidents": 11
+  "outages": 12,
+  "incidents": 5
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "WOODSTOCK",
+   "customers": 1124,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/22/2026 9:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "WELLS",
+   "customers": 10982,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/22/2026 10:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "NORTH BERWICK",
+   "customers": 2615,
+   "Outages": 2,
+   "incidents": 2,
+   "EstRest": "7/22/2026 10:00:00 PM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -16,87 +46,37 @@
    "customers": 5687,
    "Outages": 8,
    "incidents": 1,
-   "EstRest": "7/22/2026 8:00:00 PM"
+   "EstRest": "7/22/2026 10:00:00 PM"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "EMBDEN",
-   "customers": 1081,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 8:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "CUSHING",
-   "customers": 1113,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 8:45:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "DOVER-FOXCROFT",
-   "customers": 2719,
-   "Outages": 53,
-   "incidents": 2,
-   "EstRest": "7/22/2026 8:45:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "WELLS",
+   "county": "OXFORD",
+   "town": "WOODSTOCK",
+   "hamlet": "WOODSTOCK",
+   "street": "KORHONEN LN",
    "customers": 1,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/22/2026 8:30:00 PM"
+   "EstRest": "7/22/2026 9:15:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003QNG"
   },
   {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "VIENNA",
-   "customers": 482,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 8:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "NORTH BERWICK",
-   "customers": 2615,
-   "Outages": 4,
-   "incidents": 2,
-   "EstRest": "7/22/2026 8:30:00 PM"
-  },
-  {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
    "county": "YORK",
    "town": "WELLS",
-   "customers": 10982,
-   "Outages": 2677,
-   "incidents": 3,
-   "EstRest": "7/22/2026 8:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "BIDDEFORD",
-   "customers": 13086,
-   "Outages": 2,
+   "hamlet": "WELLS",
+   "street": "CHENEY WOODS RD",
+   "customers": 49,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/22/2026 7:45:00 PM"
+   "EstRest": "7/22/2026 10:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003QO6"
   },
   {
    "level": "street",
@@ -108,85 +88,10 @@
    "customers": 9,
    "Outages": 7,
    "incidents": 1,
-   "EstRest": "7/22/2026 8:00:00 PM",
+   "EstRest": "7/22/2026 10:00:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003QKY"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "EMBDEN",
-   "hamlet": "EMBDEN",
-   "street": "KATIES CROTCH RD",
-   "customers": 7,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 8:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003QMX"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "CUSHING",
-   "hamlet": "CUSHING",
-   "street": "CROSS RD",
-   "customers": 29,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 8:45:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003QN7"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "WELLS",
-   "hamlet": "WELLS",
-   "street": "FITZPATRICK DR",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 8:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003QN3"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "VIENNA",
-   "hamlet": "VIENNA",
-   "street": "ABBOTT LN",
-   "customers": 10,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 8:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003QM8"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "BIDDEFORD",
-   "hamlet": "BIDDEFORD",
-   "street": "ALFRED ST",
-   "customers": 534,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/22/2026 7:45:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QLT"
   }
  ]
 }
