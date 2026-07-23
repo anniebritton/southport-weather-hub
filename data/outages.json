@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-07-23 00:31:34",
+ "lastUpdated": "2026-07-23 03:14:54",
  "totals": {
   "customers": 688530,
-  "outages": 0,
-  "incidents": 0
+  "outages": 26,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "WILTON",
+   "customers": 2355,
+   "Outages": 26,
+   "incidents": 1,
+   "EstRest": "7/23/2026 5:15:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "WILTON",
+   "hamlet": "WILTON",
+   "street": "MACGRATH RD",
+   "customers": 17,
+   "Outages": 17,
+   "incidents": 1,
+   "EstRest": "7/23/2026 5:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003QOJ"
+  }
+ ]
 }
