@@ -1,11 +1,122 @@
 {
- "lastUpdated": "2026-07-23 05:54:54",
+ "lastUpdated": "2026-07-23 07:51:34",
  "totals": {
   "customers": 688530,
-  "outages": 0,
-  "incidents": 0
+  "outages": 32,
+  "incidents": 4
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "VASSALBORO",
+   "customers": 2611,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/23/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "NORRIDGEWOCK",
+   "customers": 1801,
+   "Outages": 15,
+   "incidents": 2,
+   "EstRest": "7/23/2026 9:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "COBURN GORE",
+   "customers": 45,
+   "Outages": 13,
+   "incidents": 1,
+   "EstRest": "7/23/2026 9:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "EUSTIS",
+   "customers": 933,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "7/23/2026 9:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "ALDER STREAM TWP",
+   "customers": 2,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/23/2026 9:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "VASSALBORO",
+   "hamlet": "VASSALBORO",
+   "street": "BOG RD",
+   "customers": 45,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/23/2026 9:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003QOW"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "COBURN GORE",
+   "hamlet": "COBURN GORE",
+   "street": "ARNOLD TRL",
+   "customers": 7,
+   "Outages": 10,
+   "incidents": 1,
+   "EstRest": "7/23/2026 9:30:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003QP4"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "EUSTIS",
+   "hamlet": "EUSTIS",
+   "street": "ROUTE 27",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/23/2026 9:30:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003QP4"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "ALDER STREAM TWP",
+   "hamlet": "ALDER STREAM TWP",
+   "street": "JORDY RD",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/23/2026 9:30:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003QP4"
+  }
+ ]
 }
