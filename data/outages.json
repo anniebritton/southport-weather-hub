@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-07-23 21:08:14",
+ "lastUpdated": "2026-07-24 00:28:14",
  "totals": {
   "customers": 688662,
   "outages": 1,
@@ -29,8 +29,8 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "",
-   "crewstatus": "ENRT ",
-   "cause": "",
+   "crewstatus": "     ",
+   "cause": "Equipment Interruption",
    "incidentnumber": "003QSP"
   }
  ]
