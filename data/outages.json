@@ -1,13 +1,23 @@
 {
- "lastUpdated": "2026-07-24 07:38:14",
+ "lastUpdated": "2026-07-24 08:41:34",
  "totals": {
   "customers": 688662,
-  "outages": 1,
-  "incidents": 1
+  "outages": 3,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "GEORGETOWN",
+   "customers": 1260,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/24/2026 10:30:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -17,6 +27,31 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": ""
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "TOMHEGAN",
+   "customers": 250,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/24/2026 10:15:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "GEORGETOWN",
+   "hamlet": "GEORGETOWN",
+   "street": "BEAVER VALLEY RD",
+   "customers": 10,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/24/2026 10:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003QVY"
   },
   {
    "level": "street",
@@ -29,9 +64,24 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "",
-   "crewstatus": "     ",
+   "crewstatus": "ONST ",
    "cause": "Equipment Interruption",
    "incidentnumber": "003QSP"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "TOMHEGAN",
+   "hamlet": "TOMHEGAN",
+   "street": "THE BIRCHES EXT",
+   "customers": 69,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/24/2026 10:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003QW2"
   }
  ]
 }
