@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-07-24 12:54:54",
+ "lastUpdated": "2026-07-24 14:18:14",
  "totals": {
   "customers": 688662,
-  "outages": 71,
-  "incidents": 6
+  "outages": 67,
+  "incidents": 5
  },
  "southport": null,
  "lincolnCounty": null,
@@ -22,21 +22,21 @@
    "level": "town",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "PORTLAND",
-   "customers": 41206,
-   "Outages": 1,
+   "town": "BRIDGTON",
+   "customers": 5687,
+   "Outages": 13,
    "incidents": 1,
-   "EstRest": "7/24/2026 3:00:00 PM"
+   "EstRest": "7/24/2026 3:45:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "WINDHAM",
-   "customers": 10261,
+   "town": "GRAY",
+   "customers": 5217,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/24/2026 2:45:00 PM"
+   "EstRest": "7/24/2026 4:15:00 PM"
   },
   {
    "level": "town",
@@ -51,22 +51,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "WATERBORO",
-   "customers": 4327,
-   "Outages": 16,
-   "incidents": 1,
-   "EstRest": "7/24/2026 2:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "BERWICK",
-   "customers": 4124,
+   "county": "WALDO",
+   "town": "BELMONT",
+   "customers": 551,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/24/2026 1:45:00 PM"
+   "EstRest": "7/24/2026 4:00:00 PM"
   },
   {
    "level": "street",
@@ -87,31 +77,31 @@
    "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "PORTLAND",
-   "hamlet": "PORTLAND",
-   "street": "ELMWOOD ST",
-   "customers": 40,
-   "Outages": 1,
+   "town": "BRIDGTON",
+   "hamlet": "BRIDGTON",
+   "street": "HOLLY LOOP",
+   "customers": 16,
+   "Outages": 8,
    "incidents": 1,
-   "EstRest": "7/24/2026 3:00:00 PM",
-   "crewstatus": "     ",
+   "EstRest": "7/24/2026 3:45:00 PM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003QY3"
+   "incidentnumber": "003QYD"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "WINDHAM",
-   "hamlet": "WINDHAM",
-   "street": "GRAY RD",
-   "customers": 267,
+   "town": "GRAY",
+   "hamlet": "GRAY",
+   "street": "RAMSDELL RD",
+   "customers": 106,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/24/2026 2:45:00 PM",
+   "EstRest": "7/24/2026 4:15:00 PM",
    "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003QXS"
+   "incidentnumber": "003QYJ"
   },
   {
    "level": "street",
@@ -124,39 +114,24 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "7/24/2026 3:00:00 PM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003QXX"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "WATERBORO",
-   "hamlet": "WATERBORO",
-   "street": "BUFF BROOK RD",
-   "customers": 8,
-   "Outages": 8,
-   "incidents": 1,
-   "EstRest": "7/24/2026 2:15:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003QXN"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "BERWICK",
-   "hamlet": "BERWICK",
-   "street": "PINE HILL RD",
-   "customers": 188,
+   "county": "WALDO",
+   "town": "BELMONT",
+   "hamlet": "BELMONT",
+   "street": "THIRD CLASS RD",
+   "customers": 1,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/24/2026 1:45:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "7/24/2026 4:00:00 PM",
+   "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "003QXH"
+   "incidentnumber": "003QYF"
   }
  ]
 }
