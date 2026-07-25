@@ -1,112 +1,45 @@
 {
- "lastUpdated": "2026-07-24 21:07:17",
+ "lastUpdated": "2026-07-25 00:23:57",
  "totals": {
   "customers": 688665,
-  "outages": 272,
-  "incidents": 2
+  "outages": 5,
+  "incidents": 1
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 5,
+  "incidents": 1,
+  "EstRest": "7/25/2026 1:15:00 AM"
+ },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "SEARSMONT",
-   "customers": 927,
-   "Outages": 21,
+   "county": "LINCOLN",
+   "town": "SOUTH BRISTOL",
+   "customers": 1205,
+   "Outages": 5,
    "incidents": 1,
-   "EstRest": "7/24/2026 10:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "SALEM",
-   "customers": 198,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "7/24/2026 10:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "APPLETON",
-   "customers": 810,
-   "Outages": 243,
-   "incidents": 1,
-   "EstRest": "7/24/2026 10:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "HOPE",
-   "customers": 1085,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "7/24/2026 10:15:00 PM"
+   "EstRest": "7/25/2026 1:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "SEARSMONT",
-   "hamlet": "SEARSMONT",
-   "street": "APPLETON RD",
-   "customers": 1,
+   "county": "LINCOLN",
+   "town": "SOUTH BRISTOL",
+   "hamlet": "SOUTH BRISTOL",
+   "street": "ROUTE 129",
+   "customers": 3,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/24/2026 10:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003R03"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "SALEM",
-   "hamlet": "SALEM",
-   "street": "APRILS WAY",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/24/2026 10:15:00 PM",
+   "EstRest": "7/25/2026 1:15:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003R09"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "APPLETON",
-   "hamlet": "APPLETON",
-   "street": "APPLETON RIDGE RD",
-   "customers": 83,
-   "Outages": 63,
-   "incidents": 1,
-   "EstRest": "7/24/2026 10:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003R03"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "HOPE",
-   "hamlet": "HOPE",
-   "street": "ESPERANZA WAY",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "7/24/2026 10:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003R03"
+   "incidentnumber": "003R0Y"
   }
  ]
 }
