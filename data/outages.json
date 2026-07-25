@@ -1,42 +1,50 @@
 {
- "lastUpdated": "2026-07-25 06:37:17",
+ "lastUpdated": "2026-07-25 07:47:17",
  "totals": {
   "customers": 688665,
-  "outages": 150,
-  "incidents": 6
+  "outages": 140,
+  "incidents": 10
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 1,
+  "incidents": 1,
+  "EstRest": "7/25/2026 9:30:00 AM"
+ },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "PARIS",
-   "customers": 3106,
-   "Outages": 9,
+   "county": "LINCOLN",
+   "town": "NOBLEBORO",
+   "customers": 1451,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/25/2026 8:15:00 AM"
+   "EstRest": "7/25/2026 9:30:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SCARBOROUGH",
-   "customers": 13113,
-   "Outages": 94,
+   "county": "ANDROSCOGGIN",
+   "town": "SABATTUS",
+   "customers": 2737,
+   "Outages": 22,
    "incidents": 1,
-   "EstRest": "7/25/2026 7:45:00 AM"
+   "EstRest": "7/25/2026 9:30:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SOUTH PORTLAND",
-   "customers": 14750,
-   "Outages": 45,
-   "incidents": 2,
-   "EstRest": "7/25/2026 8:30:00 AM"
+   "county": "ANDROSCOGGIN",
+   "town": "TURNER",
+   "customers": 3212,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 9:45:00 AM"
   },
   {
    "level": "town",
@@ -51,42 +59,97 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "AVON",
-   "customers": 291,
+   "county": "SOMERSET",
+   "town": "SKOWHEGAN",
+   "customers": 5421,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/25/2026 8:15:00 AM"
+   "EstRest": "7/25/2026 9:15:00 AM"
   },
   {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "PARIS",
-   "hamlet": "PARIS",
-   "street": "LONGVIEW ACRES",
-   "customers": 9,
-   "Outages": 9,
-   "incidents": 1,
-   "EstRest": "7/25/2026 8:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003R19"
-  },
-  {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "SCARBOROUGH",
-   "hamlet": "SCARBOROUGH",
-   "street": "BURNHAM WOODS CIR",
-   "customers": 26,
-   "Outages": 26,
+   "town": "SOUTH PORTLAND",
+   "customers": 14750,
+   "Outages": 15,
    "incidents": 1,
-   "EstRest": "7/25/2026 7:45:00 AM",
+   "EstRest": "7/25/2026 8:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "YARMOUTH",
+   "customers": 4738,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 8:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "SANFORD",
+   "customers": 11628,
+   "Outages": 97,
+   "incidents": 2,
+   "EstRest": "7/25/2026 9:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "OGUNQUIT",
+   "customers": 2788,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 9:45:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "NOBLEBORO",
+   "hamlet": "NOBLEBORO",
+   "street": "DUCK PUDDLE RD",
+   "customers": 67,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 9:30:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003R14"
+   "incidentnumber": "003R1H"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "SABATTUS",
+   "hamlet": "SABATTUS",
+   "street": "TURCOTTE RD",
+   "customers": 23,
+   "Outages": 22,
+   "incidents": 1,
+   "EstRest": "7/25/2026 9:30:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003R1R"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "TURNER",
+   "hamlet": "TURNER",
+   "street": "HAM DR",
+   "customers": 3,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 9:45:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003R1U"
   },
   {
    "level": "street",
@@ -99,24 +162,69 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "7/25/2026 8:45:00 AM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003R1D"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "AVON",
-   "hamlet": "AVON",
-   "street": "MILE SQUARE RD",
-   "customers": 24,
+   "county": "SOMERSET",
+   "town": "SKOWHEGAN",
+   "hamlet": "SKOWHEGAN",
+   "street": "E RIVER RD",
+   "customers": 72,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/25/2026 8:15:00 AM",
+   "EstRest": "7/25/2026 9:15:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003R18"
+   "incidentnumber": "003R1K"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "SOUTH PORTLAND",
+   "hamlet": "SOUTH PORTLAND",
+   "street": "VALLEY ST",
+   "customers": 31,
+   "Outages": 15,
+   "incidents": 1,
+   "EstRest": "7/25/2026 8:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003R1B"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "YARMOUTH",
+   "hamlet": "YARMOUTH",
+   "street": "NORTH RD",
+   "customers": 76,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 8:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003R1E"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "OGUNQUIT",
+   "hamlet": "OGUNQUIT",
+   "street": "BEACHMERE PL",
+   "customers": 28,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 9:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003R1T"
   }
  ]
 }
