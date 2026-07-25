@@ -1,11 +1,122 @@
 {
- "lastUpdated": "2026-07-25 04:57:17",
+ "lastUpdated": "2026-07-25 06:37:17",
  "totals": {
   "customers": 688665,
-  "outages": 0,
-  "incidents": 0
+  "outages": 150,
+  "incidents": 6
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "PARIS",
+   "customers": 3106,
+   "Outages": 9,
+   "incidents": 1,
+   "EstRest": "7/25/2026 8:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "SCARBOROUGH",
+   "customers": 13113,
+   "Outages": 94,
+   "incidents": 1,
+   "EstRest": "7/25/2026 7:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "SOUTH PORTLAND",
+   "customers": 14750,
+   "Outages": 45,
+   "incidents": 2,
+   "EstRest": "7/25/2026 8:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "STOCKTON SPRINGS",
+   "customers": 1188,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 8:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "AVON",
+   "customers": 291,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 8:15:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "PARIS",
+   "hamlet": "PARIS",
+   "street": "LONGVIEW ACRES",
+   "customers": 9,
+   "Outages": 9,
+   "incidents": 1,
+   "EstRest": "7/25/2026 8:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003R19"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "SCARBOROUGH",
+   "hamlet": "SCARBOROUGH",
+   "street": "BURNHAM WOODS CIR",
+   "customers": 26,
+   "Outages": 26,
+   "incidents": 1,
+   "EstRest": "7/25/2026 7:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003R14"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "STOCKTON SPRINGS",
+   "hamlet": "STOCKTON SPRINGS",
+   "street": "THIRD HILL DR",
+   "customers": 3,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 8:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003R1D"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "AVON",
+   "hamlet": "AVON",
+   "street": "MILE SQUARE RD",
+   "customers": 24,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/25/2026 8:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003R18"
+  }
+ ]
 }
