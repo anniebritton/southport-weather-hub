@@ -1,23 +1,13 @@
 {
- "lastUpdated": "2026-07-26 11:07:17",
+ "lastUpdated": "2026-07-26 12:10:37",
  "totals": {
   "customers": 688751,
-  "outages": 571,
-  "incidents": 3
+  "outages": 646,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WOOLWICH",
-   "customers": 1848,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/26/2026 12:15:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -41,27 +31,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "SHAPLEIGH",
-   "customers": 2500,
-   "Outages": 13,
+   "county": "KENNEBEC",
+   "town": "ALBION",
+   "customers": 1161,
+   "Outages": 89,
    "incidents": 1,
-   "EstRest": "7/26/2026 11:30:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WOOLWICH",
-   "hamlet": "WOOLWICH",
-   "street": "MEADOW RD",
-   "customers": 45,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/26/2026 12:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003R60"
+   "EstRest": "7/26/2026 1:15:00 PM"
   },
   {
    "level": "street",
@@ -96,17 +71,17 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "SHAPLEIGH",
-   "hamlet": "SHAPLEIGH",
-   "street": "GRAY RD",
-   "customers": 12,
-   "Outages": 3,
+   "county": "KENNEBEC",
+   "town": "ALBION",
+   "hamlet": "ALBION",
+   "street": "CLARK RD",
+   "customers": 31,
+   "Outages": 7,
    "incidents": 1,
-   "EstRest": "7/26/2026 11:30:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "7/26/2026 1:15:00 PM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003R5S"
+   "incidentnumber": "003R67"
   }
  ]
 }
