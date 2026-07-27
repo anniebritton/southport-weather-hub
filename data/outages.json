@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-07-27 13:57:17",
+ "lastUpdated": "2026-07-27 15:50:37",
  "totals": {
   "customers": 688757,
-  "outages": 27,
+  "outages": 93,
   "incidents": 4
  },
  "southport": null,
@@ -13,19 +13,9 @@
   "customers": 28935,
   "Outages": 6,
   "incidents": 1,
-  "EstRest": "7/27/2026 4:15:00 PM"
+  "EstRest": "7/27/2026 7:15:00 PM"
  },
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "FALMOUTH",
-   "customers": 6547,
-   "Outages": 18,
-   "incidents": 1,
-   "EstRest": ""
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -34,42 +24,47 @@
    "customers": 1348,
    "Outages": 6,
    "incidents": 1,
-   "EstRest": "7/27/2026 4:15:00 PM"
+   "EstRest": "7/27/2026 7:15:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "KNOX",
-   "customers": 432,
+   "county": "OXFORD",
+   "town": "DENMARK",
+   "customers": 1303,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "7/27/2026 5:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "WATERFORD",
+   "customers": 1568,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/27/2026 3:00:00 PM"
+   "EstRest": "7/27/2026 5:45:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "DALLAS PLT",
-   "customers": 542,
-   "Outages": 2,
+   "county": "ANDROSCOGGIN",
+   "town": "AUBURN",
+   "customers": 13589,
+   "Outages": 12,
    "incidents": 1,
-   "EstRest": "7/27/2026 3:45:00 PM"
+   "EstRest": "7/27/2026 5:45:00 PM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "FALMOUTH",
-   "hamlet": "FALMOUTH",
-   "street": "FUNDY RD",
-   "customers": 53,
-   "Outages": 18,
+   "county": "ANDROSCOGGIN",
+   "town": "MINOT",
+   "customers": 1304,
+   "Outages": 68,
    "incidents": 1,
-   "EstRest": "",
-   "crewstatus": "ONST ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003R7O"
+   "EstRest": "7/27/2026 5:45:00 PM"
   },
   {
    "level": "street",
@@ -81,7 +76,7 @@
    "customers": 69,
    "Outages": 6,
    "incidents": 1,
-   "EstRest": "7/27/2026 4:15:00 PM",
+   "EstRest": "7/27/2026 7:15:00 PM",
    "crewstatus": "DISP ",
    "cause": "Equipment Interruption",
    "incidentnumber": "003R8Z"
@@ -89,32 +84,62 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "KNOX",
-   "hamlet": "KNOX",
-   "street": "TURKEY DR",
-   "customers": 2,
-   "Outages": 1,
+   "county": "OXFORD",
+   "town": "DENMARK",
+   "hamlet": "DENMARK",
+   "street": "DIAMOND DR",
+   "customers": 5,
+   "Outages": 5,
    "incidents": 1,
-   "EstRest": "7/27/2026 3:00:00 PM",
-   "crewstatus": "ONST ",
+   "EstRest": "7/27/2026 5:30:00 PM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003RB0"
+   "incidentnumber": "003RBS"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "DALLAS PLT",
-   "hamlet": "DALLAS PLT",
-   "street": "SADDLEBACK MOUNTAIN RD",
-   "customers": 3,
+   "county": "OXFORD",
+   "town": "WATERFORD",
+   "hamlet": "WATERFORD",
+   "street": "DEER HILL RD",
+   "customers": 41,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/27/2026 3:45:00 PM",
-   "crewstatus": "ONST ",
+   "EstRest": "7/27/2026 5:45:00 PM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003RBA"
+   "incidentnumber": "003RC6"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "AUBURN",
+   "hamlet": "AUBURN",
+   "street": "HERSEY HILL RD",
+   "customers": 9,
+   "Outages": 9,
+   "incidents": 1,
+   "EstRest": "7/27/2026 5:45:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003RC0"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "MINOT",
+   "hamlet": "MINOT",
+   "street": "HERSEY HILL RD",
+   "customers": 27,
+   "Outages": 25,
+   "incidents": 1,
+   "EstRest": "7/27/2026 5:45:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003RC0"
   }
  ]
 }
