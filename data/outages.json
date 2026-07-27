@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-07-27 09:50:37",
+ "lastUpdated": "2026-07-27 12:17:17",
  "totals": {
   "customers": 688757,
-  "outages": 58,
-  "incidents": 8
+  "outages": 24,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": {
@@ -13,7 +13,7 @@
   "customers": 28935,
   "Outages": 6,
   "incidents": 1,
-  "EstRest": "7/27/2026 11:15:00 AM"
+  "EstRest": "7/27/2026 4:15:00 PM"
  },
  "towns": [
   {
@@ -24,37 +24,7 @@
    "customers": 1348,
    "Outages": 6,
    "incidents": 1,
-   "EstRest": "7/27/2026 11:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "ROCKLAND",
-   "customers": 4919,
-   "Outages": 6,
-   "incidents": 1,
-   "EstRest": "7/27/2026 11:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "VIENNA",
-   "customers": 482,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/27/2026 11:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "HARRISON",
-   "customers": 2250,
-   "Outages": 25,
-   "incidents": 2,
-   "EstRest": "7/27/2026 10:45:00 AM"
+   "EstRest": "7/27/2026 4:15:00 PM"
   },
   {
    "level": "town",
@@ -67,26 +37,6 @@
    "EstRest": ""
   },
   {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "BIDDEFORD",
-   "customers": 13086,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/27/2026 11:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "VERONA",
-   "customers": 347,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/27/2026 12:00:00 PM"
-  },
-  {
    "level": "street",
    "opco": "CMP",
    "county": "LINCOLN",
@@ -96,40 +46,10 @@
    "customers": 69,
    "Outages": 6,
    "incidents": 1,
-   "EstRest": "7/27/2026 11:15:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
+   "EstRest": "7/27/2026 4:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "Equipment Interruption",
    "incidentnumber": "003R8Z"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "ROCKLAND",
-   "hamlet": "ROCKLAND",
-   "street": "SWEETLAND ST",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "7/27/2026 11:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003R9D"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "VIENNA",
-   "hamlet": "VIENNA",
-   "street": "STREAM RD",
-   "customers": 17,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/27/2026 11:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003R8X"
   },
   {
    "level": "street",
@@ -145,36 +65,6 @@
    "crewstatus": "ONST ",
    "cause": "Equipment Interruption",
    "incidentnumber": "003R7O"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "BIDDEFORD",
-   "hamlet": "BIDDEFORD",
-   "street": "CUTTS ST",
-   "customers": 83,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/27/2026 11:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003R9C"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "VERONA",
-   "hamlet": "VERONA",
-   "street": "OLD MEADOWS RD",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "7/27/2026 12:00:00 PM",
-   "crewstatus": "ACKN ",
-   "cause": "",
-   "incidentnumber": "003R99"
   }
  ]
 }
