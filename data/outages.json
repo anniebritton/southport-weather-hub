@@ -1,23 +1,13 @@
 {
- "lastUpdated": "2026-07-30 07:37:46",
+ "lastUpdated": "2026-07-30 09:11:21",
  "totals": {
   "customers": 688745,
-  "outages": 822,
-  "incidents": 5
+  "outages": 35,
+  "incidents": 4
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "KITTERY",
-   "customers": 6898,
-   "Outages": 29,
-   "incidents": 1,
-   "EstRest": "7/30/2026 9:00:00 AM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -31,67 +21,32 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "customers": 12090,
-   "Outages": 94,
-   "incidents": 1,
-   "EstRest": "7/30/2026 9:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BURNHAM",
-   "customers": 804,
-   "Outages": 658,
-   "incidents": 1,
-   "EstRest": "7/30/2026 9:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "UNITY",
-   "customers": 1154,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "7/30/2026 9:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "TROY",
-   "customers": 575,
+   "county": "OXFORD",
+   "town": "ALBANY",
+   "customers": 397,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/30/2026 9:45:00 AM"
+   "EstRest": "7/30/2026 10:15:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "SEARSPORT",
-   "customers": 1941,
-   "Outages": 32,
+   "county": "FRANKLIN",
+   "town": "FARMINGTON",
+   "customers": 4230,
+   "Outages": 4,
    "incidents": 1,
-   "EstRest": "7/30/2026 9:45:00 AM"
+   "EstRest": "7/30/2026 10:45:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
    "county": "YORK",
    "town": "KITTERY",
-   "hamlet": "KITTERY",
-   "street": "THAXTER LN",
-   "customers": 23,
-   "Outages": 23,
+   "customers": 6898,
+   "Outages": 29,
    "incidents": 1,
-   "EstRest": "7/30/2026 9:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003ROG"
+   "EstRest": "7/30/2026 9:00:00 AM"
   },
   {
    "level": "street",
@@ -111,77 +66,47 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "hamlet": "BRUNSWICK",
-   "street": "IVY WAY",
-   "customers": 4,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "7/30/2026 9:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003ROI"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BURNHAM",
-   "hamlet": "BURNHAM",
-   "street": "WINNECOOK RD",
-   "customers": 72,
-   "Outages": 71,
-   "incidents": 1,
-   "EstRest": "7/30/2026 9:45:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003ROP"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "UNITY",
-   "hamlet": "UNITY",
-   "street": "PRAIRIE RD",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "7/30/2026 9:45:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003ROP"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "TROY",
-   "hamlet": "TROY",
-   "street": "POND RD",
-   "customers": 1,
+   "county": "OXFORD",
+   "town": "ALBANY",
+   "hamlet": "ALBANY",
+   "street": "BAKER RD",
+   "customers": 25,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/30/2026 9:45:00 AM",
+   "EstRest": "7/30/2026 10:15:00 AM",
    "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003ROP"
+   "incidentnumber": "003RP0"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "SEARSPORT",
-   "hamlet": "SEARSPORT",
-   "street": "SERENITY LN",
-   "customers": 10,
-   "Outages": 10,
+   "county": "FRANKLIN",
+   "town": "FARMINGTON",
+   "hamlet": "FARMINGTON",
+   "street": "SHEPARD LN",
+   "customers": 2,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "7/30/2026 9:45:00 AM",
+   "EstRest": "7/30/2026 10:45:00 AM",
    "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003ROS"
+   "incidentnumber": "003RP7"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "KITTERY",
+   "hamlet": "KITTERY",
+   "street": "THAXTER LN",
+   "customers": 23,
+   "Outages": 23,
+   "incidents": 1,
+   "EstRest": "7/30/2026 9:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003ROG"
   }
  ]
 }
