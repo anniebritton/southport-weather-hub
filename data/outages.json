@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-07-30 03:07:46",
+ "lastUpdated": "2026-07-30 05:37:46",
  "totals": {
   "customers": 688745,
-  "outages": 76,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WEST BATH",
-   "customers": 1394,
-   "Outages": 76,
-   "incidents": 1,
-   "EstRest": "7/30/2026 5:15:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WEST BATH",
-   "hamlet": "WEST BATH",
-   "street": "MALLARD DR",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "7/30/2026 5:15:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003RO2"
-  }
- ]
+ "towns": []
 }
