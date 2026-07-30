@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-07-30 00:14:26",
+ "lastUpdated": "2026-07-30 03:07:46",
  "totals": {
   "customers": 688745,
-  "outages": 70,
+  "outages": 76,
   "incidents": 1
  },
  "southport": null,
@@ -12,51 +12,26 @@
    "level": "town",
    "opco": "CMP",
    "county": "SAGADAHOC",
-   "town": "BOWDOIN",
-   "customers": 1517,
-   "Outages": 33,
+   "town": "WEST BATH",
+   "customers": 1394,
+   "Outages": 76,
    "incidents": 1,
-   "EstRest": "7/30/2026 2:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "BOWDOINHAM",
-   "customers": 1695,
-   "Outages": 37,
-   "incidents": 1,
-   "EstRest": "7/30/2026 2:00:00 AM"
+   "EstRest": "7/30/2026 5:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "SAGADAHOC",
-   "town": "BOWDOIN",
-   "hamlet": "BOWDOIN",
-   "street": "POST RD",
-   "customers": 24,
-   "Outages": 23,
+   "town": "WEST BATH",
+   "hamlet": "WEST BATH",
+   "street": "MALLARD DR",
+   "customers": 3,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "7/30/2026 2:00:00 AM",
-   "crewstatus": "ENRT ",
+   "EstRest": "7/30/2026 5:15:00 AM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003RNX"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "BOWDOINHAM",
-   "hamlet": "BOWDOINHAM",
-   "street": "POND RD",
-   "customers": 30,
-   "Outages": 14,
-   "incidents": 1,
-   "EstRest": "7/30/2026 2:00:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003RNX"
+   "incidentnumber": "003RO2"
   }
  ]
 }
