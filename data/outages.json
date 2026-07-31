@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-07-31 10:08:01",
+ "lastUpdated": "2026-07-31 12:08:01",
  "totals": {
   "customers": 688775,
-  "outages": 24,
-  "incidents": 2
+  "outages": 49,
+  "incidents": 4
  },
  "southport": null,
  "lincolnCounty": null,
@@ -12,51 +12,101 @@
    "level": "town",
    "opco": "CMP",
    "county": "KENNEBEC",
-   "town": "WEST GARDINER",
-   "customers": 2075,
-   "Outages": 23,
+   "town": "WINDSOR",
+   "customers": 1409,
+   "Outages": 4,
    "incidents": 1,
-   "EstRest": "7/31/2026 11:45:00 AM"
+   "EstRest": "7/31/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "ROCKLAND",
+   "customers": 4919,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/31/2026 1:30:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "HEBRON",
-   "customers": 598,
+   "town": "STONEHAM",
+   "customers": 366,
+   "Outages": 43,
+   "incidents": 1,
+   "EstRest": "7/31/2026 12:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRUNSWICK",
+   "customers": 12090,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/31/2026 11:45:00 AM"
+   "EstRest": "7/31/2026 1:30:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "KENNEBEC",
-   "town": "WEST GARDINER",
-   "hamlet": "WEST GARDINER",
-   "street": "LEWISTON RD",
-   "customers": 127,
-   "Outages": 2,
+   "town": "WINDSOR",
+   "hamlet": "WINDSOR",
+   "street": "CLOVER HILL RD",
+   "customers": 3,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "7/31/2026 11:45:00 AM",
+   "EstRest": "7/31/2026 2:00:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003RUH"
+   "incidentnumber": "003RW1"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "ROCKLAND",
+   "hamlet": "ROCKLAND",
+   "street": "BOG RD",
+   "customers": 51,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/31/2026 1:30:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003RVO"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "HEBRON",
-   "hamlet": "HEBRON",
-   "street": "PARIS RD",
-   "customers": 11,
+   "town": "STONEHAM",
+   "hamlet": "STONEHAM",
+   "street": "MACKLIN LN",
+   "customers": 1,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "7/31/2026 11:45:00 AM",
+   "EstRest": "7/31/2026 12:45:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003RV1"
+   "incidentnumber": "003RVJ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRUNSWICK",
+   "hamlet": "BRUNSWICK",
+   "street": "SHULMAN DR",
+   "customers": 7,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "7/31/2026 1:30:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003RVS"
   }
  ]
 }
