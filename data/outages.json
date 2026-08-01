@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-01 05:28:01",
+ "lastUpdated": "2026-08-01 06:58:01",
  "totals": {
   "customers": 688743,
-  "outages": 2,
-  "incidents": 1
+  "outages": 37,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": {
@@ -11,35 +11,85 @@
   "opco": "CMP",
   "county": "LINCOLN",
   "customers": 28935,
-  "Outages": 2,
+  "Outages": 5,
   "incidents": 1,
-  "EstRest": "8/1/2026 6:45:00 AM"
+  "EstRest": "8/1/2026 8:45:00 AM"
  },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
    "county": "LINCOLN",
-   "town": "WALDOBORO",
-   "customers": 3211,
-   "Outages": 2,
+   "town": "WISCASSET",
+   "customers": 2481,
+   "Outages": 5,
    "incidents": 1,
-   "EstRest": "8/1/2026 6:45:00 AM"
+   "EstRest": "8/1/2026 8:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "GREENVILLE",
+   "customers": 2039,
+   "Outages": 26,
+   "incidents": 1,
+   "EstRest": "8/1/2026 8:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "FAIRFIELD",
+   "customers": 3585,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "8/1/2026 9:00:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "LINCOLN",
-   "town": "WALDOBORO",
-   "hamlet": "WALDOBORO",
-   "street": "WINSLOWS MILLS RD",
-   "customers": 157,
-   "Outages": 2,
+   "town": "WISCASSET",
+   "hamlet": "WISCASSET",
+   "street": "OAK RIDGE DR",
+   "customers": 13,
+   "Outages": 4,
    "incidents": 1,
-   "EstRest": "8/1/2026 6:45:00 AM",
+   "EstRest": "8/1/2026 8:45:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003RYT"
+   "incidentnumber": "003RZ1"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "GREENVILLE",
+   "hamlet": "GREENVILLE",
+   "street": "WILSON LOWER DAM LN",
+   "customers": 3,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "8/1/2026 8:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003RZ2"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "FAIRFIELD",
+   "hamlet": "FAIRFIELD",
+   "street": "LIBERTY ST",
+   "customers": 6,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "8/1/2026 9:00:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003RZ6"
   }
  ]
 }
