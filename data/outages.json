@@ -1,95 +1,62 @@
 {
- "lastUpdated": "2026-08-01 08:08:01",
+ "lastUpdated": "2026-08-01 09:54:41",
  "totals": {
   "customers": 688743,
-  "outages": 43,
-  "incidents": 3
+  "outages": 21,
+  "incidents": 2
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 28935,
-  "Outages": 5,
-  "incidents": 1,
-  "EstRest": "8/1/2026 8:45:00 AM"
- },
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "HARTFORD",
-   "customers": 774,
-   "Outages": 37,
-   "incidents": 1,
-   "EstRest": "8/1/2026 10:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "WISCASSET",
-   "customers": 2481,
+   "county": "PENOBSCOT",
+   "town": "LEVANT",
+   "customers": 1601,
    "Outages": 5,
    "incidents": 1,
-   "EstRest": "8/1/2026 8:45:00 AM"
+   "EstRest": "8/1/2026 10:45:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "JAY",
-   "customers": 2543,
-   "Outages": 1,
+   "county": "SOMERSET",
+   "town": "SAINT ALBANS",
+   "customers": 1456,
+   "Outages": 16,
    "incidents": 1,
-   "EstRest": "8/1/2026 9:15:00 AM"
+   "EstRest": "8/1/2026 10:30:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "HARTFORD",
-   "hamlet": "HARTFORD",
-   "street": "BEACH WAY",
-   "customers": 19,
-   "Outages": 13,
+   "county": "PENOBSCOT",
+   "town": "LEVANT",
+   "hamlet": "LEVANT",
+   "street": "HORSEBACK RD",
+   "customers": 74,
+   "Outages": 5,
    "incidents": 1,
-   "EstRest": "8/1/2026 10:00:00 AM",
+   "EstRest": "8/1/2026 10:45:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003RZB"
+   "incidentnumber": "003RZK"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "WISCASSET",
-   "hamlet": "WISCASSET",
-   "street": "OAK RIDGE DR",
-   "customers": 13,
-   "Outages": 4,
+   "county": "SOMERSET",
+   "town": "SAINT ALBANS",
+   "hamlet": "SAINT ALBANS",
+   "street": "MARTIN RD",
+   "customers": 7,
+   "Outages": 6,
    "incidents": 1,
-   "EstRest": "8/1/2026 8:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003RZ1"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "JAY",
-   "hamlet": "JAY",
-   "street": "FRANKLIN RD",
-   "customers": 127,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/1/2026 9:15:00 AM",
+   "EstRest": "8/1/2026 10:30:00 AM",
    "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "003RZ8"
+   "incidentnumber": "003RZI"
   }
  ]
 }
