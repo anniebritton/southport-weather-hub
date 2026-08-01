@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-01 12:08:01",
+ "lastUpdated": "2026-08-01 13:11:21",
  "totals": {
   "customers": 688743,
-  "outages": 6,
-  "incidents": 2
+  "outages": 44,
+  "incidents": 5
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,12 +11,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "NORTHPORT",
-   "customers": 1430,
-   "Outages": 1,
+   "county": "YORK",
+   "town": "YORK",
+   "customers": 11241,
+   "Outages": 7,
    "incidents": 1,
-   "EstRest": "8/1/2026 12:30:00 PM"
+   "EstRest": "8/1/2026 3:00:00 PM"
   },
   {
    "level": "town",
@@ -26,22 +26,62 @@
    "customers": 1601,
    "Outages": 5,
    "incidents": 1,
-   "EstRest": "8/1/2026 12:15:00 PM"
+   "EstRest": "8/1/2026 1:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "FREEMAN",
+   "customers": 253,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/1/2026 3:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "customers": 41206,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/1/2026 2:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "NORTHPORT",
+   "customers": 1430,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/1/2026 1:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "NEW PORTLAND",
+   "customers": 694,
+   "Outages": 26,
+   "incidents": 1,
+   "EstRest": "8/1/2026 3:15:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "NORTHPORT",
-   "hamlet": "NORTHPORT",
-   "street": "BEECH HILL RD",
-   "customers": 103,
-   "Outages": 1,
+   "county": "YORK",
+   "town": "YORK",
+   "hamlet": "YORK",
+   "street": "OCEAN HOUSE WAY",
+   "customers": 26,
+   "Outages": 7,
    "incidents": 1,
-   "EstRest": "8/1/2026 12:30:00 PM",
-   "crewstatus": "ENRT ",
+   "EstRest": "8/1/2026 3:00:00 PM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003RZP"
+   "incidentnumber": "003S03"
   },
   {
    "level": "street",
@@ -53,10 +93,70 @@
    "customers": 74,
    "Outages": 5,
    "incidents": 1,
-   "EstRest": "8/1/2026 12:15:00 PM",
+   "EstRest": "8/1/2026 1:45:00 PM",
    "crewstatus": "ONST ",
    "cause": "Equipment Interruption",
    "incidentnumber": "003RZK"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "FREEMAN",
+   "hamlet": "FREEMAN",
+   "street": "COLLINS DR",
+   "customers": 4,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/1/2026 3:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003S07"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "hamlet": "PORTLAND",
+   "street": "PARRIS ST",
+   "customers": 121,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/1/2026 2:45:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003RZZ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "NORTHPORT",
+   "hamlet": "NORTHPORT",
+   "street": "BEECH HILL RD",
+   "customers": 103,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/1/2026 1:30:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003RZP"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "NEW PORTLAND",
+   "hamlet": "NEW PORTLAND",
+   "street": "SPRUCE RD",
+   "customers": 6,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "8/1/2026 3:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003S07"
   }
  ]
 }
