@@ -1,13 +1,23 @@
 {
- "lastUpdated": "2026-08-01 11:01:21",
+ "lastUpdated": "2026-08-01 12:08:01",
  "totals": {
   "customers": 688743,
-  "outages": 8,
-  "incidents": 3
+  "outages": 6,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "NORTHPORT",
+   "customers": 1430,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/1/2026 12:30:00 PM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -19,24 +29,19 @@
    "EstRest": "8/1/2026 12:15:00 PM"
   },
   {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "LIMINGTON",
-   "customers": 2143,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "8/1/2026 12:30:00 PM"
-  },
-  {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
    "county": "WALDO",
    "town": "NORTHPORT",
-   "customers": 1430,
+   "hamlet": "NORTHPORT",
+   "street": "BEECH HILL RD",
+   "customers": 103,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/1/2026 12:30:00 PM"
+   "EstRest": "8/1/2026 12:30:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003RZP"
   },
   {
    "level": "street",
@@ -50,38 +55,8 @@
    "incidents": 1,
    "EstRest": "8/1/2026 12:15:00 PM",
    "crewstatus": "ONST ",
-   "cause": "",
+   "cause": "Equipment Interruption",
    "incidentnumber": "003RZK"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "LIMINGTON",
-   "hamlet": "LIMINGTON",
-   "street": "SEDGLY RD",
-   "customers": 17,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "8/1/2026 12:30:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003RZO"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "NORTHPORT",
-   "hamlet": "NORTHPORT",
-   "street": "BEECH HILL RD",
-   "customers": 103,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/1/2026 12:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003RZP"
   }
  ]
 }
