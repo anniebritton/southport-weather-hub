@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-02 09:51:21",
+ "lastUpdated": "2026-08-02 10:58:01",
  "totals": {
   "customers": 688810,
   "outages": 10,
@@ -11,6 +11,16 @@
   {
    "level": "town",
    "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "VASSALBORO",
+   "customers": 2611,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/2/2026 12:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
    "county": "CUMBERLAND",
    "town": "NORTH YARMOUTH",
    "customers": 1958,
@@ -19,14 +29,19 @@
    "EstRest": "8/2/2026 1:15:00 PM"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "HEBRON",
-   "customers": 598,
+   "county": "KENNEBEC",
+   "town": "VASSALBORO",
+   "hamlet": "VASSALBORO",
+   "street": "WEBBER POND RD",
+   "customers": 103,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/2/2026 11:15:00 AM"
+   "EstRest": "8/2/2026 12:30:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003S2D"
   },
   {
    "level": "street",
@@ -42,21 +57,6 @@
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003S1S"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "HEBRON",
-   "hamlet": "HEBRON",
-   "street": "ROCKY RD",
-   "customers": 16,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/2/2026 11:15:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003S24"
   }
  ]
 }
