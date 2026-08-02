@@ -1,11 +1,62 @@
 {
- "lastUpdated": "2026-08-02 04:54:41",
+ "lastUpdated": "2026-08-02 06:38:01",
  "totals": {
   "customers": 688810,
-  "outages": 0,
-  "incidents": 0
+  "outages": 104,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "FREEPORT",
+   "customers": 5263,
+   "Outages": 16,
+   "incidents": 1,
+   "EstRest": "8/2/2026 8:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "LINCOLNVILLE",
+   "customers": 1926,
+   "Outages": 88,
+   "incidents": 1,
+   "EstRest": "8/2/2026 8:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "FREEPORT",
+   "hamlet": "FREEPORT",
+   "street": "MURCH RD",
+   "customers": 19,
+   "Outages": 16,
+   "incidents": 1,
+   "EstRest": "8/2/2026 8:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003S1N"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "LINCOLNVILLE",
+   "hamlet": "LINCOLNVILLE",
+   "street": "COBBTOWN RD",
+   "customers": 30,
+   "Outages": 24,
+   "incidents": 1,
+   "EstRest": "8/2/2026 8:00:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003S1K"
+  }
+ ]
 }
