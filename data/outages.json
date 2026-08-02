@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-02 07:58:01",
+ "lastUpdated": "2026-08-02 09:51:21",
  "totals": {
   "customers": 688810,
-  "outages": 9,
-  "incidents": 1
+  "outages": 10,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -16,7 +16,17 @@
    "customers": 1958,
    "Outages": 9,
    "incidents": 1,
-   "EstRest": "8/2/2026 9:15:00 AM"
+   "EstRest": "8/2/2026 1:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "HEBRON",
+   "customers": 598,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/2/2026 11:15:00 AM"
   },
   {
    "level": "street",
@@ -28,10 +38,25 @@
    "customers": 10,
    "Outages": 9,
    "incidents": 1,
-   "EstRest": "8/2/2026 9:15:00 AM",
+   "EstRest": "8/2/2026 1:15:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003S1S"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "HEBRON",
+   "hamlet": "HEBRON",
+   "street": "ROCKY RD",
+   "customers": 16,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/2/2026 11:15:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003S24"
   }
  ]
 }
