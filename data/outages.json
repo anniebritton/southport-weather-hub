@@ -1,130 +1,37 @@
 {
- "lastUpdated": "2026-08-01 20:08:01",
+ "lastUpdated": "2026-08-01 23:51:21",
  "totals": {
   "customers": 688810,
-  "outages": 676,
-  "incidents": 5
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 28935,
-  "Outages": 569,
-  "incidents": 2,
-  "EstRest": "8/1/2026 10:00:00 PM"
- },
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "KINGSBURY PLT",
-   "customers": 8,
+   "county": "FRANKLIN",
+   "town": "RANGELEY",
+   "customers": 2121,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/1/2026 9:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "SHIRLEY",
-   "customers": 249,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/1/2026 10:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SCARBOROUGH",
-   "customers": 13113,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/1/2026 8:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WOOLWICH",
-   "customers": 1848,
-   "Outages": 104,
-   "incidents": 1,
-   "EstRest": "8/1/2026 10:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "DRESDEN",
-   "customers": 1039,
-   "Outages": 569,
-   "incidents": 2,
-   "EstRest": "8/1/2026 10:00:00 PM"
+   "EstRest": "8/2/2026 1:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "KINGSBURY PLT",
-   "hamlet": "KINGSBURY PLT",
-   "street": "PINE DR",
-   "customers": 1,
+   "county": "FRANKLIN",
+   "town": "RANGELEY",
+   "hamlet": "RANGELEY",
+   "street": "WILSON MILLS RD",
+   "customers": 6,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/1/2026 9:00:00 PM",
+   "EstRest": "8/2/2026 1:15:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003S0Y"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "SHIRLEY",
-   "hamlet": "SHIRLEY",
-   "street": "MAIN ST",
-   "customers": 16,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/1/2026 10:00:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003S16"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SCARBOROUGH",
-   "hamlet": "SCARBOROUGH",
-   "street": "FOGG RD",
-   "customers": 52,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/1/2026 8:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003S0W"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WOOLWICH",
-   "hamlet": "WOOLWICH",
-   "street": "HEDGE BRIDGE RD",
-   "customers": 11,
-   "Outages": 11,
-   "incidents": 1,
-   "EstRest": "8/1/2026 10:00:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003S14"
+   "incidentnumber": "003S19"
   }
  ]
 }
