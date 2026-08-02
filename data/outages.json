@@ -1,12 +1,20 @@
 {
- "lastUpdated": "2026-08-01 18:54:41",
+ "lastUpdated": "2026-08-01 20:08:01",
  "totals": {
   "customers": 688810,
-  "outages": 4,
-  "incidents": 3
+  "outages": 676,
+  "incidents": 5
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 569,
+  "incidents": 2,
+  "EstRest": "8/1/2026 10:00:00 PM"
+ },
  "towns": [
   {
    "level": "town",
@@ -21,12 +29,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "HARRISON",
-   "customers": 2250,
-   "Outages": 2,
+   "county": "PISCATAQUIS",
+   "town": "SHIRLEY",
+   "customers": 249,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/1/2026 7:15:00 PM"
+   "EstRest": "8/1/2026 10:00:00 PM"
   },
   {
    "level": "town",
@@ -39,6 +47,26 @@
    "EstRest": "8/1/2026 8:30:00 PM"
   },
   {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "WOOLWICH",
+   "customers": 1848,
+   "Outages": 104,
+   "incidents": 1,
+   "EstRest": "8/1/2026 10:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "DRESDEN",
+   "customers": 1039,
+   "Outages": 569,
+   "incidents": 2,
+   "EstRest": "8/1/2026 10:00:00 PM"
+  },
+  {
    "level": "street",
    "opco": "CMP",
    "county": "PISCATAQUIS",
@@ -49,24 +77,24 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/1/2026 9:00:00 PM",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003S0Y"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "HARRISON",
-   "hamlet": "HARRISON",
-   "street": "ROCKY POINT RD",
-   "customers": 23,
-   "Outages": 2,
+   "county": "PISCATAQUIS",
+   "town": "SHIRLEY",
+   "hamlet": "SHIRLEY",
+   "street": "MAIN ST",
+   "customers": 16,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/1/2026 7:15:00 PM",
+   "EstRest": "8/1/2026 10:00:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003S0L"
+   "incidentnumber": "003S16"
   },
   {
    "level": "street",
@@ -82,6 +110,21 @@
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003S0W"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "WOOLWICH",
+   "hamlet": "WOOLWICH",
+   "street": "HEDGE BRIDGE RD",
+   "customers": 11,
+   "Outages": 11,
+   "incidents": 1,
+   "EstRest": "8/1/2026 10:00:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003S14"
   }
  ]
 }
