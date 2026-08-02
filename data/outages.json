@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-02 14:28:01",
+ "lastUpdated": "2026-08-02 15:51:21",
  "totals": {
   "customers": 688810,
-  "outages": 20,
+  "outages": 19,
   "incidents": 3
  },
  "southport": null,
@@ -11,77 +11,37 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "HARPSWELL",
-   "customers": 4764,
-   "Outages": 6,
-   "incidents": 1,
-   "EstRest": "8/2/2026 3:30:00 PM"
+   "county": "OXFORD",
+   "town": "GREENWOOD",
+   "customers": 937,
+   "Outages": 14,
+   "incidents": 2,
+   "EstRest": "8/2/2026 5:15:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "GREENWOOD",
-   "customers": 937,
-   "Outages": 2,
+   "town": "CANTON",
+   "customers": 566,
+   "Outages": 5,
    "incidents": 1,
    "EstRest": "8/2/2026 4:30:00 PM"
   },
   {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "SAINT ALBANS",
-   "customers": 1456,
-   "Outages": 12,
-   "incidents": 1,
-   "EstRest": "8/2/2026 4:15:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "HARPSWELL",
-   "hamlet": "HARPSWELL",
-   "street": "INDIAN POINT TER",
-   "customers": 4,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "8/2/2026 3:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003S30"
-  },
-  {
    "level": "street",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "GREENWOOD",
-   "hamlet": "GREENWOOD",
-   "street": "IRISH RD",
-   "customers": 9,
-   "Outages": 1,
+   "town": "CANTON",
+   "hamlet": "CANTON",
+   "street": "HARDING DR",
+   "customers": 2,
+   "Outages": 2,
    "incidents": 1,
    "EstRest": "8/2/2026 4:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003S2Y"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "SAINT ALBANS",
-   "hamlet": "SAINT ALBANS",
-   "street": "OLD WING RD",
-   "customers": 5,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "8/2/2026 4:15:00 PM",
-   "crewstatus": "DISP ",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003S37"
+   "incidentnumber": "003S39"
   }
  ]
 }
