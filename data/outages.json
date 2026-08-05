@@ -1,22 +1,11 @@
 {
- "lastUpdated": "2026-08-04 23:37:11",
+ "lastUpdated": "2026-08-05 02:10:31",
  "totals": {
   "customers": 688784,
-  "outages": 3,
-  "incidents": 2
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "ELIOT",
-   "customers": 3922,
-   "Outages": 3,
-   "incidents": 2,
-   "EstRest": "8/5/2026 2:00:00 AM"
-  }
- ]
+ "towns": []
 }
