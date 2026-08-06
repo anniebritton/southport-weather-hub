@@ -1,11 +1,62 @@
 {
- "lastUpdated": "2026-08-06 05:17:04",
+ "lastUpdated": "2026-08-06 07:33:44",
  "totals": {
   "customers": 688738,
-  "outages": 0,
-  "incidents": 0
+  "outages": 30,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "customers": 41206,
+   "Outages": 29,
+   "incidents": 1,
+   "EstRest": "8/6/2026 9:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "SWANVILLE",
+   "customers": 987,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/6/2026 8:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "hamlet": "PORTLAND",
+   "street": "KENNEDY PK",
+   "customers": 36,
+   "Outages": 17,
+   "incidents": 1,
+   "EstRest": "8/6/2026 9:30:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003T30"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "SWANVILLE",
+   "hamlet": "SWANVILLE",
+   "street": "JAMESON WAY",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/6/2026 8:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003T2Y"
+  }
+ ]
 }
