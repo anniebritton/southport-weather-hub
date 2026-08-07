@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-08-07 01:00:02",
+ "lastUpdated": "2026-08-07 02:13:22",
  "totals": {
   "customers": 688781,
-  "outages": 12,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "YORK",
-   "customers": 11241,
-   "Outages": 12,
-   "incidents": 1,
-   "EstRest": "8/7/2026 2:45:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "YORK",
-   "hamlet": "YORK",
-   "street": "SYLVAN CIR",
-   "customers": 12,
-   "Outages": 11,
-   "incidents": 1,
-   "EstRest": "8/7/2026 2:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003T8I"
-  }
- ]
+ "towns": []
 }
