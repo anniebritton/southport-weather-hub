@@ -1,4 +1,4 @@
-# Southport Island Resilience Hub
+# Southport Island Weather Hub
 
 **Live site: [anniebritton.github.io/southport-weather-hub](https://anniebritton.github.io/southport-weather-hub/)**
 

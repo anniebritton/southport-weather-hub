@@ -1,5 +1,5 @@
 /*
- * Southport Island Resilience Hub
+ * Southport Island Weather Hub
  * Live data: api.weather.gov (NWS) fetched client-side; CMP outage numbers
  * read from data/outages.json (refreshed every 15 min by a GitHub Action,
  * since CMP's API is CORS-restricted to their own portal).
@@ -400,7 +400,7 @@ async function loadTides() {
   try {
     const today = new Date();
     const ymd = `${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, "0")}${String(today.getDate()).padStart(2, "0")}`;
-    const url = `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&application=southport_resilience_hub&station=${TIDE_STATION}&begin_date=${ymd}&range=48&datum=MLLW&time_zone=lst_ldt&units=english&interval=hilo&format=json`;
+    const url = `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&application=southport_weather_hub&station=${TIDE_STATION}&begin_date=${ymd}&range=48&datum=MLLW&time_zone=lst_ldt&units=english&interval=hilo&format=json`;
     const res = await fetch(url);
     if (!res.ok) throw new Error(`Tide request failed: ${res.status}`);
     const data = await res.json();
