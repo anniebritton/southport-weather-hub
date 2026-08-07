@@ -185,11 +185,6 @@
         </div>
       </div>
 
-      <h3 class="sub-heading">Tides at Southport (Townsend Gut)</h3>
-      <div id="tides-strip" class="tides-strip" aria-live="polite">
-        <div class="skeleton-block" aria-hidden="true"></div>
-      </div>
-
       <h3 class="sub-heading">Conditions ahead</h3>
       <div id="marine-status" class="status-line" role="status" aria-live="polite"></div>
       <div id="marine-forecast" class="marine-grid">
@@ -201,6 +196,32 @@
         <span class="swatch" style="background:#fdf0dd"></span> more,
         <span class="swatch" style="background:#fdecea"></span> severe.
       </p>
+
+      <h3 class="sub-heading">Tides at Southport (Townsend Gut)</h3>
+      <div id="tides-strip" class="tides-strip" aria-live="polite">
+        <div class="skeleton-block" aria-hidden="true"></div>
+      </div>
+
+      <figure class="tide-chart-card">
+        <div class="tide-chart-head">
+          <div>
+            <h4>Next 24 hours</h4>
+            <p>High and low tide predictions in feet at Southport.</p>
+          </div>
+          <span class="tide-chart-key" aria-hidden="true">
+            <span class="tide-key-dot tide-key-high"></span> High
+            <span class="tide-key-dot tide-key-low"></span> Low
+          </span>
+        </div>
+        <div id="tide-chart" class="tide-chart" aria-live="polite">
+          <div class="skeleton-block" aria-hidden="true"></div>
+        </div>
+        <figcaption>
+          High and low points come from NOAA station 8416908; the curve between them is an approximation to help
+          show timing. Heights use Mean Lower Low Water (MLLW) and are not observed water levels.
+          <a href="https://tidesandcurrents.noaa.gov/noaatidepredictions.html?id=8416908" target="_blank" rel="noopener">Open NOAA's full tide table ↗</a>
+        </figcaption>
+      </figure>
 
       <h3 class="sub-heading">Live wind &amp; wave map</h3>
       <div class="embed-frame embed-tall">
