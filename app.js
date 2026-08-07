@@ -1,5 +1,5 @@
 /*
- * Southport Island Resilience Hub
+ * Southport Island Weather Hub
  * Live data: api.weather.gov (NWS) fetched client-side; CMP outage numbers
  * read from data/outages.json (refreshed every 15 min by a GitHub Action,
  * since CMP's API is CORS-restricted to their own portal).
