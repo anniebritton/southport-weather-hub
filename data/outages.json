@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-07 10:30:02",
+ "lastUpdated": "2026-08-07 11:29:07",
  "totals": {
   "customers": 688781,
-  "outages": 26,
-  "incidents": 3
+  "outages": 30,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,77 +11,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "TROY",
-   "customers": 575,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/7/2026 11:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "READFIELD",
-   "customers": 1646,
-   "Outages": 18,
-   "incidents": 1,
-   "EstRest": "8/7/2026 11:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "RANDOLPH",
-   "customers": 990,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "8/7/2026 12:15:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "TROY",
-   "hamlet": "TROY",
-   "street": "BANGOR RD",
-   "customers": 87,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/7/2026 11:30:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003TAT"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "READFIELD",
-   "hamlet": "READFIELD",
-   "street": "NEWTON RD",
-   "customers": 5,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "8/7/2026 11:45:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003TAY"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "RANDOLPH",
-   "hamlet": "RANDOLPH",
-   "street": "WATER ST",
-   "customers": 117,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "8/7/2026 12:15:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003TB4"
+   "county": "SOMERSET",
+   "town": "SKOWHEGAN",
+   "customers": 5421,
+   "Outages": 30,
+   "incidents": 2,
+   "EstRest": "8/7/2026 1:00:00 PM"
   }
  ]
 }
