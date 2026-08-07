@@ -395,21 +395,136 @@ function formatTideTime(d) {
   return d.toLocaleString(undefined, opts);
 }
 
+async function fetchTidePredictions(ymd) {
+  const url = `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&application=southport_resilience_hub&station=${TIDE_STATION}&begin_date=${ymd}&range=72&datum=MLLW&time_zone=lst_ldt&units=english&interval=hilo&format=json`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Tide request failed: ${res.status}`);
+  const data = await res.json();
+  const predictions = (data.predictions || [])
+    .map((p) => ({
+      time: tideDate(p.t),
+      height: Number.parseFloat(p.v),
+      high: p.type === "H",
+      low: p.type === "L",
+    }))
+    .filter((p) => !Number.isNaN(p.time.getTime()) && Number.isFinite(p.height));
+  if (!predictions.length) throw new Error("No tide predictions returned");
+  return predictions;
+}
+
+function tideChartTime(d) {
+  return d.toLocaleTimeString(undefined, { hour: "numeric" });
+}
+
+function interpolateTideCurve(events, start, end) {
+  const points = [];
+  const step = 30 * 60 * 1000;
+
+  for (let timeMs = start.getTime(); timeMs <= end.getTime(); timeMs += step) {
+    const nextIndex = events.findIndex((event) => event.time.getTime() >= timeMs);
+    if (nextIndex < 1) continue;
+    const previous = events[nextIndex - 1];
+    const next = events[nextIndex];
+    const duration = next.time.getTime() - previous.time.getTime();
+    const progress = (timeMs - previous.time.getTime()) / duration;
+    const eased = (1 - Math.cos(Math.PI * progress)) / 2;
+    points.push({
+      time: new Date(timeMs),
+      height: previous.height + (next.height - previous.height) * eased,
+    });
+  }
+
+  return points;
+}
+
+function renderTideChart(events) {
+  const chart = el("tide-chart");
+  if (!chart) return;
+
+  const now = new Date();
+  const end = new Date(now.getTime() + 24 * 60 * 60 * 1000);
+  const points = interpolateTideCurve(events, now, end);
+  if (points.length < 2) throw new Error("Not enough tide predictions to draw chart");
+
+  const width = Math.min(900, Math.max(320, document.documentElement.clientWidth - 72));
+  const height = 270;
+  const pad = { top: 24, right: 18, bottom: 42, left: 46 };
+  const plotWidth = width - pad.left - pad.right;
+  const plotHeight = height - pad.top - pad.bottom;
+  const chartEvents = events.filter((p) => p.time >= points[0].time && p.time <= points[points.length - 1].time);
+  const chartHeights = [...points, ...chartEvents].map((p) => p.height);
+  const rawMin = Math.min(...chartHeights);
+  const rawMax = Math.max(...chartHeights);
+  const range = Math.max(rawMax - rawMin, 1);
+  const min = rawMin - range * 0.12;
+  const max = rawMax + range * 0.12;
+  const startMs = points[0].time.getTime();
+  const endMs = points[points.length - 1].time.getTime();
+  const x = (time) => pad.left + ((time.getTime() - startMs) / (endMs - startMs)) * plotWidth;
+  const y = (value) => pad.top + ((max - value) / (max - min)) * plotHeight;
+  const linePath = points.map((p, i) => `${i ? "L" : "M"} ${x(p.time).toFixed(1)} ${y(p.height).toFixed(1)}`).join(" ");
+  const areaPath = `${linePath} L ${x(points[points.length - 1].time).toFixed(1)} ${(pad.top + plotHeight).toFixed(1)} L ${x(points[0].time).toFixed(1)} ${(pad.top + plotHeight).toFixed(1)} Z`;
+
+  const yTicks = [rawMin, (rawMin + rawMax) / 2, rawMax].map((value) => `
+    <g class="tide-axis">
+      <line x1="${pad.left}" y1="${y(value).toFixed(1)}" x2="${width - pad.right}" y2="${y(value).toFixed(1)}"></line>
+      <text x="${pad.left - 8}" y="${(y(value) + 4).toFixed(1)}" text-anchor="end">${value.toFixed(1)}</text>
+    </g>`).join("");
+
+  const tickIndexes = [0, 12, 24, 36, points.length - 1]
+    .filter((index, position, indexes) => index < points.length && indexes.indexOf(index) === position);
+  const xTicks = tickIndexes.map((index) => {
+    const point = points[index];
+    return `
+      <g class="tide-axis tide-axis-x">
+        <line x1="${x(point.time).toFixed(1)}" y1="${pad.top}" x2="${x(point.time).toFixed(1)}" y2="${pad.top + plotHeight}"></line>
+        <text x="${x(point.time).toFixed(1)}" y="${height - 14}" text-anchor="middle">${tideChartTime(point.time)}</text>
+      </g>`;
+  }).join("");
+
+  const markers = chartEvents.map((p) => {
+    const type = p.high ? "high" : "low";
+    const label = p.high ? "High" : "Low";
+    return `
+      <g class="tide-marker tide-marker-${type}">
+        <title>${label} tide at ${formatTideTime(p.time)}, ${p.height.toFixed(1)} feet</title>
+        <circle cx="${x(p.time).toFixed(1)}" cy="${y(p.height).toFixed(1)}" r="5"></circle>
+        <text x="${x(p.time).toFixed(1)}" y="${(y(p.height) + (p.high ? -10 : 18)).toFixed(1)}" text-anchor="middle">${p.high ? "H" : "L"}</text>
+      </g>`;
+  }).join("");
+
+  chart.innerHTML = `
+    <svg class="tide-chart-svg" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="tide-chart-title tide-chart-desc">
+      <title id="tide-chart-title">Southport tide prediction for the next 24 hours</title>
+      <desc id="tide-chart-desc">The tide ranges from approximately ${rawMin.toFixed(1)} to ${rawMax.toFixed(1)} feet. NOAA high and low predictions are marked on an interpolated curve.</desc>
+      <defs>
+        <linearGradient id="tide-area-fill" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#86bfd3" stop-opacity="0.55"></stop>
+          <stop offset="100%" stop-color="#dbeef5" stop-opacity="0.2"></stop>
+        </linearGradient>
+      </defs>
+      ${yTicks}
+      ${xTicks}
+      <path class="tide-chart-area" d="${areaPath}"></path>
+      <path class="tide-chart-line" d="${linePath}"></path>
+      ${markers}
+      <text class="tide-axis-label" x="12" y="16">Feet</text>
+    </svg>`;
+}
+
 async function loadTides() {
   const strip = el("tides-strip");
+  const chart = el("tide-chart");
+  const today = new Date();
+  const startDate = new Date(today);
+  startDate.setDate(today.getDate() - 1);
+  const ymd = `${startDate.getFullYear()}${String(startDate.getMonth() + 1).padStart(2, "0")}${String(startDate.getDate()).padStart(2, "0")}`;
+
   try {
-    const today = new Date();
-    const ymd = `${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, "0")}${String(today.getDate()).padStart(2, "0")}`;
-    const url = `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&application=southport_resilience_hub&station=${TIDE_STATION}&begin_date=${ymd}&range=48&datum=MLLW&time_zone=lst_ldt&units=english&interval=hilo&format=json`;
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`Tide request failed: ${res.status}`);
-    const data = await res.json();
+    const events = await fetchTidePredictions(ymd);
     const now = new Date();
-    const upcoming = (data.predictions || [])
-      .map((p) => ({ time: tideDate(p.t), height: parseFloat(p.v), high: p.type === "H" }))
-      .filter((p) => p.time > now)
-      .slice(0, 4);
-    if (!upcoming.length) throw new Error("No tide predictions returned");
+    const upcoming = events.filter((p) => p.time > now).slice(0, 4);
+    if (!upcoming.length) throw new Error("No upcoming tide predictions returned");
 
     nextHighTide = upcoming.find((p) => p.high) || null;
     fillStormTide();
@@ -420,10 +535,19 @@ async function loadTides() {
         <span class="tide-time">${formatTideTime(p.time)}</span>
         <span class="tide-height">${p.height.toFixed(1)} ft</span>
       </div>`).join("");
+
+    try {
+      renderTideChart(events);
+    } catch (err) {
+      console.error(err);
+      chart.innerHTML = `<p class="status-line">The tide chart is unavailable right now — the high and low tide times above are still current.</p>`;
+    }
   } catch (err) {
     console.error(err);
     strip.innerHTML = `<p class="status-line">Tide times unavailable right now —
       <a href="https://tidesandcurrents.noaa.gov/noaatidepredictions.html?id=${TIDE_STATION}" target="_blank" rel="noopener">see NOAA's tide table ↗</a></p>`;
+    chart.innerHTML = `<p class="status-line">The tide chart is unavailable right now —
+      <a href="https://tidesandcurrents.noaa.gov/noaatidepredictions.html?id=${TIDE_STATION}" target="_blank" rel="noopener">see NOAA's tide chart ↗</a></p>`;
   }
 }
 
