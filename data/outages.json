@@ -1,13 +1,71 @@
 {
- "lastUpdated": "2026-08-07 06:03:22",
+ "lastUpdated": "2026-08-07 07:00:02",
  "totals": {
   "customers": 688781,
-  "outages": 75,
-  "incidents": 3
+  "outages": 71,
+  "incidents": 5
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 1,
+  "incidents": 1,
+  "EstRest": "8/7/2026 8:45:00 AM"
+ },
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "READFIELD",
+   "customers": 1646,
+   "Outages": 8,
+   "incidents": 1,
+   "EstRest": "8/7/2026 9:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "WINTHROP",
+   "customers": 3988,
+   "Outages": 13,
+   "incidents": 1,
+   "EstRest": "8/7/2026 9:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "BIG MOOSE TWP",
+   "customers": 44,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/7/2026 9:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "BOOTHBAY HARBOR",
+   "customers": 2625,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/7/2026 8:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BETHEL",
+   "customers": 2778,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/7/2026 8:45:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -19,24 +77,79 @@
    "EstRest": "8/7/2026 8:30:00 AM"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "BUXTON",
-   "customers": 4213,
-   "Outages": 17,
+   "county": "KENNEBEC",
+   "town": "READFIELD",
+   "hamlet": "READFIELD",
+   "street": "SOUTH RD",
+   "customers": 49,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/7/2026 7:00:00 AM"
+   "EstRest": "8/7/2026 9:00:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003TA0"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CASCO",
-   "customers": 3231,
-   "Outages": 11,
+   "county": "KENNEBEC",
+   "town": "WINTHROP",
+   "hamlet": "WINTHROP",
+   "street": "TALLWOOD ESTATES DR",
+   "customers": 3,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "8/7/2026 8:00:00 AM"
+   "EstRest": "8/7/2026 9:00:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003TA0"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "BIG MOOSE TWP",
+   "hamlet": "BIG MOOSE TWP",
+   "street": "SQUAW POINT LN",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/7/2026 9:00:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003T9Y"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "BOOTHBAY HARBOR",
+   "hamlet": "BOOTHBAY HARBOR",
+   "street": "SPRUCE POINT HILL RD",
+   "customers": 3,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/7/2026 8:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003T9W"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BETHEL",
+   "hamlet": "BETHEL",
+   "street": "GOSS POND RD",
+   "customers": 3,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/7/2026 8:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003T9T"
   },
   {
    "level": "street",
@@ -52,36 +165,6 @@
    "crewstatus": "ONST ",
    "cause": "Tree",
    "incidentnumber": "003T9E"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "BUXTON",
-   "hamlet": "BUXTON",
-   "street": "FERNCROFT RD",
-   "customers": 16,
-   "Outages": 16,
-   "incidents": 1,
-   "EstRest": "8/7/2026 7:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003T9N"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CASCO",
-   "hamlet": "CASCO",
-   "street": "PARKER POND PNES",
-   "customers": 14,
-   "Outages": 11,
-   "incidents": 1,
-   "EstRest": "8/7/2026 8:00:00 AM",
-   "crewstatus": "ACKN ",
-   "cause": "",
-   "incidentnumber": "003T9R"
   }
  ]
 }
