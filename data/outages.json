@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-07 03:50:02",
+ "lastUpdated": "2026-08-07 04:56:42",
  "totals": {
   "customers": 688781,
-  "outages": 99,
+  "outages": 92,
   "incidents": 2
  },
  "southport": null,
@@ -11,37 +11,22 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "AUGUSTA",
-   "customers": 12313,
-   "Outages": 24,
-   "incidents": 1,
-   "EstRest": "8/7/2026 5:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "OXFORD",
    "town": "FRYEBURG",
    "customers": 2428,
    "Outages": 75,
    "incidents": 1,
-   "EstRest": "8/7/2026 4:30:00 AM"
+   "EstRest": "8/7/2026 8:30:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "AUGUSTA",
-   "hamlet": "AUGUSTA",
-   "street": "MIDDLE ST",
-   "customers": 47,
-   "Outages": 3,
+   "county": "YORK",
+   "town": "BUXTON",
+   "customers": 4213,
+   "Outages": 17,
    "incidents": 1,
-   "EstRest": "8/7/2026 5:00:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003T9G"
+   "EstRest": "8/7/2026 7:00:00 AM"
   },
   {
    "level": "street",
@@ -53,10 +38,25 @@
    "customers": 33,
    "Outages": 32,
    "incidents": 1,
-   "EstRest": "8/7/2026 4:30:00 AM",
+   "EstRest": "8/7/2026 8:30:00 AM",
    "crewstatus": "ONST ",
-   "cause": "",
+   "cause": "Tree",
    "incidentnumber": "003T9E"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BUXTON",
+   "hamlet": "BUXTON",
+   "street": "FERNCROFT RD",
+   "customers": 16,
+   "Outages": 16,
+   "incidents": 1,
+   "EstRest": "8/7/2026 7:00:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003T9N"
   }
  ]
 }
