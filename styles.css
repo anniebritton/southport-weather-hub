@@ -429,8 +429,123 @@ main { padding: 2rem 0 3rem; }
 
 .tide-height { font-size: 0.85rem; color: var(--ink-soft); }
 
+.tide-chart-card {
+  margin: 1rem 0 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fcfbf8;
+  overflow: hidden;
+}
+
+.tide-chart-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 1rem 0;
+}
+
+.tide-chart-head h4 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.tide-chart-head p {
+  margin: 0.12rem 0 0;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+}
+
+.tide-chart-key {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.tide-key-dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  margin-left: 0.25rem;
+}
+
+.tide-key-high { background: var(--sea); }
+.tide-key-low { background: #fff; border: 2px solid var(--sea); }
+
+.tide-chart {
+  min-height: 270px;
+  padding: 0 0.45rem;
+}
+
+.tide-chart .skeleton-block { margin: 1rem; min-height: 220px; }
+
+.tide-chart-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 270px;
+}
+
+.tide-axis line {
+  stroke: var(--line);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.tide-axis text,
+.tide-axis-label {
+  fill: var(--ink-soft);
+  font-family: var(--font-body);
+  font-size: 12px;
+}
+
+.tide-axis-x line { stroke-dasharray: 3 5; }
+
+.tide-chart-area { fill: url(#tide-area-fill); }
+
+.tide-chart-line {
+  fill: none;
+  stroke: var(--sea);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.tide-marker circle {
+  stroke: var(--sea);
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.tide-marker-high circle { fill: var(--sea); }
+.tide-marker-low circle { fill: #fff; }
+
+.tide-marker text {
+  fill: var(--sea-deep);
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.tide-chart-card figcaption {
+  border-top: 1px solid var(--line);
+  padding: 0.7rem 1rem 0.8rem;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
 @media (max-width: 560px) {
   .tides-strip { grid-template-columns: repeat(2, 1fr); }
+  .tide-chart-head { flex-direction: column; gap: 0.45rem; }
+  .tide-chart-key { align-self: flex-start; }
 }
 
 /* ---------- Alerts ---------- */
