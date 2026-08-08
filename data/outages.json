@@ -1,43 +1,13 @@
 {
- "lastUpdated": "2026-08-08 07:35:47",
+ "lastUpdated": "2026-08-08 08:09:07",
  "totals": {
   "customers": 688752,
-  "outages": 58,
-  "incidents": 7
+  "outages": 183,
+  "incidents": 9
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "DURHAM",
-   "customers": 1958,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/8/2026 8:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "RANGELEY",
-   "customers": 2121,
-   "Outages": 9,
-   "incidents": 1,
-   "EstRest": "8/8/2026 8:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "TROY",
-   "customers": 575,
-   "Outages": 9,
-   "incidents": 1,
-   "EstRest": "8/8/2026 10:00:00 AM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -62,16 +32,6 @@
    "level": "town",
    "opco": "CMP",
    "county": "KENNEBEC",
-   "town": "BELGRADE",
-   "customers": 2762,
-   "Outages": 15,
-   "incidents": 1,
-   "EstRest": "8/8/2026 8:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
    "town": "ROME",
    "customers": 1195,
    "Outages": 1,
@@ -79,49 +39,54 @@
    "EstRest": "8/8/2026 8:45:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "DURHAM",
-   "hamlet": "DURHAM",
-   "street": "STACKPOLE RD",
-   "customers": 61,
-   "Outages": 1,
+   "county": "YORK",
+   "town": "SACO",
+   "customers": 11676,
+   "Outages": 58,
    "incidents": 1,
-   "EstRest": "8/8/2026 8:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003TH3"
+   "EstRest": "8/8/2026 10:00:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "RANGELEY",
-   "hamlet": "RANGELEY",
-   "street": "SHORE RD",
-   "customers": 27,
-   "Outages": 2,
+   "county": "OXFORD",
+   "town": "STONEHAM",
+   "customers": 366,
+   "Outages": 84,
    "incidents": 1,
-   "EstRest": "8/8/2026 8:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003TGY"
+   "EstRest": "8/8/2026 10:15:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "SEARSMONT",
+   "customers": 927,
+   "Outages": 5,
+   "incidents": 2,
+   "EstRest": "8/8/2026 9:45:00 AM"
+  },
+  {
+   "level": "town",
    "opco": "CMP",
    "county": "WALDO",
    "town": "TROY",
-   "hamlet": "TROY",
-   "street": "RUTLAND RD",
-   "customers": 17,
+   "customers": 575,
    "Outages": 9,
    "incidents": 1,
-   "EstRest": "8/8/2026 10:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003TGI"
+   "EstRest": "8/8/2026 10:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "DALLAS PLT",
+   "customers": 542,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:45:00 AM"
   },
   {
    "level": "street",
@@ -149,24 +114,9 @@
    "Outages": 4,
    "incidents": 1,
    "EstRest": "8/8/2026 9:30:00 AM",
-   "crewstatus": "     ",
+   "crewstatus": "ACKN ",
    "cause": "",
    "incidentnumber": "003THD"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "BELGRADE",
-   "hamlet": "BELGRADE",
-   "street": "LONGLAKE LN",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/8/2026 8:30:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003TH1"
   },
   {
    "level": "street",
@@ -179,9 +129,69 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/8/2026 8:45:00 AM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003TH2"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "SACO",
+   "hamlet": "SACO",
+   "street": "WATSON MILL RD",
+   "customers": 49,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "8/8/2026 10:00:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003THP"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "STONEHAM",
+   "hamlet": "STONEHAM",
+   "street": "BIRCH AVE",
+   "customers": 22,
+   "Outages": 22,
+   "incidents": 1,
+   "EstRest": "8/8/2026 10:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003THS"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "TROY",
+   "hamlet": "TROY",
+   "street": "RUTLAND RD",
+   "customers": 17,
+   "Outages": 9,
+   "incidents": 1,
+   "EstRest": "8/8/2026 10:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003TGI"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "DALLAS PLT",
+   "hamlet": "DALLAS PLT",
+   "street": "OUANANINCHE RD",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003THI"
   }
  ]
 }
