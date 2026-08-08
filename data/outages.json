@@ -1,23 +1,13 @@
 {
- "lastUpdated": "2026-08-08 18:42:27",
+ "lastUpdated": "2026-08-08 19:25:47",
  "totals": {
   "customers": 688841,
-  "outages": 512,
-  "incidents": 18
+  "outages": 1996,
+  "incidents": 28
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "ORLAND",
-   "customers": 1638,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/8/2026 7:15:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -26,7 +16,7 @@
    "customers": 2617,
    "Outages": 175,
    "incidents": 2,
-   "EstRest": "8/8/2026 8:00:00 PM"
+   "EstRest": "8/8/2026 8:15:00 PM"
   },
   {
    "level": "town",
@@ -52,8 +42,28 @@
    "level": "town",
    "opco": "CMP",
    "county": "YORK",
+   "town": "BIDDEFORD",
+   "customers": 13086,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
    "town": "NEWFIELD",
    "customers": 1386,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/8/2026 10:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "HANCOCK",
+   "town": "ORLAND",
+   "customers": 1638,
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/8/2026 7:15:00 PM"
@@ -72,11 +82,51 @@
    "level": "town",
    "opco": "CMP",
    "county": "CUMBERLAND",
+   "town": "BRIDGTON",
+   "customers": 5687,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": ""
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
    "town": "HARRISON",
    "customers": 2250,
-   "Outages": 15,
-   "incidents": 3,
+   "Outages": 23,
+   "incidents": 4,
    "EstRest": "8/8/2026 8:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "CASCO",
+   "customers": 3231,
+   "Outages": 319,
+   "incidents": 2,
+   "EstRest": ""
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "RAYMOND",
+   "customers": 3661,
+   "Outages": 24,
+   "incidents": 1,
+   "EstRest": ""
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "WINDHAM",
+   "customers": 10261,
+   "Outages": 24,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:00:00 PM"
   },
   {
    "level": "town",
@@ -96,7 +146,7 @@
    "customers": 1116,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/8/2026 8:00:00 PM"
+   "EstRest": ""
   },
   {
    "level": "town",
@@ -112,11 +162,11 @@
    "level": "town",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "STOW",
-   "customers": 271,
-   "Outages": 1,
+   "town": "PARIS",
+   "customers": 3106,
+   "Outages": 40,
    "incidents": 1,
-   "EstRest": "8/8/2026 7:30:00 PM"
+   "EstRest": ""
   },
   {
    "level": "town",
@@ -129,19 +179,84 @@
    "EstRest": "8/8/2026 8:30:00 PM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "ORLAND",
-   "hamlet": "ORLAND",
-   "street": "KEENER POINT LN",
-   "customers": 2,
+   "county": "OXFORD",
+   "town": "OXFORD",
+   "customers": 2852,
+   "Outages": 2,
+   "incidents": 2,
+   "EstRest": ""
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BUCKFIELD",
+   "customers": 1188,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/8/2026 7:15:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003TK9"
+   "EstRest": "8/8/2026 9:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "MONSON",
+   "customers": 616,
+   "Outages": 580,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "BLANCHARD",
+   "customers": 145,
+   "Outages": 91,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "WILLIMANTIC",
+   "customers": 289,
+   "Outages": 290,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "ELLIOTSVILLE",
+   "customers": 93,
+   "Outages": 94,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "SHIRLEY",
+   "customers": 249,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "ABBOT",
+   "customers": 629,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM"
   },
   {
    "level": "street",
@@ -170,8 +285,23 @@
    "incidents": 1,
    "EstRest": "8/8/2026 7:45:00 PM",
    "crewstatus": "DISP ",
-   "cause": "",
+   "cause": "Tree",
    "incidentnumber": "003TL6"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BIDDEFORD",
+   "hamlet": "BIDDEFORD",
+   "street": "ALFRED ST",
+   "customers": 533,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003TMT"
   },
   {
    "level": "street",
@@ -183,10 +313,25 @@
    "customers": 1,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/8/2026 7:15:00 PM",
+   "EstRest": "8/8/2026 10:15:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003TKW"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "HANCOCK",
+   "town": "ORLAND",
+   "hamlet": "ORLAND",
+   "street": "KEENER POINT LN",
+   "customers": 2,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/8/2026 7:15:00 PM",
+   "crewstatus": "CMPL ",
+   "cause": "Tree",
+   "incidentnumber": "003TK9"
   },
   {
    "level": "street",
@@ -199,9 +344,54 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/8/2026 8:15:00 PM",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003TLQ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRIDGTON",
+   "hamlet": "BRIDGTON",
+   "street": "FOSTERVILLE RD",
+   "customers": 33,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003TMY"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "RAYMOND",
+   "hamlet": "RAYMOND",
+   "street": "SHORE RD",
+   "customers": 23,
+   "Outages": 24,
+   "incidents": 1,
+   "EstRest": "",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003TN6"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "WINDHAM",
+   "hamlet": "WINDHAM",
+   "street": "LASKEY RD",
+   "customers": 23,
+   "Outages": 22,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:00:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003TMV"
   },
   {
    "level": "street",
@@ -213,7 +403,7 @@
    "customers": 10,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/8/2026 8:00:00 PM",
+   "EstRest": "",
    "crewstatus": "     ",
    "cause": "",
    "incidentnumber": "003TLG"
@@ -229,7 +419,7 @@
    "Outages": 30,
    "incidents": 1,
    "EstRest": "8/8/2026 8:30:00 PM",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003TLS"
   },
@@ -237,16 +427,121 @@
    "level": "street",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "STOW",
-   "hamlet": "STOW",
-   "street": "UNION HILL RD",
-   "customers": 60,
+   "town": "PARIS",
+   "hamlet": "PARIS",
+   "street": "MARTIN LN",
+   "customers": 1,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/8/2026 7:30:00 PM",
+   "EstRest": "",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003TMS"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BUCKFIELD",
+   "hamlet": "BUCKFIELD",
+   "street": "S HILL RD",
+   "customers": 15,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003TKV"
+   "incidentnumber": "003TN7"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "MONSON",
+   "hamlet": "MONSON",
+   "street": "INDIAN POINT",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM",
+   "crewstatus": "     ",
+   "cause": "Fire/Emergency",
+   "incidentnumber": "003TNF"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "BLANCHARD",
+   "hamlet": "BLANCHARD",
+   "street": "CHEBACCO RD",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM",
+   "crewstatus": "     ",
+   "cause": "Fire/Emergency",
+   "incidentnumber": "003TNF"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "WILLIMANTIC",
+   "hamlet": "WILLIMANTIC",
+   "street": "OLD MILL RD",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM",
+   "crewstatus": "     ",
+   "cause": "Fire/Emergency",
+   "incidentnumber": "003TNF"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "ELLIOTSVILLE",
+   "hamlet": "ELLIOTSVILLE",
+   "street": "WILLIMANTIC RD",
+   "customers": 11,
+   "Outages": 11,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM",
+   "crewstatus": "     ",
+   "cause": "Fire/Emergency",
+   "incidentnumber": "003TNF"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "SHIRLEY",
+   "hamlet": "SHIRLEY",
+   "street": "BLANCHARD RD",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM",
+   "crewstatus": "     ",
+   "cause": "Fire/Emergency",
+   "incidentnumber": "003TNF"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "ABBOT",
+   "hamlet": "ABBOT",
+   "street": "N GUILFORD RD",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/8/2026 9:30:00 PM",
+   "crewstatus": "     ",
+   "cause": "Fire/Emergency",
+   "incidentnumber": "003TNF"
   }
  ]
 }
