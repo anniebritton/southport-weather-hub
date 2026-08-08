@@ -1,11 +1,87 @@
 {
- "lastUpdated": "2026-08-08 04:02:27",
+ "lastUpdated": "2026-08-08 04:52:27",
  "totals": {
   "customers": 688752,
-  "outages": 0,
-  "incidents": 0
+  "outages": 16,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "JAY",
+   "customers": 2543,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/8/2026 6:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "TROY",
+   "customers": 575,
+   "Outages": 9,
+   "incidents": 1,
+   "EstRest": "8/8/2026 7:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LIVERMORE",
+   "customers": 1390,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "8/8/2026 6:15:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "JAY",
+   "hamlet": "JAY",
+   "street": "CRASH RD",
+   "customers": 39,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/8/2026 6:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003TGG"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "TROY",
+   "hamlet": "TROY",
+   "street": "RUTLAND RD",
+   "customers": 17,
+   "Outages": 9,
+   "incidents": 1,
+   "EstRest": "8/8/2026 7:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003TGI"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LIVERMORE",
+   "hamlet": "LIVERMORE",
+   "street": "CRASH RD",
+   "customers": 27,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "8/8/2026 6:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003TGG"
+  }
+ ]
 }
