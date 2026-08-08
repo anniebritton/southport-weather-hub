@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-08-08 01:22:27",
+ "lastUpdated": "2026-08-08 02:05:47",
  "totals": {
   "customers": 688752,
-  "outages": 1,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "LIBERTY",
-   "customers": 880,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/8/2026 3:00:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "LIBERTY",
-   "hamlet": "LIBERTY",
-   "street": "JACQUES RD",
-   "customers": 6,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/8/2026 3:00:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003TG9"
-  }
- ]
+ "towns": []
 }
