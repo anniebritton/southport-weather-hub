@@ -1,23 +1,13 @@
 {
- "lastUpdated": "2026-08-08 13:25:47",
+ "lastUpdated": "2026-08-08 13:55:47",
  "totals": {
   "customers": 688752,
-  "outages": 80,
-  "incidents": 4
+  "outages": 5,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "YORK",
-   "customers": 11241,
-   "Outages": 72,
-   "incidents": 1,
-   "EstRest": "8/8/2026 3:15:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -41,27 +31,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "FARMINGTON",
-   "customers": 4230,
-   "Outages": 4,
+   "county": "WALDO",
+   "town": "BELFAST",
+   "customers": 4819,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/8/2026 2:00:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "YORK",
-   "hamlet": "YORK",
-   "street": "GODFREY COVE RD",
-   "customers": 28,
-   "Outages": 26,
-   "incidents": 1,
-   "EstRest": "8/8/2026 3:15:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003TJG"
+   "EstRest": "8/8/2026 4:00:00 PM"
   },
   {
    "level": "street",
@@ -96,17 +71,17 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "FARMINGTON",
-   "hamlet": "FARMINGTON",
-   "street": "NORRIS LN",
-   "customers": 2,
-   "Outages": 2,
+   "county": "WALDO",
+   "town": "BELFAST",
+   "hamlet": "BELFAST",
+   "street": "KALER RD",
+   "customers": 25,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/8/2026 2:00:00 PM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/8/2026 4:00:00 PM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003TJ8"
+   "incidentnumber": "003TJK"
   }
  ]
 }
