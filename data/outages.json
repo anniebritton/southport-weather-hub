@@ -1,33 +1,13 @@
 {
- "lastUpdated": "2026-08-09 13:09:07",
+ "lastUpdated": "2026-08-09 13:45:47",
  "totals": {
   "customers": 688841,
-  "outages": 1385,
-  "incidents": 9
+  "outages": 260,
+  "incidents": 11
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "ETNA",
-   "customers": 684,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/9/2026 3:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "ISLESBORO",
-   "customers": 1020,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/9/2026 1:30:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -71,12 +51,42 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "BIDDEFORD",
-   "customers": 13086,
-   "Outages": 205,
+   "county": "WALDO",
+   "town": "ISLESBORO",
+   "customers": 1020,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/9/2026 2:15:00 PM"
+   "EstRest": "8/9/2026 6:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PENOBSCOT",
+   "town": "ETNA",
+   "customers": 684,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/9/2026 3:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LIVERMORE FALLS",
+   "customers": 1708,
+   "Outages": 21,
+   "incidents": 1,
+   "EstRest": "8/9/2026 3:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "WILTON",
+   "customers": 2355,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/9/2026 3:45:00 PM"
   },
   {
    "level": "town",
@@ -84,9 +94,19 @@
    "county": "YORK",
    "town": "KENNEBUNKPORT",
    "customers": 3835,
-   "Outages": 1159,
+   "Outages": 173,
    "incidents": 1,
-   "EstRest": "8/9/2026 2:15:00 PM"
+   "EstRest": "8/9/2026 3:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BIDDEFORD",
+   "customers": 13086,
+   "Outages": 41,
+   "incidents": 1,
+   "EstRest": "8/9/2026 3:45:00 PM"
   },
   {
    "level": "town",
@@ -101,36 +121,6 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "ETNA",
-   "hamlet": "ETNA",
-   "street": "STAGE RD",
-   "customers": 105,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/9/2026 3:00:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003TTI"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "ISLESBORO",
-   "hamlet": "ISLESBORO",
-   "street": "FERRY RD",
-   "customers": 32,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/9/2026 1:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003TSL"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
    "county": "OXFORD",
    "town": "GREENWOOD",
    "hamlet": "GREENWOOD",
@@ -139,7 +129,7 @@
    "Outages": 5,
    "incidents": 1,
    "EstRest": "8/9/2026 3:00:00 PM",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003TTP"
   },
@@ -176,17 +166,62 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "BIDDEFORD",
-   "hamlet": "BIDDEFORD",
-   "street": "SCADLOCK MILL RD",
-   "customers": 14,
-   "Outages": 14,
+   "county": "WALDO",
+   "town": "ISLESBORO",
+   "hamlet": "ISLESBORO",
+   "street": "FERRY RD",
+   "customers": 32,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/9/2026 2:15:00 PM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/9/2026 6:30:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003TSL"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PENOBSCOT",
+   "town": "ETNA",
+   "hamlet": "ETNA",
+   "street": "STAGE RD",
+   "customers": 105,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/9/2026 3:00:00 PM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003TTE"
+   "incidentnumber": "003TTI"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LIVERMORE FALLS",
+   "hamlet": "LIVERMORE FALLS",
+   "street": "DEPOT ST",
+   "customers": 56,
+   "Outages": 19,
+   "incidents": 1,
+   "EstRest": "8/9/2026 3:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003TTY"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "WILTON",
+   "hamlet": "WILTON",
+   "street": "BIRCH ST",
+   "customers": 17,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/9/2026 3:45:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003TU1"
   },
   {
    "level": "street",
@@ -194,14 +229,29 @@
    "county": "YORK",
    "town": "KENNEBUNKPORT",
    "hamlet": "KENNEBUNKPORT",
-   "street": "BINNACLE LN",
-   "customers": 12,
-   "Outages": 12,
+   "street": "BRYANT LN",
+   "customers": 23,
+   "Outages": 23,
    "incidents": 1,
-   "EstRest": "8/9/2026 2:15:00 PM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/9/2026 3:45:00 PM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003TTE"
+   "incidentnumber": "003TU2"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BIDDEFORD",
+   "hamlet": "BIDDEFORD",
+   "street": "OAK RIDGE RD",
+   "customers": 63,
+   "Outages": 11,
+   "incidents": 1,
+   "EstRest": "8/9/2026 3:45:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003TU2"
   },
   {
    "level": "street",
