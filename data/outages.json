@@ -1,23 +1,13 @@
 {
- "lastUpdated": "2026-08-09 11:45:47",
+ "lastUpdated": "2026-08-09 12:32:27",
  "totals": {
   "customers": 688841,
-  "outages": 492,
-  "incidents": 8
+  "outages": 1844,
+  "incidents": 7
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "BOWDOIN",
-   "customers": 1517,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "8/9/2026 12:30:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -46,17 +36,7 @@
    "customers": 411,
    "Outages": 87,
    "incidents": 1,
-   "EstRest": "8/9/2026 12:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WATERFORD",
-   "customers": 1568,
-   "Outages": 8,
-   "incidents": 1,
-   "EstRest": "8/9/2026 12:15:00 PM"
+   "EstRest": "8/9/2026 1:00:00 PM"
   },
   {
    "level": "town",
@@ -79,19 +59,24 @@
    "EstRest": "8/9/2026 1:30:00 PM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "BOWDOIN",
-   "hamlet": "BOWDOIN",
-   "street": "STORE RD",
-   "customers": 21,
-   "Outages": 4,
+   "county": "YORK",
+   "town": "KENNEBUNKPORT",
+   "customers": 3835,
+   "Outages": 1159,
    "incidents": 1,
-   "EstRest": "8/9/2026 12:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003TST"
+   "EstRest": "8/9/2026 2:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BIDDEFORD",
+   "customers": 13086,
+   "Outages": 205,
+   "incidents": 1,
+   "EstRest": "8/9/2026 2:15:00 PM"
   },
   {
    "level": "street",
@@ -118,25 +103,10 @@
    "customers": 12,
    "Outages": 12,
    "incidents": 1,
-   "EstRest": "8/9/2026 12:00:00 PM",
+   "EstRest": "8/9/2026 1:00:00 PM",
    "crewstatus": "ONST ",
    "cause": "Tree",
    "incidentnumber": "003TRK"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WATERFORD",
-   "hamlet": "WATERFORD",
-   "street": "OLD PULP MILL DR",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "8/9/2026 12:15:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "Tree",
-   "incidentnumber": "003TRV"
   },
   {
    "level": "street",
@@ -159,14 +129,44 @@
    "county": "CUMBERLAND",
    "town": "HARPSWELL",
    "hamlet": "HARPSWELL",
-   "street": "ASH  COVE LN",
-   "customers": 4,
-   "Outages": 4,
+   "street": "WINDSOR LN",
+   "customers": 15,
+   "Outages": 15,
    "incidents": 1,
    "EstRest": "8/9/2026 1:30:00 PM",
    "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003TT6"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "KENNEBUNKPORT",
+   "hamlet": "KENNEBUNKPORT",
+   "street": "COTTAGE AVE",
+   "customers": 5,
+   "Outages": 5,
+   "incidents": 1,
+   "EstRest": "8/9/2026 2:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003TTE"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BIDDEFORD",
+   "hamlet": "BIDDEFORD",
+   "street": "SPLIT ROCK LN",
+   "customers": 3,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "8/9/2026 2:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003TTE"
   }
  ]
 }
