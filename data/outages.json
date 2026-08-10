@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-10 04:42:27",
+ "lastUpdated": "2026-08-10 06:12:27",
  "totals": {
   "customers": 688847,
-  "outages": 39,
+  "outages": 1,
   "incidents": 1
  },
  "southport": null,
@@ -12,26 +12,26 @@
    "level": "town",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "ANDOVER",
-   "customers": 708,
-   "Outages": 39,
+   "town": "ALBANY",
+   "customers": 397,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/10/2026 6:00:00 AM"
+   "EstRest": "8/10/2026 8:00:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "ANDOVER",
-   "hamlet": "ANDOVER",
-   "street": "COPPERFIELD VALLEY RD",
-   "customers": 4,
-   "Outages": 4,
+   "town": "ALBANY",
+   "hamlet": "ALBANY",
+   "street": "BAKER RD",
+   "customers": 25,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/10/2026 6:00:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/10/2026 8:00:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003TWI"
+   "incidentnumber": "003TWJ"
   }
  ]
 }
