@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-10 07:25:47",
+ "lastUpdated": "2026-08-10 08:25:47",
  "totals": {
   "customers": 688847,
-  "outages": 15,
-  "incidents": 2
+  "outages": 69,
+  "incidents": 5
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,12 +11,42 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "ETNA",
-   "customers": 684,
-   "Outages": 14,
+   "county": "SOMERSET",
+   "town": "ATHENS",
+   "customers": 646,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/10/2026 9:00:00 AM"
+   "EstRest": "8/10/2026 10:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "ANDOVER",
+   "customers": 708,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/10/2026 10:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LEWISTON",
+   "customers": 19412,
+   "Outages": 32,
+   "incidents": 1,
+   "EstRest": "8/10/2026 9:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "AUBURN",
+   "customers": 13589,
+   "Outages": 34,
+   "incidents": 1,
+   "EstRest": "8/10/2026 10:15:00 AM"
   },
   {
    "level": "town",
@@ -31,17 +61,62 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "ETNA",
-   "hamlet": "ETNA",
-   "street": "PINE GROVE LN",
+   "county": "SOMERSET",
+   "town": "ATHENS",
+   "hamlet": "ATHENS",
+   "street": "LORDS HILL CIR",
+   "customers": 8,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/10/2026 10:15:00 AM",
+   "crewstatus": "ACKN ",
+   "cause": "",
+   "incidentnumber": "003TX2"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "ANDOVER",
+   "hamlet": "ANDOVER",
+   "street": "N MAIN ST",
+   "customers": 45,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/10/2026 10:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003TX8"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LEWISTON",
+   "hamlet": "LEWISTON",
+   "street": "HAMEL ST",
+   "customers": 27,
+   "Outages": 26,
+   "incidents": 1,
+   "EstRest": "8/10/2026 9:45:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003TWU"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "AUBURN",
+   "hamlet": "AUBURN",
+   "street": "JOATMON DR",
    "customers": 14,
    "Outages": 14,
    "incidents": 1,
-   "EstRest": "8/10/2026 9:00:00 AM",
-   "crewstatus": "DISP ",
+   "EstRest": "8/10/2026 10:15:00 AM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003TWO"
+   "incidentnumber": "003TX5"
   },
   {
    "level": "street",
@@ -54,7 +129,7 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/10/2026 8:45:00 AM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003TWM"
   }
