@@ -1,62 +1,95 @@
 {
- "lastUpdated": "2026-08-11 06:06:14",
+ "lastUpdated": "2026-08-11 07:02:54",
  "totals": {
   "customers": 688865,
-  "outages": 3,
-  "incidents": 2
+  "outages": 24,
+  "incidents": 3
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 2,
+  "incidents": 2,
+  "EstRest": "8/11/2026 8:15:00 AM"
+ },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SEBAGO",
-   "customers": 1832,
-   "Outages": 2,
+   "county": "ANDROSCOGGIN",
+   "town": "WALES",
+   "customers": 786,
+   "Outages": 22,
    "incidents": 1,
-   "EstRest": "8/11/2026 8:00:00 AM"
+   "EstRest": "8/11/2026 8:15:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "GREENE",
-   "customers": 2290,
+   "county": "LINCOLN",
+   "town": "BOOTHBAY",
+   "customers": 3044,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/11/2026 8:00:00 AM"
+   "EstRest": "8/11/2026 8:15:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SEBAGO",
-   "hamlet": "SEBAGO",
-   "street": "NEWMAN AVE",
-   "customers": 3,
-   "Outages": 2,
+   "county": "LINCOLN",
+   "town": "NOBLEBORO",
+   "customers": 1451,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/11/2026 8:00:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003U32"
+   "EstRest": "8/11/2026 8:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "ANDROSCOGGIN",
-   "town": "GREENE",
-   "hamlet": "GREENE",
-   "street": "BIG DOG RUN",
-   "customers": 1,
-   "Outages": 1,
+   "town": "WALES",
+   "hamlet": "WALES",
+   "street": "EASTERN DR",
+   "customers": 10,
+   "Outages": 10,
    "incidents": 1,
-   "EstRest": "8/11/2026 8:00:00 AM",
+   "EstRest": "8/11/2026 8:15:00 AM",
    "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "003U38"
+   "incidentnumber": "003U3B"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "BOOTHBAY",
+   "hamlet": "BOOTHBAY",
+   "street": "EASY ST",
+   "customers": 2,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/11/2026 8:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003U3C"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "NOBLEBORO",
+   "hamlet": "NOBLEBORO",
+   "street": "BARNARD DR",
+   "customers": 5,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/11/2026 8:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003U39"
   }
  ]
 }
