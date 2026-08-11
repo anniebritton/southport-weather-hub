@@ -1,52 +1,40 @@
 {
- "lastUpdated": "2026-08-10 19:32:54",
+ "lastUpdated": "2026-08-10 20:29:34",
  "totals": {
   "customers": 688865,
-  "outages": 30,
-  "incidents": 5
+  "outages": 9,
+  "incidents": 4
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 2,
+  "incidents": 1,
+  "EstRest": "8/10/2026 10:15:00 PM"
+ },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WINDHAM",
-   "customers": 10261,
-   "Outages": 1,
+   "county": "SOMERSET",
+   "town": "SKOWHEGAN",
+   "customers": 5421,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "8/10/2026 9:00:00 PM"
+   "EstRest": "8/10/2026 9:45:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "PEAKS ISLAND",
-   "customers": 1088,
-   "Outages": 1,
+   "county": "LINCOLN",
+   "town": "NEWCASTLE",
+   "customers": 1348,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "8/10/2026 9:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WEST BATH",
-   "customers": 1394,
-   "Outages": 24,
-   "incidents": 1,
-   "EstRest": "8/10/2026 9:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "POLAND",
-   "customers": 3405,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/10/2026 8:15:00 PM"
+   "EstRest": "8/10/2026 10:15:00 PM"
   },
   {
    "level": "town",
@@ -59,64 +47,44 @@
    "EstRest": "8/10/2026 10:00:00 PM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
    "county": "CUMBERLAND",
    "town": "WINDHAM",
-   "hamlet": "WINDHAM",
-   "street": "MT HUNGER SHORES RD",
-   "customers": 94,
+   "customers": 10261,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/10/2026 9:00:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003U17"
+   "EstRest": "8/10/2026 9:00:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "PEAKS ISLAND",
-   "hamlet": "PEAKS ISLAND",
-   "street": "SEASHORE AVE",
-   "customers": 82,
+   "county": "SOMERSET",
+   "town": "SKOWHEGAN",
+   "hamlet": "SKOWHEGAN",
+   "street": "NORRIDGEWOCK AVE",
+   "customers": 48,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/10/2026 9:00:00 PM",
+   "EstRest": "8/10/2026 9:45:00 PM",
    "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003U18"
+   "incidentnumber": "003U1G"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WEST BATH",
-   "hamlet": "WEST BATH",
-   "street": "ROCK HAVEN DR",
-   "customers": 22,
-   "Outages": 21,
-   "incidents": 1,
-   "EstRest": "8/10/2026 9:00:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003U1B"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "POLAND",
-   "hamlet": "POLAND",
-   "street": "LEGENDRE LN",
-   "customers": 16,
+   "county": "LINCOLN",
+   "town": "NEWCASTLE",
+   "hamlet": "NEWCASTLE",
+   "street": "POND RD",
+   "customers": 46,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/10/2026 8:15:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "8/10/2026 10:15:00 PM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003U12"
+   "incidentnumber": "003U1K"
   },
   {
    "level": "street",
@@ -132,6 +100,21 @@
    "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003U10"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "WINDHAM",
+   "hamlet": "WINDHAM",
+   "street": "MT HUNGER SHORES RD",
+   "customers": 94,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/10/2026 9:00:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003U17"
   }
  ]
 }
