@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-11 00:12:54",
+ "lastUpdated": "2026-08-11 01:29:34",
  "totals": {
   "customers": 688865,
-  "outages": 127,
-  "incidents": 3
+  "outages": 151,
+  "incidents": 4
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,77 +11,102 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "ANDOVER",
-   "customers": 708,
-   "Outages": 120,
+   "county": "CUMBERLAND",
+   "town": "STANDISH",
+   "customers": 5600,
+   "Outages": 72,
    "incidents": 1,
-   "EstRest": "8/11/2026 1:00:00 AM"
+   "EstRest": "8/11/2026 3:30:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "FRYEBURG",
-   "customers": 2428,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/11/2026 12:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "ADAMSTOWN",
-   "customers": 73,
-   "Outages": 6,
-   "incidents": 1,
-   "EstRest": "8/11/2026 2:00:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "ANDOVER",
-   "hamlet": "ANDOVER",
-   "street": "UPTON RD",
-   "customers": 47,
+   "county": "ANDROSCOGGIN",
+   "town": "LEEDS",
+   "customers": 1286,
    "Outages": 29,
    "incidents": 1,
-   "EstRest": "8/11/2026 1:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003U1X"
+   "EstRest": "8/11/2026 2:30:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "FRYEBURG",
-   "hamlet": "FRYEBURG",
-   "street": "LOVELL RD",
-   "customers": 64,
+   "county": "KENNEBEC",
+   "town": "LITCHFIELD",
+   "customers": 2320,
+   "Outages": 49,
+   "incidents": 1,
+   "EstRest": "8/11/2026 2:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "VASSALBORO",
+   "customers": 2611,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/11/2026 12:30:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "Tree",
-   "incidentnumber": "003U1Q"
+   "EstRest": "8/11/2026 3:30:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "ADAMSTOWN",
-   "hamlet": "ADAMSTOWN",
-   "street": "PLEASANT ISLAND LN",
-   "customers": 24,
-   "Outages": 5,
+   "county": "CUMBERLAND",
+   "town": "STANDISH",
+   "hamlet": "STANDISH",
+   "street": "CEDAR DR",
+   "customers": 12,
+   "Outages": 12,
    "incidents": 1,
-   "EstRest": "8/11/2026 2:00:00 AM",
+   "EstRest": "8/11/2026 3:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003U2C"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LEEDS",
+   "hamlet": "LEEDS",
+   "street": "CHURCH HILL RD",
+   "customers": 107,
+   "Outages": 21,
+   "incidents": 1,
+   "EstRest": "8/11/2026 2:30:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003U22"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "LITCHFIELD",
+   "hamlet": "LITCHFIELD",
+   "street": "PINE TREE RD",
+   "customers": 40,
+   "Outages": 36,
+   "incidents": 1,
+   "EstRest": "8/11/2026 2:30:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003U26"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "VASSALBORO",
+   "hamlet": "VASSALBORO",
+   "street": "DUNHAM RD",
+   "customers": 35,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/11/2026 3:30:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003U20"
+   "incidentnumber": "003U2D"
   }
  ]
 }
