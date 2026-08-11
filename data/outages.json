@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-11 07:02:54",
+ "lastUpdated": "2026-08-11 07:49:34",
  "totals": {
   "customers": 688865,
-  "outages": 24,
-  "incidents": 3
+  "outages": 18,
+  "incidents": 5
  },
  "southport": null,
  "lincolnCounty": {
@@ -19,12 +19,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "WALES",
-   "customers": 786,
-   "Outages": 22,
+   "county": "FRANKLIN",
+   "town": "KINGFIELD",
+   "customers": 906,
+   "Outages": 14,
    "incidents": 1,
-   "EstRest": "8/11/2026 8:15:00 AM"
+   "EstRest": "8/11/2026 9:45:00 AM"
   },
   {
    "level": "town",
@@ -47,19 +47,39 @@
    "EstRest": "8/11/2026 8:15:00 AM"
   },
   {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "CORNISH",
+   "customers": 981,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/11/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "EMBDEN",
+   "customers": 1081,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/11/2026 9:15:00 AM"
+  },
+  {
    "level": "street",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "WALES",
-   "hamlet": "WALES",
-   "street": "EASTERN DR",
-   "customers": 10,
-   "Outages": 10,
+   "county": "FRANKLIN",
+   "town": "KINGFIELD",
+   "hamlet": "KINGFIELD",
+   "street": "SCHOOL ST",
+   "customers": 33,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "8/11/2026 8:15:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/11/2026 9:45:00 AM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003U3B"
+   "incidentnumber": "003U3K"
   },
   {
    "level": "street",
@@ -90,6 +110,36 @@
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003U39"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "CORNISH",
+   "hamlet": "CORNISH",
+   "street": "OLD LIMINGTON RD",
+   "customers": 19,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/11/2026 9:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003U3H"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "EMBDEN",
+   "hamlet": "EMBDEN",
+   "street": "EDGAR AVE",
+   "customers": 6,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/11/2026 9:15:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003U3I"
   }
  ]
 }
