@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-12 22:33:54",
+ "lastUpdated": "2026-08-13 00:27:14",
  "totals": {
   "customers": 688863,
-  "outages": 19,
+  "outages": 16,
   "incidents": 1
  },
  "southport": null,
@@ -11,27 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "NEW VINEYARD",
-   "customers": 553,
-   "Outages": 19,
+   "county": "SOMERSET",
+   "town": "PITTSFIELD",
+   "customers": 2216,
+   "Outages": 16,
    "incidents": 1,
-   "EstRest": "8/12/2026 11:45:00 PM"
+   "EstRest": "8/13/2026 1:30:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "NEW VINEYARD",
-   "hamlet": "NEW VINEYARD",
-   "street": "PARLIN HILL RD",
-   "customers": 15,
-   "Outages": 15,
+   "county": "SOMERSET",
+   "town": "PITTSFIELD",
+   "hamlet": "PITTSFIELD",
+   "street": "WAVERLY ST",
+   "customers": 45,
+   "Outages": 16,
    "incidents": 1,
-   "EstRest": "8/12/2026 11:45:00 PM",
+   "EstRest": "8/13/2026 1:30:00 AM",
    "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003UGG"
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003UGK"
   }
  ]
 }
