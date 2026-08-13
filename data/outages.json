@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-08-13 00:27:14",
+ "lastUpdated": "2026-08-13 01:57:14",
  "totals": {
   "customers": 688863,
-  "outages": 16,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "PITTSFIELD",
-   "customers": 2216,
-   "Outages": 16,
-   "incidents": 1,
-   "EstRest": "8/13/2026 1:30:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "PITTSFIELD",
-   "hamlet": "PITTSFIELD",
-   "street": "WAVERLY ST",
-   "customers": 45,
-   "Outages": 16,
-   "incidents": 1,
-   "EstRest": "8/13/2026 1:30:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003UGK"
-  }
- ]
+ "towns": []
 }
