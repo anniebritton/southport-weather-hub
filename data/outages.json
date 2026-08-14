@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-14 09:37:14",
+ "lastUpdated": "2026-08-14 10:37:14",
  "totals": {
   "customers": 688887,
-  "outages": 476,
-  "incidents": 26
+  "outages": 275,
+  "incidents": 20
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,42 +11,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "MONROE",
-   "customers": 576,
-   "Outages": 14,
+   "county": "KENNEBEC",
+   "town": "WEST GARDINER",
+   "customers": 2075,
+   "Outages": 4,
    "incidents": 1,
-   "EstRest": "8/14/2026 11:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BROOKS",
-   "customers": 649,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/14/2026 11:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "LINCOLNVILLE",
-   "customers": 1926,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/14/2026 10:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "OXFORD",
-   "customers": 2852,
-   "Outages": 8,
-   "incidents": 1,
-   "EstRest": "8/14/2026 11:15:00 AM"
+   "EstRest": "8/14/2026 12:30:00 PM"
   },
   {
    "level": "town",
@@ -66,7 +36,7 @@
    "customers": 616,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/14/2026 11:00:00 AM"
+   "EstRest": "8/14/2026 12:15:00 PM"
   },
   {
    "level": "town",
@@ -91,11 +61,31 @@
   {
    "level": "town",
    "opco": "CMP",
+   "county": "OXFORD",
+   "town": "GREENWOOD",
+   "customers": 937,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/14/2026 12:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "BROOKS",
+   "customers": 649,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/14/2026 11:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
    "county": "CUMBERLAND",
    "town": "WESTBROOK",
    "customers": 10964,
-   "Outages": 57,
-   "incidents": 4,
+   "Outages": 14,
+   "incidents": 2,
    "EstRest": ""
   },
   {
@@ -104,9 +94,9 @@
    "county": "CUMBERLAND",
    "town": "CAPE ELIZABETH",
    "customers": 4547,
-   "Outages": 373,
-   "incidents": 11,
-   "EstRest": "8/14/2026 12:30:00 PM"
+   "Outages": 204,
+   "incidents": 5,
+   "EstRest": ""
   },
   {
    "level": "town",
@@ -114,8 +104,8 @@
    "county": "CUMBERLAND",
    "town": "WINDHAM",
    "customers": 10261,
-   "Outages": 1,
-   "incidents": 1,
+   "Outages": 4,
+   "incidents": 2,
    "EstRest": ""
   },
   {
@@ -124,79 +114,24 @@
    "county": "CUMBERLAND",
    "town": "SOUTH PORTLAND",
    "customers": 14750,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": ""
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "PORTLAND",
-   "customers": 41206,
-   "Outages": 2,
-   "incidents": 1,
+   "Outages": 29,
+   "incidents": 4,
    "EstRest": ""
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "MONROE",
-   "hamlet": "MONROE",
-   "street": "MONROE RD",
-   "customers": 10,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "8/14/2026 11:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003UVY"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BROOKS",
-   "hamlet": "BROOKS",
-   "street": "ARSENAULT RD",
-   "customers": 1,
+   "county": "KENNEBEC",
+   "town": "WEST GARDINER",
+   "hamlet": "WEST GARDINER",
+   "street": "HIGH ST",
+   "customers": 188,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/14/2026 11:30:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003UW7"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "LINCOLNVILLE",
-   "hamlet": "LINCOLNVILLE",
-   "street": "DAM RD",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/14/2026 10:15:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003UVE"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "OXFORD",
-   "hamlet": "OXFORD",
-   "street": "HAILEYS LN",
-   "customers": 2,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "8/14/2026 11:15:00 AM",
+   "EstRest": "8/14/2026 12:30:00 PM",
    "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003UWA"
+   "incidentnumber": "003UX6"
   },
   {
    "level": "street",
@@ -209,8 +144,8 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/14/2026 11:45:00 AM",
-   "crewstatus": "ACKN ",
-   "cause": "",
+   "crewstatus": "CMPL ",
+   "cause": "Animal",
    "incidentnumber": "003UWJ"
   },
   {
@@ -219,14 +154,14 @@
    "county": "PISCATAQUIS",
    "town": "MONSON",
    "hamlet": "MONSON",
-   "street": "TENNEY HILL RD",
-   "customers": 77,
+   "street": "CHAPIN AVE",
+   "customers": 2,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/14/2026 11:00:00 AM",
+   "EstRest": "8/14/2026 12:15:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003UVR"
+   "incidentnumber": "003UX0"
   },
   {
    "level": "street",
@@ -254,54 +189,39 @@
    "Outages": 15,
    "incidents": 1,
    "EstRest": "8/14/2026 11:30:00 AM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003UWI"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WINDHAM",
-   "hamlet": "WINDHAM",
-   "street": "SPRING WATER DR",
-   "customers": 6,
+   "county": "OXFORD",
+   "town": "GREENWOOD",
+   "hamlet": "GREENWOOD",
+   "street": "MANN CAMP LN",
+   "customers": 4,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "",
+   "EstRest": "8/14/2026 12:00:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003UUR"
+   "incidentnumber": "003UWV"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SOUTH PORTLAND",
-   "hamlet": "SOUTH PORTLAND",
-   "street": "BROADWAY",
-   "customers": 848,
+   "county": "WALDO",
+   "town": "BROOKS",
+   "hamlet": "BROOKS",
+   "street": "ARSENAULT RD",
+   "customers": 1,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "",
-   "crewstatus": "     ",
+   "EstRest": "8/14/2026 11:30:00 AM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003UVB"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "PORTLAND",
-   "hamlet": "PORTLAND",
-   "street": "CONGRESS ST",
-   "customers": 1272,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003UU8"
+   "incidentnumber": "003UW7"
   }
  ]
 }
