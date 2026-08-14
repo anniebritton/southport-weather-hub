@@ -1,32 +1,70 @@
 {
- "lastUpdated": "2026-08-14 11:30:34",
+ "lastUpdated": "2026-08-14 12:30:34",
  "totals": {
   "customers": 688887,
-  "outages": 438,
-  "incidents": 47
+  "outages": 832,
+  "incidents": 46
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 2,
+  "incidents": 1,
+  "EstRest": "8/14/2026 2:30:00 PM"
+ },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "WILLIMANTIC",
-   "customers": 289,
-   "Outages": 1,
+   "county": "ANDROSCOGGIN",
+   "town": "LISBON",
+   "customers": 4880,
+   "Outages": 29,
    "incidents": 1,
-   "EstRest": "8/14/2026 1:15:00 PM"
+   "EstRest": "8/14/2026 2:15:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "GREENWOOD",
-   "customers": 937,
-   "Outages": 1,
+   "county": "WALDO",
+   "town": "FREEDOM",
+   "customers": 446,
+   "Outages": 120,
    "incidents": 1,
-   "EstRest": "8/14/2026 12:00:00 PM"
+   "EstRest": "8/14/2026 2:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "MONTVILLE",
+   "customers": 621,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WHITEFIELD",
+   "customers": 1325,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "LIMERICK",
+   "customers": 2110,
+   "Outages": 158,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:00:00 PM"
   },
   {
    "level": "town",
@@ -41,12 +79,32 @@
   {
    "level": "town",
    "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "PITTSTON",
+   "customers": 1544,
+   "Outages": 139,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "CHELSEA",
+   "customers": 1405,
+   "Outages": 41,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "WESTBROOK",
-   "customers": 10964,
-   "Outages": 15,
-   "incidents": 3,
-   "EstRest": ""
+   "town": "RAYMOND",
+   "customers": 3661,
+   "Outages": 28,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:30:00 PM"
   },
   {
    "level": "town",
@@ -64,9 +122,9 @@
    "county": "CUMBERLAND",
    "town": "CAPE ELIZABETH",
    "customers": 4547,
-   "Outages": 394,
+   "Outages": 282,
    "incidents": 22,
-   "EstRest": ""
+   "EstRest": "8/14/2026 1:30:00 PM"
   },
   {
    "level": "town",
@@ -76,7 +134,7 @@
    "customers": 10261,
    "Outages": 4,
    "incidents": 2,
-   "EstRest": ""
+   "EstRest": "8/14/2026 2:00:00 PM"
   },
   {
    "level": "town",
@@ -84,8 +142,8 @@
    "county": "CUMBERLAND",
    "town": "SOUTH PORTLAND",
    "customers": 14750,
-   "Outages": 15,
-   "incidents": 14,
+   "Outages": 13,
+   "incidents": 12,
    "EstRest": ""
   },
   {
@@ -99,34 +157,89 @@
    "EstRest": ""
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "WILLIMANTIC",
-   "hamlet": "WILLIMANTIC",
-   "street": "TIMS COVE LN",
-   "customers": 50,
+   "county": "CUMBERLAND",
+   "town": "WESTBROOK",
+   "customers": 10964,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/14/2026 1:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003UY4"
+   "EstRest": ""
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "GREENWOOD",
-   "hamlet": "GREENWOOD",
-   "street": "MANN CAMP LN",
-   "customers": 4,
+   "county": "ANDROSCOGGIN",
+   "town": "LISBON",
+   "hamlet": "LISBON",
+   "street": "CAPITAL AVE",
+   "customers": 29,
+   "Outages": 28,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:15:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003UZE"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "FREEDOM",
+   "hamlet": "FREEDOM",
+   "street": "SMITHTON RD",
+   "customers": 27,
+   "Outages": 27,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:15:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003UZA"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "MONTVILLE",
+   "hamlet": "MONTVILLE",
+   "street": "BURNHAM HILL RD",
+   "customers": 7,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:15:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003UZA"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WHITEFIELD",
+   "hamlet": "WHITEFIELD",
+   "street": "GARDINER RD",
+   "customers": 33,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/14/2026 12:00:00 PM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/14/2026 2:30:00 PM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003UWV"
+   "incidentnumber": "003UZU"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "LIMERICK",
+   "hamlet": "LIMERICK",
+   "street": "HEMLOCK HILL RD",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:00:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003UZ5"
   },
   {
    "level": "street",
@@ -146,6 +259,51 @@
   {
    "level": "street",
    "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "PITTSTON",
+   "hamlet": "PITTSTON",
+   "street": "STONEY ACRES RD",
+   "customers": 21,
+   "Outages": 21,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:30:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003UZU"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "CHELSEA",
+   "hamlet": "CHELSEA",
+   "street": "NELSON RD",
+   "customers": 32,
+   "Outages": 32,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:30:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003UZU"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "RAYMOND",
+   "hamlet": "RAYMOND",
+   "street": "BOULDER RD",
+   "customers": 29,
+   "Outages": 26,
+   "incidents": 1,
+   "EstRest": "8/14/2026 2:30:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003UZQ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
    "county": "CUMBERLAND",
    "town": "FALMOUTH",
    "hamlet": "FALMOUTH",
@@ -154,9 +312,24 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "",
-   "crewstatus": "     ",
+   "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003UYL"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "WESTBROOK",
+   "hamlet": "WESTBROOK",
+   "street": "BRIDGE ST",
+   "customers": 273,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003UYJ"
   }
  ]
 }
