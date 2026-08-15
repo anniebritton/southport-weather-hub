@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-14 21:13:54",
+ "lastUpdated": "2026-08-14 22:30:34",
  "totals": {
   "customers": 688842,
-  "outages": 2,
-  "incidents": 2
+  "outages": 3,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,52 +11,77 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "JACKSON",
-   "customers": 316,
+   "county": "CUMBERLAND",
+   "town": "BRIDGTON",
+   "customers": 5687,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/14/2026 10:15:00 PM"
+   "EstRest": "8/15/2026 12:30:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "SOUTH PORTLAND",
-   "customers": 14750,
+   "county": "OXFORD",
+   "town": "BROWNFIELD",
+   "customers": 1203,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": ""
+   "EstRest": "8/15/2026 12:30:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "JACKSON",
-   "hamlet": "JACKSON",
-   "street": "HATCH RD",
-   "customers": 16,
+   "county": "ANDROSCOGGIN",
+   "town": "POLAND",
+   "customers": 3405,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/14/2026 10:15:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003V3T"
+   "EstRest": "8/15/2026 12:30:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "SOUTH PORTLAND",
-   "hamlet": "SOUTH PORTLAND",
-   "street": "BROADWAY",
-   "customers": 848,
+   "town": "BRIDGTON",
+   "hamlet": "BRIDGTON",
+   "street": "PROGRESS WAY",
+   "customers": 60,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "",
+   "EstRest": "8/15/2026 12:30:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003UVB"
+   "incidentnumber": "003V3Y"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BROWNFIELD",
+   "hamlet": "BROWNFIELD",
+   "street": "PINE KNOLL RD",
+   "customers": 6,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/15/2026 12:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003V3Z"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "POLAND",
+   "hamlet": "POLAND",
+   "street": "LAKEN LEDGE LN",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/15/2026 12:30:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003V40"
   }
  ]
 }
