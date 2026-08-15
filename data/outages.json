@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-08-15 05:53:54",
+ "lastUpdated": "2026-08-15 06:27:14",
  "totals": {
   "customers": 688842,
-  "outages": 0,
-  "incidents": 0
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "CAPE ELIZABETH",
+   "customers": 4547,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": ""
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "CAPE ELIZABETH",
+   "hamlet": "CAPE ELIZABETH",
+   "street": "PULPIT ROCK RD",
+   "customers": 6,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "",
+   "crewstatus": "ACKN ",
+   "cause": "",
+   "incidentnumber": "003V47"
+  }
+ ]
 }
