@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-15 16:20:34",
+ "lastUpdated": "2026-08-15 16:47:14",
  "totals": {
   "customers": 688842,
-  "outages": 12,
+  "outages": 55,
   "incidents": 2
  },
  "southport": null,
@@ -24,9 +24,9 @@
    "county": "WALDO",
    "town": "ISLESBORO",
    "customers": 1020,
-   "Outages": 3,
+   "Outages": 46,
    "incidents": 1,
-   "EstRest": "8/15/2026 5:15:00 PM"
+   "EstRest": "8/15/2026 6:30:00 PM"
   },
   {
    "level": "street",
@@ -49,14 +49,14 @@
    "county": "WALDO",
    "town": "ISLESBORO",
    "hamlet": "ISLESBORO",
-   "street": "DUFFERS LN",
-   "customers": 2,
-   "Outages": 2,
+   "street": "FERRY RD",
+   "customers": 32,
+   "Outages": 32,
    "incidents": 1,
-   "EstRest": "8/15/2026 5:15:00 PM",
+   "EstRest": "8/15/2026 6:30:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003V66"
+   "incidentnumber": "003V6M"
   }
  ]
 }
