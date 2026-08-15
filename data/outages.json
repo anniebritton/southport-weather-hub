@@ -1,32 +1,30 @@
 {
- "lastUpdated": "2026-08-15 13:17:14",
+ "lastUpdated": "2026-08-15 13:40:34",
  "totals": {
   "customers": 688842,
-  "outages": 93,
-  "incidents": 6
+  "outages": 103,
+  "incidents": 7
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 10,
+  "incidents": 1,
+  "EstRest": "8/15/2026 3:45:00 PM"
+ },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "BROWNFIELD",
-   "customers": 1203,
-   "Outages": 3,
-   "incidents": 2,
-   "EstRest": "8/15/2026 3:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "TURNER",
-   "customers": 3212,
-   "Outages": 71,
+   "county": "LINCOLN",
+   "town": "DRESDEN",
+   "customers": 1039,
+   "Outages": 10,
    "incidents": 1,
-   "EstRest": "8/15/2026 3:15:00 PM"
+   "EstRest": "8/15/2026 3:45:00 PM"
   },
   {
    "level": "town",
@@ -49,6 +47,56 @@
    "EstRest": "8/15/2026 3:30:00 PM"
   },
   {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "TURNER",
+   "customers": 3212,
+   "Outages": 71,
+   "incidents": 1,
+   "EstRest": "8/15/2026 3:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BROWNFIELD",
+   "customers": 1203,
+   "Outages": 3,
+   "incidents": 2,
+   "EstRest": "8/15/2026 3:15:00 PM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "DRESDEN",
+   "hamlet": "DRESDEN",
+   "street": "GLASHEEN RD",
+   "customers": 5,
+   "Outages": 5,
+   "incidents": 1,
+   "EstRest": "8/15/2026 3:45:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003V62"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "RAYMOND",
+   "hamlet": "RAYMOND",
+   "street": "CASSELTON RD",
+   "customers": 10,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/15/2026 3:15:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003V5V"
+  },
+  {
    "level": "street",
    "opco": "CMP",
    "county": "ANDROSCOGGIN",
@@ -62,21 +110,6 @@
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003V5T"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "RAYMOND",
-   "hamlet": "RAYMOND",
-   "street": "CASSELTON RD",
-   "customers": 10,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/15/2026 3:15:00 PM",
-   "crewstatus": "ACKN ",
-   "cause": "",
-   "incidentnumber": "003V5V"
   }
  ]
 }
