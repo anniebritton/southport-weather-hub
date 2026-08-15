@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-15 00:40:34",
+ "lastUpdated": "2026-08-15 01:20:34",
  "totals": {
   "customers": 688842,
-  "outages": 388,
-  "incidents": 2
+  "outages": 196,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": {
@@ -13,7 +13,7 @@
   "customers": 28935,
   "Outages": 196,
   "incidents": 1,
-  "EstRest": "8/15/2026 1:15:00 AM"
+  "EstRest": "8/15/2026 3:15:00 AM"
  },
  "towns": [
   {
@@ -24,7 +24,7 @@
    "customers": 2481,
    "Outages": 191,
    "incidents": 1,
-   "EstRest": "8/15/2026 1:15:00 AM"
+   "EstRest": "8/15/2026 3:15:00 AM"
   },
   {
    "level": "town",
@@ -34,17 +34,7 @@
    "customers": 1039,
    "Outages": 5,
    "incidents": 1,
-   "EstRest": "8/15/2026 1:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "customers": 12090,
-   "Outages": 192,
-   "incidents": 1,
-   "EstRest": "8/15/2026 1:30:00 AM"
+   "EstRest": "8/15/2026 3:15:00 AM"
   },
   {
    "level": "street",
@@ -52,11 +42,11 @@
    "county": "LINCOLN",
    "town": "WISCASSET",
    "hamlet": "WISCASSET",
-   "street": "BEACH ROSE LN",
-   "customers": 2,
-   "Outages": 2,
+   "street": "WILLOW LN",
+   "customers": 47,
+   "Outages": 26,
    "incidents": 1,
-   "EstRest": "8/15/2026 1:15:00 AM",
+   "EstRest": "8/15/2026 3:15:00 AM",
    "crewstatus": "ONST ",
    "cause": "Equipment Interruption",
    "incidentnumber": "003V41"
@@ -71,25 +61,10 @@
    "customers": 1,
    "Outages": 4,
    "incidents": 1,
-   "EstRest": "8/15/2026 1:15:00 AM",
+   "EstRest": "8/15/2026 3:15:00 AM",
    "crewstatus": "ONST ",
    "cause": "Equipment Interruption",
    "incidentnumber": "003V41"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "hamlet": "BRUNSWICK",
-   "street": "TOWNSEND LN",
-   "customers": 155,
-   "Outages": 155,
-   "incidents": 1,
-   "EstRest": "8/15/2026 1:30:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003V42"
   }
  ]
 }
