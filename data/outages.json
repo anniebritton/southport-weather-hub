@@ -1,13 +1,33 @@
 {
- "lastUpdated": "2026-08-15 11:40:34",
+ "lastUpdated": "2026-08-15 12:20:34",
  "totals": {
   "customers": 688842,
-  "outages": 8,
-  "incidents": 2
+  "outages": 14,
+  "incidents": 7
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BROWNFIELD",
+   "customers": 1203,
+   "Outages": 3,
+   "incidents": 2,
+   "EstRest": "8/15/2026 2:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "RIPLEY",
+   "customers": 380,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/15/2026 2:15:00 PM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -17,6 +37,71 @@
    "Outages": 8,
    "incidents": 2,
    "EstRest": "8/15/2026 3:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "CHESTERVILLE",
+   "customers": 868,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/15/2026 2:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "OAKLAND",
+   "customers": 3829,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/15/2026 2:15:00 PM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "RIPLEY",
+   "hamlet": "RIPLEY",
+   "street": "NORTH RD",
+   "customers": 59,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/15/2026 2:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003V5I"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "CHESTERVILLE",
+   "hamlet": "CHESTERVILLE",
+   "street": "EGYPT POND RD",
+   "customers": 4,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/15/2026 2:00:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003V5D"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "OAKLAND",
+   "hamlet": "OAKLAND",
+   "street": "S ALPINE ST",
+   "customers": 33,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/15/2026 2:15:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003V5N"
   }
  ]
 }
