@@ -1,22 +1,50 @@
 {
- "lastUpdated": "2026-08-15 22:37:14",
+ "lastUpdated": "2026-08-15 23:30:34",
  "totals": {
   "customers": 688895,
-  "outages": 10,
-  "incidents": 2
+  "outages": 259,
+  "incidents": 3
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 246,
+  "incidents": 1,
+  "EstRest": "8/16/2026 1:30:00 AM"
+ },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "AUBURN",
-   "customers": 13589,
-   "Outages": 9,
+   "county": "LINCOLN",
+   "town": "EDGECOMB",
+   "customers": 1019,
+   "Outages": 163,
    "incidents": 1,
-   "EstRest": "8/15/2026 11:30:00 PM"
+   "EstRest": "8/16/2026 1:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "BOOTHBAY",
+   "customers": 3044,
+   "Outages": 76,
+   "incidents": 1,
+   "EstRest": "8/16/2026 1:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "NEWCASTLE",
+   "customers": 1348,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "8/16/2026 1:30:00 AM"
   },
   {
    "level": "town",
@@ -29,19 +57,59 @@
    "EstRest": "8/16/2026 12:30:00 AM"
   },
   {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "STONEHAM",
+   "customers": 366,
+   "Outages": 12,
+   "incidents": 1,
+   "EstRest": "8/16/2026 1:00:00 AM"
+  },
+  {
    "level": "street",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "AUBURN",
-   "hamlet": "AUBURN",
-   "street": "S WITHAM RD",
-   "customers": 35,
-   "Outages": 7,
+   "county": "LINCOLN",
+   "town": "EDGECOMB",
+   "hamlet": "EDGECOMB",
+   "street": "WADSWORTH HILL RD",
+   "customers": 1,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/15/2026 11:30:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003V68"
+   "EstRest": "8/16/2026 1:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003V7E"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "BOOTHBAY",
+   "hamlet": "BOOTHBAY",
+   "street": "BALSAM DR",
+   "customers": 9,
+   "Outages": 9,
+   "incidents": 1,
+   "EstRest": "8/16/2026 1:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003V7E"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "NEWCASTLE",
+   "hamlet": "NEWCASTLE",
+   "street": "CHANDLER WAY",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/16/2026 1:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003V7E"
   },
   {
    "level": "street",
@@ -57,6 +125,21 @@
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003V79"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "STONEHAM",
+   "hamlet": "STONEHAM",
+   "street": "BAN GROVER RD",
+   "customers": 10,
+   "Outages": 9,
+   "incidents": 1,
+   "EstRest": "8/16/2026 1:00:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003V7C"
   }
  ]
 }
