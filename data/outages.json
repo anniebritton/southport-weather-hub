@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-08-16 06:17:14",
+ "lastUpdated": "2026-08-16 06:47:14",
  "totals": {
   "customers": 688895,
-  "outages": 0,
-  "incidents": 0
+  "outages": 46,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "ARUNDEL",
+   "customers": 2264,
+   "Outages": 46,
+   "incidents": 1,
+   "EstRest": "8/16/2026 8:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "ARUNDEL",
+   "hamlet": "ARUNDEL",
+   "street": "LOMBARD RD",
+   "customers": 23,
+   "Outages": 23,
+   "incidents": 1,
+   "EstRest": "8/16/2026 8:30:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003V7J"
+  }
+ ]
 }
