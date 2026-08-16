@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-08-16 15:50:34",
+ "lastUpdated": "2026-08-16 16:20:34",
  "totals": {
   "customers": 688895,
-  "outages": 0,
-  "incidents": 0
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "KENNEBUNKPORT",
+   "customers": 3835,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/16/2026 6:15:00 PM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "KENNEBUNKPORT",
+   "hamlet": "KENNEBUNKPORT",
+   "street": "SAND POINT RD",
+   "customers": 22,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/16/2026 6:15:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003V94"
+  }
+ ]
 }
