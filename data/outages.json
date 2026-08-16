@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-16 08:37:14",
+ "lastUpdated": "2026-08-16 09:13:54",
  "totals": {
   "customers": 688895,
-  "outages": 15,
-  "incidents": 3
+  "outages": 13,
+  "incidents": 4
  },
  "southport": null,
  "lincolnCounty": {
@@ -13,7 +13,7 @@
   "customers": 28935,
   "Outages": 1,
   "incidents": 1,
-  "EstRest": "8/16/2026 9:00:00 AM"
+  "EstRest": "8/16/2026 10:00:00 AM"
  },
  "towns": [
   {
@@ -24,7 +24,7 @@
    "customers": 3076,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/16/2026 9:00:00 AM"
+   "EstRest": "8/16/2026 10:00:00 AM"
   },
   {
    "level": "town",
@@ -39,12 +39,22 @@
   {
    "level": "town",
    "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LEWISTON",
+   "customers": 19412,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/16/2026 11:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
    "county": "YORK",
    "town": "HOLLIS",
    "customers": 2415,
-   "Outages": 4,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/16/2026 10:00:00 AM"
+   "EstRest": "8/16/2026 10:45:00 AM"
   },
   {
    "level": "street",
@@ -56,7 +66,7 @@
    "customers": 71,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/16/2026 9:00:00 AM",
+   "EstRest": "8/16/2026 10:00:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003V7M"
@@ -72,9 +82,24 @@
    "Outages": 10,
    "incidents": 1,
    "EstRest": "8/16/2026 9:45:00 AM",
-   "crewstatus": "ACKN ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003V7V"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LEWISTON",
+   "hamlet": "LEWISTON",
+   "street": "CROWLEY RD",
+   "customers": 37,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/16/2026 11:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003V83"
   },
   {
    "level": "street",
@@ -84,12 +109,12 @@
    "hamlet": "HOLLIS",
    "street": "TANGLEWOOD DR",
    "customers": 16,
-   "Outages": 4,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/16/2026 10:00:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/16/2026 10:45:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003V80"
+   "incidentnumber": "003V82"
   }
  ]
 }
