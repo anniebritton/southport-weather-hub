@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-08-16 03:53:54",
+ "lastUpdated": "2026-08-16 04:40:34",
  "totals": {
   "customers": 688895,
-  "outages": 0,
-  "incidents": 0
+  "outages": 4,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "SANDY RIVER PLT",
+   "customers": 431,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/16/2026 6:15:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "SANDY RIVER PLT",
+   "hamlet": "SANDY RIVER PLT",
+   "street": "FERGUSON LN",
+   "customers": 5,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/16/2026 6:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003V7H"
+  }
+ ]
 }
