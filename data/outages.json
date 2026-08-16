@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-16 01:57:14",
+ "lastUpdated": "2026-08-16 02:53:54",
  "totals": {
   "customers": 688895,
   "outages": 246,
@@ -16,6 +16,16 @@
   "EstRest": "8/16/2026 3:30:00 AM"
  },
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "BOOTHBAY",
+   "customers": 3044,
+   "Outages": 76,
+   "incidents": 1,
+   "EstRest": "8/16/2026 3:30:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -37,14 +47,19 @@
    "EstRest": "8/16/2026 3:30:00 AM"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
    "county": "LINCOLN",
    "town": "BOOTHBAY",
-   "customers": 3044,
-   "Outages": 76,
+   "hamlet": "BOOTHBAY",
+   "street": "NASON RD",
+   "customers": 2,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "8/16/2026 3:30:00 AM"
+   "EstRest": "8/16/2026 3:30:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003V7E"
   },
   {
    "level": "street",
@@ -52,12 +67,12 @@
    "county": "LINCOLN",
    "town": "EDGECOMB",
    "hamlet": "EDGECOMB",
-   "street": "TOMCAT TRL",
-   "customers": 3,
-   "Outages": 3,
+   "street": "WINDING BROOK RD",
+   "customers": 1,
+   "Outages": 1,
    "incidents": 1,
    "EstRest": "8/16/2026 3:30:00 AM",
-   "crewstatus": "ENRT ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003V7E"
   },
@@ -72,22 +87,7 @@
    "Outages": 6,
    "incidents": 1,
    "EstRest": "8/16/2026 3:30:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003V7E"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "BOOTHBAY",
-   "hamlet": "BOOTHBAY",
-   "street": "RIVER RD",
-   "customers": 40,
-   "Outages": 36,
-   "incidents": 1,
-   "EstRest": "8/16/2026 3:30:00 AM",
-   "crewstatus": "ENRT ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003V7E"
   }
