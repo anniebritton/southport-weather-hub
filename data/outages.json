@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-15 21:17:14",
+ "lastUpdated": "2026-08-15 22:37:14",
  "totals": {
   "customers": 688895,
-  "outages": 9,
-  "incidents": 1
+  "outages": 10,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -19,6 +19,16 @@
    "EstRest": "8/15/2026 11:30:00 PM"
   },
   {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "WELLINGTON",
+   "customers": 189,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/16/2026 12:30:00 AM"
+  },
+  {
    "level": "street",
    "opco": "CMP",
    "county": "ANDROSCOGGIN",
@@ -32,6 +42,21 @@
    "crewstatus": "ONST ",
    "cause": "Equipment Interruption",
    "incidentnumber": "003V68"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PISCATAQUIS",
+   "town": "WELLINGTON",
+   "hamlet": "WELLINGTON",
+   "street": "PARKMAN RD",
+   "customers": 7,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/16/2026 12:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003V79"
   }
  ]
 }
