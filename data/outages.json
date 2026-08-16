@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-08-16 17:40:34",
+ "lastUpdated": "2026-08-16 18:17:14",
  "totals": {
   "customers": 688896,
-  "outages": 1,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "ARROWSIC",
-   "customers": 328,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/16/2026 7:15:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "ARROWSIC",
-   "hamlet": "ARROWSIC",
-   "street": "STEEN RD",
-   "customers": 10,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/16/2026 7:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003V98"
-  }
- ]
+ "towns": []
 }
