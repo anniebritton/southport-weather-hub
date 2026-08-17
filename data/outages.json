@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-17 12:26:18",
+ "lastUpdated": "2026-08-17 12:52:58",
  "totals": {
   "customers": 688896,
-  "outages": 3,
-  "incidents": 3
+  "outages": 2,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -29,16 +29,6 @@
    "EstRest": "8/17/2026 2:30:00 PM"
   },
   {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "NAPLES",
-   "customers": 3875,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/17/2026 1:00:00 PM"
-  },
-  {
    "level": "street",
    "opco": "CMP",
    "county": "YORK",
@@ -49,7 +39,7 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/17/2026 2:15:00 PM",
-   "crewstatus": "ACKN ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VCR"
   },
@@ -67,21 +57,6 @@
    "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VBH"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "NAPLES",
-   "hamlet": "NAPLES",
-   "street": "POLAND SPRINGS RD",
-   "customers": 2,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/17/2026 1:00:00 PM",
-   "crewstatus": "CMPL ",
-   "cause": "Tree",
-   "incidentnumber": "003VC1"
   }
  ]
 }
