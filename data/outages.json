@@ -1,33 +1,13 @@
 {
- "lastUpdated": "2026-08-17 17:36:18",
+ "lastUpdated": "2026-08-17 17:56:18",
  "totals": {
   "customers": 688917,
-  "outages": 37,
-  "incidents": 4
+  "outages": 34,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "MANCHESTER",
-   "customers": 1587,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/17/2026 7:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "GREENE",
-   "customers": 2290,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "8/17/2026 7:15:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -51,36 +31,6 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "MANCHESTER",
-   "hamlet": "MANCHESTER",
-   "street": "POND RD",
-   "customers": 129,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/17/2026 7:15:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003VEY"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "GREENE",
-   "hamlet": "GREENE",
-   "street": "LINE RD",
-   "customers": 10,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "8/17/2026 7:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003VF4"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
    "county": "CUMBERLAND",
    "town": "WINDHAM",
    "hamlet": "WINDHAM",
@@ -89,7 +39,7 @@
    "Outages": 6,
    "incidents": 1,
    "EstRest": "8/17/2026 7:15:00 PM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003VEX"
   },
