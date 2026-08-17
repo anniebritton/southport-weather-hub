@@ -1,13 +1,23 @@
 {
- "lastUpdated": "2026-08-17 10:26:18",
+ "lastUpdated": "2026-08-17 10:49:38",
  "totals": {
   "customers": 688896,
-  "outages": 253,
+  "outages": 105,
   "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "BATH",
+   "customers": 5189,
+   "Outages": 93,
+   "incidents": 1,
+   "EstRest": "8/17/2026 1:00:00 PM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -21,12 +31,27 @@
   {
    "level": "town",
    "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "SCARBOROUGH",
+   "customers": 13113,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/17/2026 12:30:00 PM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
    "county": "SAGADAHOC",
    "town": "BATH",
-   "customers": 5189,
-   "Outages": 242,
-   "incidents": 2,
-   "EstRest": "8/17/2026 12:15:00 PM"
+   "hamlet": "BATH",
+   "street": "HIGH ST",
+   "customers": 411,
+   "Outages": 58,
+   "incidents": 1,
+   "EstRest": "8/17/2026 1:00:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "Tree",
+   "incidentnumber": "003V9Z"
   },
   {
    "level": "street",
@@ -39,9 +64,24 @@
    "Outages": 11,
    "incidents": 1,
    "EstRest": "8/17/2026 11:30:00 AM",
-   "crewstatus": "ENRT ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VB3"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "SCARBOROUGH",
+   "hamlet": "SCARBOROUGH",
+   "street": "WINNOCKS NECK RD",
+   "customers": 78,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/17/2026 12:30:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VBH"
   }
  ]
 }
