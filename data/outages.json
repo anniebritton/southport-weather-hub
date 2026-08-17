@@ -1,13 +1,23 @@
 {
- "lastUpdated": "2026-08-17 08:53:54",
+ "lastUpdated": "2026-08-17 09:46:18",
  "totals": {
   "customers": 688896,
-  "outages": 97,
-  "incidents": 3
+  "outages": 108,
+  "incidents": 4
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "FREEDOM",
+   "customers": 446,
+   "Outages": 11,
+   "incidents": 1,
+   "EstRest": "8/17/2026 11:30:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -16,7 +26,7 @@
    "customers": 5189,
    "Outages": 93,
    "incidents": 1,
-   "EstRest": "8/17/2026 9:45:00 AM"
+   "EstRest": "8/17/2026 11:00:00 AM"
   },
   {
    "level": "town",
@@ -41,6 +51,21 @@
   {
    "level": "street",
    "opco": "CMP",
+   "county": "WALDO",
+   "town": "FREEDOM",
+   "hamlet": "FREEDOM",
+   "street": "RAVEN RD",
+   "customers": 13,
+   "Outages": 11,
+   "incidents": 1,
+   "EstRest": "8/17/2026 11:30:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003VB3"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
    "county": "SAGADAHOC",
    "town": "BATH",
    "hamlet": "BATH",
@@ -48,8 +73,8 @@
    "customers": 411,
    "Outages": 58,
    "incidents": 1,
-   "EstRest": "8/17/2026 9:45:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/17/2026 11:00:00 AM",
+   "crewstatus": "DISP ",
    "cause": "Tree",
    "incidentnumber": "003V9Z"
   },
@@ -64,7 +89,7 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/17/2026 11:00:00 AM",
-   "crewstatus": "     ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VAU"
   },
@@ -79,7 +104,7 @@
    "Outages": 3,
    "incidents": 1,
    "EstRest": "8/17/2026 10:30:00 AM",
-   "crewstatus": "ACKN ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VAJ"
   }
