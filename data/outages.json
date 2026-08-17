@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-17 07:27:14",
+ "lastUpdated": "2026-08-17 07:53:54",
  "totals": {
   "customers": 688896,
-  "outages": 108,
-  "incidents": 2
+  "outages": 354,
+  "incidents": 4
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,12 +11,22 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "NEW SHARON",
-   "customers": 874,
-   "Outages": 45,
+   "county": "SAGADAHOC",
+   "town": "BATH",
+   "customers": 5189,
+   "Outages": 242,
    "incidents": 1,
-   "EstRest": "8/17/2026 9:00:00 AM"
+   "EstRest": "8/17/2026 9:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "FALMOUTH",
+   "customers": 6547,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/17/2026 9:45:00 AM"
   },
   {
    "level": "town",
@@ -29,19 +39,44 @@
    "EstRest": "8/17/2026 8:45:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
    "county": "FRANKLIN",
    "town": "NEW SHARON",
-   "hamlet": "NEW SHARON",
-   "street": "SWAN RD",
-   "customers": 46,
+   "customers": 874,
    "Outages": 45,
    "incidents": 1,
-   "EstRest": "8/17/2026 9:00:00 AM",
-   "crewstatus": "ENRT ",
+   "EstRest": "8/17/2026 9:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "BATH",
+   "hamlet": "BATH",
+   "street": "HIGHLAND ST",
+   "customers": 13,
+   "Outages": 13,
+   "incidents": 1,
+   "EstRest": "8/17/2026 9:45:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003V9T"
+   "incidentnumber": "003V9Z"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "FALMOUTH",
+   "hamlet": "FALMOUTH",
+   "street": "WOODVILLE RD",
+   "customers": 96,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/17/2026 9:45:00 AM",
+   "crewstatus": "ACKN ",
+   "cause": "",
+   "incidentnumber": "003VA1"
   },
   {
    "level": "street",
@@ -54,9 +89,24 @@
    "Outages": 28,
    "incidents": 1,
    "EstRest": "8/17/2026 8:45:00 AM",
-   "crewstatus": "     ",
+   "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003V9S"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "NEW SHARON",
+   "hamlet": "NEW SHARON",
+   "street": "SWAN RD",
+   "customers": 46,
+   "Outages": 45,
+   "incidents": 1,
+   "EstRest": "8/17/2026 9:00:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003V9T"
   }
  ]
 }
