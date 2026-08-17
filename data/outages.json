@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-17 06:53:54",
+ "lastUpdated": "2026-08-17 07:27:14",
  "totals": {
   "customers": 688896,
   "outages": 108,
@@ -39,7 +39,7 @@
    "Outages": 45,
    "incidents": 1,
    "EstRest": "8/17/2026 9:00:00 AM",
-   "crewstatus": "     ",
+   "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003V9T"
   },
@@ -54,7 +54,7 @@
    "Outages": 28,
    "incidents": 1,
    "EstRest": "8/17/2026 8:45:00 AM",
-   "crewstatus": "DISP ",
+   "crewstatus": "     ",
    "cause": "",
    "incidentnumber": "003V9S"
   }
