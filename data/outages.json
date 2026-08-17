@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-17 09:46:18",
+ "lastUpdated": "2026-08-17 10:26:18",
  "totals": {
   "customers": 688896,
-  "outages": 108,
-  "incidents": 4
+  "outages": 253,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
@@ -24,29 +24,9 @@
    "county": "SAGADAHOC",
    "town": "BATH",
    "customers": 5189,
-   "Outages": 93,
-   "incidents": 1,
-   "EstRest": "8/17/2026 11:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "SACO",
-   "customers": 11676,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/17/2026 11:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WOODSTOCK",
-   "customers": 1124,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "8/17/2026 10:30:00 AM"
+   "Outages": 242,
+   "incidents": 2,
+   "EstRest": "8/17/2026 12:15:00 PM"
   },
   {
    "level": "street",
@@ -62,51 +42,6 @@
    "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003VB3"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "BATH",
-   "hamlet": "BATH",
-   "street": "HIGH ST",
-   "customers": 411,
-   "Outages": 58,
-   "incidents": 1,
-   "EstRest": "8/17/2026 11:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "Tree",
-   "incidentnumber": "003V9Z"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "SACO",
-   "hamlet": "SACO",
-   "street": "PORTLAND RD",
-   "customers": 401,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/17/2026 11:00:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003VAU"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WOODSTOCK",
-   "hamlet": "WOODSTOCK",
-   "street": "MOUNTAIN VIEW LN",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "8/17/2026 10:30:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003VAJ"
   }
  ]
 }
