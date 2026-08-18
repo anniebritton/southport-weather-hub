@@ -1,23 +1,13 @@
 {
- "lastUpdated": "2026-08-18 17:53:24",
+ "lastUpdated": "2026-08-18 18:26:44",
  "totals": {
   "customers": 688919,
-  "outages": 11,
-  "incidents": 3
+  "outages": 9,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CAPE ELIZABETH",
-   "customers": 4547,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "8/18/2026 6:30:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -42,21 +32,6 @@
    "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "CAPE ELIZABETH",
-   "hamlet": "CAPE ELIZABETH",
-   "street": "GREENVIEW DR",
-   "customers": 2,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "8/18/2026 6:30:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "Tree",
-   "incidentnumber": "003VG7"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
    "town": "WINDHAM",
    "hamlet": "WINDHAM",
    "street": "ROOSEVELT TRL",
@@ -64,7 +39,7 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/18/2026 7:45:00 PM",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003VJO"
   },
