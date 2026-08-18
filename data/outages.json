@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-18 04:32:58",
+ "lastUpdated": "2026-08-18 05:09:38",
  "totals": {
   "customers": 688917,
   "outages": 209,
@@ -11,16 +11,6 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WESTBROOK",
-   "customers": 10964,
-   "Outages": 208,
-   "incidents": 1,
-   "EstRest": "8/18/2026 6:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "OXFORD",
    "town": "PORTER",
    "customers": 960,
@@ -29,19 +19,14 @@
    "EstRest": "8/18/2026 6:15:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
    "county": "CUMBERLAND",
    "town": "WESTBROOK",
-   "hamlet": "WESTBROOK",
-   "street": "LIBBY AVE",
-   "customers": 12,
-   "Outages": 12,
+   "customers": 10964,
+   "Outages": 208,
    "incidents": 1,
-   "EstRest": "8/18/2026 6:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003VFP"
+   "EstRest": "8/18/2026 6:00:00 AM"
   },
   {
    "level": "street",
@@ -57,6 +42,21 @@
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003VFT"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "WESTBROOK",
+   "hamlet": "WESTBROOK",
+   "street": "LIBBY AVE",
+   "customers": 12,
+   "Outages": 12,
+   "incidents": 1,
+   "EstRest": "8/18/2026 6:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003VFP"
   }
  ]
 }
