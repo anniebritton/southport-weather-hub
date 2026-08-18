@@ -1,13 +1,31 @@
 {
- "lastUpdated": "2026-08-18 06:56:18",
+ "lastUpdated": "2026-08-18 07:36:18",
  "totals": {
   "customers": 688917,
-  "outages": 48,
-  "incidents": 2
+  "outages": 69,
+  "incidents": 6
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 1,
+  "incidents": 1,
+  "EstRest": "8/18/2026 9:30:00 AM"
+ },
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "CUSHING",
+   "customers": 1113,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/18/2026 9:15:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -32,11 +50,56 @@
    "level": "town",
    "opco": "CMP",
    "county": "OXFORD",
+   "town": "WATERFORD",
+   "customers": 1568,
+   "Outages": 16,
+   "incidents": 1,
+   "EstRest": "8/18/2026 9:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
    "town": "PORTER",
    "customers": 960,
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/18/2026 9:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "BREMEN",
+   "customers": 698,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/18/2026 9:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "CAPE ELIZABETH",
+   "customers": 4547,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/18/2026 9:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "CUSHING",
+   "hamlet": "CUSHING",
+   "street": "ALBERT LN",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/18/2026 9:15:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003VFZ"
   },
   {
    "level": "street",
@@ -49,7 +112,7 @@
    "Outages": 14,
    "incidents": 1,
    "EstRest": "8/18/2026 8:15:00 AM",
-   "crewstatus": "ENRT ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VFW"
   },
@@ -64,9 +127,24 @@
    "Outages": 11,
    "incidents": 1,
    "EstRest": "8/18/2026 8:15:00 AM",
-   "crewstatus": "ENRT ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VFW"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "WATERFORD",
+   "hamlet": "WATERFORD",
+   "street": "GREEN RD",
+   "customers": 20,
+   "Outages": 14,
+   "incidents": 1,
+   "EstRest": "8/18/2026 9:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VG3"
   },
   {
    "level": "street",
@@ -79,9 +157,39 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/18/2026 9:00:00 AM",
-   "crewstatus": "     ",
+   "crewstatus": "ACKN ",
    "cause": "",
    "incidentnumber": "003VFT"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "BREMEN",
+   "hamlet": "BREMEN",
+   "street": "KEENE NECK RD",
+   "customers": 20,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/18/2026 9:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VG4"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "CAPE ELIZABETH",
+   "hamlet": "CAPE ELIZABETH",
+   "street": "GREENVIEW DR",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/18/2026 9:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003VG7"
   }
  ]
 }
