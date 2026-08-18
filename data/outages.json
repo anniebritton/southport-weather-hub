@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-18 01:56:18",
+ "lastUpdated": "2026-08-18 02:56:18",
  "totals": {
   "customers": 688917,
-  "outages": 211,
-  "incidents": 2
+  "outages": 208,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
@@ -16,17 +16,7 @@
    "customers": 10964,
    "Outages": 208,
    "incidents": 1,
-   "EstRest": "8/18/2026 2:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BELFAST",
-   "customers": 4819,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "8/18/2026 2:45:00 AM"
+   "EstRest": "8/18/2026 4:00:00 AM"
   },
   {
    "level": "street",
@@ -38,25 +28,10 @@
    "customers": 12,
    "Outages": 12,
    "incidents": 1,
-   "EstRest": "8/18/2026 2:00:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/18/2026 4:00:00 AM",
+   "crewstatus": "DISP ",
    "cause": "Equipment Interruption",
    "incidentnumber": "003VFP"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BELFAST",
-   "hamlet": "BELFAST",
-   "street": "FAITH LN",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "8/18/2026 2:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003VFR"
   }
  ]
 }
