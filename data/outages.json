@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-18 05:09:38",
+ "lastUpdated": "2026-08-18 05:52:58",
  "totals": {
   "customers": 688917,
-  "outages": 209,
-  "incidents": 2
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
@@ -16,17 +16,7 @@
    "customers": 960,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/18/2026 6:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WESTBROOK",
-   "customers": 10964,
-   "Outages": 208,
-   "incidents": 1,
-   "EstRest": "8/18/2026 6:00:00 AM"
+   "EstRest": "8/18/2026 9:00:00 AM"
   },
   {
    "level": "street",
@@ -38,25 +28,10 @@
    "customers": 55,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/18/2026 6:15:00 AM",
-   "crewstatus": "DISP ",
+   "EstRest": "8/18/2026 9:00:00 AM",
+   "crewstatus": "     ",
    "cause": "",
    "incidentnumber": "003VFT"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WESTBROOK",
-   "hamlet": "WESTBROOK",
-   "street": "LIBBY AVE",
-   "customers": 12,
-   "Outages": 12,
-   "incidents": 1,
-   "EstRest": "8/18/2026 6:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003VFP"
   }
  ]
 }
