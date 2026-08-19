@@ -1,13 +1,23 @@
 {
- "lastUpdated": "2026-08-19 05:46:44",
+ "lastUpdated": "2026-08-19 06:26:44",
  "totals": {
   "customers": 688919,
-  "outages": 1,
-  "incidents": 1
+  "outages": 7,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "MADISON",
+   "customers": 1234,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "8/19/2026 8:30:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -16,7 +26,22 @@
    "customers": 11628,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/19/2026 6:30:00 AM"
+   "EstRest": "8/19/2026 9:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "MADISON",
+   "hamlet": "MADISON",
+   "street": "SIERRA LN",
+   "customers": 5,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "8/19/2026 8:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VKH"
   },
   {
    "level": "street",
@@ -28,9 +53,9 @@
    "customers": 173,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/19/2026 6:30:00 AM",
+   "EstRest": "8/19/2026 9:30:00 AM",
    "crewstatus": "DISP ",
-   "cause": "",
+   "cause": "Tree",
    "incidentnumber": "003VKF"
   }
  ]
