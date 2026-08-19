@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-08-19 04:10:04",
+ "lastUpdated": "2026-08-19 04:56:44",
  "totals": {
   "customers": 688919,
-  "outages": 0,
-  "incidents": 0
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "SANFORD",
+   "customers": 11628,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/19/2026 6:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "SANFORD",
+   "hamlet": "SANFORD",
+   "street": "LEBANON ST",
+   "customers": 173,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/19/2026 6:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VKF"
+  }
+ ]
 }
