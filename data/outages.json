@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-08-19 01:10:04",
+ "lastUpdated": "2026-08-19 01:40:04",
  "totals": {
   "customers": 688919,
-  "outages": 0,
-  "incidents": 0
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "WOOLWICH",
+   "customers": 1848,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/19/2026 3:45:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "WOOLWICH",
+   "hamlet": "WOOLWICH",
+   "street": "MOUNTAIN RD",
+   "customers": 67,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/19/2026 3:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VK9"
+  }
+ ]
 }
