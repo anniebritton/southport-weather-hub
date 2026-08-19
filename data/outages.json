@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-19 09:00:04",
+ "lastUpdated": "2026-08-19 09:54:51",
  "totals": {
   "customers": 688919,
-  "outages": 4,
+  "outages": 19,
   "incidents": 3
  },
  "southport": null,
@@ -11,12 +11,22 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "PARIS",
-   "customers": 3106,
-   "Outages": 2,
+   "county": "ANDROSCOGGIN",
+   "town": "TURNER",
+   "customers": 3212,
+   "Outages": 17,
    "incidents": 1,
-   "EstRest": "8/19/2026 10:15:00 AM"
+   "EstRest": "8/19/2026 11:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "CORNVILLE",
+   "customers": 747,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/19/2026 11:15:00 AM"
   },
   {
    "level": "town",
@@ -26,32 +36,37 @@
    "customers": 11628,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/19/2026 9:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "PITTSFIELD",
-   "customers": 2216,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/19/2026 10:15:00 AM"
+   "EstRest": "8/19/2026 11:30:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "PARIS",
-   "hamlet": "PARIS",
-   "street": "ELM HILL RD",
-   "customers": 85,
-   "Outages": 2,
+   "county": "ANDROSCOGGIN",
+   "town": "TURNER",
+   "hamlet": "TURNER",
+   "street": "TURKEY LN",
+   "customers": 18,
+   "Outages": 17,
    "incidents": 1,
-   "EstRest": "8/19/2026 10:15:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/19/2026 11:30:00 AM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003VKT"
+   "incidentnumber": "003VL8"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "CORNVILLE",
+   "hamlet": "CORNVILLE",
+   "street": "W RIDGE RD",
+   "customers": 125,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/19/2026 11:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VL5"
   },
   {
    "level": "street",
@@ -63,25 +78,10 @@
    "customers": 173,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/19/2026 9:30:00 AM",
+   "EstRest": "8/19/2026 11:30:00 AM",
    "crewstatus": "DISP ",
    "cause": "Tree",
    "incidentnumber": "003VKF"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "PITTSFIELD",
-   "hamlet": "PITTSFIELD",
-   "street": "WEBB SCHOOL RD",
-   "customers": 5,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/19/2026 10:15:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003VKP"
   }
  ]
 }
