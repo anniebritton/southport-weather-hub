@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-19 15:21:31",
+ "lastUpdated": "2026-08-19 15:44:51",
  "totals": {
   "customers": 688919,
   "outages": 608,
@@ -8,6 +8,36 @@
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "OAKLAND",
+   "customers": 3829,
+   "Outages": 11,
+   "incidents": 1,
+   "EstRest": "8/19/2026 5:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "SANFORD",
+   "customers": 11628,
+   "Outages": 106,
+   "incidents": 2,
+   "EstRest": "8/19/2026 4:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "NORTHPORT",
+   "customers": 1430,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/19/2026 5:00:00 PM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -39,34 +69,34 @@
    "EstRest": "8/19/2026 5:00:00 PM"
   },
   {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "NORTHPORT",
-   "customers": 1430,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/19/2026 5:00:00 PM"
-  },
-  {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
    "county": "KENNEBEC",
    "town": "OAKLAND",
-   "customers": 3829,
-   "Outages": 11,
+   "hamlet": "OAKLAND",
+   "street": "SUNSET BOULEVARD CV",
+   "customers": 10,
+   "Outages": 10,
    "incidents": 1,
-   "EstRest": "8/19/2026 5:15:00 PM"
+   "EstRest": "8/19/2026 5:15:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "Tree",
+   "incidentnumber": "003VN9"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "SANFORD",
-   "customers": 11628,
-   "Outages": 106,
-   "incidents": 2,
-   "EstRest": "8/19/2026 4:45:00 PM"
+   "county": "WALDO",
+   "town": "NORTHPORT",
+   "hamlet": "NORTHPORT",
+   "street": "BLUFF RD",
+   "customers": 45,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/19/2026 5:00:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003VN3"
   },
   {
    "level": "street",
@@ -112,36 +142,6 @@
    "crewstatus": "ONST ",
    "cause": "Equipment Interruption",
    "incidentnumber": "003VN4"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "NORTHPORT",
-   "hamlet": "NORTHPORT",
-   "street": "BLUFF RD",
-   "customers": 45,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/19/2026 5:00:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003VN3"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "OAKLAND",
-   "hamlet": "OAKLAND",
-   "street": "SUNSET BOULEVARD CV",
-   "customers": 10,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "8/19/2026 5:15:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003VN9"
   }
  ]
 }
