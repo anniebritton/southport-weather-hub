@@ -1,62 +1,11 @@
 {
- "lastUpdated": "2026-08-20 16:42:57",
+ "lastUpdated": "2026-08-20 17:22:57",
  "totals": {
-  "customers": 688878,
-  "outages": 2,
-  "incidents": 2
+  "customers": 688947,
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "ROCKPORT",
-   "customers": 2761,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/20/2026 5:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "FRIENDSHIP",
-   "customers": 977,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/20/2026 6:30:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "ROCKPORT",
-   "hamlet": "ROCKPORT",
-   "street": "MAIN ST",
-   "customers": 98,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/20/2026 5:30:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003VR7"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "FRIENDSHIP",
-   "hamlet": "FRIENDSHIP",
-   "street": "FINNTOWN RD",
-   "customers": 4,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/20/2026 6:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003VRE"
-  }
- ]
+ "towns": []
 }
