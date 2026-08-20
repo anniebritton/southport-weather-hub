@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-20 06:58:11",
+ "lastUpdated": "2026-08-20 07:38:11",
  "totals": {
   "customers": 688878,
-  "outages": 50,
-  "incidents": 7
+  "outages": 115,
+  "incidents": 10
  },
  "southport": null,
  "lincolnCounty": {
@@ -39,16 +39,6 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "WELLS",
-   "customers": 10982,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/20/2026 8:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "LINCOLN",
    "town": "WISCASSET",
    "customers": 2481,
@@ -59,12 +49,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "MORRILL",
-   "customers": 502,
-   "Outages": 33,
+   "county": "YORK",
+   "town": "WELLS",
+   "customers": 10982,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/20/2026 9:00:00 AM"
+   "EstRest": "8/20/2026 8:45:00 AM"
   },
   {
    "level": "town",
@@ -87,6 +77,56 @@
    "EstRest": "8/20/2026 8:45:00 AM"
   },
   {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "SEARSPORT",
+   "customers": 1941,
+   "Outages": 26,
+   "incidents": 1,
+   "EstRest": "8/20/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "STOCKTON SPRINGS",
+   "customers": 1188,
+   "Outages": 35,
+   "incidents": 1,
+   "EstRest": "8/20/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "MORRILL",
+   "customers": 502,
+   "Outages": 33,
+   "incidents": 1,
+   "EstRest": "8/20/2026 9:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "MONMOUTH",
+   "customers": 2462,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/20/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "HANCOCK",
+   "town": "VERONA",
+   "customers": 347,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "8/20/2026 9:00:00 AM"
+  },
+  {
    "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
@@ -97,7 +137,7 @@
    "Outages": 3,
    "incidents": 1,
    "EstRest": "8/20/2026 9:00:00 AM",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003VOO"
   },
@@ -119,6 +159,21 @@
   {
    "level": "street",
    "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WISCASSET",
+   "hamlet": "WISCASSET",
+   "street": "BATH RD",
+   "customers": 129,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/20/2026 8:45:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003VOH"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
    "county": "YORK",
    "town": "WELLS",
    "hamlet": "WELLS",
@@ -134,36 +189,6 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "WISCASSET",
-   "hamlet": "WISCASSET",
-   "street": "BATH RD",
-   "customers": 129,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/20/2026 8:45:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003VOH"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "MORRILL",
-   "hamlet": "MORRILL",
-   "street": "MOREY HILL RD",
-   "customers": 23,
-   "Outages": 22,
-   "incidents": 1,
-   "EstRest": "8/20/2026 9:00:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003VON"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
    "county": "OXFORD",
    "town": "PARIS",
    "hamlet": "PARIS",
@@ -172,7 +197,7 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/20/2026 9:00:00 AM",
-   "crewstatus": "     ",
+   "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003VOP"
   },
@@ -187,9 +212,84 @@
    "Outages": 2,
    "incidents": 1,
    "EstRest": "8/20/2026 8:45:00 AM",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003VOL"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "SEARSPORT",
+   "hamlet": "SEARSPORT",
+   "street": "HARRIS RD",
+   "customers": 18,
+   "Outages": 18,
+   "incidents": 1,
+   "EstRest": "8/20/2026 9:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VOU"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "STOCKTON SPRINGS",
+   "hamlet": "STOCKTON SPRINGS",
+   "street": "HARRIS RD",
+   "customers": 39,
+   "Outages": 16,
+   "incidents": 1,
+   "EstRest": "8/20/2026 9:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VOU"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "MORRILL",
+   "hamlet": "MORRILL",
+   "street": "MOREY HILL RD",
+   "customers": 23,
+   "Outages": 22,
+   "incidents": 1,
+   "EstRest": "8/20/2026 9:00:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003VON"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "MONMOUTH",
+   "hamlet": "MONMOUTH",
+   "street": "S MAIN ST",
+   "customers": 74,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/20/2026 9:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VOR"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "HANCOCK",
+   "town": "VERONA",
+   "hamlet": "VERONA",
+   "street": "HIGH ST",
+   "customers": 5,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "8/20/2026 9:00:00 AM",
+   "crewstatus": "ACKN ",
+   "cause": "",
+   "incidentnumber": "003VOQ"
   }
  ]
 }
