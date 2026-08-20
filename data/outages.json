@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-19 22:38:11",
+ "lastUpdated": "2026-08-19 23:24:51",
  "totals": {
   "customers": 688878,
   "outages": 1,
@@ -29,7 +29,7 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/20/2026 12:15:00 AM",
-   "crewstatus": "ENRT ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VO2"
   }
