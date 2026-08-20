@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-20 11:56:17",
+ "lastUpdated": "2026-08-20 12:46:17",
  "totals": {
   "customers": 688878,
-  "outages": 32,
-  "incidents": 4
+  "outages": 22,
+  "incidents": 5
  },
  "southport": null,
  "lincolnCounty": {
@@ -19,22 +19,32 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "NORWAY",
-   "customers": 3516,
-   "Outages": 13,
-   "incidents": 2,
-   "EstRest": "8/20/2026 1:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "LINCOLN",
    "town": "NOBLEBORO",
    "customers": 1451,
    "Outages": 14,
    "incidents": 1,
    "EstRest": "8/20/2026 1:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "WINTHROP",
+   "customers": 3988,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/20/2026 2:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "NORWAY",
+   "customers": 3516,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/20/2026 1:30:00 PM"
   },
   {
    "level": "town",
@@ -47,6 +57,16 @@
    "EstRest": "8/20/2026 1:45:00 PM"
   },
   {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "LIMINGTON",
+   "customers": 2143,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/20/2026 2:45:00 PM"
+  },
+  {
    "level": "street",
    "opco": "CMP",
    "county": "LINCOLN",
@@ -57,9 +77,39 @@
    "Outages": 2,
    "incidents": 1,
    "EstRest": "8/20/2026 1:45:00 PM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VQD"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "WINTHROP",
+   "hamlet": "WINTHROP",
+   "street": "ROSEWOOD LN",
+   "customers": 6,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/20/2026 2:45:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003VQH"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "NORWAY",
+   "hamlet": "NORWAY",
+   "street": "HOLMAN LN",
+   "customers": 12,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/20/2026 1:30:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003VQ8"
   },
   {
    "level": "street",
@@ -75,6 +125,21 @@
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003VOJ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "LIMINGTON",
+   "hamlet": "LIMINGTON",
+   "street": "SOKOKIS AVE",
+   "customers": 193,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/20/2026 2:45:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003VQF"
   }
  ]
 }
