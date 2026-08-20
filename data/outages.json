@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-20 01:41:31",
+ "lastUpdated": "2026-08-20 02:41:31",
  "totals": {
   "customers": 688878,
-  "outages": 136,
-  "incidents": 1
+  "outages": 191,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -14,24 +14,9 @@
    "county": "KNOX",
    "town": "SOUTH THOMASTON",
    "customers": 1183,
-   "Outages": 136,
-   "incidents": 1,
-   "EstRest": "8/20/2026 3:30:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "SOUTH THOMASTON",
-   "hamlet": "SOUTH THOMASTON",
-   "street": "WATERMAN BEACH RD",
-   "customers": 61,
-   "Outages": 39,
-   "incidents": 1,
-   "EstRest": "8/20/2026 3:30:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003VOA"
+   "Outages": 191,
+   "incidents": 2,
+   "EstRest": "8/20/2026 4:45:00 AM"
   }
  ]
 }
