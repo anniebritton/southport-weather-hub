@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-20 09:08:11",
+ "lastUpdated": "2026-08-20 10:02:57",
  "totals": {
   "customers": 688878,
-  "outages": 130,
-  "incidents": 8
+  "outages": 106,
+  "incidents": 6
  },
  "southport": null,
  "lincolnCounty": {
@@ -13,69 +13,9 @@
   "customers": 28935,
   "Outages": 2,
   "incidents": 1,
-  "EstRest": "8/20/2026 10:00:00 AM"
+  "EstRest": "8/20/2026 11:30:00 AM"
  },
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "NEW GLOUCESTER",
-   "customers": 3095,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "8/20/2026 9:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "VERONA",
-   "customers": 347,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "8/20/2026 10:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "DOVER-FOXCROFT",
-   "customers": 2719,
-   "Outages": 6,
-   "incidents": 1,
-   "EstRest": "8/20/2026 10:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "SEARSPORT",
-   "customers": 1941,
-   "Outages": 26,
-   "incidents": 1,
-   "EstRest": "8/20/2026 9:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "STOCKTON SPRINGS",
-   "customers": 1188,
-   "Outages": 35,
-   "incidents": 1,
-   "EstRest": "8/20/2026 9:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "LEXINGTON",
-   "customers": 171,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/20/2026 9:45:00 AM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -84,7 +24,17 @@
    "customers": 1205,
    "Outages": 2,
    "incidents": 1,
-   "EstRest": "8/20/2026 10:00:00 AM"
+   "EstRest": "8/20/2026 11:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "NORWAY",
+   "customers": 3516,
+   "Outages": 12,
+   "incidents": 1,
+   "EstRest": "8/20/2026 11:15:00 AM"
   },
   {
    "level": "town",
@@ -117,94 +67,24 @@
    "EstRest": "8/20/2026 10:45:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
    "county": "CUMBERLAND",
    "town": "NEW GLOUCESTER",
-   "hamlet": "NEW GLOUCESTER",
-   "street": "NEPTUNE DR",
-   "customers": 4,
-   "Outages": 3,
+   "customers": 3095,
+   "Outages": 5,
    "incidents": 1,
-   "EstRest": "8/20/2026 9:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003VOJ"
+   "EstRest": "8/20/2026 11:45:00 AM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "VERONA",
-   "hamlet": "VERONA",
-   "street": "HIGH ST",
-   "customers": 5,
-   "Outages": 3,
+   "county": "CUMBERLAND",
+   "town": "SEBAGO",
+   "customers": 1832,
+   "Outages": 35,
    "incidents": 1,
-   "EstRest": "8/20/2026 10:30:00 AM",
-   "crewstatus": "ACKN ",
-   "cause": "",
-   "incidentnumber": "003VOQ"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "DOVER-FOXCROFT",
-   "hamlet": "DOVER-FOXCROFT",
-   "street": "W MAIN ST",
-   "customers": 139,
-   "Outages": 6,
-   "incidents": 1,
-   "EstRest": "8/20/2026 10:00:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003VP2"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "SEARSPORT",
-   "hamlet": "SEARSPORT",
-   "street": "HARRIS RD",
-   "customers": 18,
-   "Outages": 18,
-   "incidents": 1,
-   "EstRest": "8/20/2026 9:15:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003VOU"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "STOCKTON SPRINGS",
-   "hamlet": "STOCKTON SPRINGS",
-   "street": "HARRIS RD",
-   "customers": 39,
-   "Outages": 16,
-   "incidents": 1,
-   "EstRest": "8/20/2026 9:15:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003VOU"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "LEXINGTON",
-   "hamlet": "LEXINGTON",
-   "street": "LONG FALLS DAM RD",
-   "customers": 43,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/20/2026 9:45:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003VOW"
+   "EstRest": "8/20/2026 11:45:00 AM"
   },
   {
    "level": "street",
@@ -216,10 +96,25 @@
    "customers": 2,
    "Outages": 2,
    "incidents": 1,
-   "EstRest": "8/20/2026 10:00:00 AM",
-   "crewstatus": "     ",
+   "EstRest": "8/20/2026 11:30:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003VP3"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "NORWAY",
+   "hamlet": "NORWAY",
+   "street": "PENN RD",
+   "customers": 12,
+   "Outages": 12,
+   "incidents": 1,
+   "EstRest": "8/20/2026 11:15:00 AM",
+   "crewstatus": "ACKN ",
+   "cause": "",
+   "incidentnumber": "003VPH"
   },
   {
    "level": "street",
@@ -232,7 +127,7 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/20/2026 10:45:00 AM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003VP6"
   },
@@ -247,7 +142,7 @@
    "Outages": 5,
    "incidents": 1,
    "EstRest": "8/20/2026 10:45:00 AM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VPB"
   },
@@ -262,9 +157,39 @@
    "Outages": 2,
    "incidents": 1,
    "EstRest": "8/20/2026 10:45:00 AM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VPB"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "NEW GLOUCESTER",
+   "hamlet": "NEW GLOUCESTER",
+   "street": "NEPTUNE DR",
+   "customers": 4,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "8/20/2026 11:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VOJ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "SEBAGO",
+   "hamlet": "SEBAGO",
+   "street": "SHORE RD",
+   "customers": 38,
+   "Outages": 22,
+   "incidents": 1,
+   "EstRest": "8/20/2026 11:45:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003VPM"
   }
  ]
 }
