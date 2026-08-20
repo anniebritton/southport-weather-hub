@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-19 21:41:31",
+ "lastUpdated": "2026-08-19 22:38:11",
  "totals": {
   "customers": 688878,
-  "outages": 224,
+  "outages": 1,
   "incidents": 1
  },
  "southport": null,
@@ -11,52 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "WALES",
-   "customers": 786,
-   "Outages": 4,
+   "county": "YORK",
+   "town": "SACO",
+   "customers": 11676,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/19/2026 10:45:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "MONMOUTH",
-   "customers": 2462,
-   "Outages": 220,
-   "incidents": 1,
-   "EstRest": "8/19/2026 10:45:00 PM"
+   "EstRest": "8/20/2026 12:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "WALES",
-   "hamlet": "WALES",
-   "street": "POND RD",
-   "customers": 3,
-   "Outages": 3,
+   "county": "YORK",
+   "town": "SACO",
+   "hamlet": "SACO",
+   "street": "FLAG POND RD",
+   "customers": 143,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/19/2026 10:45:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "Tree",
-   "incidentnumber": "003VO0"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "MONMOUTH",
-   "hamlet": "MONMOUTH",
-   "street": "MAIN ST",
-   "customers": 167,
-   "Outages": 59,
-   "incidents": 1,
-   "EstRest": "8/19/2026 10:45:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "Tree",
-   "incidentnumber": "003VO0"
+   "EstRest": "8/20/2026 12:15:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003VO2"
   }
  ]
 }
