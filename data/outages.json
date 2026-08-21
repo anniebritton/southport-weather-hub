@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-08-21 06:46:17",
+ "lastUpdated": "2026-08-21 07:22:57",
  "totals": {
   "customers": 688947,
-  "outages": 0,
-  "incidents": 0
+  "outages": 16,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "GARDINER",
+   "customers": 3506,
+   "Outages": 16,
+   "incidents": 1,
+   "EstRest": "8/21/2026 9:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "GARDINER",
+   "hamlet": "GARDINER",
+   "street": "NICOLE CIR",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/21/2026 9:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VSE"
+  }
+ ]
 }
