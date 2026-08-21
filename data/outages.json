@@ -1,13 +1,23 @@
 {
- "lastUpdated": "2026-08-21 00:49:37",
+ "lastUpdated": "2026-08-21 01:29:37",
  "totals": {
   "customers": 688947,
-  "outages": 163,
-  "incidents": 1
+  "outages": 168,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRIDGTON",
+   "customers": 5687,
+   "Outages": 5,
+   "incidents": 1,
+   "EstRest": "8/21/2026 3:00:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -17,6 +27,21 @@
    "Outages": 163,
    "incidents": 1,
    "EstRest": "8/21/2026 4:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRIDGTON",
+   "hamlet": "BRIDGTON",
+   "street": "GEORGE PACKARD RD",
+   "customers": 5,
+   "Outages": 5,
+   "incidents": 1,
+   "EstRest": "8/21/2026 3:00:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003VS1"
   },
   {
    "level": "street",
