@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-22 12:43:07",
+ "lastUpdated": "2026-08-22 13:16:27",
  "totals": {
   "customers": 688967,
   "outages": 192,
@@ -8,16 +8,6 @@
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "LEVANT",
-   "customers": 1601,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/22/2026 1:30:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -51,12 +41,22 @@
   {
    "level": "town",
    "opco": "CMP",
+   "county": "PENOBSCOT",
+   "town": "LEVANT",
+   "customers": 1601,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/22/2026 1:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
    "county": "OXFORD",
    "town": "HEBRON",
    "customers": 598,
    "Outages": 38,
    "incidents": 1,
-   "EstRest": "8/22/2026 1:30:00 PM"
+   "EstRest": "8/22/2026 3:30:00 PM"
   },
   {
    "level": "town",
@@ -66,7 +66,7 @@
    "customers": 1188,
    "Outages": 3,
    "incidents": 1,
-   "EstRest": "8/22/2026 1:30:00 PM"
+   "EstRest": "8/22/2026 3:30:00 PM"
   },
   {
    "level": "town",
@@ -76,7 +76,7 @@
    "customers": 3212,
    "Outages": 65,
    "incidents": 1,
-   "EstRest": "8/22/2026 1:30:00 PM"
+   "EstRest": "8/22/2026 3:30:00 PM"
   },
   {
    "level": "town",
@@ -96,7 +96,7 @@
    "customers": 1304,
    "Outages": 4,
    "incidents": 1,
-   "EstRest": "8/22/2026 1:30:00 PM"
+   "EstRest": "8/22/2026 3:30:00 PM"
   },
   {
    "level": "town",
@@ -107,21 +107,6 @@
    "Outages": 64,
    "incidents": 1,
    "EstRest": "8/22/2026 3:30:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "LEVANT",
-   "hamlet": "LEVANT",
-   "street": "THIBODEAU DR",
-   "customers": 10,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/22/2026 1:30:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003VXI"
   },
   {
    "level": "street",
@@ -171,6 +156,21 @@
   {
    "level": "street",
    "opco": "CMP",
+   "county": "PENOBSCOT",
+   "town": "LEVANT",
+   "hamlet": "LEVANT",
+   "street": "THIBODEAU DR",
+   "customers": 10,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/22/2026 1:30:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003VXI"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
    "county": "OXFORD",
    "town": "HEBRON",
    "hamlet": "HEBRON",
@@ -178,8 +178,8 @@
    "customers": 9,
    "Outages": 2,
    "incidents": 1,
-   "EstRest": "8/22/2026 1:30:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "8/22/2026 3:30:00 PM",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VXH"
   },
@@ -193,8 +193,8 @@
    "customers": 15,
    "Outages": 3,
    "incidents": 1,
-   "EstRest": "8/22/2026 1:30:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "8/22/2026 3:30:00 PM",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VXH"
   },
@@ -208,8 +208,8 @@
    "customers": 57,
    "Outages": 14,
    "incidents": 1,
-   "EstRest": "8/22/2026 1:30:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "8/22/2026 3:30:00 PM",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VXH"
   },
@@ -238,8 +238,8 @@
    "customers": 4,
    "Outages": 4,
    "incidents": 1,
-   "EstRest": "8/22/2026 1:30:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "8/22/2026 3:30:00 PM",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VXH"
   },
