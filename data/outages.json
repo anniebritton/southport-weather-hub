@@ -1,13 +1,33 @@
 {
- "lastUpdated": "2026-08-22 09:13:07",
+ "lastUpdated": "2026-08-22 09:49:47",
  "totals": {
   "customers": 688967,
-  "outages": 64,
-  "incidents": 1
+  "outages": 76,
+  "incidents": 4
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "HARPSWELL",
+   "customers": 4764,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/22/2026 11:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "MECHANIC FALLS",
+   "customers": 1648,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/22/2026 11:30:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -17,6 +37,46 @@
    "Outages": 64,
    "incidents": 1,
    "EstRest": "8/22/2026 10:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LEEDS",
+   "customers": 1286,
+   "Outages": 10,
+   "incidents": 1,
+   "EstRest": "8/22/2026 11:45:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "HARPSWELL",
+   "hamlet": "HARPSWELL",
+   "street": "SPUR RD",
+   "customers": 3,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/22/2026 11:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VX4"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "MECHANIC FALLS",
+   "hamlet": "MECHANIC FALLS",
+   "street": "PIGEON HILL RD",
+   "customers": 59,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/22/2026 11:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VX1"
   },
   {
    "level": "street",
@@ -32,6 +92,21 @@
    "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VWX"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LEEDS",
+   "hamlet": "LEEDS",
+   "street": "MATEUSE ST",
+   "customers": 8,
+   "Outages": 8,
+   "incidents": 1,
+   "EstRest": "8/22/2026 11:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VX3"
   }
  ]
 }
