@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-22 06:43:07",
+ "lastUpdated": "2026-08-22 07:16:27",
  "totals": {
   "customers": 688967,
-  "outages": 59,
+  "outages": 21,
   "incidents": 1
  },
  "southport": null,
@@ -11,27 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CUMBERLAND",
-   "customers": 4143,
-   "Outages": 59,
+   "county": "ANDROSCOGGIN",
+   "town": "GREENE",
+   "customers": 2290,
+   "Outages": 21,
    "incidents": 1,
-   "EstRest": "8/22/2026 8:30:00 AM"
+   "EstRest": "8/22/2026 9:00:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CUMBERLAND",
-   "hamlet": "CUMBERLAND",
-   "street": "HEDGEROW DR",
-   "customers": 22,
-   "Outages": 22,
+   "county": "ANDROSCOGGIN",
+   "town": "GREENE",
+   "hamlet": "GREENE",
+   "street": "RACKLEY DR",
+   "customers": 29,
+   "Outages": 5,
    "incidents": 1,
-   "EstRest": "8/22/2026 8:30:00 AM",
-   "crewstatus": "ENRT ",
+   "EstRest": "8/22/2026 9:00:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003VWH"
+   "incidentnumber": "003VWL"
   }
  ]
 }
