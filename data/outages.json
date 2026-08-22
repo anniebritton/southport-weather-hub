@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-22 10:16:27",
+ "lastUpdated": "2026-08-22 10:43:07",
  "totals": {
   "customers": 688967,
-  "outages": 66,
+  "outages": 69,
   "incidents": 3
  },
  "southport": null,
@@ -12,11 +12,11 @@
    "level": "town",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "HARPSWELL",
-   "customers": 4764,
-   "Outages": 1,
+   "town": "NEW GLOUCESTER",
+   "customers": 3095,
+   "Outages": 4,
    "incidents": 1,
-   "EstRest": "8/22/2026 11:45:00 AM"
+   "EstRest": "8/22/2026 12:30:00 PM"
   },
   {
    "level": "town",
@@ -42,16 +42,16 @@
    "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "HARPSWELL",
-   "hamlet": "HARPSWELL",
-   "street": "SPUR RD",
-   "customers": 3,
-   "Outages": 1,
+   "town": "NEW GLOUCESTER",
+   "hamlet": "NEW GLOUCESTER",
+   "street": "PORTLAND RD",
+   "customers": 28,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "8/22/2026 11:45:00 AM",
-   "crewstatus": "DISP ",
+   "EstRest": "8/22/2026 12:30:00 PM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003VX4"
+   "incidentnumber": "003VX7"
   },
   {
    "level": "street",
