@@ -1,23 +1,13 @@
 {
- "lastUpdated": "2026-08-22 18:49:47",
+ "lastUpdated": "2026-08-22 19:16:27",
  "totals": {
   "customers": 689040,
-  "outages": 66,
-  "incidents": 3
+  "outages": 65,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "AUBURN",
-   "customers": 13589,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/22/2026 8:15:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -37,21 +27,6 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/22/2026 10:00:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "AUBURN",
-   "hamlet": "AUBURN",
-   "street": "DILLINGHAM HILL RD",
-   "customers": 17,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/22/2026 8:15:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003VY7"
   },
   {
    "level": "street",
