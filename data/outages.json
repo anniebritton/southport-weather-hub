@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-08-22 06:19:47",
+ "lastUpdated": "2026-08-22 06:43:07",
  "totals": {
   "customers": 688967,
-  "outages": 0,
-  "incidents": 0
+  "outages": 59,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "CUMBERLAND",
+   "customers": 4143,
+   "Outages": 59,
+   "incidents": 1,
+   "EstRest": "8/22/2026 8:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "CUMBERLAND",
+   "hamlet": "CUMBERLAND",
+   "street": "HEDGEROW DR",
+   "customers": 22,
+   "Outages": 22,
+   "incidents": 1,
+   "EstRest": "8/22/2026 8:30:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003VWH"
+  }
+ ]
 }
