@@ -1,37 +1,95 @@
 {
- "lastUpdated": "2026-08-22 07:16:27",
+ "lastUpdated": "2026-08-22 07:39:47",
  "totals": {
   "customers": 688967,
-  "outages": 21,
-  "incidents": 1
+  "outages": 7,
+  "incidents": 3
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 28935,
+  "Outages": 1,
+  "incidents": 1,
+  "EstRest": "8/22/2026 9:30:00 AM"
+ },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
    "county": "ANDROSCOGGIN",
-   "town": "GREENE",
-   "customers": 2290,
-   "Outages": 21,
+   "town": "LISBON",
+   "customers": 4880,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/22/2026 9:00:00 AM"
+   "EstRest": "8/22/2026 9:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRIDGTON",
+   "customers": 5687,
+   "Outages": 5,
+   "incidents": 1,
+   "EstRest": "8/22/2026 9:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WALDOBORO",
+   "customers": 3211,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/22/2026 9:30:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "ANDROSCOGGIN",
-   "town": "GREENE",
-   "hamlet": "GREENE",
-   "street": "RACKLEY DR",
-   "customers": 29,
-   "Outages": 5,
+   "town": "LISBON",
+   "hamlet": "LISBON",
+   "street": "MILL ST",
+   "customers": 28,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/22/2026 9:00:00 AM",
+   "EstRest": "8/22/2026 9:30:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003VWL"
+   "incidentnumber": "003VWN"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRIDGTON",
+   "hamlet": "BRIDGTON",
+   "street": "BAYBERRY LN",
+   "customers": 20,
+   "Outages": 5,
+   "incidents": 1,
+   "EstRest": "8/22/2026 9:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VWQ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WALDOBORO",
+   "hamlet": "WALDOBORO",
+   "street": "WINSLOWS MILLS RD",
+   "customers": 157,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/22/2026 9:30:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003VWO"
   }
  ]
 }
