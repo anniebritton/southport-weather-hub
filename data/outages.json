@@ -1,31 +1,13 @@
 {
- "lastUpdated": "2026-08-22 08:36:27",
+ "lastUpdated": "2026-08-22 09:13:07",
  "totals": {
   "customers": 688967,
-  "outages": 73,
-  "incidents": 4
+  "outages": 64,
+  "incidents": 1
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 28935,
-  "Outages": 1,
-  "incidents": 1,
-  "EstRest": "8/22/2026 9:30:00 AM"
- },
+ "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "WALDOBORO",
-   "customers": 3211,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/22/2026 9:30:00 AM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -35,41 +17,6 @@
    "Outages": 64,
    "incidents": 1,
    "EstRest": "8/22/2026 10:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "LIMERICK",
-   "customers": 2110,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "8/22/2026 9:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRIDGTON",
-   "customers": 5687,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "8/22/2026 9:30:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "WALDOBORO",
-   "hamlet": "WALDOBORO",
-   "street": "WINSLOWS MILLS RD",
-   "customers": 157,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/22/2026 9:30:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003VWO"
   },
   {
    "level": "street",
@@ -82,39 +29,9 @@
    "Outages": 35,
    "incidents": 1,
    "EstRest": "8/22/2026 10:30:00 AM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VWX"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "LIMERICK",
-   "hamlet": "LIMERICK",
-   "street": "IVY CIR",
-   "customers": 2,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "8/22/2026 9:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003VWS"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRIDGTON",
-   "hamlet": "BRIDGTON",
-   "street": "BAYBERRY LN",
-   "customers": 20,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "8/22/2026 9:30:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003VWQ"
   }
  ]
 }
