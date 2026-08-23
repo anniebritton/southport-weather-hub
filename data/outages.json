@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-23 10:56:27",
+ "lastUpdated": "2026-08-23 11:33:07",
  "totals": {
   "customers": 689040,
-  "outages": 1,
-  "incidents": 1
+  "outages": 50,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,27 +11,52 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "SANFORD",
-   "customers": 11628,
+   "county": "OXFORD",
+   "town": "WATERFORD",
+   "customers": 1568,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/23/2026 11:00:00 AM"
+   "EstRest": "8/23/2026 1:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRIDGTON",
+   "customers": 5687,
+   "Outages": 49,
+   "incidents": 1,
+   "EstRest": "8/23/2026 1:30:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "SANFORD",
-   "hamlet": "SANFORD",
-   "street": "JESSE CIR",
-   "customers": 11,
+   "county": "OXFORD",
+   "town": "WATERFORD",
+   "hamlet": "WATERFORD",
+   "street": "MCWAIN HILL RD",
+   "customers": 46,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/23/2026 11:00:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/23/2026 1:30:00 PM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "003VYR"
+   "incidentnumber": "003VYU"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRIDGTON",
+   "hamlet": "BRIDGTON",
+   "street": "THOMPSON RD",
+   "customers": 24,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/23/2026 1:30:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003VYX"
   }
  ]
 }
