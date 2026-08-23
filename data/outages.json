@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-08-23 05:56:27",
+ "lastUpdated": "2026-08-23 06:36:27",
  "totals": {
   "customers": 689040,
-  "outages": 0,
-  "incidents": 0
+  "outages": 7,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "WATERVILLE",
+   "customers": 8583,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "8/23/2026 8:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "WATERVILLE",
+   "hamlet": "WATERVILLE",
+   "street": "MERRILL ST",
+   "customers": 15,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/23/2026 8:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003VYK"
+  }
+ ]
 }
