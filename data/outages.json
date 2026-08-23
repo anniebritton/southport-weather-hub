@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-23 06:36:27",
+ "lastUpdated": "2026-08-23 06:56:27",
  "totals": {
   "customers": 689040,
   "outages": 7,
@@ -29,7 +29,7 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/23/2026 8:30:00 AM",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003VYK"
   }
