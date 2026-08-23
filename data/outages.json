@@ -1,62 +1,11 @@
 {
- "lastUpdated": "2026-08-22 22:39:47",
+ "lastUpdated": "2026-08-22 23:43:07",
  "totals": {
   "customers": 689040,
-  "outages": 6,
-  "incidents": 2
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CAPE ELIZABETH",
-   "customers": 4547,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/23/2026 1:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "LEWISTON",
-   "customers": 19412,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "8/23/2026 1:30:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CAPE ELIZABETH",
-   "hamlet": "CAPE ELIZABETH",
-   "street": "CHARLES E JORDAN RD",
-   "customers": 10,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/23/2026 1:00:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003VXN"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "LEWISTON",
-   "hamlet": "LEWISTON",
-   "street": "AUTUMN LN",
-   "customers": 52,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "8/23/2026 1:30:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003VWX"
-  }
- ]
+ "towns": []
 }
