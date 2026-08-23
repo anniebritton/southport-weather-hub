@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-23 11:53:07",
+ "lastUpdated": "2026-08-23 12:29:47",
  "totals": {
   "customers": 689040,
-  "outages": 49,
-  "incidents": 1
+  "outages": 68,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -19,6 +19,16 @@
    "EstRest": "8/23/2026 1:30:00 PM"
   },
   {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "LIMINGTON",
+   "customers": 2143,
+   "Outages": 19,
+   "incidents": 1,
+   "EstRest": "8/23/2026 2:30:00 PM"
+  },
+  {
    "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
@@ -29,9 +39,24 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/23/2026 1:30:00 PM",
-   "crewstatus": "ACKN ",
+   "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003VYX"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "LIMINGTON",
+   "hamlet": "LIMINGTON",
+   "street": "EVERGREEN CIR",
+   "customers": 16,
+   "Outages": 15,
+   "incidents": 1,
+   "EstRest": "8/23/2026 2:30:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003VZ1"
   }
  ]
 }
