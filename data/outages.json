@@ -1,33 +1,13 @@
 {
- "lastUpdated": "2026-08-23 15:29:47",
+ "lastUpdated": "2026-08-23 15:53:07",
  "totals": {
   "customers": 689040,
-  "outages": 26,
-  "incidents": 3
+  "outages": 25,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WATERFORD",
-   "customers": 1568,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/23/2026 5:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "PENOBSCOT",
-   "town": "DIXMONT",
-   "customers": 557,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/23/2026 4:45:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -39,34 +19,14 @@
    "EstRest": "8/23/2026 4:45:00 PM"
   },
   {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WATERFORD",
-   "hamlet": "WATERFORD",
-   "street": "MCWAIN HILL RD",
-   "customers": 46,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/23/2026 5:00:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003VZ7"
-  },
-  {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
    "county": "PENOBSCOT",
    "town": "DIXMONT",
-   "hamlet": "DIXMONT",
-   "street": "SIMPSON CORNER RD",
-   "customers": 46,
+   "customers": 557,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/23/2026 4:45:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003VZ4"
+   "EstRest": "8/23/2026 4:45:00 PM"
   },
   {
    "level": "street",
@@ -82,6 +42,21 @@
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003VZ5"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PENOBSCOT",
+   "town": "DIXMONT",
+   "hamlet": "DIXMONT",
+   "street": "SIMPSON CORNER RD",
+   "customers": 46,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/23/2026 4:45:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003VZ4"
   }
  ]
 }
