@@ -1,23 +1,13 @@
 {
- "lastUpdated": "2026-08-23 11:33:07",
+ "lastUpdated": "2026-08-23 11:53:07",
  "totals": {
   "customers": 689040,
-  "outages": 50,
-  "incidents": 2
+  "outages": 49,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WATERFORD",
-   "customers": 1568,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/23/2026 1:30:00 PM"
-  },
   {
    "level": "town",
    "opco": "CMP",
@@ -31,21 +21,6 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WATERFORD",
-   "hamlet": "WATERFORD",
-   "street": "MCWAIN HILL RD",
-   "customers": 46,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/23/2026 1:30:00 PM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003VYU"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
    "county": "CUMBERLAND",
    "town": "BRIDGTON",
    "hamlet": "BRIDGTON",
@@ -54,7 +29,7 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/23/2026 1:30:00 PM",
-   "crewstatus": "DISP ",
+   "crewstatus": "ACKN ",
    "cause": "",
    "incidentnumber": "003VYX"
   }
