@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-24 18:39:44",
+ "lastUpdated": "2026-08-24 19:03:04",
  "totals": {
   "customers": 689059,
-  "outages": 54,
-  "incidents": 4
+  "outages": 492,
+  "incidents": 6
  },
  "southport": null,
  "lincolnCounty": {
@@ -39,12 +39,22 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "WILTON",
-   "customers": 2355,
-   "Outages": 36,
+   "county": "SOMERSET",
+   "town": "CORNVILLE",
+   "customers": 747,
+   "Outages": 22,
    "incidents": 1,
-   "EstRest": "8/24/2026 8:00:00 PM"
+   "EstRest": "8/24/2026 9:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRUNSWICK",
+   "customers": 12090,
+   "Outages": 452,
+   "incidents": 2,
+   "EstRest": "8/24/2026 9:15:00 PM"
   },
   {
    "level": "street",
@@ -64,17 +74,17 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "WILTON",
-   "hamlet": "WILTON",
-   "street": "HOOPER BROOK RD",
-   "customers": 4,
-   "Outages": 4,
+   "county": "SOMERSET",
+   "town": "CORNVILLE",
+   "hamlet": "CORNVILLE",
+   "street": "THURSTON RD",
+   "customers": 18,
+   "Outages": 16,
    "incidents": 1,
-   "EstRest": "8/24/2026 8:00:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "Tree",
-   "incidentnumber": "003W50"
+   "EstRest": "8/24/2026 9:00:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003W52"
   }
  ]
 }
