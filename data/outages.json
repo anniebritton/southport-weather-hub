@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-24 17:56:24",
+ "lastUpdated": "2026-08-24 18:39:44",
  "totals": {
   "customers": 689059,
-  "outages": 81,
-  "incidents": 6
+  "outages": 54,
+  "incidents": 4
  },
  "southport": null,
  "lincolnCounty": {
@@ -29,26 +29,6 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "LOVELL",
-   "customers": 1413,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/24/2026 7:45:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "WILTON",
-   "customers": 2355,
-   "Outages": 36,
-   "incidents": 1,
-   "EstRest": "8/24/2026 8:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "LINCOLN",
    "town": "JEFFERSON",
    "customers": 1938,
@@ -59,42 +39,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "TOPSHAM",
-   "customers": 5447,
-   "Outages": 26,
-   "incidents": 1,
-   "EstRest": "8/24/2026 6:45:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "LOVELL",
-   "hamlet": "LOVELL",
-   "street": "SKILLINGS HILL RD",
-   "customers": 1,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/24/2026 7:45:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003W4S"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
    "county": "FRANKLIN",
    "town": "WILTON",
-   "hamlet": "WILTON",
-   "street": "HOOPER BROOK RD",
-   "customers": 4,
-   "Outages": 4,
+   "customers": 2355,
+   "Outages": 36,
    "incidents": 1,
-   "EstRest": "8/24/2026 8:00:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003W50"
+   "EstRest": "8/24/2026 8:00:00 PM"
   },
   {
    "level": "street",
@@ -114,17 +64,17 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "TOPSHAM",
-   "hamlet": "TOPSHAM",
-   "street": "JESSE RD",
-   "customers": 26,
-   "Outages": 26,
+   "county": "FRANKLIN",
+   "town": "WILTON",
+   "hamlet": "WILTON",
+   "street": "HOOPER BROOK RD",
+   "customers": 4,
+   "Outages": 4,
    "incidents": 1,
-   "EstRest": "8/24/2026 6:45:00 PM",
+   "EstRest": "8/24/2026 8:00:00 PM",
    "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003W4K"
+   "cause": "Tree",
+   "incidentnumber": "003W50"
   }
  ]
 }
