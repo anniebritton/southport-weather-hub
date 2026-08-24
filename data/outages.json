@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-24 11:49:44",
+ "lastUpdated": "2026-08-24 12:36:24",
  "totals": {
   "customers": 689044,
-  "outages": 1094,
-  "incidents": 7
+  "outages": 1095,
+  "incidents": 8
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,12 +11,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "WALDO",
-   "town": "LINCOLNVILLE",
-   "customers": 1926,
-   "Outages": 90,
+   "county": "FRANKLIN",
+   "town": "DALLAS PLT",
+   "customers": 542,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/24/2026 3:30:00 PM"
+   "EstRest": "8/24/2026 2:30:00 PM"
   },
   {
    "level": "town",
@@ -31,16 +31,6 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "POLAND",
-   "customers": 3405,
-   "Outages": 33,
-   "incidents": 1,
-   "EstRest": ""
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "CUMBERLAND",
    "town": "PORTLAND",
    "customers": 41206,
@@ -51,12 +41,22 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "KNOX",
-   "town": "CAMDEN",
-   "customers": 3843,
-   "Outages": 440,
-   "incidents": 2,
+   "county": "WALDO",
+   "town": "LINCOLNVILLE",
+   "customers": 1926,
+   "Outages": 90,
+   "incidents": 1,
    "EstRest": "8/24/2026 3:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "POLAND",
+   "customers": 3405,
+   "Outages": 33,
+   "incidents": 1,
+   "EstRest": ""
   },
   {
    "level": "town",
@@ -66,6 +66,16 @@
    "customers": 1085,
    "Outages": 484,
    "incidents": 1,
+   "EstRest": "8/24/2026 3:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "CAMDEN",
+   "customers": 3843,
+   "Outages": 440,
+   "incidents": 2,
    "EstRest": "8/24/2026 3:30:00 PM"
   },
   {
@@ -86,7 +96,37 @@
    "customers": 2419,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/24/2026 12:15:00 PM"
+   "EstRest": "8/24/2026 1:15:00 PM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "DALLAS PLT",
+   "hamlet": "DALLAS PLT",
+   "street": "S COTTAGE RD",
+   "customers": 14,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/24/2026 2:30:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003W2I"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "hamlet": "PORTLAND",
+   "street": "FOREST AVE",
+   "customers": 1170,
+   "Outages": 24,
+   "incidents": 1,
+   "EstRest": "",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003VZ5"
   },
   {
    "level": "street",
@@ -94,9 +134,9 @@
    "county": "WALDO",
    "town": "LINCOLNVILLE",
    "hamlet": "LINCOLNVILLE",
-   "street": "HEMLOCK DR",
-   "customers": 3,
-   "Outages": 3,
+   "street": "HOPE RD",
+   "customers": 62,
+   "Outages": 23,
    "incidents": 1,
    "EstRest": "8/24/2026 3:30:00 PM",
    "crewstatus": "DISP ",
@@ -121,27 +161,12 @@
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "PORTLAND",
-   "hamlet": "PORTLAND",
-   "street": "FOREST AVE",
-   "customers": 1170,
-   "Outages": 24,
-   "incidents": 1,
-   "EstRest": "",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003VZ5"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
    "county": "KNOX",
    "town": "HOPE",
    "hamlet": "HOPE",
-   "street": "PEASE LN",
-   "customers": 2,
-   "Outages": 2,
+   "street": "TOWER LINE ETV",
+   "customers": 4,
+   "Outages": 4,
    "incidents": 1,
    "EstRest": "8/24/2026 3:30:00 PM",
    "crewstatus": "DISP ",
@@ -173,9 +198,9 @@
    "customers": 71,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/24/2026 12:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
+   "EstRest": "8/24/2026 1:15:00 PM",
+   "crewstatus": "CMPL ",
+   "cause": "Tree",
    "incidentnumber": "003W01"
   }
  ]
