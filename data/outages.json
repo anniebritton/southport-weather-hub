@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-24 19:29:44",
+ "lastUpdated": "2026-08-24 19:53:04",
  "totals": {
   "customers": 689059,
-  "outages": 492,
+  "outages": 502,
   "incidents": 6
  },
  "southport": null,
@@ -19,22 +19,12 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "STOW",
-   "customers": 271,
-   "Outages": 17,
-   "incidents": 2,
-   "EstRest": "8/24/2026 7:45:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "JEFFERSON",
-   "customers": 1938,
-   "Outages": 1,
+   "county": "SOMERSET",
+   "town": "ATHENS",
+   "customers": 646,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": ""
+   "EstRest": "8/24/2026 10:00:00 PM"
   },
   {
    "level": "town",
@@ -52,24 +42,34 @@
    "county": "CUMBERLAND",
    "town": "BRUNSWICK",
    "customers": 12090,
-   "Outages": 452,
-   "incidents": 2,
-   "EstRest": "8/24/2026 9:15:00 PM"
+   "Outages": 476,
+   "incidents": 3,
+   "EstRest": "8/24/2026 9:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "JEFFERSON",
+   "customers": 1938,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": ""
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "JEFFERSON",
-   "hamlet": "JEFFERSON",
-   "street": "MASON RD",
-   "customers": 4,
-   "Outages": 1,
+   "county": "SOMERSET",
+   "town": "ATHENS",
+   "hamlet": "ATHENS",
+   "street": "DAGGETT HILL RD",
+   "customers": 2,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "",
-   "crewstatus": "DISP ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003W2H"
+   "EstRest": "8/24/2026 10:00:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003W5L"
   },
   {
    "level": "street",
@@ -85,6 +85,21 @@
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003W52"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "JEFFERSON",
+   "hamlet": "JEFFERSON",
+   "street": "MASON RD",
+   "customers": 4,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "",
+   "crewstatus": "DISP ",
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003W2H"
   }
  ]
 }
