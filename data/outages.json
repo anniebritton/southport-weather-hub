@@ -1,13 +1,33 @@
 {
- "lastUpdated": "2026-08-24 06:49:47",
+ "lastUpdated": "2026-08-24 07:23:07",
  "totals": {
   "customers": 689044,
-  "outages": 57,
-  "incidents": 2
+  "outages": 58,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "POLAND",
+   "customers": 3405,
+   "Outages": 33,
+   "incidents": 1,
+   "EstRest": "8/24/2026 8:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "WARREN",
+   "customers": 2419,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/24/2026 9:15:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -19,14 +39,34 @@
    "EstRest": "8/24/2026 12:00:00 PM"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
    "county": "ANDROSCOGGIN",
    "town": "POLAND",
-   "customers": 3405,
-   "Outages": 33,
+   "hamlet": "POLAND",
+   "street": "NORTHERN SPRING DR",
+   "customers": 25,
+   "Outages": 25,
    "incidents": 1,
-   "EstRest": "8/24/2026 8:45:00 AM"
+   "EstRest": "8/24/2026 8:45:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003VZY"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "WARREN",
+   "hamlet": "WARREN",
+   "street": "MIDDLE RD",
+   "customers": 71,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/24/2026 9:15:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003W01"
   },
   {
    "level": "street",
@@ -42,21 +82,6 @@
    "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003VZ5"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "POLAND",
-   "hamlet": "POLAND",
-   "street": "NORTHERN SPRING DR",
-   "customers": 25,
-   "Outages": 25,
-   "incidents": 1,
-   "EstRest": "8/24/2026 8:45:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003VZY"
   }
  ]
 }
