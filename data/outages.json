@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-24 22:56:24",
+ "lastUpdated": "2026-08-24 23:53:04",
  "totals": {
   "customers": 689059,
   "outages": 47,
@@ -16,7 +16,7 @@
    "customers": 759,
    "Outages": 47,
    "incidents": 1,
-   "EstRest": "8/25/2026 12:00:00 AM"
+   "EstRest": "8/25/2026 1:30:00 AM"
   },
   {
    "level": "street",
@@ -28,8 +28,8 @@
    "customers": 38,
    "Outages": 38,
    "incidents": 1,
-   "EstRest": "8/25/2026 12:00:00 AM",
-   "crewstatus": "ENRT ",
+   "EstRest": "8/25/2026 1:30:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003W5V"
   }
