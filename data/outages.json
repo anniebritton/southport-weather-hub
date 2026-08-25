@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-08-25 01:29:44",
+ "lastUpdated": "2026-08-25 01:56:24",
  "totals": {
   "customers": 689059,
-  "outages": 86,
+  "outages": 46,
   "incidents": 7
  },
  "southport": null,
@@ -13,7 +13,7 @@
   "customers": 28935,
   "Outages": 6,
   "incidents": 1,
-  "EstRest": "8/25/2026 2:15:00 AM"
+  "EstRest": "8/25/2026 3:15:00 AM"
  },
  "towns": [
   {
@@ -24,27 +24,7 @@
    "customers": 698,
    "Outages": 6,
    "incidents": 1,
-   "EstRest": "8/25/2026 2:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WINDHAM",
-   "customers": 10261,
-   "Outages": 2,
-   "incidents": 2,
    "EstRest": "8/25/2026 3:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "ANSON",
-   "customers": 759,
-   "Outages": 47,
-   "incidents": 1,
-   "EstRest": "8/25/2026 1:30:00 AM"
   },
   {
    "level": "town",
@@ -54,7 +34,7 @@
    "customers": 1801,
    "Outages": 2,
    "incidents": 1,
-   "EstRest": "8/25/2026 2:15:00 AM"
+   "EstRest": "8/25/2026 3:15:00 AM"
   },
   {
    "level": "town",
@@ -65,6 +45,16 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "8/25/2026 3:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "WINDHAM",
+   "customers": 10261,
+   "Outages": 9,
+   "incidents": 3,
+   "EstRest": "8/25/2026 4:00:00 AM"
   },
   {
    "level": "town",
@@ -86,25 +76,10 @@
    "customers": 7,
    "Outages": 6,
    "incidents": 1,
-   "EstRest": "8/25/2026 2:15:00 AM",
+   "EstRest": "8/25/2026 3:15:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
    "incidentnumber": "003W61"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "ANSON",
-   "hamlet": "ANSON",
-   "street": "HORSEBACK RD",
-   "customers": 38,
-   "Outages": 38,
-   "incidents": 1,
-   "EstRest": "8/25/2026 1:30:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003W5V"
   },
   {
    "level": "street",
@@ -116,8 +91,8 @@
    "customers": 70,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/25/2026 2:15:00 AM",
-   "crewstatus": "     ",
+   "EstRest": "8/25/2026 3:15:00 AM",
+   "crewstatus": "ENRT ",
    "cause": "",
    "incidentnumber": "003W64"
   },
