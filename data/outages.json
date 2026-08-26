@@ -1,22 +1,11 @@
 {
- "lastUpdated": "2026-08-25 19:55:09",
+ "lastUpdated": "2026-08-25 21:21:49",
  "totals": {
   "customers": 689068,
-  "outages": 351,
-  "incidents": 2
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CAPE ELIZABETH",
-   "customers": 4547,
-   "Outages": 351,
-   "incidents": 2,
-   "EstRest": "8/25/2026 8:30:00 PM"
-  }
- ]
+ "towns": []
 }
