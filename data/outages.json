@@ -1,20 +1,12 @@
 {
- "lastUpdated": "2026-08-26 02:11:49",
+ "lastUpdated": "2026-08-26 03:18:29",
  "totals": {
   "customers": 689068,
-  "outages": 58,
-  "incidents": 2
+  "outages": 39,
+  "incidents": 1
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 29082,
-  "Outages": 19,
-  "incidents": 1,
-  "EstRest": "8/26/2026 3:00:00 AM"
- },
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
@@ -27,44 +19,19 @@
    "EstRest": "8/26/2026 3:30:00 AM"
   },
   {
-   "level": "town",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "NOBLEBORO",
-   "customers": 1468,
-   "Outages": 19,
-   "incidents": 1,
-   "EstRest": "8/26/2026 3:00:00 AM"
-  },
-  {
    "level": "street",
    "opco": "CMP",
    "county": "KENNEBEC",
    "town": "MONMOUTH",
    "hamlet": "MONMOUTH",
-   "street": "KIPPEWA LN",
-   "customers": 1,
-   "Outages": 1,
+   "street": "KIPPEWA DR",
+   "customers": 13,
+   "Outages": 12,
    "incidents": 1,
    "EstRest": "8/26/2026 3:30:00 AM",
    "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "003WAV"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "NOBLEBORO",
-   "hamlet": "NOBLEBORO",
-   "street": "HIDDEN VALLEY LN",
-   "customers": 10,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "8/26/2026 3:00:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003WAY"
   }
  ]
 }
