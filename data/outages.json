@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-08-26 07:08:29",
+ "lastUpdated": "2026-08-26 07:41:49",
  "totals": {
   "customers": 689068,
-  "outages": 97,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "AUBURN",
-   "customers": 13576,
-   "Outages": 97,
-   "incidents": 1,
-   "EstRest": "8/26/2026 9:15:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "AUBURN",
-   "hamlet": "AUBURN",
-   "street": "CENTER ST",
-   "customers": 519,
-   "Outages": 92,
-   "incidents": 1,
-   "EstRest": "8/26/2026 9:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003WB7"
-  }
- ]
+ "towns": []
 }
