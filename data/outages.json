@@ -1,50 +1,22 @@
 {
- "lastUpdated": "2026-08-26 08:48:29",
+ "lastUpdated": "2026-08-26 09:48:56",
  "totals": {
   "customers": 689068,
-  "outages": 12,
-  "incidents": 4
+  "outages": 26,
+  "incidents": 3
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 29082,
-  "Outages": 2,
-  "incidents": 1,
-  "EstRest": "8/26/2026 10:45:00 AM"
- },
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "NOBLEBORO",
-   "customers": 1468,
-   "Outages": 2,
+   "county": "CUMBERLAND",
+   "town": "SEBAGO",
+   "customers": 1837,
+   "Outages": 21,
    "incidents": 1,
-   "EstRest": "8/26/2026 10:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "TURNER",
-   "customers": 3211,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "8/26/2026 10:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "CUSHING",
-   "customers": 1113,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/26/2026 10:00:00 AM"
+   "EstRest": "8/26/2026 11:30:00 AM"
   },
   {
    "level": "town",
@@ -57,49 +29,29 @@
    "EstRest": "8/26/2026 10:45:00 AM"
   },
   {
-   "level": "street",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "NOBLEBORO",
-   "hamlet": "NOBLEBORO",
-   "street": "BRYANT RD",
-   "customers": 2,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "8/26/2026 10:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003WBT"
-  },
-  {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
    "county": "ANDROSCOGGIN",
-   "town": "TURNER",
-   "hamlet": "TURNER",
-   "street": "FOX RUN",
-   "customers": 5,
-   "Outages": 4,
+   "town": "LEWISTON",
+   "customers": 19353,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/26/2026 10:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003WBV"
+   "EstRest": "8/26/2026 11:30:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "KNOX",
-   "town": "CUSHING",
-   "hamlet": "CUSHING",
-   "street": "ORNE LN",
-   "customers": 8,
-   "Outages": 1,
+   "county": "CUMBERLAND",
+   "town": "SEBAGO",
+   "hamlet": "SEBAGO",
+   "street": "KRUSE LN",
+   "customers": 9,
+   "Outages": 9,
    "incidents": 1,
-   "EstRest": "8/26/2026 10:00:00 AM",
-   "crewstatus": "ONST ",
+   "EstRest": "8/26/2026 11:30:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003WBG"
+   "incidentnumber": "003WC4"
   },
   {
    "level": "street",
@@ -112,9 +64,24 @@
    "Outages": 4,
    "incidents": 1,
    "EstRest": "8/26/2026 10:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
+   "crewstatus": "ONST ",
+   "cause": "System Upgrade",
    "incidentnumber": "003WBR"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "LEWISTON",
+   "hamlet": "LEWISTON",
+   "street": "ROBITAILLE CIR",
+   "customers": 4,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/26/2026 11:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003WC8"
   }
  ]
 }
