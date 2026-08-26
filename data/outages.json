@@ -1,87 +1,11 @@
 {
- "lastUpdated": "2026-08-26 14:08:56",
+ "lastUpdated": "2026-08-26 16:05:36",
  "totals": {
   "customers": 689068,
-  "outages": 27,
-  "incidents": 3
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "WINTHROP",
-   "customers": 4000,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/26/2026 3:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WESTBROOK",
-   "customers": 10973,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/26/2026 4:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "OLD ORCHARD BEACH",
-   "customers": 8650,
-   "Outages": 25,
-   "incidents": 1,
-   "EstRest": "8/26/2026 4:00:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "WINTHROP",
-   "hamlet": "WINTHROP",
-   "street": "TOWER RD",
-   "customers": 3,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/26/2026 3:00:00 PM",
-   "crewstatus": "CMPL ",
-   "cause": "Tree",
-   "incidentnumber": "003WD1"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WESTBROOK",
-   "hamlet": "WESTBROOK",
-   "street": "SAUNDERS WAY",
-   "customers": 16,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "8/26/2026 4:15:00 PM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003WDA"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "OLD ORCHARD BEACH",
-   "hamlet": "OLD ORCHARD BEACH",
-   "street": "WASHINGTON AVE",
-   "customers": 83,
-   "Outages": 12,
-   "incidents": 1,
-   "EstRest": "8/26/2026 4:00:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003WDH"
-  }
- ]
+ "towns": []
 }
