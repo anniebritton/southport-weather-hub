@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-08-27 01:02:16",
+ "lastUpdated": "2026-08-27 12:24:28",
  "totals": {
   "customers": 689111,
-  "outages": 0,
-  "incidents": 0
+  "outages": 11,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "JACKMAN",
+   "customers": 852,
+   "Outages": 11,
+   "incidents": 1,
+   "EstRest": "8/27/2026 1:15:00 PM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "JACKMAN",
+   "hamlet": "JACKMAN",
+   "street": "JOHN ST",
+   "customers": 21,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "8/27/2026 1:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003WFS"
+  }
+ ]
 }
