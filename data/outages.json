@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-08-27 12:24:28",
+ "lastUpdated": "2026-08-27 21:04:28",
  "totals": {
-  "customers": 689111,
-  "outages": 11,
-  "incidents": 1
+  "customers": 689164,
+  "outages": 112,
+  "incidents": 4
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,27 +11,102 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "JACKMAN",
-   "customers": 852,
-   "Outages": 11,
+   "county": "CUMBERLAND",
+   "town": "GRAY",
+   "customers": 5260,
+   "Outages": 108,
    "incidents": 1,
-   "EstRest": "8/27/2026 1:15:00 PM"
+   "EstRest": "8/27/2026 9:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "HARRISON",
+   "customers": 2256,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/27/2026 10:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "STONEHAM",
+   "customers": 366,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/27/2026 10:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "VIENNA",
+   "customers": 481,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/27/2026 9:30:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "JACKMAN",
-   "hamlet": "JACKMAN",
-   "street": "JOHN ST",
-   "customers": 21,
-   "Outages": 4,
+   "county": "CUMBERLAND",
+   "town": "GRAY",
+   "hamlet": "GRAY",
+   "street": "SKILLINGS RD",
+   "customers": 18,
+   "Outages": 15,
    "incidents": 1,
-   "EstRest": "8/27/2026 1:15:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "8/27/2026 9:30:00 PM",
+   "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "003WFS"
+   "incidentnumber": "003WHH"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "HARRISON",
+   "hamlet": "HARRISON",
+   "street": "LBJ DR",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "8/27/2026 10:45:00 PM",
+   "crewstatus": "ACKN ",
+   "cause": "",
+   "incidentnumber": "003WIL"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "STONEHAM",
+   "hamlet": "STONEHAM",
+   "street": "FIVE KEZAR PONDS RD",
+   "customers": 14,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/27/2026 10:45:00 PM",
+   "crewstatus": "ACKN ",
+   "cause": "",
+   "incidentnumber": "003WIJ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "VIENNA",
+   "hamlet": "VIENNA",
+   "street": "TOWER RD",
+   "customers": 19,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "8/27/2026 9:30:00 PM",
+   "crewstatus": "CMPL ",
+   "cause": "Investigating",
+   "incidentnumber": "003WII"
   }
  ]
 }
