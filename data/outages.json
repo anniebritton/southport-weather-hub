@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-08-29 21:37:48",
+ "lastUpdated": "2026-08-30 03:21:08",
  "totals": {
   "customers": 689211,
   "outages": 1,
@@ -16,7 +16,7 @@
    "customers": 6560,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/29/2026 10:30:00 PM"
+   "EstRest": ""
   },
   {
    "level": "street",
@@ -28,7 +28,7 @@
    "customers": 5,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/29/2026 10:30:00 PM",
+   "EstRest": "",
    "crewstatus": "DISP ",
    "cause": "Equipment Interruption",
    "incidentnumber": "003WR0"
