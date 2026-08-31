@@ -1,37 +1,70 @@
 {
- "lastUpdated": "2026-08-30 20:47:48",
+ "lastUpdated": "2026-08-31 02:41:08",
  "totals": {
   "customers": 689218,
-  "outages": 5,
-  "incidents": 1
+  "outages": 17,
+  "incidents": 2
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 29084,
+  "Outages": 1,
+  "incidents": 1,
+  "EstRest": "8/31/2026 4:00:00 AM"
+ },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "KITTERY",
-   "customers": 6895,
-   "Outages": 5,
+   "county": "LINCOLN",
+   "town": "WHITEFIELD",
+   "customers": 1333,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/30/2026 11:15:00 PM"
+   "EstRest": "8/31/2026 4:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "VIENNA",
+   "customers": 481,
+   "Outages": 16,
+   "incidents": 1,
+   "EstRest": "8/31/2026 5:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "KITTERY",
-   "hamlet": "KITTERY",
-   "street": "FERNALD RD",
-   "customers": 24,
-   "Outages": 5,
+   "county": "LINCOLN",
+   "town": "WHITEFIELD",
+   "hamlet": "WHITEFIELD",
+   "street": "WISCASSET RD",
+   "customers": 31,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "8/30/2026 11:15:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "003WT0"
+   "EstRest": "8/31/2026 4:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003WU3"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "VIENNA",
+   "hamlet": "VIENNA",
+   "street": "HERRIN WOODS RD",
+   "customers": 16,
+   "Outages": 15,
+   "incidents": 1,
+   "EstRest": "8/31/2026 5:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003WTX"
   }
  ]
 }
