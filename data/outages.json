@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-09-01 14:04:31",
+ "lastUpdated": "2026-09-01 17:01:11",
  "totals": {
   "customers": 689227,
-  "outages": 182,
+  "outages": 15,
   "incidents": 1
  },
  "southport": null,
@@ -11,27 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CAPE ELIZABETH",
-   "customers": 4548,
-   "Outages": 182,
+   "county": "FRANKLIN",
+   "town": "CARRABASSETT VALLEY",
+   "customers": 2624,
+   "Outages": 15,
    "incidents": 1,
-   "EstRest": "9/1/2026 3:15:00 PM"
+   "EstRest": "9/1/2026 6:15:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CAPE ELIZABETH",
-   "hamlet": "CAPE ELIZABETH",
-   "street": "JUNIPER LN",
-   "customers": 6,
-   "Outages": 6,
+   "county": "FRANKLIN",
+   "town": "CARRABASSETT VALLEY",
+   "hamlet": "CARRABASSETT VALLEY",
+   "street": "RIVERSIDE 1900",
+   "customers": 15,
+   "Outages": 15,
    "incidents": 1,
-   "EstRest": "9/1/2026 3:15:00 PM",
+   "EstRest": "9/1/2026 6:15:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003X1C"
+   "incidentnumber": "003X2C"
   }
  ]
 }
