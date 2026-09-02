@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-09-01 21:09:47",
+ "lastUpdated": "2026-09-02 01:49:47",
  "totals": {
   "customers": 689199,
-  "outages": 0,
-  "incidents": 0
+  "outages": 80,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "customers": 41110,
+   "Outages": 80,
+   "incidents": 1,
+   "EstRest": "9/2/2026 3:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "hamlet": "PORTLAND",
+   "street": "PENWOOD DR",
+   "customers": 18,
+   "Outages": 18,
+   "incidents": 1,
+   "EstRest": "9/2/2026 3:00:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003X2W"
+  }
+ ]
 }
