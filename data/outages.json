@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-09-06 01:53:03",
+ "lastUpdated": "2026-09-06 06:53:03",
  "totals": {
   "customers": 689225,
-  "outages": 162,
-  "incidents": 1
+  "outages": 78,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,22 +11,37 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "YORK",
-   "customers": 11300,
-   "Outages": 158,
+   "county": "SAGADAHOC",
+   "town": "TOPSHAM",
+   "customers": 5483,
+   "Outages": 75,
    "incidents": 1,
-   "EstRest": "9/6/2026 3:30:00 AM"
+   "EstRest": "9/6/2026 9:00:00 AM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "YORK",
-   "town": "OGUNQUIT",
-   "customers": 2836,
-   "Outages": 4,
+   "town": "YORK",
+   "customers": 11300,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "9/6/2026 3:30:00 AM"
+   "EstRest": "9/6/2026 8:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "TOPSHAM",
+   "hamlet": "TOPSHAM",
+   "street": "RIVER RD",
+   "customers": 156,
+   "Outages": 50,
+   "incidents": 1,
+   "EstRest": "9/6/2026 9:00:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003XKV"
   },
   {
    "level": "street",
@@ -34,28 +49,13 @@
    "county": "YORK",
    "town": "YORK",
    "hamlet": "YORK",
-   "street": "N VILLAGE RD",
-   "customers": 44,
-   "Outages": 44,
+   "street": "OGUNQUIT RD",
+   "customers": 54,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "9/6/2026 3:30:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003XKQ"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "OGUNQUIT",
-   "hamlet": "OGUNQUIT",
-   "street": "MARCIE WAY",
-   "customers": 4,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "9/6/2026 3:30:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
+   "EstRest": "9/6/2026 8:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "Equipment Interruption",
    "incidentnumber": "003XKQ"
   }
  ]
