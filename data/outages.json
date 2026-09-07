@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-09-06 18:54:26",
+ "lastUpdated": "2026-09-06 20:47:46",
  "totals": {
   "customers": 689228,
-  "outages": 176,
-  "incidents": 3
+  "outages": 1263,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -12,76 +12,111 @@
    "level": "town",
    "opco": "CMP",
    "county": "WALDO",
-   "town": "THORNDIKE",
-   "customers": 442,
-   "Outages": 4,
+   "town": "LINCOLNVILLE",
+   "customers": 1934,
+   "Outages": 90,
    "incidents": 1,
-   "EstRest": "9/6/2026 6:30:00 PM"
+   "EstRest": "9/6/2026 9:30:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WATERFORD",
-   "customers": 1591,
-   "Outages": 165,
+   "county": "KNOX",
+   "town": "HOPE",
+   "customers": 1090,
+   "Outages": 483,
    "incidents": 1,
-   "EstRest": "9/6/2026 7:45:00 PM"
+   "EstRest": "9/6/2026 9:30:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WOODSTOCK",
-   "customers": 1131,
-   "Outages": 7,
+   "county": "KNOX",
+   "town": "CAMDEN",
+   "customers": 3894,
+   "Outages": 674,
+   "incidents": 2,
+   "EstRest": "9/6/2026 10:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "ROCKPORT",
+   "customers": 2731,
+   "Outages": 15,
    "incidents": 1,
-   "EstRest": "9/6/2026 8:00:00 PM"
+   "EstRest": "9/6/2026 10:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "OWLS HEAD",
+   "customers": 1322,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/6/2026 9:30:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "WALDO",
-   "town": "THORNDIKE",
-   "hamlet": "THORNDIKE",
-   "street": "RAVEN RD",
-   "customers": 5,
-   "Outages": 4,
+   "town": "LINCOLNVILLE",
+   "hamlet": "LINCOLNVILLE",
+   "street": "WILEY NECK RD",
+   "customers": 6,
+   "Outages": 6,
    "incidents": 1,
-   "EstRest": "9/6/2026 6:30:00 PM",
+   "EstRest": "9/6/2026 9:30:00 PM",
    "crewstatus": "ONST ",
-   "cause": "Tree",
-   "incidentnumber": "003XLR"
+   "cause": "",
+   "incidentnumber": "003XOL"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WATERFORD",
-   "hamlet": "WATERFORD",
-   "street": "KEOKA BEACH TRL",
-   "customers": 161,
-   "Outages": 160,
+   "county": "KNOX",
+   "town": "HOPE",
+   "hamlet": "HOPE",
+   "street": "SEACOAST RD",
+   "customers": 7,
+   "Outages": 7,
    "incidents": 1,
-   "EstRest": "9/6/2026 7:45:00 PM",
+   "EstRest": "9/6/2026 9:30:00 PM",
    "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "003XNP"
+   "incidentnumber": "003XOL"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WOODSTOCK",
-   "hamlet": "WOODSTOCK",
-   "street": "N SHORE LN",
-   "customers": 3,
-   "Outages": 3,
+   "county": "KNOX",
+   "town": "ROCKPORT",
+   "hamlet": "ROCKPORT",
+   "street": "MAIN ST",
+   "customers": 98,
+   "Outages": 13,
    "incidents": 1,
-   "EstRest": "9/6/2026 8:00:00 PM",
+   "EstRest": "9/6/2026 10:45:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003XOU"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "OWLS HEAD",
+   "hamlet": "OWLS HEAD",
+   "street": "TERMINAL LN",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/6/2026 9:30:00 PM",
    "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "003XNT"
+   "incidentnumber": "003XOL"
   }
  ]
 }
