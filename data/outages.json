@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-09-07 07:47:46",
+ "lastUpdated": "2026-09-07 13:21:06",
  "totals": {
   "customers": 689228,
-  "outages": 10,
+  "outages": 34,
   "incidents": 2
  },
  "southport": null,
@@ -11,52 +11,52 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "KNOX",
-   "town": "CUSHING",
-   "customers": 1114,
-   "Outages": 9,
+   "county": "OXFORD",
+   "town": "GREENWOOD",
+   "customers": 948,
+   "Outages": 26,
    "incidents": 1,
-   "EstRest": "9/7/2026 9:15:00 AM"
+   "EstRest": "9/7/2026 2:30:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "HEBRON",
-   "customers": 601,
-   "Outages": 1,
+   "county": "YORK",
+   "town": "KITTERY",
+   "customers": 6895,
+   "Outages": 8,
    "incidents": 1,
-   "EstRest": "9/7/2026 9:45:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "CUSHING",
-   "hamlet": "CUSHING",
-   "street": "MASON COVE LN",
-   "customers": 5,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "9/7/2026 9:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "003XPD"
+   "EstRest": "9/7/2026 2:00:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "HEBRON",
-   "hamlet": "HEBRON",
-   "street": "PARIS RD",
-   "customers": 28,
-   "Outages": 1,
+   "town": "GREENWOOD",
+   "hamlet": "GREENWOOD",
+   "street": "E TWITCHELL POND RD",
+   "customers": 7,
+   "Outages": 6,
    "incidents": 1,
-   "EstRest": "9/7/2026 9:45:00 AM",
+   "EstRest": "9/7/2026 2:30:00 PM",
    "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003XPE"
+   "incidentnumber": "003XQ9"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "KITTERY",
+   "hamlet": "KITTERY",
+   "street": "MILL POND RD",
+   "customers": 21,
+   "Outages": 8,
+   "incidents": 1,
+   "EstRest": "9/7/2026 2:00:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003XQ6"
   }
  ]
 }
