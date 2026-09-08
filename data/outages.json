@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-09-07 21:12:43",
+ "lastUpdated": "2026-09-08 02:12:43",
  "totals": {
   "customers": 689234,
-  "outages": 10,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "NAPLES",
-   "customers": 3933,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "9/7/2026 10:30:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "NAPLES",
-   "hamlet": "NAPLES",
-   "street": "PERKINS COVE RD",
-   "customers": 5,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "9/7/2026 10:30:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003XR6"
-  }
- ]
+ "towns": []
 }
