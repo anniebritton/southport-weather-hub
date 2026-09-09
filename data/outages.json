@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-09-09 07:49:22",
+ "lastUpdated": "2026-09-09 12:12:42",
  "totals": {
   "customers": 689248,
-  "outages": 108,
+  "outages": 7,
   "incidents": 3
  },
  "southport": null,
@@ -11,47 +11,32 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "WATERBORO",
-   "customers": 4361,
-   "Outages": 86,
-   "incidents": 1,
-   "EstRest": "9/9/2026 9:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "PENOBSCOT",
    "town": "NEWPORT",
    "customers": 2272,
-   "Outages": 21,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "9/9/2026 9:30:00 AM"
+   "EstRest": "9/9/2026 2:00:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WEST PARIS",
-   "customers": 994,
+   "county": "KENNEBEC",
+   "town": "WATERVILLE",
+   "customers": 8604,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "9/9/2026 9:30:00 AM"
+   "EstRest": "9/9/2026 2:15:00 PM"
   },
   {
-   "level": "street",
+   "level": "town",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "WATERBORO",
-   "hamlet": "WATERBORO",
-   "street": "SHERBURNE LAKE LN",
-   "customers": 13,
-   "Outages": 12,
+   "county": "CUMBERLAND",
+   "town": "NAPLES",
+   "customers": 3933,
+   "Outages": 4,
    "incidents": 1,
-   "EstRest": "9/9/2026 9:00:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "003XWL"
+   "EstRest": "9/9/2026 2:15:00 PM"
   },
   {
    "level": "street",
@@ -61,27 +46,42 @@
    "hamlet": "NEWPORT",
    "street": "SHADY LN",
    "customers": 17,
-   "Outages": 15,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "9/9/2026 9:30:00 AM",
-   "crewstatus": "DISP ",
+   "EstRest": "9/9/2026 2:00:00 PM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003XWP"
+   "incidentnumber": "003XYC"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WEST PARIS",
-   "hamlet": "WEST PARIS",
-   "street": "COOPER HILL LN",
-   "customers": 6,
+   "county": "KENNEBEC",
+   "town": "WATERVILLE",
+   "hamlet": "WATERVILLE",
+   "street": "FOREST PK",
+   "customers": 27,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "9/9/2026 9:30:00 AM",
-   "crewstatus": "     ",
+   "EstRest": "9/9/2026 2:15:00 PM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "003XWQ"
+   "incidentnumber": "003XYF"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "NAPLES",
+   "hamlet": "NAPLES",
+   "street": "PERKINS COVE RD",
+   "customers": 5,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "9/9/2026 2:15:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003XYE"
   }
  ]
 }
