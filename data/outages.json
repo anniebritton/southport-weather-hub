@@ -1,22 +1,11 @@
 {
- "lastUpdated": "2026-09-08 21:26:02",
+ "lastUpdated": "2026-09-09 02:39:22",
  "totals": {
   "customers": 689248,
-  "outages": 5,
-  "incidents": 2
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "TURNER",
-   "customers": 3212,
-   "Outages": 5,
-   "incidents": 2,
-   "EstRest": "9/8/2026 11:30:00 PM"
-  }
- ]
+ "towns": []
 }
