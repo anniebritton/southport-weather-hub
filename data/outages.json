@@ -1,11 +1,87 @@
 {
- "lastUpdated": "2026-09-09 02:39:22",
+ "lastUpdated": "2026-09-09 07:49:22",
  "totals": {
   "customers": 689248,
-  "outages": 0,
-  "incidents": 0
+  "outages": 108,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "WATERBORO",
+   "customers": 4361,
+   "Outages": 86,
+   "incidents": 1,
+   "EstRest": "9/9/2026 9:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "PENOBSCOT",
+   "town": "NEWPORT",
+   "customers": 2272,
+   "Outages": 21,
+   "incidents": 1,
+   "EstRest": "9/9/2026 9:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "WEST PARIS",
+   "customers": 994,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/9/2026 9:30:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "WATERBORO",
+   "hamlet": "WATERBORO",
+   "street": "SHERBURNE LAKE LN",
+   "customers": 13,
+   "Outages": 12,
+   "incidents": 1,
+   "EstRest": "9/9/2026 9:00:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003XWL"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "PENOBSCOT",
+   "town": "NEWPORT",
+   "hamlet": "NEWPORT",
+   "street": "SHADY LN",
+   "customers": 17,
+   "Outages": 15,
+   "incidents": 1,
+   "EstRest": "9/9/2026 9:30:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003XWP"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "WEST PARIS",
+   "hamlet": "WEST PARIS",
+   "street": "COOPER HILL LN",
+   "customers": 6,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/9/2026 9:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003XWQ"
+  }
+ ]
 }
