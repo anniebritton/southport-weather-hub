@@ -1,11 +1,155 @@
 {
- "lastUpdated": "2026-09-11 04:13:05",
+ "lastUpdated": "2026-09-11 08:50:11",
  "totals": {
   "customers": 689222,
-  "outages": 0,
-  "incidents": 0
+  "outages": 46,
+  "incidents": 7
  },
  "southport": null,
- "lincolnCounty": null,
- "towns": []
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 29084,
+  "Outages": 1,
+  "incidents": 1,
+  "EstRest": "9/11/2026 11:00:00 AM"
+ },
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "NEWCASTLE",
+   "customers": 1354,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/11/2026 11:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "GORHAM",
+   "customers": 8130,
+   "Outages": 18,
+   "incidents": 1,
+   "EstRest": "9/11/2026 10:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "YORK",
+   "customers": 11300,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/11/2026 9:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "STRONG",
+   "customers": 753,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/11/2026 10:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "NEW PORTLAND",
+   "customers": 693,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "9/11/2026 10:30:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "ADAMSTOWN",
+   "customers": 73,
+   "Outages": 23,
+   "incidents": 2,
+   "EstRest": "9/11/2026 10:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "NEWCASTLE",
+   "hamlet": "NEWCASTLE",
+   "street": "PERKINS POINT RD",
+   "customers": 12,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/11/2026 11:00:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003YOE"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "GORHAM",
+   "hamlet": "GORHAM",
+   "street": "WILLOW CIR",
+   "customers": 14,
+   "Outages": 14,
+   "incidents": 1,
+   "EstRest": "9/11/2026 10:30:00 AM",
+   "crewstatus": "ACKN ",
+   "cause": "",
+   "incidentnumber": "003YOA"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "YORK",
+   "hamlet": "YORK",
+   "street": "OLD KINGS HWY",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/11/2026 9:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "Equipment Interruption",
+   "incidentnumber": "003YNN"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "FRANKLIN",
+   "town": "STRONG",
+   "hamlet": "STRONG",
+   "street": "BURBANK HILL RD",
+   "customers": 38,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/11/2026 10:00:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003YNJ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "NEW PORTLAND",
+   "hamlet": "NEW PORTLAND",
+   "street": "NEW PORTLAND HILL RD",
+   "customers": 36,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "9/11/2026 10:30:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "003YO8"
+  }
+ ]
 }
