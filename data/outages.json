@@ -1,37 +1,95 @@
 {
- "lastUpdated": "2026-09-12 11:47:21",
+ "lastUpdated": "2026-09-12 14:07:21",
  "totals": {
   "customers": 689285,
-  "outages": 3,
-  "incidents": 1
+  "outages": 172,
+  "incidents": 3
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 29084,
+  "Outages": 10,
+  "incidents": 1,
+  "EstRest": "9/12/2026 3:30:00 PM"
+ },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "PARKMAN",
-   "customers": 546,
-   "Outages": 3,
+   "county": "LINCOLN",
+   "town": "BOOTHBAY HARBOR",
+   "customers": 2634,
+   "Outages": 10,
    "incidents": 1,
-   "EstRest": "9/12/2026 1:00:00 PM"
+   "EstRest": "9/12/2026 3:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "POLAND",
+   "customers": 3401,
+   "Outages": 5,
+   "incidents": 1,
+   "EstRest": "9/12/2026 4:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "BOWDOIN",
+   "customers": 1518,
+   "Outages": 157,
+   "incidents": 1,
+   "EstRest": "9/12/2026 3:45:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "PISCATAQUIS",
-   "town": "PARKMAN",
-   "hamlet": "PARKMAN",
-   "street": "SMART RD",
-   "customers": 14,
+   "county": "LINCOLN",
+   "town": "BOOTHBAY HARBOR",
+   "hamlet": "BOOTHBAY HARBOR",
+   "street": "TOWNSEND AVE",
+   "customers": 149,
+   "Outages": 10,
+   "incidents": 1,
+   "EstRest": "9/12/2026 3:30:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003YUM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "ANDROSCOGGIN",
+   "town": "POLAND",
+   "hamlet": "POLAND",
+   "street": "SERENITY COVE LN",
+   "customers": 3,
    "Outages": 3,
    "incidents": 1,
-   "EstRest": "9/12/2026 1:00:00 PM",
-   "crewstatus": "ONST ",
+   "EstRest": "9/12/2026 4:00:00 PM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003YUA"
+   "incidentnumber": "003YUR"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "BOWDOIN",
+   "hamlet": "BOWDOIN",
+   "street": "DEAD RIVER RD",
+   "customers": 36,
+   "Outages": 36,
+   "incidents": 1,
+   "EstRest": "9/12/2026 3:45:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003YUO"
   }
  ]
 }
