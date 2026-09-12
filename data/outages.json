@@ -1,12 +1,20 @@
 {
- "lastUpdated": "2026-09-12 00:30:41",
+ "lastUpdated": "2026-09-12 04:44:01",
  "totals": {
   "customers": 689285,
-  "outages": 1,
-  "incidents": 1
+  "outages": 15,
+  "incidents": 2
  },
  "southport": null,
- "lincolnCounty": null,
+ "lincolnCounty": {
+  "level": "county",
+  "opco": "CMP",
+  "county": "LINCOLN",
+  "customers": 29084,
+  "Outages": 14,
+  "incidents": 1,
+  "EstRest": "9/12/2026 6:00:00 AM"
+ },
  "towns": [
   {
    "level": "town",
@@ -17,6 +25,16 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": ""
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WALDOBORO",
+   "customers": 3207,
+   "Outages": 14,
+   "incidents": 1,
+   "EstRest": "9/12/2026 6:00:00 AM"
   },
   {
    "level": "street",
@@ -32,6 +50,21 @@
    "crewstatus": "     ",
    "cause": "",
    "incidentnumber": "003YSZ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WALDOBORO",
+   "hamlet": "WALDOBORO",
+   "street": "HAVENER PT",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/12/2026 6:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "003YTC"
   }
  ]
 }
