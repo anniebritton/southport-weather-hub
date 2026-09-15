@@ -1,45 +1,87 @@
 {
- "lastUpdated": "2026-09-15 08:42:31",
+ "lastUpdated": "2026-09-15 13:25:51",
  "totals": {
   "customers": 689388,
-  "outages": 8,
-  "incidents": 1
+  "outages": 35,
+  "incidents": 3
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 29084,
-  "Outages": 8,
-  "incidents": 1,
-  "EstRest": "9/15/2026 10:30:00 AM"
- },
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "WALDOBORO",
-   "customers": 3207,
-   "Outages": 8,
+   "county": "YORK",
+   "town": "KITTERY",
+   "customers": 6895,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "9/15/2026 10:30:00 AM"
+   "EstRest": "9/15/2026 3:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "YORK",
+   "customers": 11300,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/15/2026 2:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "customers": 41110,
+   "Outages": 33,
+   "incidents": 1,
+   "EstRest": "9/15/2026 3:15:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "WALDOBORO",
-   "hamlet": "WALDOBORO",
-   "street": "NASH RD",
-   "customers": 5,
-   "Outages": 5,
+   "county": "YORK",
+   "town": "KITTERY",
+   "hamlet": "KITTERY",
+   "street": "RICE AVE",
+   "customers": 33,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "9/15/2026 10:30:00 AM",
-   "crewstatus": "DISP ",
+   "EstRest": "9/15/2026 3:00:00 PM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "003ZB4"
+   "incidentnumber": "003ZCZ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "YORK",
+   "hamlet": "YORK",
+   "street": "US ROUTE 1",
+   "customers": 561,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/15/2026 2:15:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "System Upgrade",
+   "incidentnumber": "003ZCP"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "PORTLAND",
+   "hamlet": "PORTLAND",
+   "street": "BOLTON ST",
+   "customers": 115,
+   "Outages": 33,
+   "incidents": 1,
+   "EstRest": "9/15/2026 3:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "System Upgrade",
+   "incidentnumber": "003ZD3"
   }
  ]
 }
