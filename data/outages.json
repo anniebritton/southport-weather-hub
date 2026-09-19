@@ -1,11 +1,72 @@
 {
- "lastUpdated": "2026-09-19 05:28:30",
+ "lastUpdated": "2026-09-19 09:18:30",
  "totals": {
   "customers": 689367,
-  "outages": 0,
-  "incidents": 0
+  "outages": 26,
+  "incidents": 5
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "HANCOCK",
+   "town": "BUCKSPORT",
+   "customers": 2818,
+   "Outages": 24,
+   "incidents": 3,
+   "EstRest": "9/19/2026 11:00:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "CAPE ELIZABETH",
+   "customers": 4548,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/19/2026 10:45:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "CLINTON",
+   "customers": 1783,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/19/2026 11:15:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "CAPE ELIZABETH",
+   "hamlet": "CAPE ELIZABETH",
+   "street": "WILDWOOD DR",
+   "customers": 64,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/19/2026 10:45:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "003ZUL"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "CLINTON",
+   "hamlet": "CLINTON",
+   "street": "PEARL ST",
+   "customers": 12,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/19/2026 11:15:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "003ZUQ"
+  }
+ ]
 }
