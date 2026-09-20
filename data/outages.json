@@ -1,62 +1,11 @@
 {
- "lastUpdated": "2026-09-19 21:20:31",
+ "lastUpdated": "2026-09-20 02:40:31",
  "totals": {
   "customers": 689454,
-  "outages": 11,
-  "incidents": 2
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CAPE ELIZABETH",
-   "customers": 4548,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "9/19/2026 11:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "DIXFIELD",
-   "customers": 1340,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "9/19/2026 11:15:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CAPE ELIZABETH",
-   "hamlet": "CAPE ELIZABETH",
-   "street": "SINGLES RD",
-   "customers": 5,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "9/19/2026 11:00:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "003ZW2"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "DIXFIELD",
-   "hamlet": "DIXFIELD",
-   "street": "SEVERY HILL RD",
-   "customers": 21,
-   "Outages": 9,
-   "incidents": 1,
-   "EstRest": "9/19/2026 11:15:00 PM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "003ZW3"
-  }
- ]
+ "towns": []
 }
