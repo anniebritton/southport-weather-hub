@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-09-23 02:17:11",
+ "lastUpdated": "2026-09-23 07:53:51",
  "totals": {
   "customers": 689454,
-  "outages": 0,
-  "incidents": 0
+  "outages": 4,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "RUMFORD",
+   "customers": 3626,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "9/23/2026 9:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "RUMFORD",
+   "hamlet": "RUMFORD",
+   "street": "RUMFORD CENTER RD",
+   "customers": 4,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/23/2026 9:00:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "Equipment Interruption",
+   "incidentnumber": "004066"
+  }
+ ]
 }
