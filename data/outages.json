@@ -1,70 +1,62 @@
 {
- "lastUpdated": "2026-09-24 19:07:11",
+ "lastUpdated": "2026-09-24 21:30:31",
  "totals": {
   "customers": 689454,
-  "outages": 2,
+  "outages": 82,
   "incidents": 2
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 29091,
-  "Outages": 1,
-  "incidents": 1,
-  "EstRest": "9/24/2026 8:30:00 PM"
- },
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "DAMARISCOTTA",
-   "customers": 1815,
+   "county": "FRANKLIN",
+   "town": "EUSTIS",
+   "customers": 932,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "9/24/2026 8:30:00 PM"
+   "EstRest": "9/24/2026 11:30:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "RIPLEY",
-   "customers": 381,
-   "Outages": 1,
+   "county": "CUMBERLAND",
+   "town": "RAYMOND",
+   "customers": 3684,
+   "Outages": 81,
    "incidents": 1,
-   "EstRest": "9/24/2026 8:30:00 PM"
+   "EstRest": "9/24/2026 11:15:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "DAMARISCOTTA",
-   "hamlet": "DAMARISCOTTA",
-   "street": "FARM LN",
+   "county": "FRANKLIN",
+   "town": "EUSTIS",
+   "hamlet": "EUSTIS",
+   "street": "BERRY DR",
    "customers": 1,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "9/24/2026 8:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "0040C4"
+   "EstRest": "9/24/2026 11:30:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "0040CY"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "RIPLEY",
-   "hamlet": "RIPLEY",
-   "street": "LANE RD",
-   "customers": 8,
-   "Outages": 1,
+   "county": "CUMBERLAND",
+   "town": "RAYMOND",
+   "hamlet": "RAYMOND",
+   "street": "T-MAC DR",
+   "customers": 2,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "9/24/2026 8:30:00 PM",
+   "EstRest": "9/24/2026 11:15:00 PM",
    "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "0040CP"
+   "incidentnumber": "0040CW"
   }
  ]
 }
