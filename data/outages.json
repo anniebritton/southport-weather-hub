@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-09-27 07:30:31",
+ "lastUpdated": "2026-09-27 11:43:51",
  "totals": {
   "customers": 689454,
-  "outages": 719,
-  "incidents": 19
+  "outages": 430,
+  "incidents": 16
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,12 +11,22 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "WINTHROP",
-   "customers": 3997,
-   "Outages": 4,
+   "county": "CUMBERLAND",
+   "town": "CHEBEAGUE ISLAND",
+   "customers": 606,
+   "Outages": 48,
    "incidents": 1,
-   "EstRest": "9/27/2026 9:15:00 AM"
+   "EstRest": "9/27/2026 1:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "FALMOUTH",
+   "customers": 6558,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "9/27/2026 12:45:00 PM"
   },
   {
    "level": "town",
@@ -26,67 +36,37 @@
    "customers": 5265,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "9/27/2026 9:30:00 AM"
+   "EstRest": "9/27/2026 12:30:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "INDUSTRY",
-   "customers": 607,
+   "county": "OXFORD",
+   "town": "ALBANY",
+   "customers": 399,
+   "Outages": 6,
+   "incidents": 1,
+   "EstRest": "9/27/2026 1:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "WARREN",
+   "customers": 2445,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "9/27/2026 9:30:00 AM"
+   "EstRest": "9/27/2026 1:15:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "ARROWSIC",
-   "customers": 329,
-   "Outages": 45,
+   "county": "WALDO",
+   "town": "LIBERTY",
+   "customers": 883,
+   "Outages": 152,
    "incidents": 1,
-   "EstRest": "9/27/2026 9:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WOOLWICH",
-   "customers": 1854,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "9/27/2026 9:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "PARIS",
-   "customers": 3117,
-   "Outages": 187,
-   "incidents": 2,
-   "EstRest": "9/27/2026 12:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "HEBRON",
-   "customers": 601,
-   "Outages": 36,
-   "incidents": 1,
-   "EstRest": "9/27/2026 12:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "OXFORD",
-   "customers": 2879,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "9/27/2026 12:00:00 PM"
+   "EstRest": "9/27/2026 1:00:00 PM"
   },
   {
    "level": "town",
@@ -104,39 +84,19 @@
    "county": "YORK",
    "town": "SHAPLEIGH",
    "customers": 2528,
-   "Outages": 282,
-   "incidents": 2,
-   "EstRest": ""
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "SANFORD",
-   "customers": 11722,
-   "Outages": 124,
-   "incidents": 3,
-   "EstRest": ""
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "ACTON",
-   "customers": 2631,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": ""
+   "EstRest": "9/27/2026 12:45:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "YORK",
-   "town": "SACO",
-   "customers": 11695,
-   "Outages": 3,
+   "town": "PARSONSFIELD",
+   "customers": 1411,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": ""
+   "EstRest": "9/27/2026 3:00:00 PM"
   },
   {
    "level": "town",
@@ -144,19 +104,9 @@
    "county": "YORK",
    "town": "DAYTON",
    "customers": 1023,
-   "Outages": 1,
+   "Outages": 10,
    "incidents": 1,
-   "EstRest": ""
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "SOUTH BERWICK",
-   "customers": 3619,
-   "Outages": 9,
-   "incidents": 1,
-   "EstRest": ""
+   "EstRest": "9/27/2026 12:45:00 PM"
   },
   {
    "level": "town",
@@ -166,7 +116,7 @@
    "customers": 1755,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": ""
+   "EstRest": "9/27/2026 12:45:00 PM"
   },
   {
    "level": "town",
@@ -174,34 +124,69 @@
    "county": "YORK",
    "town": "YORK",
    "customers": 11308,
-   "Outages": 15,
-   "incidents": 2,
-   "EstRest": "9/27/2026 9:00:00 AM"
+   "Outages": 5,
+   "incidents": 1,
+   "EstRest": "9/27/2026 1:00:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "YORK",
-   "town": "ELIOT",
-   "customers": 3930,
-   "Outages": 1,
+   "town": "KITTERY",
+   "customers": 6896,
+   "Outages": 197,
    "incidents": 1,
    "EstRest": ""
   },
   {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BIDDEFORD",
+   "customers": 13185,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/27/2026 12:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "SANFORD",
+   "customers": 11722,
+   "Outages": 2,
+   "incidents": 2,
+   "EstRest": "9/27/2026 1:00:00 PM"
+  },
+  {
    "level": "street",
    "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "WINTHROP",
-   "hamlet": "WINTHROP",
-   "street": "FLAHERTY RD",
-   "customers": 3,
-   "Outages": 3,
+   "county": "CUMBERLAND",
+   "town": "CHEBEAGUE ISLAND",
+   "hamlet": "CHEBEAGUE ISLAND",
+   "street": "ROSE POINT RD",
+   "customers": 14,
+   "Outages": 14,
    "incidents": 1,
-   "EstRest": "9/27/2026 9:15:00 AM",
+   "EstRest": "9/27/2026 1:30:00 PM",
    "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "0040PQ"
+   "incidentnumber": "0040S0"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "FALMOUTH",
+   "hamlet": "FALMOUTH",
+   "street": "US ROUTE 1",
+   "customers": 364,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "9/27/2026 12:45:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "0040SB"
   },
   {
    "level": "street",
@@ -213,85 +198,55 @@
    "customers": 2,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "9/27/2026 9:30:00 AM",
-   "crewstatus": "ENRT ",
+   "EstRest": "9/27/2026 12:30:00 PM",
+   "crewstatus": "ONST ",
    "cause": "",
    "incidentnumber": "0040Q4"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "FRANKLIN",
-   "town": "INDUSTRY",
-   "hamlet": "INDUSTRY",
-   "street": "SAVAGE RD",
-   "customers": 16,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "9/27/2026 9:30:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "0040PZ"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "ARROWSIC",
-   "hamlet": "ARROWSIC",
-   "street": "OLD STAGE RD",
-   "customers": 43,
-   "Outages": 22,
-   "incidents": 1,
-   "EstRest": "9/27/2026 9:00:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "0040PL"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WOOLWICH",
-   "hamlet": "WOOLWICH",
-   "street": "RIVER EDGE DR",
-   "customers": 4,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "9/27/2026 9:00:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "0040PC"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
    "county": "OXFORD",
-   "town": "HEBRON",
-   "hamlet": "HEBRON",
-   "street": "BACK ST",
-   "customers": 9,
-   "Outages": 9,
-   "incidents": 1,
-   "EstRest": "9/27/2026 12:00:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "0040P0"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "OXFORD",
-   "hamlet": "OXFORD",
-   "street": "UPPER HEBRON RD",
-   "customers": 8,
+   "town": "ALBANY",
+   "hamlet": "ALBANY",
+   "street": "WARDWELL RD",
+   "customers": 5,
    "Outages": 5,
    "incidents": 1,
-   "EstRest": "9/27/2026 12:00:00 PM",
+   "EstRest": "9/27/2026 1:45:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "0040SZ"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "WARREN",
+   "hamlet": "WARREN",
+   "street": "MOUNTAIN RD",
+   "customers": 23,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/27/2026 1:15:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "0040P0"
+   "incidentnumber": "0040SP"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "WALDO",
+   "town": "LIBERTY",
+   "hamlet": "LIBERTY",
+   "street": "BLUEBERRY LN",
+   "customers": 4,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "9/27/2026 1:00:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "0040SI"
   },
   {
    "level": "street",
@@ -306,37 +261,37 @@
    "EstRest": "",
    "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "0040OP"
+   "incidentnumber": "0040SO"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "YORK",
-   "town": "ACTON",
-   "hamlet": "ACTON",
-   "street": "NASON RD",
-   "customers": 9,
+   "town": "SHAPLEIGH",
+   "hamlet": "SHAPLEIGH",
+   "street": "KNOX RD",
+   "customers": 16,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "",
+   "EstRest": "9/27/2026 12:45:00 PM",
    "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "0040LU"
+   "incidentnumber": "0040RA"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "YORK",
-   "town": "SACO",
-   "hamlet": "SACO",
-   "street": "BUXTON RD",
-   "customers": 245,
+   "town": "PARSONSFIELD",
+   "hamlet": "PARSONSFIELD",
+   "street": "SOUTH RD",
+   "customers": 39,
    "Outages": 2,
    "incidents": 1,
-   "EstRest": "",
+   "EstRest": "9/27/2026 3:00:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "0040NJ"
+   "incidentnumber": "0040S2"
   },
   {
    "level": "street",
@@ -346,27 +301,12 @@
    "hamlet": "DAYTON",
    "street": "GORDON RD",
    "customers": 10,
-   "Outages": 1,
+   "Outages": 10,
    "incidents": 1,
-   "EstRest": "",
-   "crewstatus": "     ",
+   "EstRest": "9/27/2026 12:45:00 PM",
+   "crewstatus": "ACKN ",
    "cause": "",
-   "incidentnumber": "0040PR"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "SOUTH BERWICK",
-   "hamlet": "SOUTH BERWICK",
-   "street": "DOVER ELIOT RD",
-   "customers": 24,
-   "Outages": 8,
-   "incidents": 1,
-   "EstRest": "",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "0040PJ"
+   "incidentnumber": "0040QW"
   },
   {
    "level": "street",
@@ -378,8 +318,8 @@
    "customers": 34,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "",
-   "crewstatus": "     ",
+   "EstRest": "9/27/2026 12:45:00 PM",
+   "crewstatus": "ACKN ",
    "cause": "",
    "incidentnumber": "0040P1"
   },
@@ -387,16 +327,46 @@
    "level": "street",
    "opco": "CMP",
    "county": "YORK",
-   "town": "ELIOT",
-   "hamlet": "ELIOT",
-   "street": "BRIXHAM RD",
-   "customers": 82,
-   "Outages": 1,
+   "town": "YORK",
+   "hamlet": "YORK",
+   "street": "RIDGEWOOD TRL",
+   "customers": 6,
+   "Outages": 5,
+   "incidents": 1,
+   "EstRest": "9/27/2026 1:00:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "0040S5"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "KITTERY",
+   "hamlet": "KITTERY",
+   "street": "BARTLETT RD",
+   "customers": 60,
+   "Outages": 58,
    "incidents": 1,
    "EstRest": "",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "0040NZ"
+   "incidentnumber": "0040SX"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BIDDEFORD",
+   "hamlet": "BIDDEFORD",
+   "street": "BLUE SPRUCE LN",
+   "customers": 3,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "9/27/2026 12:45:00 PM",
+   "crewstatus": "CMPL ",
+   "cause": "Equipment Interruption",
+   "incidentnumber": "0040QO"
   }
  ]
 }
