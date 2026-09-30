@@ -1,62 +1,11 @@
 {
- "lastUpdated": "2026-09-29 21:51:17",
+ "lastUpdated": "2026-09-30 04:14:37",
  "totals": {
   "customers": 689607,
-  "outages": 5,
-  "incidents": 2
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "AUBURN",
-   "customers": 13603,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "9/29/2026 11:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "TURNER",
-   "customers": 3212,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "9/30/2026 12:00:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "AUBURN",
-   "hamlet": "AUBURN",
-   "street": "RIVERSIDE DR",
-   "customers": 180,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "9/29/2026 11:30:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "0041HR"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "TURNER",
-   "hamlet": "TURNER",
-   "street": "MURRAY RD",
-   "customers": 8,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "9/30/2026 12:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "0041HT"
-  }
- ]
+ "towns": []
 }
