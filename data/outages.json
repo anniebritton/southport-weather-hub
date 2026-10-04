@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-10-03 19:04:33",
+ "lastUpdated": "2026-10-03 22:34:33",
  "totals": {
   "customers": 689495,
-  "outages": 2,
+  "outages": 1,
   "incidents": 1
  },
  "southport": null,
@@ -11,35 +11,35 @@
   "opco": "CMP",
   "county": "LINCOLN",
   "customers": 29091,
-  "Outages": 2,
+  "Outages": 1,
   "incidents": 1,
-  "EstRest": "10/3/2026 8:30:00 PM"
+  "EstRest": "10/4/2026 12:00:00 AM"
  },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
    "county": "LINCOLN",
-   "town": "BOOTHBAY",
-   "customers": 3055,
-   "Outages": 2,
+   "town": "JEFFERSON",
+   "customers": 1952,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/3/2026 8:30:00 PM"
+   "EstRest": "10/4/2026 12:00:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "LINCOLN",
-   "town": "BOOTHBAY",
-   "hamlet": "BOOTHBAY",
-   "street": "OCEAN POINT RD",
-   "customers": 229,
-   "Outages": 2,
+   "town": "JEFFERSON",
+   "hamlet": "JEFFERSON",
+   "street": "HARRY THELMA RD",
+   "customers": 2,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/3/2026 8:30:00 PM",
-   "crewstatus": "ENRT ",
+   "EstRest": "10/4/2026 12:00:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "0041Y9"
+   "incidentnumber": "0041YJ"
   }
  ]
 }
