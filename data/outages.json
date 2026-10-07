@@ -1,62 +1,11 @@
 {
- "lastUpdated": "2026-10-06 20:31:13",
+ "lastUpdated": "2026-10-07 02:24:33",
  "totals": {
   "customers": 689477,
-  "outages": 31,
-  "incidents": 2
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "OAKLAND",
-   "customers": 3833,
-   "Outages": 30,
-   "incidents": 1,
-   "EstRest": ""
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BELMONT",
-   "customers": 554,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/6/2026 10:15:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "OAKLAND",
-   "hamlet": "OAKLAND",
-   "street": "HILL ST",
-   "customers": 45,
-   "Outages": 30,
-   "incidents": 1,
-   "EstRest": "",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "0042GB"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BELMONT",
-   "hamlet": "BELMONT",
-   "street": "LINCOLNVILLE RD",
-   "customers": 78,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/6/2026 10:15:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "0042I7"
-  }
- ]
+ "towns": []
 }
