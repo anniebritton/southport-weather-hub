@@ -1,11 +1,62 @@
 {
- "lastUpdated": "2026-10-09 01:02:46",
+ "lastUpdated": "2026-10-09 07:49:26",
  "totals": {
   "customers": 689473,
-  "outages": 0,
-  "incidents": 0
+  "outages": 22,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "SKOWHEGAN",
+   "customers": 5402,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "10/9/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BIDDEFORD",
+   "customers": 13185,
+   "Outages": 15,
+   "incidents": 1,
+   "EstRest": "10/9/2026 9:45:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "SKOWHEGAN",
+   "hamlet": "SKOWHEGAN",
+   "street": "PORTER RD",
+   "customers": 11,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "10/9/2026 9:15:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "0042RC"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BIDDEFORD",
+   "hamlet": "BIDDEFORD",
+   "street": "CRESTWOOD DR",
+   "customers": 15,
+   "Outages": 15,
+   "incidents": 1,
+   "EstRest": "10/9/2026 9:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "0042RE"
+  }
+ ]
 }
