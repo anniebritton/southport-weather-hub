@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-10-10 10:26:06",
+ "lastUpdated": "2026-10-10 14:42:46",
  "totals": {
   "customers": 689473,
-  "outages": 244,
-  "incidents": 3
+  "outages": 9,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,77 +11,52 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CASCO",
-   "customers": 3241,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/10/2026 12:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WOOLWICH",
-   "customers": 1854,
-   "Outages": 242,
-   "incidents": 1,
-   "EstRest": "10/10/2026 11:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "OXFORD",
-   "town": "FRYEBURG",
-   "customers": 2462,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/10/2026 12:00:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CASCO",
-   "hamlet": "CASCO",
-   "street": "RIVERFRONT DR",
-   "customers": 2,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/10/2026 12:30:00 PM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "0042XP"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "WOOLWICH",
-   "hamlet": "WOOLWICH",
-   "street": "TEMPLE RD",
-   "customers": 5,
+   "town": "NORWAY",
+   "customers": 3536,
    "Outages": 5,
    "incidents": 1,
-   "EstRest": "10/10/2026 11:30:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "Tree",
-   "incidentnumber": "0042XI"
+   "EstRest": "10/10/2026 4:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "HANCOCK",
+   "town": "CASTINE",
+   "customers": 790,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "10/10/2026 4:30:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "OXFORD",
-   "town": "FRYEBURG",
-   "hamlet": "FRYEBURG",
-   "street": "LOVEWELL POND RD",
-   "customers": 80,
-   "Outages": 1,
+   "town": "NORWAY",
+   "hamlet": "NORWAY",
+   "street": "DOVE WAY",
+   "customers": 4,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "10/10/2026 12:00:00 PM",
-   "crewstatus": "     ",
+   "EstRest": "10/10/2026 4:30:00 PM",
+   "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "0042XG"
+   "incidentnumber": "0042YK"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "HANCOCK",
+   "town": "CASTINE",
+   "hamlet": "CASTINE",
+   "street": "MADOCKAWANDO RD",
+   "customers": 11,
+   "Outages": 4,
+   "incidents": 1,
+   "EstRest": "10/10/2026 4:30:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "0042YL"
   }
  ]
 }
