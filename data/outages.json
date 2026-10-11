@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-10-11 14:49:26",
+ "lastUpdated": "2026-10-11 18:36:06",
  "totals": {
   "customers": 689473,
-  "outages": 16,
-  "incidents": 2
+  "outages": 77,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,52 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "FREEPORT",
-   "customers": 5265,
-   "Outages": 3,
+   "county": "YORK",
+   "town": "OLD ORCHARD BEACH",
+   "customers": 8651,
+   "Outages": 77,
    "incidents": 1,
-   "EstRest": "10/11/2026 4:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "ROCKPORT",
-   "customers": 2732,
-   "Outages": 13,
-   "incidents": 1,
-   "EstRest": "10/11/2026 4:15:00 PM"
+   "EstRest": "10/11/2026 8:15:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "FREEPORT",
-   "hamlet": "FREEPORT",
-   "street": "FOX HILL RD",
-   "customers": 7,
-   "Outages": 3,
+   "county": "YORK",
+   "town": "OLD ORCHARD BEACH",
+   "hamlet": "OLD ORCHARD BEACH",
+   "street": "WALNUT ST",
+   "customers": 93,
+   "Outages": 75,
    "incidents": 1,
-   "EstRest": "10/11/2026 4:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "00431G"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "ROCKPORT",
-   "hamlet": "ROCKPORT",
-   "street": "COTTAGE LN",
-   "customers": 2,
-   "Outages": 2,
-   "incidents": 1,
-   "EstRest": "10/11/2026 4:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "00431C"
+   "EstRest": "10/11/2026 8:15:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "Equipment Interruption",
+   "incidentnumber": "00431S"
   }
  ]
 }
