@@ -1,130 +1,62 @@
 {
- "lastUpdated": "2026-10-11 10:02:46",
+ "lastUpdated": "2026-10-11 14:49:26",
  "totals": {
   "customers": 689473,
-  "outages": 27,
-  "incidents": 6
+  "outages": 16,
+  "incidents": 2
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 29091,
-  "Outages": 5,
-  "incidents": 1,
-  "EstRest": "10/11/2026 11:15:00 AM"
- },
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "NOBLEBORO",
-   "customers": 1470,
-   "Outages": 5,
-   "incidents": 1,
-   "EstRest": "10/11/2026 11:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BELFAST",
-   "customers": 4819,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "10/11/2026 12:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "SKOWHEGAN",
-   "customers": 5402,
-   "Outages": 4,
-   "incidents": 2,
-   "EstRest": "10/11/2026 11:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "SANFORD",
-   "customers": 11722,
-   "Outages": 7,
-   "incidents": 1,
-   "EstRest": "10/11/2026 11:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "SEBAGO",
-   "customers": 1839,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/11/2026 11:00:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "NOBLEBORO",
-   "hamlet": "NOBLEBORO",
-   "street": "CHECKERBERRY RD",
-   "customers": 4,
-   "Outages": 4,
-   "incidents": 1,
-   "EstRest": "10/11/2026 11:15:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "00430O"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "BELFAST",
-   "hamlet": "BELFAST",
-   "street": "TREAT ST",
-   "customers": 6,
-   "Outages": 6,
-   "incidents": 1,
-   "EstRest": "10/11/2026 12:15:00 PM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "00430V"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "SANFORD",
-   "hamlet": "SANFORD",
-   "street": "VERMETTE LN",
-   "customers": 3,
+   "town": "FREEPORT",
+   "customers": 5265,
    "Outages": 3,
    "incidents": 1,
-   "EstRest": "10/11/2026 11:45:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "00430T"
+   "EstRest": "10/11/2026 4:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "ROCKPORT",
+   "customers": 2732,
+   "Outages": 13,
+   "incidents": 1,
+   "EstRest": "10/11/2026 4:15:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "SEBAGO",
-   "hamlet": "SEBAGO",
-   "street": "DECKER MOUNTAIN RD",
-   "customers": 4,
-   "Outages": 1,
+   "town": "FREEPORT",
+   "hamlet": "FREEPORT",
+   "street": "FOX HILL RD",
+   "customers": 7,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "10/11/2026 11:00:00 AM",
-   "crewstatus": "CMPL ",
-   "cause": "Animal",
-   "incidentnumber": "00430L"
+   "EstRest": "10/11/2026 4:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "00431G"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "ROCKPORT",
+   "hamlet": "ROCKPORT",
+   "street": "COTTAGE LN",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "10/11/2026 4:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "00431C"
   }
  ]
 }
