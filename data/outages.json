@@ -1,8 +1,8 @@
 {
- "lastUpdated": "2026-10-11 21:42:46",
+ "lastUpdated": "2026-10-12 04:42:46",
  "totals": {
   "customers": 689473,
-  "outages": 65,
+  "outages": 360,
   "incidents": 1
  },
  "southport": null,
@@ -11,35 +11,85 @@
   "opco": "CMP",
   "county": "LINCOLN",
   "customers": 29091,
-  "Outages": 65,
+  "Outages": 360,
   "incidents": 1,
-  "EstRest": "10/11/2026 11:00:00 PM"
+  "EstRest": "10/12/2026 6:15:00 AM"
  },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
    "county": "LINCOLN",
-   "town": "BREMEN",
-   "customers": 699,
-   "Outages": 65,
+   "town": "NOBLEBORO",
+   "customers": 1470,
+   "Outages": 354,
    "incidents": 1,
-   "EstRest": "10/11/2026 11:00:00 PM"
+   "EstRest": "10/12/2026 6:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WALDOBORO",
+   "customers": 3205,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "10/12/2026 6:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "JEFFERSON",
+   "customers": 1952,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "10/12/2026 6:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "LINCOLN",
-   "town": "BREMEN",
-   "hamlet": "BREMEN",
-   "street": "MCCURDY RD",
-   "customers": 15,
-   "Outages": 8,
+   "town": "NOBLEBORO",
+   "hamlet": "NOBLEBORO",
+   "street": "LILY DR",
+   "customers": 3,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "10/11/2026 11:00:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "10/12/2026 6:15:00 AM",
+   "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "004320"
+   "incidentnumber": "00432K"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WALDOBORO",
+   "hamlet": "WALDOBORO",
+   "street": "JARED RD",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "10/12/2026 6:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "00432K"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "JEFFERSON",
+   "hamlet": "JEFFERSON",
+   "street": "E POND RD",
+   "customers": 59,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "10/12/2026 6:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "00432K"
   }
  ]
 }
