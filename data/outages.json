@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-12 20:52:46",
+ "lastUpdated": "2026-10-13 03:29:26",
  "totals": {
   "customers": 689473,
   "outages": 1,
@@ -11,27 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "ORLAND",
-   "customers": 1652,
+   "county": "SOMERSET",
+   "town": "SKOWHEGAN",
+   "customers": 5402,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/12/2026 10:30:00 PM"
+   "EstRest": "10/13/2026 5:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "ORLAND",
-   "hamlet": "ORLAND",
-   "street": "W GROSS PT RD",
-   "customers": 1,
+   "county": "SOMERSET",
+   "town": "SKOWHEGAN",
+   "hamlet": "SKOWHEGAN",
+   "street": "MALBONS MILLS RD",
+   "customers": 86,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/12/2026 10:30:00 PM",
+   "EstRest": "10/13/2026 5:15:00 AM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "004358"
+   "incidentnumber": "00435S"
   }
  ]
 }
