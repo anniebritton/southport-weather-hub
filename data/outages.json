@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-10-13 03:29:26",
+ "lastUpdated": "2026-10-13 11:09:26",
  "totals": {
   "customers": 689473,
-  "outages": 1,
-  "incidents": 1
+  "outages": 205,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,27 +11,52 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "SKOWHEGAN",
-   "customers": 5402,
+   "county": "KNOX",
+   "town": "CAMDEN",
+   "customers": 3894,
+   "Outages": 204,
+   "incidents": 1,
+   "EstRest": "10/13/2026 12:30:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BUXTON",
+   "customers": 4219,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/13/2026 5:15:00 AM"
+   "EstRest": "10/13/2026 12:45:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "SKOWHEGAN",
-   "hamlet": "SKOWHEGAN",
-   "street": "MALBONS MILLS RD",
-   "customers": 86,
-   "Outages": 1,
+   "county": "KNOX",
+   "town": "CAMDEN",
+   "hamlet": "CAMDEN",
+   "street": "RIVERSIDE DR",
+   "customers": 33,
+   "Outages": 33,
    "incidents": 1,
-   "EstRest": "10/13/2026 5:15:00 AM",
+   "EstRest": "10/13/2026 12:30:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "00435S"
+   "incidentnumber": "00437H"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "BUXTON",
+   "hamlet": "BUXTON",
+   "street": "EATON DR",
+   "customers": 36,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "10/13/2026 12:45:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "00437K"
   }
  ]
 }
