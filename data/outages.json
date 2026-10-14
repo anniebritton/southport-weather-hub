@@ -1,13 +1,23 @@
 {
- "lastUpdated": "2026-10-14 00:49:26",
+ "lastUpdated": "2026-10-14 05:56:06",
  "totals": {
   "customers": 689473,
-  "outages": 1208,
-  "incidents": 4
+  "outages": 6,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "WASHINGTON",
+   "customers": 1012,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "10/14/2026 6:15:00 AM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -19,54 +29,19 @@
    "EstRest": ""
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
-   "county": "YORK",
-   "town": "PARSONSFIELD",
-   "customers": 1411,
-   "Outages": 5,
+   "county": "KNOX",
+   "town": "WASHINGTON",
+   "hamlet": "WASHINGTON",
+   "street": "MEDOLARK LN",
+   "customers": 11,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/14/2026 2:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "WATERFORD",
-   "customers": 1591,
-   "Outages": 639,
-   "incidents": 2,
-   "EstRest": "10/14/2026 2:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "STONEHAM",
-   "customers": 367,
-   "Outages": 358,
-   "incidents": 2,
-   "EstRest": "10/14/2026 2:45:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "LOVELL",
-   "customers": 1430,
-   "Outages": 124,
-   "incidents": 1,
-   "EstRest": "10/14/2026 2:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "ALBANY",
-   "customers": 399,
-   "Outages": 77,
-   "incidents": 2,
-   "EstRest": "10/14/2026 2:45:00 AM"
+   "EstRest": "10/14/2026 6:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "0043CC"
   },
   {
    "level": "street",
@@ -82,36 +57,6 @@
    "crewstatus": "ONST ",
    "cause": "Tree",
    "incidentnumber": "0043BN"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "PARSONSFIELD",
-   "hamlet": "PARSONSFIELD",
-   "street": "SUNNYDALE LN",
-   "customers": 5,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "10/14/2026 2:15:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "0043BS"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "LOVELL",
-   "hamlet": "LOVELL",
-   "street": "W STONEHAM RD",
-   "customers": 15,
-   "Outages": 15,
-   "incidents": 1,
-   "EstRest": "10/14/2026 2:30:00 AM",
-   "crewstatus": "     ",
-   "cause": "",
-   "incidentnumber": "0043BT"
   }
  ]
 }
