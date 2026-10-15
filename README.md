@@ -35,6 +35,8 @@ All location constants live at the top of `app.js` and `pests.js`. Get yours fro
 | radar image URL in `index.html` | your nearest NWS radar station | `KGYX` |
 | `TIDE_STATION` | nearest NOAA tide station ([station list](https://tidesandcurrents.noaa.gov/)) | `8416908` |
 
+The tests check some of these values too (the marine zone and forecast office in `tests/unit/app-helpers.test.js`, the tide station in `tests/e2e/fallbacks.spec.js`), so update them alongside `app.js`.
+
 ### 2. Point the outage data at your utility
 
 This is the one piece that varies most. Southport's utility (CMP/Avangrid) blocks both embedding and cross-origin API calls, so `.github/workflows/outages.yml` runs every 15 minutes, fetches the utility's public data server-side, and commits `data/outages.json` for the page to read (the "git scraping" pattern — free on GitHub Actions). For your utility:
@@ -56,12 +58,16 @@ The fire danger map, drought monitor image, climate flood map, and pest resource
 
 The highest-value content is also the cheapest to change: the "What this means for Southport" alert translations (`LOCAL_MEANING` in `app.js`), the Storm Mode checklist, and the fridge card (`fridge-card.html`). Rewrite these with what locals actually need to know — which road floods, who to call, where the shelter is. This local knowledge is the thing no national weather site will ever have.
 
+`tests/unit/app-helpers.test.js` checks which guidance each alert type gets by its opening words. When you rewrite `LOCAL_MEANING`, update those expectations to match.
+
 ### 5. Deploy (free)
 
 1. Push your fork to GitHub, make the repo public
 2. Settings → Pages → deploy from `main` branch, root folder
 3. Settings → Actions → General → allow workflows read/write permissions (needed if you use the outage bot)
 4. Regenerate `assets/site-qr.svg` to point at your URL (`pip install segno`, one line — see git history)
+
+The Tests workflow runs on its own with no setup. GitHub Pages ignores `package.json` and the `tests/` folder, so the deployed site is unchanged.
 
 No servers, no domains required (though you can point one at it), no cost.
 
@@ -81,7 +87,7 @@ The site still has no build step. Node and Playwright are only for testing.
 npm install
 npx playwright install chromium
 npm test            # unit + browser tests
-npm run test:unit   # pest scoring and outages.json contract (Node, no browser)
+npm run test:unit   # Node only, no browser (one test reads the live NWS marine forecast)
 npm run test:e2e    # Playwright against a local static server
 ```
 
@@ -90,13 +96,14 @@ npm run test:e2e    # Playwright against a local static server
 - **`tests/e2e/interactions.spec.js`**: tabs (click, keyboard, deep links), the `?storm=demo` layout, the climate slider, and the fridge card.
 - **`tests/e2e/fallbacks.spec.js`**: the only mocked tests. They force upstream outages, which the real sources can't produce on demand, to check every section's fallback message.
 
-`.github/workflows/tests.yml` runs the suite on pull requests, on pushes to `main` (except the outage bot's data commits), and daily to catch upstream format changes.
+`.github/workflows/tests.yml` runs the suite on pull requests, on pushes to `main`, and daily to catch upstream format changes. The outage bot's commits don't trigger it, because pushes made with `GITHUB_TOKEN` never start workflows.
 
 ## Maintenance
 
-Almost none, but two things to know:
+Almost none, but three things to know:
 
 - **GitHub pauses cron workflows after ~60 days of repo inactivity.** The outage bot's own commits normally keep it alive, but if outage timestamps go stale, re-enable the workflow under the Actions tab (one click).
+- **If the daily Tests run fails** with no code change, an upstream source (NWS, NOAA, or CMP) has most likely changed its format or is down. The failing test's name says which section; rerun it once to rule out a brief outage.
 - **If the utility rotates its public API key**, the fetch fails gracefully (the page falls back to link-out buttons). Grab the new key from the `ocp-apim-subscription-key` request header on the utility's own outage map and update `scripts/fetch-outages.sh`.
 
 ## Data sources & credits
