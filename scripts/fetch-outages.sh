@@ -27,7 +27,8 @@ def props(features):
 towns = props(town.get("features", []))
 counties = props(county.get("features", []))
 
-southport = next((t for t in towns if t.get("town", "").upper() == "SOUTHPORT"), None)
+# towns mixes level "town" and "street" rows; only the town row has Southport's total
+southport = next((t for t in towns if t.get("level") == "town" and t.get("town", "").upper() == "SOUTHPORT"), None)
 lincoln = next((c for c in counties if c.get("county", "").upper() == "LINCOLN"), None)
 
 result = {

@@ -90,13 +90,14 @@ function hazardLevel(text) {
 
 /* ---------- "What this means for Southport" translations ---------- */
 
+// First match wins, so marine wind warnings come before the /hurricane/ entry they'd otherwise hit
 const LOCAL_MEANING = [
+  [/gale|^storm warning|hurricane force wind/i,
+    "Dangerous winds on the water. Boats should be back on their moorings or hauled — check your lines and fenders now. Expect scattered power outages from limbs on lines; charge your phone while you can."],
   [/hurricane|tropical storm/i,
     "Expect damaging wind, coastal flooding, and multi-day power outages. Haul boats or double all lines now. If officials suggest leaving low-lying areas, do it before the bridge gets dangerous in high wind. Fill water jugs — most Southport wells need electric pumps."],
   [/storm surge|coastal flood/i,
     "Water may cover low sections of shore roads and docks, especially near high tide. Move cars, gear, and anything floatable above the shoreline before the peak. Don't drive through water on the road — it may be deeper than it looks, and salt water ruins engines."],
-  [/gale|storm warning/i,
-    "Dangerous winds on the water. Boats should be back on their moorings or hauled — check your lines and fenders now. Expect scattered power outages from limbs on lines; charge your phone while you can."],
   [/high wind|wind advisory/i,
     "Gusts can drop limbs onto power lines — outages are possible. Secure trash cans, deck furniture, and anything that can blow into a line or a window. Give the bridge extra caution in a high-sided vehicle."],
   [/blizzard|winter storm|heavy snow/i,
@@ -128,13 +129,13 @@ function localMeaning(event) {
 
 /* ---------- storm mode ---------- */
 
-const STORM_EVENT_RE = /hurricane|tropical|surge|blizzard|ice storm|gale|storm warning|high wind warning|winter storm warning|tornado/i;
+const STORM_EVENT_RE = /hurricane|tropical|surge|blizzard|ice storm|gale|^storm warning|high wind warning|winter storm warning|tornado/i;
 
 function isStormAlert(p) {
   return ["Extreme", "Severe"].includes(p?.severity) || STORM_EVENT_RE.test(p?.event || "");
 }
 
-const DEMO_STORM = new URLSearchParams(location.search).get("storm") === "demo";
+const DEMO_STORM = typeof location !== "undefined" && new URLSearchParams(location.search).get("storm") === "demo";
 
 const DEMO_ALERT = {
   properties: {
@@ -276,18 +277,23 @@ async function loadMarineForecast() {
       </div>`;
     }).join("");
 
-    // Pull "Seas X to Y ft" / "Seas around X ft" out of the current period for the hero tile
-    const seas = periods[0]?.body.match(/Seas?[^.]*?(\d+(?:\s+to\s+\d+)?)\s*ft/i);
+    const seas = seasHeadline(periods[0]?.body);
     const wind = periods[0]?.body.match(/^([A-Z]{1,3} winds [^.]+?kt)/i);
-    setTile("tile-seas", null,
-      seas ? `${seas[1].replace(/\s+to\s+/, "–")} ft seas` : "See forecast",
-      wind ? wind[1] : "Coastal waters off Southport");
+    setTile("tile-seas", null, seas || "See forecast", wind ? wind[1] : "Coastal waters off Southport");
   } catch (err) {
     console.error(err);
     setStatus("marine-status", "Couldn't load live marine conditions — use the links below.");
     grid.innerHTML = "";
     setTile("tile-seas", null, "Unavailable", "Check weather.gov");
   }
+}
+
+/* Hero tile text from a period's seas: "4–5 ft seas", "≤1 ft seas" (calm days), or null */
+function seasHeadline(body) {
+  const m = (body || "").match(/\bSeas?\b[^.]*?(\d+)(?:\s+to\s+(\d+))?\s*(?:ft|foot|feet)\b( or less)?/i);
+  if (!m) return null;
+  if (m[3]) return `≤${m[1]} ft seas`;
+  return `${m[2] ? `${m[1]}–${m[2]}` : m[1]} ft seas`;
 }
 
 function extractZoneSection(fullText, zoneCode) {
@@ -367,7 +373,8 @@ function parseMarineDetail(body) {
 
 function parseMarinePeriods(section) {
   // Each period starts with ".NAME..." e.g. ".TODAY...NE winds 5 to 10 kt."
-  const parts = section.split(/\n?\.([A-Z][A-Z .]*?)\.\.\./g);
+  // Anchored to line starts so "...SMALL CRAFT ADVISORY..." headlines aren't read as periods
+  const parts = section.split(/(?:^|\n)\.([A-Z][A-Z .]*?)\.\.\./g);
   const periods = [];
   for (let i = 1; i < parts.length; i += 2) {
     periods.push({
@@ -671,15 +678,25 @@ function setupWaterSlider() {
   });
 }
 
-/* ---------- boot ---------- */
+/* ---------- boot (skipped when running under Node for tests) ---------- */
 
-setupTabs();
-setupWaterSlider();
-loadAlerts();
-loadForecast();
-loadMarineForecast();
-loadOutages();
-loadTides();
+if (typeof document !== "undefined") {
+  setupTabs();
+  setupWaterSlider();
+  loadAlerts();
+  loadForecast();
+  loadMarineForecast();
+  loadOutages();
+  loadTides();
 
-const lastUpdated = el("last-updated");
-if (lastUpdated) lastUpdated.textContent = `Page loaded: ${new Date().toLocaleString()}`;
+  const lastUpdated = el("last-updated");
+  if (lastUpdated) lastUpdated.textContent = `Page loaded: ${new Date().toLocaleString()}`;
+}
+
+/* Allow Node-based tests to import the text helpers */
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = {
+    hazardLevel, localMeaning, isStormAlert, seasHeadline, extractZoneSection, parseMarinePeriods,
+    parseMarineDetail, compressSeas, compressWind, compressWaves, windArrow,
+  };
+}
