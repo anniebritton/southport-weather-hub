@@ -70,8 +70,27 @@ No servers, no domains required (though you can point one at it), no cost.
 - **Plain HTML/CSS/JS, no framework, no build step** — deliberately, so future maintainers only need a text editor
 - All live data is fetched client-side from free public APIs (NWS, NOAA tides) except utility outage data, which a GitHub Action snapshots into the repo every 15 minutes
 - **Storm Mode** triggers automatically on Extreme/Severe NWS alerts (or hurricane/gale/surge/blizzard/ice-storm/tornado events); test it any time with `?storm=demo`
-- The pest activity meters are **weather-based estimates, not surveillance** — the model was validated against ten seasonal scenarios and spot-checked against a commercial index (details in the site's methodology section); scoring functions in `pests.js` export CommonJS for headless re-testing
+- The pest activity meters are **weather-based estimates, not surveillance** — the model was validated against ten seasonal scenarios and spot-checked against a commercial index (details in the site's methodology section); scoring functions in `pests.js` (and the text helpers in `app.js`) export CommonJS for headless re-testing
 - Fetch failures degrade gracefully: every live section falls back to a labeled link to the official source
+
+## Tests
+
+The site still has no build step. Node and Playwright are only for testing.
+
+```sh
+npm install
+npx playwright install chromium
+npm test            # unit + browser tests
+npm run test:unit   # pest scoring and outages.json contract (Node, no browser)
+npm run test:e2e    # Playwright against a local static server
+```
+
+- **`tests/unit/`**: the `pests.js` scoring model, the alert/forecast/marine text helpers in `app.js` (including a parse of the live coastal waters product), and the shape of `data/outages.json` that `scripts/fetch-outages.sh` writes and `app.js` reads.
+- **`tests/e2e/live-data.spec.js`**: loads the page against the real NWS, NOAA tides, and committed CMP data, and checks each tile and section against those sources.
+- **`tests/e2e/interactions.spec.js`**: tabs (click, keyboard, deep links), the `?storm=demo` layout, the climate slider, and the fridge card.
+- **`tests/e2e/fallbacks.spec.js`**: the only mocked tests. They force upstream outages, which the real sources can't produce on demand, to check every section's fallback message.
+
+`.github/workflows/tests.yml` runs the suite on pull requests, on pushes to `main` (except the outage bot's data commits), and daily to catch upstream format changes.
 
 ## Maintenance
 
