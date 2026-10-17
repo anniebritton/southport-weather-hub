@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-10-16 19:50:14",
+ "lastUpdated": "2026-10-16 23:20:14",
  "totals": {
   "customers": 689642,
-  "outages": 32,
-  "incidents": 3
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,77 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "DURHAM",
-   "customers": 1973,
+   "county": "KENNEBEC",
+   "town": "VIENNA",
+   "customers": 483,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/16/2026 9:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "LOVELL",
-   "customers": 1430,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/16/2026 9:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WESTBROOK",
-   "customers": 10970,
-   "Outages": 30,
-   "incidents": 1,
-   "EstRest": "10/16/2026 8:30:00 PM"
+   "EstRest": "10/17/2026 1:15:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "ANDROSCOGGIN",
-   "town": "DURHAM",
-   "hamlet": "DURHAM",
-   "street": "S DURHAM RD",
-   "customers": 15,
+   "county": "KENNEBEC",
+   "town": "VIENNA",
+   "hamlet": "VIENNA",
+   "street": "HERRIN WOODS RD",
+   "customers": 16,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/16/2026 9:00:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "10/17/2026 1:15:00 AM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "0043R5"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "LOVELL",
-   "hamlet": "LOVELL",
-   "street": "SANTOSHA WAY",
-   "customers": 2,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/16/2026 9:00:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "0043QS"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "WESTBROOK",
-   "hamlet": "WESTBROOK",
-   "street": "MECHANIC ST",
-   "customers": 106,
-   "Outages": 30,
-   "incidents": 1,
-   "EstRest": "10/16/2026 8:30:00 PM",
-   "crewstatus": "ACKN ",
-   "cause": "",
-   "incidentnumber": "0043R3"
+   "incidentnumber": "0043RO"
   }
  ]
 }
