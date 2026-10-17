@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-10-17 13:50:14",
+ "lastUpdated": "2026-10-17 16:16:54",
  "totals": {
   "customers": 689642,
-  "outages": 15,
-  "incidents": 4
+  "outages": 178,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
@@ -11,102 +11,102 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "PHIPPSBURG",
-   "customers": 2151,
-   "Outages": 10,
+   "county": "YORK",
+   "town": "NEWFIELD",
+   "customers": 1391,
+   "Outages": 26,
    "incidents": 1,
-   "EstRest": "10/17/2026 3:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "FRYEBURG",
-   "customers": 2462,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/17/2026 2:45:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "SAINT ALBANS",
-   "customers": 1469,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "10/17/2026 3:15:00 PM"
+   "EstRest": "10/17/2026 5:15:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
    "county": "YORK",
-   "town": "ALFRED",
-   "customers": 1755,
+   "town": "PARSONSFIELD",
+   "customers": 1411,
+   "Outages": 11,
+   "incidents": 1,
+   "EstRest": "10/17/2026 5:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "HARTLAND",
+   "customers": 1273,
+   "Outages": 140,
+   "incidents": 1,
+   "EstRest": "10/17/2026 6:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "NORRIDGEWOCK",
+   "customers": 1810,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/17/2026 3:30:00 PM"
+   "EstRest": "10/17/2026 5:45:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "SAGADAHOC",
-   "town": "PHIPPSBURG",
-   "hamlet": "PHIPPSBURG",
-   "street": "ALLIQUIPPA RD",
-   "customers": 5,
-   "Outages": 5,
+   "county": "YORK",
+   "town": "NEWFIELD",
+   "hamlet": "NEWFIELD",
+   "street": "DURGIN RD",
+   "customers": 1,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/17/2026 3:30:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "10/17/2026 5:15:00 PM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "0043VS"
+   "incidentnumber": "0043W2"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "FRYEBURG",
-   "hamlet": "FRYEBURG",
-   "street": "CAMP TREBOR LN",
+   "county": "YORK",
+   "town": "PARSONSFIELD",
+   "hamlet": "PARSONSFIELD",
+   "street": "SOUTH RD",
+   "customers": 39,
+   "Outages": 11,
+   "incidents": 1,
+   "EstRest": "10/17/2026 5:15:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "0043W2"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SOMERSET",
+   "town": "HARTLAND",
+   "hamlet": "HARTLAND",
+   "street": "MOORE CAMP LN",
    "customers": 13,
-   "Outages": 1,
+   "Outages": 13,
    "incidents": 1,
-   "EstRest": "10/17/2026 2:45:00 PM",
-   "crewstatus": "ONST ",
+   "EstRest": "10/17/2026 6:15:00 PM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "0043VK"
+   "incidentnumber": "0043WN"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "SOMERSET",
-   "town": "SAINT ALBANS",
-   "hamlet": "SAINT ALBANS",
-   "street": "DUDLEY BROOK RD",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "10/17/2026 3:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "Tree",
-   "incidentnumber": "0043VP"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "ALFRED",
-   "hamlet": "ALFRED",
-   "street": "GORE RD",
-   "customers": 134,
+   "town": "NORRIDGEWOCK",
+   "hamlet": "NORRIDGEWOCK",
+   "street": "MADISON RD",
+   "customers": 80,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/17/2026 3:30:00 PM",
+   "EstRest": "10/17/2026 5:45:00 PM",
    "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "0043VV"
+   "incidentnumber": "0043WK"
   }
  ]
 }
