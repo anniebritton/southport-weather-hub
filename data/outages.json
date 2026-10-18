@@ -1,145 +1,37 @@
 {
- "lastUpdated": "2026-10-18 09:22:36",
+ "lastUpdated": "2026-10-18 12:42:36",
  "totals": {
   "customers": 689678,
-  "outages": 79,
-  "incidents": 5
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 29091,
-  "Outages": 10,
-  "incidents": 1,
-  "EstRest": "10/18/2026 10:30:00 AM"
- },
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "BOOTHBAY",
-   "customers": 3055,
-   "Outages": 10,
-   "incidents": 1,
-   "EstRest": "10/18/2026 10:30:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "customers": 12093,
-   "Outages": 50,
-   "incidents": 1,
-   "EstRest": "10/18/2026 11:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "TROY",
-   "customers": 572,
+   "county": "ANDROSCOGGIN",
+   "town": "AUBURN",
+   "customers": 13603,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/18/2026 11:00:00 AM"
+   "EstRest": "10/18/2026 2:45:00 PM"
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
-   "county": "KNOX",
-   "town": "THOMASTON",
-   "customers": 1743,
-   "Outages": 17,
-   "incidents": 1,
-   "EstRest": "10/18/2026 11:00:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "SOUTH THOMASTON",
-   "customers": 1182,
+   "county": "ANDROSCOGGIN",
+   "town": "AUBURN",
+   "hamlet": "AUBURN",
+   "street": "SIXTH ST",
+   "customers": 87,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/18/2026 10:45:00 AM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "BOOTHBAY",
-   "hamlet": "BOOTHBAY",
-   "street": "PINE WOODS RD",
-   "customers": 3,
-   "Outages": 3,
-   "incidents": 1,
-   "EstRest": "10/18/2026 10:30:00 AM",
-   "crewstatus": "DISP ",
+   "EstRest": "10/18/2026 2:45:00 PM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "0043XM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "BRUNSWICK",
-   "hamlet": "BRUNSWICK",
-   "street": "LARRY LN",
-   "customers": 61,
-   "Outages": 48,
-   "incidents": 1,
-   "EstRest": "10/18/2026 11:00:00 AM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "0043XT"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "TROY",
-   "hamlet": "TROY",
-   "street": "WARD HILL RD",
-   "customers": 42,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/18/2026 11:00:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "0043XU"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "THOMASTON",
-   "hamlet": "THOMASTON",
-   "street": "BOBOLINK LN",
-   "customers": 16,
-   "Outages": 16,
-   "incidents": 1,
-   "EstRest": "10/18/2026 11:00:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "0043XY"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KNOX",
-   "town": "SOUTH THOMASTON",
-   "hamlet": "SOUTH THOMASTON",
-   "street": "SPRUCE HEAD RD",
-   "customers": 167,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/18/2026 10:45:00 AM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "0043XP"
+   "incidentnumber": "0043YB"
   }
  ]
 }
