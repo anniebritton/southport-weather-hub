@@ -1,179 +1,37 @@
 {
- "lastUpdated": "2026-10-19 16:18:33",
+ "lastUpdated": "2026-10-19 19:47:32",
  "totals": {
-  "customers": 689683,
-  "outages": 6,
-  "incidents": 6
+  "customers": 689691,
+  "outages": 1,
+  "incidents": 1
  },
- "southport": {
-  "level": "town",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "town": "SOUTHPORT",
-  "customers": 1070,
-  "Outages": 1,
-  "incidents": 1,
-  "EstRest": "10/19/2026 5:00:00 PM"
- },
- "lincolnCounty": {
-  "level": "county",
-  "opco": "CMP",
-  "county": "LINCOLN",
-  "customers": 29091,
-  "Outages": 1,
-  "incidents": 1,
-  "EstRest": "10/19/2026 5:00:00 PM"
- },
+ "southport": null,
+ "lincolnCounty": null,
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CUMBERLAND",
-   "customers": 4160,
+   "county": "SAGADAHOC",
+   "town": "ARROWSIC",
+   "customers": 329,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/19/2026 5:45:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "FALMOUTH",
-   "customers": 6558,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/19/2026 5:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "SOUTHPORT",
-   "customers": 1070,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/19/2026 5:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "MONMOUTH",
-   "customers": 2473,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/19/2026 6:00:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "UNITY PLT",
-   "customers": 25,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/19/2026 5:30:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "ORLAND",
-   "customers": 1652,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/19/2026 4:45:00 PM"
+   "EstRest": "10/19/2026 8:00:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "CUMBERLAND",
-   "hamlet": "CUMBERLAND",
-   "street": "BLUE HERON LN",
-   "customers": 3,
+   "county": "SAGADAHOC",
+   "town": "ARROWSIC",
+   "hamlet": "ARROWSIC",
+   "street": "WHITMORES LNDING RD",
+   "customers": 15,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/19/2026 5:45:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "004434"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "FALMOUTH",
-   "hamlet": "FALMOUTH",
-   "street": "HOMESTEAD LN",
-   "customers": 8,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/19/2026 5:30:00 PM",
+   "EstRest": "10/19/2026 8:00:00 PM",
    "crewstatus": "ENRT ",
    "cause": "",
-   "incidentnumber": "004431"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "LINCOLN",
-   "town": "SOUTHPORT",
-   "hamlet": "SOUTHPORT",
-   "street": "DOGFISH HEAD RD",
-   "customers": 46,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/19/2026 5:00:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "00442C"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "MONMOUTH",
-   "hamlet": "MONMOUTH",
-   "street": "CLIFTON DR",
-   "customers": 3,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/19/2026 6:00:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "004435"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "KENNEBEC",
-   "town": "UNITY PLT",
-   "hamlet": "UNITY PLT",
-   "street": "PALMER RD",
-   "customers": 4,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/19/2026 5:30:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "004430"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "HANCOCK",
-   "town": "ORLAND",
-   "hamlet": "ORLAND",
-   "street": "MORNINGSIDE LN",
-   "customers": 5,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/19/2026 4:45:00 PM",
-   "crewstatus": "ONST ",
-   "cause": "",
-   "incidentnumber": "00442U"
+   "incidentnumber": "00443M"
   }
  ]
 }
