@@ -1,11 +1,137 @@
 {
- "lastUpdated": "2026-10-22 01:45:29",
+ "lastUpdated": "2026-10-22 07:15:29",
  "totals": {
   "customers": 689578,
-  "outages": 0,
-  "incidents": 0
+  "outages": 2196,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "KENNEBUNK",
+   "customers": 1708,
+   "Outages": 37,
+   "incidents": 1,
+   "EstRest": "10/22/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "FARMINGDALE",
+   "customers": 1652,
+   "Outages": 771,
+   "incidents": 1,
+   "EstRest": "10/22/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "HALLOWELL",
+   "customers": 1759,
+   "Outages": 879,
+   "incidents": 1,
+   "EstRest": "10/22/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "AUGUSTA",
+   "customers": 12306,
+   "Outages": 507,
+   "incidents": 1,
+   "EstRest": "10/22/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "PITTSTON",
+   "customers": 1547,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "10/22/2026 8:15:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "KENNEBUNK",
+   "hamlet": "KENNEBUNK",
+   "street": "SEA RD",
+   "customers": 105,
+   "Outages": 36,
+   "incidents": 1,
+   "EstRest": "10/22/2026 9:15:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "0044E7"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "FARMINGDALE",
+   "hamlet": "FARMINGDALE",
+   "street": "MAINE AVE",
+   "customers": 142,
+   "Outages": 84,
+   "incidents": 1,
+   "EstRest": "10/22/2026 9:15:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "0044EB"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "HALLOWELL",
+   "hamlet": "HALLOWELL",
+   "street": "GREENVILLE ST",
+   "customers": 50,
+   "Outages": 50,
+   "incidents": 1,
+   "EstRest": "10/22/2026 9:15:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "0044EB"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "AUGUSTA",
+   "hamlet": "AUGUSTA",
+   "street": "STATE ST",
+   "customers": 205,
+   "Outages": 68,
+   "incidents": 1,
+   "EstRest": "10/22/2026 9:15:00 AM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "0044EB"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "PITTSTON",
+   "hamlet": "PITTSTON",
+   "street": "MAST RD",
+   "customers": 32,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "10/22/2026 8:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "0044E2"
+  }
+ ]
 }
