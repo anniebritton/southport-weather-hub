@@ -1,11 +1,87 @@
 {
- "lastUpdated": "2026-10-24 02:52:46",
+ "lastUpdated": "2026-10-24 07:52:46",
  "totals": {
   "customers": 689596,
-  "outages": 0,
-  "incidents": 0
+  "outages": 63,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRUNSWICK",
+   "customers": 12093,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "10/24/2026 8:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BROWNFIELD",
+   "customers": 1211,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "10/24/2026 9:15:00 AM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "ST GEORGE",
+   "customers": 2430,
+   "Outages": 59,
+   "incidents": 1,
+   "EstRest": "10/24/2026 9:45:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "BRUNSWICK",
+   "hamlet": "BRUNSWICK",
+   "street": "DURHAM RD",
+   "customers": 88,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "10/24/2026 8:15:00 AM",
+   "crewstatus": "ONST ",
+   "cause": "Equipment Interruption",
+   "incidentnumber": "0044MY"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "BROWNFIELD",
+   "hamlet": "BROWNFIELD",
+   "street": "DUGWAY RD",
+   "customers": 38,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "10/24/2026 9:15:00 AM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "0044N2"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KNOX",
+   "town": "ST GEORGE",
+   "hamlet": "ST GEORGE",
+   "street": "SEA ST",
+   "customers": 14,
+   "Outages": 14,
+   "incidents": 1,
+   "EstRest": "10/24/2026 9:45:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "0044N3"
+  }
+ ]
 }
