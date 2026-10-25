@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-10-25 02:33:30",
+ "lastUpdated": "2026-10-25 07:56:50",
  "totals": {
   "customers": 689662,
-  "outages": 0,
-  "incidents": 0
+  "outages": 83,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "SHAPLEIGH",
+   "customers": 2528,
+   "Outages": 83,
+   "incidents": 1,
+   "EstRest": "10/25/2026 10:00:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "SHAPLEIGH",
+   "hamlet": "SHAPLEIGH",
+   "street": "30TH ST",
+   "customers": 32,
+   "Outages": 30,
+   "incidents": 1,
+   "EstRest": "10/25/2026 10:00:00 AM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "0044QH"
+  }
+ ]
 }
