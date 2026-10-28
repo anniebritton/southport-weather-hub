@@ -1,5 +1,5 @@
 {
- "lastUpdated": "2026-10-27 20:12:33",
+ "lastUpdated": "2026-10-28 01:55:53",
  "totals": {
   "customers": 689755,
   "outages": 1,
@@ -11,27 +11,27 @@
   {
    "level": "town",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "HARPSWELL",
-   "customers": 4768,
+   "county": "KENNEBEC",
+   "town": "ROME",
+   "customers": 1204,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/27/2026 9:30:00 PM"
+   "EstRest": "10/28/2026 4:00:00 AM"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "CUMBERLAND",
-   "town": "HARPSWELL",
-   "hamlet": "HARPSWELL",
-   "street": "RIDLEY COVE RD",
-   "customers": 2,
+   "county": "KENNEBEC",
+   "town": "ROME",
+   "hamlet": "ROME",
+   "street": "WATSON POND RD",
+   "customers": 28,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "10/27/2026 9:30:00 PM",
-   "crewstatus": "ONST ",
+   "EstRest": "10/28/2026 4:00:00 AM",
+   "crewstatus": "DISP ",
    "cause": "",
-   "incidentnumber": "00451O"
+   "incidentnumber": "004520"
   }
  ]
 }
