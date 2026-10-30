@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-10-29 20:20:24",
+ "lastUpdated": "2026-10-30 02:10:24",
  "totals": {
   "customers": 689724,
-  "outages": 1,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "ISLESBORO",
-   "customers": 1037,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/29/2026 8:30:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "WALDO",
-   "town": "ISLESBORO",
-   "hamlet": "ISLESBORO",
-   "street": "JETTY RD",
-   "customers": 5,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "10/29/2026 8:30:00 PM",
-   "crewstatus": "ENRT ",
-   "cause": "",
-   "incidentnumber": "0045CD"
-  }
- ]
+ "towns": []
 }
