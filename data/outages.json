@@ -1,11 +1,62 @@
 {
- "lastUpdated": "2026-11-05 06:25:18",
+ "lastUpdated": "2026-11-05 13:51:58",
  "totals": {
   "customers": 689732,
-  "outages": 0,
-  "incidents": 0
+  "outages": 10,
+  "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "NAPLES",
+   "customers": 3932,
+   "Outages": 9,
+   "incidents": 1,
+   "EstRest": "11/5/2026 3:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "RUMFORD",
+   "customers": 3627,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "11/5/2026 2:15:00 PM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "CUMBERLAND",
+   "town": "NAPLES",
+   "hamlet": "NAPLES",
+   "street": "TRAILS END",
+   "customers": 9,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "11/5/2026 3:15:00 PM",
+   "crewstatus": "ACKN ",
+   "cause": "",
+   "incidentnumber": "004638"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "RUMFORD",
+   "hamlet": "RUMFORD",
+   "street": "BELIVEAU RD",
+   "customers": 19,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "11/5/2026 2:15:00 PM",
+   "crewstatus": "ENRT ",
+   "cause": "",
+   "incidentnumber": "00462V"
+  }
+ ]
 }
