@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-11-05 13:51:58",
+ "lastUpdated": "2026-11-05 18:59:54",
  "totals": {
-  "customers": 689732,
+  "customers": 689763,
   "outages": 10,
-  "incidents": 2
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": null,
@@ -12,51 +12,76 @@
    "level": "town",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "NAPLES",
-   "customers": 3932,
-   "Outages": 9,
+   "town": "POWNAL",
+   "customers": 905,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "11/5/2026 3:15:00 PM"
+   "EstRest": "11/5/2026 8:15:00 PM"
   },
   {
    "level": "town",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "RUMFORD",
-   "customers": 3627,
+   "county": "PENOBSCOT",
+   "town": "DEXTER",
+   "customers": 2367,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "11/5/2026 2:15:00 PM"
+   "EstRest": "11/5/2026 8:15:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "GEORGETOWN",
+   "customers": 1269,
+   "Outages": 8,
+   "incidents": 1,
+   "EstRest": "11/5/2026 7:15:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "CUMBERLAND",
-   "town": "NAPLES",
-   "hamlet": "NAPLES",
-   "street": "TRAILS END",
-   "customers": 9,
-   "Outages": 2,
+   "town": "POWNAL",
+   "hamlet": "POWNAL",
+   "street": "LAWRENCE RD",
+   "customers": 88,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "11/5/2026 3:15:00 PM",
-   "crewstatus": "ACKN ",
+   "EstRest": "11/5/2026 8:15:00 PM",
+   "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "004638"
+   "incidentnumber": "00464F"
   },
   {
    "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "RUMFORD",
-   "hamlet": "RUMFORD",
-   "street": "BELIVEAU RD",
-   "customers": 19,
+   "county": "PENOBSCOT",
+   "town": "DEXTER",
+   "hamlet": "DEXTER",
+   "street": "OLD RIPLEY RD",
+   "customers": 9,
    "Outages": 1,
    "incidents": 1,
-   "EstRest": "11/5/2026 2:15:00 PM",
-   "crewstatus": "ENRT ",
+   "EstRest": "11/5/2026 8:15:00 PM",
+   "crewstatus": "     ",
    "cause": "",
-   "incidentnumber": "00462V"
+   "incidentnumber": "00464G"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "SAGADAHOC",
+   "town": "GEORGETOWN",
+   "hamlet": "GEORGETOWN",
+   "street": "SAGADAHOC BAY RD",
+   "customers": 21,
+   "Outages": 8,
+   "incidents": 1,
+   "EstRest": "11/5/2026 7:15:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "00463L"
   }
  ]
 }
