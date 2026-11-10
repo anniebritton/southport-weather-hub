@@ -1,62 +1,11 @@
 {
- "lastUpdated": "2026-11-10 13:44:50",
+ "lastUpdated": "2026-11-10 18:49:29",
  "totals": {
-  "customers": 689861,
-  "outages": 2,
-  "incidents": 2
+  "customers": 689835,
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "ACTON",
-   "customers": 2631,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "11/10/2026 3:15:00 PM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "YORK",
-   "customers": 11308,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": ""
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "ACTON",
-   "hamlet": "ACTON",
-   "street": "MILTON MILLS RD",
-   "customers": 115,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "11/10/2026 3:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "0046OX"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "YORK",
-   "town": "YORK",
-   "hamlet": "YORK",
-   "street": "CIDER HILL RD",
-   "customers": 141,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "",
-   "crewstatus": "DISP ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "0046ME"
-  }
- ]
+ "towns": []
 }
