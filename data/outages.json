@@ -1,13 +1,23 @@
 {
- "lastUpdated": "2026-11-10 06:31:30",
+ "lastUpdated": "2026-11-10 13:44:50",
  "totals": {
   "customers": 689861,
-  "outages": 105,
+  "outages": 2,
   "incidents": 2
  },
  "southport": null,
  "lincolnCounty": null,
  "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "YORK",
+   "town": "ACTON",
+   "customers": 2631,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "11/10/2026 3:15:00 PM"
+  },
   {
    "level": "town",
    "opco": "CMP",
@@ -19,24 +29,19 @@
    "EstRest": ""
   },
   {
-   "level": "town",
+   "level": "street",
    "opco": "CMP",
-   "county": "OXFORD",
-   "town": "GREENWOOD",
-   "customers": 946,
-   "Outages": 82,
+   "county": "YORK",
+   "town": "ACTON",
+   "hamlet": "ACTON",
+   "street": "MILTON MILLS RD",
+   "customers": 115,
+   "Outages": 1,
    "incidents": 1,
-   "EstRest": "11/10/2026 8:15:00 AM"
-  },
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "NORWAY",
-   "customers": 3536,
-   "Outages": 22,
-   "incidents": 1,
-   "EstRest": "11/10/2026 8:15:00 AM"
+   "EstRest": "11/10/2026 3:15:00 PM",
+   "crewstatus": "DISP ",
+   "cause": "",
+   "incidentnumber": "0046OX"
   },
   {
    "level": "street",
@@ -49,39 +54,9 @@
    "Outages": 1,
    "incidents": 1,
    "EstRest": "",
-   "crewstatus": "     ",
+   "crewstatus": "DISP ",
    "cause": "Equipment Interruption",
    "incidentnumber": "0046ME"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "GREENWOOD",
-   "hamlet": "GREENWOOD",
-   "street": "GREENWOOD RD",
-   "customers": 17,
-   "Outages": 17,
-   "incidents": 1,
-   "EstRest": "11/10/2026 8:15:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "0046MN"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "OXFORD",
-   "town": "NORWAY",
-   "hamlet": "NORWAY",
-   "street": "HAYES RD",
-   "customers": 9,
-   "Outages": 8,
-   "incidents": 1,
-   "EstRest": "11/10/2026 8:15:00 AM",
-   "crewstatus": "ONST ",
-   "cause": "Equipment Interruption",
-   "incidentnumber": "0046MN"
   }
  ]
 }
