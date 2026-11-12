@@ -126,3 +126,93 @@ test("each alert type gets its own 'What this means for Southport' guidance", ()
   }
   assert.equal(localMeaning("Frost Advisory"), null);
 });
+
+/* ---------- remote-data safety helpers ---------- */
+
+const {
+  toNumber, firstLines, parseEasternTime, parseOutages,
+  OUTAGE_FRESH_MINUTES, OUTAGE_MAX_USABLE_MINUTES, OUTAGE_FUTURE_SKEW_MINUTES,
+} = require("../../app.js");
+
+test("toNumber accepts real numbers and numeric strings only", () => {
+  assert.equal(toNumber(5), 5);
+  assert.equal(toNumber("12"), 12);
+  assert.equal(toNumber(0), 0);
+  for (const bad of ["<img src=x onerror=1>", "", "  ", null, undefined, NaN, Infinity, {}, [], true]) {
+    assert.equal(toNumber(bad), null, String(bad));
+  }
+});
+
+test("firstLines tolerates non-string alert fields", () => {
+  assert.equal(firstLines("a\nb\nc\nd", 3, " "), "a b c");
+  assert.equal(firstLines("only", 1, ""), "only");
+  for (const bad of [null, undefined, 5, {}, ["x"]]) assert.equal(firstLines(bad, 1, ""), "");
+});
+
+test("parseEasternTime converts CMP's Eastern wall-clock time across DST", () => {
+  // Winter (EST, UTC-5) and summer (EDT, UTC-4)
+  assert.equal(parseEasternTime("2026-01-15 12:00:00"), Date.UTC(2026, 0, 15, 17, 0, 0));
+  assert.equal(parseEasternTime("2026-07-15 12:00:00"), Date.UTC(2026, 6, 15, 16, 0, 0));
+  assert.equal(parseEasternTime("2026-11-11 20:50:30"), Date.UTC(2026, 10, 12, 1, 50, 30));
+});
+
+test("parseEasternTime rejects anything that is not a real Eastern time", () => {
+  const bad = [
+    null, undefined, "", "garbage", 5, "2026-13-45 99:99:99x",
+    "2026-02-30 12:00:00", // Feb 30 would roll into March
+    "2026-13-01 12:00:00", // month 13
+    "2026-04-31 12:00:00", // April has 30 days
+    "2026-01-15 25:00:00", // hour 25
+    "2026-01-15 12:60:00", "2026-01-15 12:00:60",
+    "2026-03-08 02:30:00", // does not exist: clocks jump 02:00 -> 03:00
+  ];
+  for (const b of bad) assert.equal(parseEasternTime(b), null, String(b));
+  // Real edge cases still parse
+  assert.notEqual(parseEasternTime("2028-02-29 12:00:00"), null); // leap day
+  assert.notEqual(parseEasternTime("2026-11-01 01:30:00"), null); // repeated hour on fall-back day
+});
+
+const base = {
+  lastUpdated: "2026-01-15 12:00:00", // 17:00 UTC
+  totals: { outages: 12 },
+  southport: { Outages: 7 },
+  lincolnCounty: null,
+};
+const updatedUtc = Date.UTC(2026, 0, 15, 17, 0, 0);
+const minutesAfter = (m) => updatedUtc + m * 60000;
+
+test("parseOutages normalizes good data and rejects junk", () => {
+  const r = parseOutages(base, minutesAfter(10));
+  assert.deepEqual([r.spOut, r.lcOut, r.totalOut, r.tier], [7, 0, 12, "fresh"]);
+  assert.equal(Math.round(r.ageMinutes), 10);
+
+  for (const bad of [
+    null, [], {}, { totals: { outages: 1 } },
+    { ...base, lastUpdated: null }, { ...base, lastUpdated: "garbage" },
+    { ...base, totals: {} }, { ...base, totals: { outages: "<img>" } },
+    { ...base, southport: { Outages: "<img>" } }, { ...base, southport: { Outages: -3 } },
+    { ...base, lincolnCounty: "oops" }, { ...base, southport: [] }, { ...base, southport: true },
+  ]) {
+    assert.throws(() => parseOutages(bad, minutesAfter(10)), JSON.stringify(bad));
+  }
+});
+
+test("outage freshness tiers: fresh, aging, expired, with exact boundaries", () => {
+  assert.equal(OUTAGE_FRESH_MINUTES, 90);
+  assert.equal(OUTAGE_MAX_USABLE_MINUTES, 12 * 60);
+  const tier = (m) => parseOutages(base, minutesAfter(m)).tier;
+  assert.equal(tier(0), "fresh");
+  assert.equal(tier(OUTAGE_FRESH_MINUTES), "fresh");
+  assert.equal(tier(OUTAGE_FRESH_MINUTES + 1), "aging");
+  assert.equal(tier(5 * 60), "aging"); // typical throttled gap on a healthy job
+  assert.equal(tier(OUTAGE_MAX_USABLE_MINUTES), "aging");
+  assert.equal(tier(OUTAGE_MAX_USABLE_MINUTES + 1), "expired");
+  assert.equal(tier(3 * 24 * 60), "expired");
+});
+
+test("a lastUpdated in the future is invalid beyond a small clock-skew allowance", () => {
+  assert.equal(OUTAGE_FUTURE_SKEW_MINUTES, 5);
+  assert.equal(parseOutages(base, minutesAfter(-OUTAGE_FUTURE_SKEW_MINUTES)).tier, "fresh"); // skew is fine
+  assert.throws(() => parseOutages(base, minutesAfter(-(OUTAGE_FUTURE_SKEW_MINUTES + 1))), /future/);
+  assert.throws(() => parseOutages({ ...base, lastUpdated: "2999-01-01 00:00:00" }, minutesAfter(0)), /future/);
+});

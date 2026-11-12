@@ -51,6 +51,25 @@ test("forecast shows the next four NWS periods with temperatures", async ({ page
   }
 });
 
+test("the hard-coded alert zone and marine zone exist in the NWS API", async ({ request }) => {
+  // The page asks for alerts by zone. NWS answers an unknown zone with 200 and no alerts, which
+  // would look exactly like "all clear", so make sure a typo or a zone renumbering is caught here.
+  // Only a 404 (zone missing) fails; an NWS outage, rate limit, or network error just skips the check.
+  for (const zone of ["MEZ026", "ANZ152"]) {
+    let status;
+    try {
+      status = (await request.get(`https://api.weather.gov/zones/forecast/${zone}`, {
+        headers: { "User-Agent": "southport-weather-hub-tests" },
+      })).status();
+    } catch (err) {
+      test.info().annotations.push({ type: "skipped-check", description: `${zone}: ${err.message}` });
+      continue;
+    }
+    if (status === 404) expect.soft(status, `zone ${zone} no longer exists`).not.toBe(404);
+    else if (status >= 400) test.info().annotations.push({ type: "skipped-check", description: `${zone}: HTTP ${status}` });
+  }
+});
+
 test("power section matches data/outages.json", async ({ page }) => {
   const data = JSON.parse(fs.readFileSync(path.join(__dirname, "../../data/outages.json"), "utf8"));
   const sp = data.southport?.Outages ?? 0;
@@ -64,8 +83,18 @@ test("power section matches data/outages.json", async ({ page }) => {
   await expect(stats.nth(2)).toContainText(`${data.totals.outages.toLocaleString("en-US")} customers out across all of CMP`);
   await expect(page.locator("#outage-updated")).toContainText(`CMP data as of ${data.lastUpdated}`);
 
-  const expectedTile = sp ? `${sp.toLocaleString("en-US")} out` : lc ? "On in Southport" : "On";
-  await expect(page.locator("#tile-power .tile-value")).toHaveText(expectedTile);
+  // Same tiering the page uses (shared helper, so this stays correct across DST changes)
+  const { parseOutages } = require("../../app.js");
+  const { tier } = parseOutages(data);
+  const tile = page.locator("#tile-power .tile-value");
+  if (tier === "expired") {
+    await expect(tile).toHaveText("Unavailable");
+  } else if (tier === "aging") {
+    await expect(tile).toHaveText(/^Last known: /);
+  } else {
+    const expectedTile = sp ? `${sp.toLocaleString("en-US")} out` : lc ? "On in Southport" : "On";
+    await expect(tile).toHaveText(expectedTile);
+  }
 });
 
 test("marine forecast parses the live ANZ152 coastal waters forecast", async ({ page }) => {

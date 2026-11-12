@@ -8,20 +8,34 @@ on:
 permissions:
   contents: write
 
+# One refresh at a time; a late run waits instead of racing the previous one's push.
+concurrency:
+  group: refresh-outages
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Fetch CMP outage data
-        run: ./scripts/fetch-outages.sh
+        env:
+          # Optional repository secret; falls back to CMP's public frontend key if unset.
+          OUTAGE_API_KEY: ${{ secrets.OUTAGE_API_KEY }}
+        run: python3 scripts/fetch_outages.py
 
       - name: Commit if changed
         run: |
           git config user.name "outage-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/outages.json
-          git diff --cached --quiet && echo "No change" && exit 0
+          if git diff --cached --quiet; then
+            echo "No change"
+            exit 0
+          fi
           git commit -m "Update outage data"
-          git push
+          # Pick up any commit that landed while this job ran, then push (retry once on a race)
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push || { git pull --rebase origin "${GITHUB_REF_NAME}" && git push; }

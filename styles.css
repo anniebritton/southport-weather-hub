@@ -656,6 +656,8 @@ main { padding: 2rem 0 3rem; }
 
 .stat-card.stat-ok { background: var(--green-soft); border-color: #bcd9c5; }
 .stat-card.stat-bad { background: var(--red-soft); border-color: #ecc4c1; }
+/* Outage numbers older than the freshness window: neutral and dashed, never green/red "current" */
+.stat-card.stat-aging { border-style: dashed; }
 
 .stat-card .stat-value {
   display: block;
