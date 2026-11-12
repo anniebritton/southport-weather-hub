@@ -1,4 +1,4 @@
-// Contract between scripts/fetch-outages.sh (writer) and loadOutages() in app.js (reader),
+// Contract between scripts/fetch_outages.py (writer) and loadOutages() in app.js (reader),
 // checked against the data file the outage bot actually committed.
 const test = require("node:test");
 const assert = require("node:assert/strict");

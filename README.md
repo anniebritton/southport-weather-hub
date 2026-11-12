@@ -5,7 +5,7 @@
 One page where residents of Southport Island, Maine can check everything that matters before, during, and after severe weather — without needing to know which agency's website to visit:
 
 - ⚠️ **Live weather alerts and forecast** from the National Weather Service, with plain-language "what this means for Southport" translations
-- 🔌 **Power outage numbers** straight from Central Maine Power's data, refreshed every 15 minutes
+- 🔌 **Power outage numbers** straight from Central Maine Power's data, updated on a best-effort schedule (every 15 minutes when GitHub runs it on time; the page shows how old the numbers are)
 - ⛵ **Marine conditions** — wind, seas, wave heights, and tides at Southport's own gauge
 - 🔥 **Daily fire danger** from the Maine Forest Service
 - 🦟 **Mosquito and tick activity estimates** computed from the day's forecast
@@ -42,7 +42,7 @@ The tests check some of these values too (the marine zone and forecast office in
 This is the one piece that varies most. Southport's utility (CMP/Avangrid) blocks both embedding and cross-origin API calls, so `.github/workflows/outages.yml` runs every 15 minutes, fetches the utility's public data server-side, and commits `data/outages.json` for the page to read (the "git scraping" pattern — free on GitHub Actions). For your utility:
 
 - **If they use Kubra Storm Center** (many US utilities): their API is openly CORS-enabled — you may be able to fetch it directly from the browser and skip the workflow entirely. Look for `kubra.io/stormcenter/api` requests in your browser's dev tools on the outage map page.
-- **If they're Avangrid-family** (CMP, UI, RG&E, NYSEG…): adapt `scripts/fetch-outages.sh` — the pattern is identical, just swap the API host and the public subscription key from your utility's outage map request headers.
+- **If they're Avangrid-family** (CMP, UI, RG&E, NYSEG…): adapt `scripts/fetch_outages.py` — the pattern is identical, just swap the API host and the public subscription key from your utility's outage map request headers.
 - **If nothing works**: fall back to a prominent link. A reliable button beats a broken widget.
 
 ### 3. Swap the state-level resources
@@ -74,7 +74,7 @@ No servers, no domains required (though you can point one at it), no cost.
 ## Architecture notes
 
 - **Plain HTML/CSS/JS, no framework, no build step** — deliberately, so future maintainers only need a text editor
-- All live data is fetched client-side from free public APIs (NWS, NOAA tides) except utility outage data, which a GitHub Action snapshots into the repo every 15 minutes
+- All live data is fetched client-side from free public APIs (NWS, NOAA tides) except utility outage data, which a GitHub Action snapshots into the repo (scheduled every 15 minutes, though GitHub throttles scheduled workflows and real gaps are often hours; the page marks older numbers "last known" and stops showing them after 12 hours)
 - **Storm Mode** triggers automatically on Extreme/Severe NWS alerts (or hurricane/gale/surge/blizzard/ice-storm/tornado events); test it any time with `?storm=demo`
 - The pest activity meters are **weather-based estimates, not surveillance** — the model was validated against ten seasonal scenarios and spot-checked against a commercial index (details in the site's methodology section); scoring functions in `pests.js` (and the text helpers in `app.js`) export CommonJS for headless re-testing
 - Fetch failures degrade gracefully: every live section falls back to a labeled link to the official source
@@ -88,13 +88,16 @@ npm install
 npx playwright install chromium
 npm test            # unit + browser tests
 npm run test:unit   # Node only, no browser (one test reads the live NWS marine forecast)
+npm run test:py     # Python only: the outage fetch script's validation (standard library)
 npm run test:e2e    # Playwright against a local static server
 ```
 
-- **`tests/unit/`**: the `pests.js` scoring model, the alert/forecast/marine text helpers in `app.js` (including a parse of the live coastal waters product), and the shape of `data/outages.json` that `scripts/fetch-outages.sh` writes and `app.js` reads.
+- **`tests/unit/`**: the `pests.js` scoring model, the alert/forecast/marine text helpers in `app.js` (including a parse of the live coastal waters product), and the shape of `data/outages.json` that `scripts/fetch_outages.py` writes and `app.js` reads.
 - **`tests/e2e/live-data.spec.js`**: loads the page against the real NWS, NOAA tides, and committed CMP data, and checks each tile and section against those sources.
 - **`tests/e2e/interactions.spec.js`**: tabs (click, keyboard, deep links), the `?storm=demo` layout, the climate slider, and the fridge card.
-- **`tests/e2e/fallbacks.spec.js`**: the only mocked tests. They force upstream outages, which the real sources can't produce on demand, to check every section's fallback message.
+- **`tests/python/`**: the outage fetch script. It must refuse to overwrite `data/outages.json` with a reply that isn't the expected shape.
+- **`tests/e2e/hostile-input.spec.js`**: mocked tests that feed the page malformed or hostile upstream data (script in a temperature, junk or stale outage files, a broken alert next to a good one) and check that nothing runs and nothing looks falsely reassuring.
+- **`tests/e2e/fallbacks.spec.js`**: mocked tests. They force upstream outages, which the real sources can't produce on demand, to check every section's fallback message.
 
 `.github/workflows/tests.yml` runs the suite on pull requests, on pushes to `main`, and daily to catch upstream format changes. The outage bot's commits don't trigger it, because pushes made with `GITHUB_TOKEN` never start workflows.
 
@@ -104,7 +107,7 @@ Almost none, but three things to know:
 
 - **GitHub pauses cron workflows after ~60 days of repo inactivity.** The outage bot's own commits normally keep it alive, but if outage timestamps go stale, re-enable the workflow under the Actions tab (one click).
 - **If the daily Tests run fails** with no code change, an upstream source (NWS, NOAA, or CMP) has most likely changed its format or is down. The failing test's name says which section; rerun it once to rule out a brief outage.
-- **If the utility rotates its public API key**, the fetch fails gracefully (the page falls back to link-out buttons). Grab the new key from the `ocp-apim-subscription-key` request header on the utility's own outage map and update `scripts/fetch-outages.sh`.
+- **If the utility rotates its public API key**, the fetch fails and leaves the last good file in place; the page keeps showing the last good numbers, marked "last known" with their age once they are more than 90 minutes old, and switches the power tile to "Unavailable" with a pointer to CMP's map after 12 hours. Grab the new key from the `ocp-apim-subscription-key` request header on the utility's own outage map and either update `PUBLIC_FRONTEND_KEY` in `scripts/fetch_outages.py` or set it as the `OUTAGE_API_KEY` repository secret (the secret wins when present).
 
 ## Data sources & credits
 
