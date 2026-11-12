@@ -51,6 +51,15 @@ test("forecast shows the next four NWS periods with temperatures", async ({ page
   }
 });
 
+test("the hard-coded alert zone and marine zone exist in the NWS API", async ({ request }) => {
+  // The page asks for alerts by zone. NWS answers an unknown zone with 200 and no alerts, which
+  // would look exactly like "all clear", so make sure a typo or a zone renumbering is caught here.
+  const zone = await request.get("https://api.weather.gov/zones/forecast/MEZ026", { headers: { "User-Agent": "southport-weather-hub-tests" } });
+  expect(zone.ok(), "forecast zone MEZ026").toBeTruthy();
+  const marine = await request.get("https://api.weather.gov/zones/forecast/ANZ152", { headers: { "User-Agent": "southport-weather-hub-tests" } });
+  expect(marine.ok(), "marine zone ANZ152").toBeTruthy();
+});
+
 test("power section matches data/outages.json", async ({ page }) => {
   const data = JSON.parse(fs.readFileSync(path.join(__dirname, "../../data/outages.json"), "utf8"));
   const sp = data.southport?.Outages ?? 0;
@@ -64,8 +73,17 @@ test("power section matches data/outages.json", async ({ page }) => {
   await expect(stats.nth(2)).toContainText(`${data.totals.outages.toLocaleString("en-US")} customers out across all of CMP`);
   await expect(page.locator("#outage-updated")).toContainText(`CMP data as of ${data.lastUpdated}`);
 
-  const expectedTile = sp ? `${sp.toLocaleString("en-US")} out` : lc ? "On in Southport" : "On";
-  await expect(page.locator("#tile-power .tile-value")).toHaveText(expectedTile);
+  // The page refuses to call old data "current"; follow the same rule the page does
+  const ageMin = (Date.now() - new Date(data.lastUpdated.replace(" ", "T") + "-05:00").getTime()) / 60000;
+  const clearlyFresh = ageMin < 60;
+  const clearlyStale = ageMin > 180;
+  const tile = page.locator("#tile-power .tile-value");
+  if (clearlyStale) {
+    await expect(tile).toHaveText("Unavailable");
+  } else if (clearlyFresh) {
+    const expectedTile = sp ? `${sp.toLocaleString("en-US")} out` : lc ? "On in Southport" : "On";
+    await expect(tile).toHaveText(expectedTile);
+  } // between 1h and 3h the DST offset makes "stale" ambiguous here; the unit tests cover the boundary
 });
 
 test("marine forecast parses the live ANZ152 coastal waters forecast", async ({ page }) => {

@@ -126,3 +126,62 @@ test("each alert type gets its own 'What this means for Southport' guidance", ()
   }
   assert.equal(localMeaning("Frost Advisory"), null);
 });
+
+/* ---------- remote-data safety helpers ---------- */
+
+const { toNumber, firstLines, parseEasternTime, parseOutages, OUTAGE_STALE_MINUTES } = require("../../app.js");
+
+test("toNumber accepts real numbers and numeric strings only", () => {
+  assert.equal(toNumber(5), 5);
+  assert.equal(toNumber("12"), 12);
+  assert.equal(toNumber(0), 0);
+  for (const bad of ["<img src=x onerror=1>", "", "  ", null, undefined, NaN, Infinity, {}, [], true]) {
+    assert.equal(toNumber(bad), null, String(bad));
+  }
+});
+
+test("firstLines tolerates non-string alert fields", () => {
+  assert.equal(firstLines("a\nb\nc\nd", 3, " "), "a b c");
+  assert.equal(firstLines("only", 1, ""), "only");
+  for (const bad of [null, undefined, 5, {}, ["x"]]) assert.equal(firstLines(bad, 1, ""), "");
+});
+
+test("parseEasternTime converts CMP's Eastern wall-clock time across DST", () => {
+  // Winter (EST, UTC-5) and summer (EDT, UTC-4)
+  assert.equal(parseEasternTime("2026-01-15 12:00:00"), Date.UTC(2026, 0, 15, 17, 0, 0));
+  assert.equal(parseEasternTime("2026-07-15 12:00:00"), Date.UTC(2026, 6, 15, 16, 0, 0));
+  assert.equal(parseEasternTime("2026-11-11 20:50:30"), Date.UTC(2026, 10, 12, 1, 50, 30));
+  for (const bad of [null, undefined, "", "garbage", "2026-13-45 99:99:99x", 5]) {
+    assert.equal(parseEasternTime(bad), null, String(bad));
+  }
+});
+
+test("parseOutages normalizes good data and rejects junk", () => {
+  const now = Date.UTC(2026, 0, 15, 17, 10, 0); // 12:10 Eastern
+  const good = {
+    lastUpdated: "2026-01-15 12:00:00",
+    totals: { outages: 12 },
+    southport: { Outages: 7 },
+    lincolnCounty: null,
+  };
+  const r = parseOutages(good, now);
+  assert.deepEqual([r.spOut, r.lcOut, r.totalOut, r.stale], [7, 0, 12, false]);
+  assert.equal(Math.round(r.ageMinutes), 10);
+
+  for (const bad of [
+    null, {}, { totals: { outages: 1 } },
+    { ...good, lastUpdated: null }, { ...good, lastUpdated: "garbage" },
+    { ...good, totals: {} }, { ...good, totals: { outages: "<img>" } },
+    { ...good, southport: { Outages: "<img>" } }, { ...good, southport: { Outages: -3 } },
+    { ...good, lincolnCounty: "oops" },
+  ]) {
+    assert.throws(() => parseOutages(bad, now), JSON.stringify(bad));
+  }
+});
+
+test("parseOutages flags data older than the staleness threshold", () => {
+  const data = { lastUpdated: "2026-01-15 12:00:00", totals: { outages: 0 }, southport: null, lincolnCounty: null };
+  const updated = Date.UTC(2026, 0, 15, 17, 0, 0);
+  assert.equal(parseOutages(data, updated + (OUTAGE_STALE_MINUTES - 1) * 60000).stale, false);
+  assert.equal(parseOutages(data, updated + (OUTAGE_STALE_MINUTES + 1) * 60000).stale, true);
+});

@@ -38,6 +38,19 @@ function escapeHtml(s) {
   }[c]));
 }
 
+/* A finite number, or null. Remote values go through this before they reach innerHTML. */
+function toNumber(v) {
+  if (typeof v === "string" && v.trim() === "") return null;
+  const n = typeof v === "number" || typeof v === "string" ? Number(v) : NaN;
+  return Number.isFinite(n) ? n : null;
+}
+
+/* First `n` lines of a remote text field as plain text, tolerating non-string values. */
+function firstLines(text, n, joiner) {
+  if (typeof text !== "string") return "";
+  return text.split("\n").slice(0, n).join(joiner);
+}
+
 function formatTime(iso) {
   if (!iso) return "unknown";
   try {
@@ -51,7 +64,7 @@ function formatTime(iso) {
 }
 
 function severityClass(severity) {
-  const s = (severity || "").toLowerCase();
+  const s = String(severity || "").toLowerCase();
   return s === "extreme" || s === "severe" ? "severity-severe" : "severity-watch";
 }
 
@@ -60,7 +73,7 @@ function severityClass(severity) {
  * Returns "", "cond-watch", "cond-caution", or "cond-severe".
  */
 function hazardLevel(text) {
-  const t = (text || "").toLowerCase();
+  const t = String(text || "").toLowerCase();
   if (/hurricane|tropical storm|gale|storm warning|severe thunderstorm|damaging|blizzard|ice storm|storm force/.test(t)) {
     return "cond-severe";
   }
@@ -150,17 +163,51 @@ const DEMO_ALERT = {
 };
 
 function enterStormMode(alerts) {
-  const active = alerts.filter((f) => isStormAlert(f.properties));
-  if (!active.length) return;
-  document.body.classList.add("storm-mode");
-  const banner = el("storm-banner");
-  banner.hidden = false;
-  const p = active[0].properties;
-  el("storm-headline").textContent = `${p.event} is in effect for our area`;
-  fillStormTide();
+  try {
+    const active = alerts.filter((f) => isStormAlert(f.properties));
+    if (!active.length) return;
+    document.body.classList.add("storm-mode");
+    const banner = el("storm-banner");
+    banner.hidden = false;
+    const p = active[0].properties;
+    el("storm-headline").textContent = `${p.event || "Severe weather"} is in effect for our area`;
+    fillStormTide();
+  } catch (err) {
+    console.error(err); // a banner problem must never hide the alerts themselves
+  }
 }
 
 /* ---------- weather alerts + forecast ---------- */
+
+function renderAlertCard(f) {
+  const p = f.properties || {};
+  try {
+    const meaning = localMeaning(p.event);
+    const instruction = firstLines(p.instruction, 1, "");
+    return `
+          <div class="alert-card ${severityClass(p.severity)}">
+            <span class="alert-label">${escapeHtml(p.severity || "Alert")} — ${escapeHtml(p.event || "Weather Alert")}</span>
+            <h3>${escapeHtml(p.headline || p.event || "Weather Alert")}</h3>
+            <p>${escapeHtml(firstLines(p.description, 3, " "))}</p>
+            <p class="alert-meta">Effective: ${escapeHtml(formatTime(p.effective))} &middot; Expires: ${escapeHtml(formatTime(p.expires))}</p>
+            ${instruction ? `<p><strong>What to do:</strong> ${escapeHtml(instruction)}</p>` : ""}
+            ${meaning ? `
+            <details class="alert-local">
+              <summary>What this means for Southport</summary>
+              <p>${escapeHtml(meaning)}</p>
+            </details>` : ""}
+          </div>`;
+  } catch (err) {
+    console.error(err);
+    // Last resort: still show that an alert exists, with the bare minimum
+    return `
+          <div class="alert-card severity-watch">
+            <span class="alert-label">Alert</span>
+            <h3>${escapeHtml(typeof p.event === "string" && p.event ? p.event : "Weather alert in effect")}</h3>
+            <p>See weather.gov for details.</p>
+          </div>`;
+  }
+}
 
 async function loadAlerts() {
   const listEl = el("alerts-list");
@@ -168,7 +215,9 @@ async function loadAlerts() {
     const res = await fetch(`https://api.weather.gov/alerts/active?zone=${ALERTS_ZONE}`);
     if (!res.ok) throw new Error(`Alerts request failed: ${res.status}`);
     const data = await res.json();
-    const alerts = data.features || [];
+    // A 200 without a features list is a broken reply, not "no alerts": never show "all clear" for it
+    if (!data || !Array.isArray(data.features)) throw new Error("Alerts reply has no features list");
+    const alerts = data.features.filter((f) => f && typeof f === "object");
     if (DEMO_STORM) alerts.unshift(DEMO_ALERT);
     enterStormMode(alerts);
 
@@ -182,25 +231,10 @@ async function loadAlerts() {
       setTile("tile-weather", "ok", "All clear", "No active alerts");
     } else {
       setStatus("alerts-status", `${alerts.length} active alert${alerts.length > 1 ? "s" : ""}:`);
-      listEl.innerHTML = alerts.map((f) => {
-        const p = f.properties || {};
-        const meaning = localMeaning(p.event);
-        return `
-          <div class="alert-card ${severityClass(p.severity)}">
-            <span class="alert-label">${escapeHtml(p.severity || "Alert")} — ${escapeHtml(p.event || "Weather Alert")}</span>
-            <h3>${escapeHtml(p.headline || p.event || "Weather Alert")}</h3>
-            <p>${escapeHtml((p.description || "").split("\n").slice(0, 3).join(" "))}</p>
-            <p class="alert-meta">Effective: ${formatTime(p.effective)} &middot; Expires: ${formatTime(p.expires)}</p>
-            ${p.instruction ? `<p><strong>What to do:</strong> ${escapeHtml(p.instruction.split("\n")[0])}</p>` : ""}
-            ${meaning ? `
-            <details class="alert-local">
-              <summary>What this means for Southport</summary>
-              <p>${escapeHtml(meaning)}</p>
-            </details>` : ""}
-          </div>`;
-      }).join("");
+      listEl.innerHTML = alerts.map(renderAlertCard).join("");
       const worst = alerts.some((f) => ["Extreme", "Severe"].includes(f.properties?.severity));
-      const first = alerts[0].properties?.event || "Weather alert";
+      const firstEvent = alerts[0].properties?.event;
+      const first = typeof firstEvent === "string" && firstEvent ? firstEvent : "Weather alert";
       setTile("tile-weather", worst ? "bad" : "warn", first,
         alerts.length > 1 ? `+ ${alerts.length - 1} more alert${alerts.length > 2 ? "s" : ""}` : "Tap Alerts below for details");
     }
@@ -223,7 +257,7 @@ async function loadForecast() {
     grid.innerHTML = periods.map((p) => `
       <div class="forecast-card ${hazardLevel(p.detailedForecast)}">
         <h4>${escapeHtml(p.name)}</h4>
-        <span class="temp">${p.temperature}°${escapeHtml(p.temperatureUnit)}</span>
+        <span class="temp">${toNumber(p.temperature) ?? "—"}°${escapeHtml(p.temperatureUnit)}</span>
         <p>${escapeHtml(p.detailedForecast)}</p>
       </div>`).join("");
   } catch (err) {
@@ -566,18 +600,70 @@ function fillStormTide() {
 
 /* ---------- power outages ---------- */
 
+// The outage job runs every 15 minutes. Older than this and the numbers can't be trusted as "now".
+const OUTAGE_STALE_MINUTES = 90;
+
+/* Offset (ms) of America/New_York from UTC at the given instant. */
+function easternOffsetMs(utcMs) {
+  const p = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York", hourCycle: "h23",
+    year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit",
+  }).formatToParts(new Date(utcMs)).reduce((o, x) => ({ ...o, [x.type]: x.value }), {});
+  return Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute, +p.second) - Math.floor(utcMs / 1000) * 1000;
+}
+
+/* CMP's "YYYY-MM-DD HH:MM:SS" Eastern wall-clock string -> epoch ms, or null if unparseable. */
+function parseEasternTime(str) {
+  const m = typeof str === "string" && str.trim().match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2}):(\d{2})$/);
+  if (!m) return null;
+  const wall = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +m[6]);
+  if (Number.isNaN(wall)) return null;
+  return wall - easternOffsetMs(wall - easternOffsetMs(wall));
+}
+
+/*
+ * Validates and normalizes data/outages.json. Throws unless the file has the shape the writer
+ * produces, so a junk file shows "unavailable" instead of a confident "no outages".
+ */
+function parseOutages(data, nowMs = Date.now()) {
+  if (!data || typeof data !== "object") throw new Error("Outage data is not an object");
+  const updatedMs = parseEasternTime(data.lastUpdated);
+  if (updatedMs === null) throw new Error("Outage data has no usable lastUpdated");
+  const totalOut = toNumber(data.totals?.outages);
+  if (totalOut === null) throw new Error("Outage data has no numeric statewide total");
+
+  const countOf = (row, label) => {
+    if (row === null || row === undefined) return 0; // null row = no outages reported there
+    if (typeof row !== "object") throw new Error(`Outage row for ${label} is invalid`);
+    if (row.Outages === undefined || row.Outages === null) return 0;
+    const n = toNumber(row.Outages);
+    if (n === null || n < 0) throw new Error(`Outage count for ${label} is invalid`);
+    return n;
+  };
+
+  const ageMinutes = (nowMs - updatedMs) / 60000;
+  return {
+    spOut: countOf(data.southport, "Southport"),
+    lcOut: countOf(data.lincolnCounty, "Lincoln County"),
+    totalOut,
+    lastUpdated: data.lastUpdated,
+    ageMinutes,
+    stale: ageMinutes > OUTAGE_STALE_MINUTES,
+  };
+}
+
+function describeAge(minutes) {
+  if (minutes < 120) return `${Math.max(1, Math.round(minutes))} minutes`;
+  if (minutes < 48 * 60) return `${Math.round(minutes / 60)} hours`;
+  return `${Math.round(minutes / 1440)} days`;
+}
+
 async function loadOutages() {
   const grid = el("outage-stats");
   try {
     const res = await fetch("data/outages.json", { cache: "no-cache" });
     if (!res.ok) throw new Error(`Outage data fetch failed: ${res.status}`);
-    const data = await res.json();
-
-    const sp = data.southport;
-    const lc = data.lincolnCounty;
-    const spOut = sp ? sp.Outages ?? 0 : 0;
-    const lcOut = lc ? lc.Outages ?? 0 : 0;
-    const totalOut = data.totals?.outages ?? 0;
+    const { spOut, lcOut, totalOut, lastUpdated, ageMinutes, stale } = parseOutages(await res.json());
 
     grid.innerHTML = `
       <div class="stat-card ${spOut ? "stat-bad" : "stat-ok"}">
@@ -589,15 +675,18 @@ async function loadOutages() {
         <span class="stat-label">${lcOut ? "customers out in Lincoln County" : "No outages in Lincoln County"}</span>
       </div>
       <div class="stat-card">
-        <span class="stat-value">${Number(totalOut).toLocaleString()}</span>
+        <span class="stat-value">${totalOut.toLocaleString()}</span>
         <span class="stat-label">customers out across all of CMP</span>
       </div>`;
 
-    if (data.lastUpdated) {
-      el("outage-updated").textContent = `CMP data as of ${data.lastUpdated} (Eastern). Refreshes every 15 minutes.`;
-    }
+    el("outage-updated").textContent = stale
+      ? `CMP data as of ${lastUpdated} (Eastern) is out of date (${describeAge(ageMinutes)} old). Use CMP's outage map for current numbers.`
+      : `CMP data as of ${lastUpdated} (Eastern). Refreshes every 15 minutes.`;
 
-    if (spOut) {
+    if (stale) {
+      // Old numbers must not read as "power is on"
+      setTile("tile-power", null, "Unavailable", "Data is out of date — check CMP's map");
+    } else if (spOut) {
       setTile("tile-power", "bad", `${spOut.toLocaleString()} out`, "in Southport — see Power section");
     } else if (lcOut) {
       setTile("tile-power", "warn", "On in Southport", `${lcOut.toLocaleString()} out elsewhere in Lincoln County`);
@@ -698,5 +787,6 @@ if (typeof module !== "undefined" && module.exports) {
   module.exports = {
     hazardLevel, localMeaning, isStormAlert, seasHeadline, extractZoneSection, parseMarinePeriods,
     parseMarineDetail, compressSeas, compressWind, compressWaves, windArrow,
+    toNumber, firstLines, parseEasternTime, parseOutages, OUTAGE_STALE_MINUTES,
   };
 }
