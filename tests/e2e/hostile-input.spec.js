@@ -1,6 +1,6 @@
 // MOCKED ON PURPOSE: feeds the page malformed and hostile upstream data (NWS, NOAA, CMP-derived
 // file) that the live sources can't be made to produce. Guards against script injection and against
-// "looks fine" results when data is junk or stale (false reassurance).
+// "looks fine" results when data is junk, aging or expired (false reassurance).
 const { test, expect } = require("@playwright/test");
 
 const PAYLOAD = "<img src=x onerror=window.__pwned=1>";
@@ -88,13 +88,59 @@ test("an empty or junk outage file is 'unavailable', never 'power on'", async ({
   }
 });
 
-test("a stale outage file warns instead of showing a confident 'power on'", async ({ page }) => {
-  const threeDaysAgo = easternNow(-72 * 3600 * 1000);
-  await mockSources(page, { outages: json(goodOutages({ lastUpdated: threeDaysAgo })) });
+test("aging outage data keeps its numbers but is marked last-known, not current", async ({ page }) => {
+  // 3 hours old: typical when GitHub throttles the scheduled job
+  const threeHoursAgo = easternNow(-3 * 3600 * 1000);
+  await mockSources(page, { outages: json(goodOutages({ lastUpdated: threeHoursAgo, southport: null, lincolnCounty: null })) });
+  await page.goto("/#outages");
+  const tile = page.locator("#tile-power");
+  await expect(tile.locator(".tile-value")).toHaveText("Last known: On");
+  await expect(tile.locator(".tile-sub")).toContainText("3 hours ago");
+  await expect(tile).not.toHaveClass(/is-ok|is-warn|is-bad/);
+  const cards = page.locator("#outage-stats .stat-card");
+  await expect(cards).toHaveCount(3);
+  for (let i = 0; i < 3; i++) {
+    await expect(cards.nth(i)).toHaveClass(/stat-aging/);
+    await expect(cards.nth(i)).not.toHaveClass(/stat-ok|stat-bad/);
+    await expect(cards.nth(i)).toContainText("last known");
+  }
+  await expect(page.locator("#outage-updated")).toContainText("Last updated 3 hours ago");
+  await expect(page.locator("#outage-updated")).toContainText("GitHub can delay");
+});
+
+test("aging data with an outage in Southport is not styled as a live red alert", async ({ page }) => {
+  await mockSources(page, { outages: json(goodOutages({ lastUpdated: easternNow(-4 * 3600 * 1000), southport: { Outages: 7 } })) });
+  await page.goto("/#outages");
+  await expect(page.locator("#tile-power .tile-value")).toHaveText("Last known: 7 out");
+  await expect(page.locator("#tile-power")).not.toHaveClass(/is-bad/);
+  await expect(page.locator("#outage-stats .stat-card").first()).not.toHaveClass(/stat-bad/);
+});
+
+test("outage data older than 12 hours is unavailable, with a pointer to CMP", async ({ page }) => {
+  await mockSources(page, { outages: json(goodOutages({ lastUpdated: easternNow(-13 * 3600 * 1000) })) });
   await page.goto("/#outages");
   await expect(page.locator("#tile-power .tile-value")).toHaveText("Unavailable");
-  await expect(page.locator("#tile-power .tile-sub")).toContainText("out of date");
-  await expect(page.locator("#outage-updated")).toContainText("out of date");
+  await expect(page.locator("#tile-power .tile-sub")).toContainText("check CMP");
+  await expect(page.locator("#outage-stats .stat-card")).toHaveCount(0);
+  await expect(page.locator("#outage-stats")).toContainText("Live outage numbers unavailable");
+  await expect(page.locator("#outage-updated")).toContainText("13 hours");
+});
+
+test("an outage timestamp from the future or an impossible date is unavailable", async ({ page }) => {
+  for (const lastUpdated of [easternNow(2 * 3600 * 1000), "2999-01-01 00:00:00", "2026-02-30 12:00:00", "2026-13-01 12:00:00", "2026-01-15 25:00:00"]) {
+    await mockSources(page, { outages: json(goodOutages({ lastUpdated })) });
+    await page.goto("/#outages");
+    await expect(page.locator("#tile-power .tile-value"), lastUpdated).toHaveText("Unavailable");
+    await expect(page.locator("#outage-stats")).toContainText("Live outage numbers unavailable");
+  }
+});
+
+test("fresh outage data (inside 90 minutes) still renders as current", async ({ page }) => {
+  await mockSources(page, { outages: json(goodOutages({ lastUpdated: easternNow(-80 * 60 * 1000) })) });
+  await page.goto("/#outages");
+  await expect(page.locator("#tile-power .tile-value")).toHaveText("On");
+  await expect(page.locator("#tile-power")).toHaveClass(/is-ok/);
+  await expect(page.locator("#outage-stats .stat-card").first()).toHaveClass(/stat-ok/);
 });
 
 test("fresh outage data still renders normally", async ({ page }) => {

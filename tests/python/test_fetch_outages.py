@@ -43,9 +43,16 @@ class BuildResult(unittest.TestCase):
             (county(customers=None), town()),
             (county(features=None), town()),
             ([], town()),
+            (county(outages=float("nan")), town()),
+            (county(customers=float("inf")), town()),
         ]:
             with self.assertRaises(ValueError, msg=repr((bad_county, bad_town))):
                 fo.build_result(bad_county, bad_town)
+
+    def test_nan_and_infinity_from_raw_json_are_rejected(self):
+        raw = json.loads('{"lastUpdated": "2026-01-01 12:00:00", "customers": NaN, "outages": Infinity, "features": []}')
+        with self.assertRaises(ValueError):
+            fo.build_result(raw, town())
 
     def test_result_round_trips_as_json(self):
         json.dumps(fo.build_result(county(), town()))

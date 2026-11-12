@@ -1,7 +1,7 @@
 /*
  * Southport Island Weather Hub
  * Live data: api.weather.gov (NWS) fetched client-side; CMP outage numbers
- * read from data/outages.json (refreshed every 15 min by a GitHub Action,
+ * read from data/outages.json (scheduled every 15 min via a GitHub Action, which GitHub may delay,
  * since CMP's API is CORS-restricted to their own portal).
  */
 
@@ -600,8 +600,19 @@ function fillStormTide() {
 
 /* ---------- power outages ---------- */
 
-// The outage job runs every 15 minutes. Older than this and the numbers can't be trusted as "now".
-const OUTAGE_STALE_MINUTES = 90;
+/*
+ * How current is data/outages.json? The Action is scheduled every 15 minutes, but GitHub throttles
+ * scheduled workflows, and real gaps between refreshes are often several hours. So there are
+ * three tiers rather than one cutoff:
+ *   fresh   <= OUTAGE_FRESH_MINUTES      shown as current
+ *   aging   up to OUTAGE_MAX_USABLE_MIN  numbers still shown, but marked "last known" with their age
+ *   expired beyond that                  "Unavailable" with a pointer to CMP's map
+ * A timestamp more than OUTAGE_FUTURE_SKEW_MINUTES ahead of the visitor's clock is treated as invalid
+ * (the allowance covers ordinary clock skew).
+ */
+const OUTAGE_FRESH_MINUTES = 90;
+const OUTAGE_MAX_USABLE_MINUTES = 12 * 60;
+const OUTAGE_FUTURE_SKEW_MINUTES = 5;
 
 /* Offset (ms) of America/New_York from UTC at the given instant. */
 function easternOffsetMs(utcMs) {
@@ -612,50 +623,63 @@ function easternOffsetMs(utcMs) {
   return Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute, +p.second) - Math.floor(utcMs / 1000) * 1000;
 }
 
-/* CMP's "YYYY-MM-DD HH:MM:SS" Eastern wall-clock string -> epoch ms, or null if unparseable. */
+/*
+ * CMP's "YYYY-MM-DD HH:MM:SS" Eastern wall-clock string -> epoch ms, or null if it isn't a real
+ * Eastern time (month 13, Feb 30, hour 25, or a wall time that doesn't exist on a DST change day).
+ */
 function parseEasternTime(str) {
   const m = typeof str === "string" && str.trim().match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2}):(\d{2})$/);
   if (!m) return null;
-  const wall = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +m[6]);
-  if (Number.isNaN(wall)) return null;
-  return wall - easternOffsetMs(wall - easternOffsetMs(wall));
+  const [y, mo, d, h, mi, sec] = m.slice(1).map(Number);
+  const wall = Date.UTC(y, mo - 1, d, h, mi, sec);
+  const back = new Date(wall);
+  // Round trip: an out-of-range field would roll over into a different date/time
+  if (Number.isNaN(wall) || back.getUTCFullYear() !== y || back.getUTCMonth() !== mo - 1 || back.getUTCDate() !== d
+      || back.getUTCHours() !== h || back.getUTCMinutes() !== mi || back.getUTCSeconds() !== sec) return null;
+  const utc = wall - easternOffsetMs(wall - easternOffsetMs(wall));
+  if (utc + easternOffsetMs(utc) !== wall) return null; // nonexistent local time (spring-forward gap)
+  return utc;
 }
 
 /*
  * Validates and normalizes data/outages.json. Throws unless the file has the shape the writer
  * produces, so a junk file shows "unavailable" instead of a confident "no outages".
+ * `tier` is "fresh", "aging" or "expired" (see above).
  */
 function parseOutages(data, nowMs = Date.now()) {
-  if (!data || typeof data !== "object") throw new Error("Outage data is not an object");
+  if (!data || typeof data !== "object" || Array.isArray(data)) throw new Error("Outage data is not an object");
   const updatedMs = parseEasternTime(data.lastUpdated);
   if (updatedMs === null) throw new Error("Outage data has no usable lastUpdated");
+  const ageMinutes = (nowMs - updatedMs) / 60000;
+  if (ageMinutes < -OUTAGE_FUTURE_SKEW_MINUTES) throw new Error("Outage data is timestamped in the future");
   const totalOut = toNumber(data.totals?.outages);
   if (totalOut === null) throw new Error("Outage data has no numeric statewide total");
 
   const countOf = (row, label) => {
     if (row === null || row === undefined) return 0; // null row = no outages reported there
-    if (typeof row !== "object") throw new Error(`Outage row for ${label} is invalid`);
+    if (typeof row !== "object" || Array.isArray(row)) throw new Error(`Outage row for ${label} is invalid`);
     if (row.Outages === undefined || row.Outages === null) return 0;
     const n = toNumber(row.Outages);
     if (n === null || n < 0) throw new Error(`Outage count for ${label} is invalid`);
     return n;
   };
 
-  const ageMinutes = (nowMs - updatedMs) / 60000;
+  const tier = ageMinutes <= OUTAGE_FRESH_MINUTES ? "fresh" : ageMinutes <= OUTAGE_MAX_USABLE_MINUTES ? "aging" : "expired";
   return {
     spOut: countOf(data.southport, "Southport"),
     lcOut: countOf(data.lincolnCounty, "Lincoln County"),
     totalOut,
     lastUpdated: data.lastUpdated,
     ageMinutes,
-    stale: ageMinutes > OUTAGE_STALE_MINUTES,
+    tier,
   };
 }
 
 function describeAge(minutes) {
-  if (minutes < 120) return `${Math.max(1, Math.round(minutes))} minutes`;
-  if (minutes < 48 * 60) return `${Math.round(minutes / 60)} hours`;
-  return `${Math.round(minutes / 1440)} days`;
+  const m = Math.max(0, minutes);
+  if (m < 120) return `${Math.max(1, Math.round(m))} minutes`;
+  if (m < 48 * 60) return `${Math.round(m / 60)} hours`;
+  return `${Math.round(m / 1440)} days`;
 }
 
 async function loadOutages() {
@@ -663,29 +687,41 @@ async function loadOutages() {
   try {
     const res = await fetch("data/outages.json", { cache: "no-cache" });
     if (!res.ok) throw new Error(`Outage data fetch failed: ${res.status}`);
-    const { spOut, lcOut, totalOut, lastUpdated, ageMinutes, stale } = parseOutages(await res.json());
+    const { spOut, lcOut, totalOut, lastUpdated, ageMinutes, tier } = parseOutages(await res.json());
+    const age = describeAge(ageMinutes);
 
+    if (tier === "expired") {
+      grid.innerHTML = `<p class="status-line">Live outage numbers unavailable — the last data from CMP is ${age} old. Use CMP's outage map below.</p>`;
+      el("outage-updated").textContent = `Last update from CMP data: ${lastUpdated} (Eastern), ${age} ago.`;
+      setTile("tile-power", null, "Unavailable", "Data is too old — check CMP's map");
+      return;
+    }
+
+    // Aging data keeps its numbers but loses the green/red "current" styling and says how old it is
+    const aging = tier === "aging";
+    const cardClass = (n) => (aging ? "stat-aging" : n ? "stat-bad" : "stat-ok");
+    const last = aging ? " (last known)" : "";
     grid.innerHTML = `
-      <div class="stat-card ${spOut ? "stat-bad" : "stat-ok"}">
+      <div class="stat-card ${cardClass(spOut)}">
         <span class="stat-value">${spOut ? spOut.toLocaleString() : "None"}</span>
-        <span class="stat-label">${spOut ? "customers out in Southport" : "No outages in Southport"}</span>
+        <span class="stat-label">${spOut ? "customers out in Southport" : "No outages in Southport"}${last}</span>
       </div>
-      <div class="stat-card ${lcOut ? "stat-bad" : "stat-ok"}">
+      <div class="stat-card ${cardClass(lcOut)}">
         <span class="stat-value">${lcOut ? lcOut.toLocaleString() : "None"}</span>
-        <span class="stat-label">${lcOut ? "customers out in Lincoln County" : "No outages in Lincoln County"}</span>
+        <span class="stat-label">${lcOut ? "customers out in Lincoln County" : "No outages in Lincoln County"}${last}</span>
       </div>
-      <div class="stat-card">
+      <div class="stat-card ${aging ? "stat-aging" : ""}">
         <span class="stat-value">${totalOut.toLocaleString()}</span>
-        <span class="stat-label">customers out across all of CMP</span>
+        <span class="stat-label">customers out across all of CMP${last}</span>
       </div>`;
 
-    el("outage-updated").textContent = stale
-      ? `CMP data as of ${lastUpdated} (Eastern) is out of date (${describeAge(ageMinutes)} old). Use CMP's outage map for current numbers.`
-      : `CMP data as of ${lastUpdated} (Eastern). Refreshes every 15 minutes.`;
+    el("outage-updated").textContent = aging
+      ? `Last updated ${age} ago (CMP data as of ${lastUpdated} Eastern). Updates are scheduled every 15 minutes, but GitHub can delay them. Use CMP's outage map for current numbers.`
+      : `CMP data as of ${lastUpdated} (Eastern). Updates are scheduled every 15 minutes; GitHub can delay them.`;
 
-    if (stale) {
-      // Old numbers must not read as "power is on"
-      setTile("tile-power", null, "Unavailable", "Data is out of date — check CMP's map");
+    if (aging) {
+      const reading = spOut ? `${spOut.toLocaleString()} out` : lcOut ? "On in Southport" : "On";
+      setTile("tile-power", null, `Last known: ${reading}`, `${age} ago — check CMP's map`);
     } else if (spOut) {
       setTile("tile-power", "bad", `${spOut.toLocaleString()} out`, "in Southport — see Power section");
     } else if (lcOut) {
@@ -787,6 +823,7 @@ if (typeof module !== "undefined" && module.exports) {
   module.exports = {
     hazardLevel, localMeaning, isStormAlert, seasHeadline, extractZoneSection, parseMarinePeriods,
     parseMarineDetail, compressSeas, compressWind, compressWaves, windArrow,
-    toNumber, firstLines, parseEasternTime, parseOutages, OUTAGE_STALE_MINUTES,
+    toNumber, firstLines, parseEasternTime, parseOutages,
+    OUTAGE_FRESH_MINUTES, OUTAGE_MAX_USABLE_MINUTES, OUTAGE_FUTURE_SKEW_MINUTES,
   };
 }

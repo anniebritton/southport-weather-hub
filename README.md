@@ -5,7 +5,7 @@
 One page where residents of Southport Island, Maine can check everything that matters before, during, and after severe weather — without needing to know which agency's website to visit:
 
 - ⚠️ **Live weather alerts and forecast** from the National Weather Service, with plain-language "what this means for Southport" translations
-- 🔌 **Power outage numbers** straight from Central Maine Power's data, refreshed every 15 minutes
+- 🔌 **Power outage numbers** straight from Central Maine Power's data, updated on a best-effort schedule (every 15 minutes when GitHub runs it on time; the page shows how old the numbers are)
 - ⛵ **Marine conditions** — wind, seas, wave heights, and tides at Southport's own gauge
 - 🔥 **Daily fire danger** from the Maine Forest Service
 - 🦟 **Mosquito and tick activity estimates** computed from the day's forecast
@@ -74,7 +74,7 @@ No servers, no domains required (though you can point one at it), no cost.
 ## Architecture notes
 
 - **Plain HTML/CSS/JS, no framework, no build step** — deliberately, so future maintainers only need a text editor
-- All live data is fetched client-side from free public APIs (NWS, NOAA tides) except utility outage data, which a GitHub Action snapshots into the repo every 15 minutes
+- All live data is fetched client-side from free public APIs (NWS, NOAA tides) except utility outage data, which a GitHub Action snapshots into the repo (scheduled every 15 minutes, though GitHub throttles scheduled workflows and real gaps are often hours; the page marks older numbers "last known" and stops showing them after 12 hours)
 - **Storm Mode** triggers automatically on Extreme/Severe NWS alerts (or hurricane/gale/surge/blizzard/ice-storm/tornado events); test it any time with `?storm=demo`
 - The pest activity meters are **weather-based estimates, not surveillance** — the model was validated against ten seasonal scenarios and spot-checked against a commercial index (details in the site's methodology section); scoring functions in `pests.js` (and the text helpers in `app.js`) export CommonJS for headless re-testing
 - Fetch failures degrade gracefully: every live section falls back to a labeled link to the official source
@@ -107,7 +107,7 @@ Almost none, but three things to know:
 
 - **GitHub pauses cron workflows after ~60 days of repo inactivity.** The outage bot's own commits normally keep it alive, but if outage timestamps go stale, re-enable the workflow under the Actions tab (one click).
 - **If the daily Tests run fails** with no code change, an upstream source (NWS, NOAA, or CMP) has most likely changed its format or is down. The failing test's name says which section; rerun it once to rule out a brief outage.
-- **If the utility rotates its public API key**, the fetch fails and leaves the last good file in place; once that file is more than 90 minutes old the page shows the power tile as "Unavailable" and points to CMP's map instead of showing old numbers. Grab the new key from the `ocp-apim-subscription-key` request header on the utility's own outage map and either update `PUBLIC_FRONTEND_KEY` in `scripts/fetch_outages.py` or set it as the `OUTAGE_API_KEY` repository secret (the secret wins when present).
+- **If the utility rotates its public API key**, the fetch fails and leaves the last good file in place; the page keeps showing the last good numbers, marked "last known" with their age once they are more than 90 minutes old, and switches the power tile to "Unavailable" with a pointer to CMP's map after 12 hours. Grab the new key from the `ocp-apim-subscription-key` request header on the utility's own outage map and either update `PUBLIC_FRONTEND_KEY` in `scripts/fetch_outages.py` or set it as the `OUTAGE_API_KEY` repository secret (the secret wins when present).
 
 ## Data sources & credits
 

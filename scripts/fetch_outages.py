@@ -14,6 +14,7 @@ isn't the expected shape (for example `{}` with HTTP 200), so a bad upstream res
 can never turn into a confident "no outages" on the site.
 """
 import json
+import math
 import os
 import sys
 import time
@@ -34,12 +35,13 @@ def fetch(filter_name, key, attempts=2):
                 return json.loads(resp.read().decode("utf-8"))
         except Exception as e:  # never print headers or the key
             last = f"{type(e).__name__}: {getattr(e, 'code', '')}"
-            time.sleep(2)
+            if i < attempts - 1:
+                time.sleep(2)
     raise RuntimeError(f"fetching filter={filter_name} failed ({last})")
 
 
 def _is_number(v):
-    return isinstance(v, (int, float)) and not isinstance(v, bool)
+    return isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v)
 
 
 def validate(county, town):
