@@ -3,11 +3,10 @@
 
 Run by .github/workflows/outages.yml every 15 minutes, or manually for local dev.
 
-The subscription key below is CMP's own public frontend key: it is shipped to every
-browser that opens portal.cmpco.com/outages/map. The OUTAGE_API_KEY environment variable
-(a GitHub secret in CI) overrides it, so the key can be rotated without a code change.
-If CMP rotates it, grab the new one from the ocp-apim-subscription-key request header
-on that page.
+The CMP subscription key is read from the OUTAGE_API_KEY environment variable (a GitHub
+secret in CI); it is not stored in this repo. It is CMP's own public frontend key, shipped
+to every browser that opens portal.cmpco.com/outages/map. If CMP rotates it, grab the new
+one from the ocp-apim-subscription-key request header on that page and update the secret.
 
 The script refuses to overwrite the data file when the API answers with something that
 isn't the expected shape (for example `{}` with HTTP 200), so a bad upstream response
@@ -20,7 +19,6 @@ import sys
 import time
 import urllib.request
 
-PUBLIC_FRONTEND_KEY = "0e379c90775d4d0eb1d9013c5542d7d5"
 API = "https://apim.avangrid.com/cmp/v1/public/outagedata"
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "outages.json")
 
@@ -84,7 +82,10 @@ def build_result(county, town):
 
 
 def main():
-    key = os.environ.get("OUTAGE_API_KEY") or PUBLIC_FRONTEND_KEY
+    key = os.environ.get("OUTAGE_API_KEY", "").strip()
+    if not key:
+        print(f"ERROR: OUTAGE_API_KEY is not set; leaving {os.path.normpath(OUT)} unchanged", file=sys.stderr)
+        return 1
     try:
         county = fetch("county", key)
         town = fetch("town", key)
