@@ -107,7 +107,7 @@ Almost none, but three things to know:
 
 - **GitHub pauses cron workflows after ~60 days of repo inactivity.** The outage bot's own commits normally keep it alive, but if outage timestamps go stale, re-enable the workflow under the Actions tab (one click).
 - **If the daily Tests run fails** with no code change, an upstream source (NWS, NOAA, or CMP) has most likely changed its format or is down. The failing test's name says which section; rerun it once to rule out a brief outage.
-- **If the utility rotates its public API key**, the fetch fails and leaves the last good file in place; the page keeps showing the last good numbers, marked "last known" with their age once they are more than 90 minutes old, and switches the power tile to "Unavailable" with a pointer to CMP's map after 12 hours. Grab the new key from the `ocp-apim-subscription-key` request header on the utility's own outage map and either update `PUBLIC_FRONTEND_KEY` in `scripts/fetch_outages.py` or set it as the `OUTAGE_API_KEY` repository secret (the secret wins when present).
+- **If the utility rotates its public API key**, the fetch fails and leaves the last good file in place; the page keeps showing the last good numbers, marked "last known" with their age once they are more than 90 minutes old, and switches the power tile to "Unavailable" with a pointer to CMP's map after 12 hours. Grab the new key from the `ocp-apim-subscription-key` request header on the utility's own outage map and update the `OUTAGE_API_KEY` repository secret (the key is not stored in the repo, and the fetch fails without it).
 
 ## Data sources & credits
 

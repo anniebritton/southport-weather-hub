@@ -57,6 +57,18 @@ class BuildResult(unittest.TestCase):
     def test_result_round_trips_as_json(self):
         json.dumps(fo.build_result(county(), town()))
 
+    def test_missing_api_key_fails_without_touching_data(self):
+        old = os.environ.pop("OUTAGE_API_KEY", None)
+        try:
+            self.assertEqual(fo.main(), 1)
+            os.environ["OUTAGE_API_KEY"] = "   "
+            self.assertEqual(fo.main(), 1)
+        finally:
+            if old is None:
+                os.environ.pop("OUTAGE_API_KEY", None)
+            else:
+                os.environ["OUTAGE_API_KEY"] = old
+
 
 if __name__ == "__main__":
     unittest.main()
