@@ -1,11 +1,37 @@
 {
- "lastUpdated": "2026-11-19 23:18:17",
+ "lastUpdated": "2026-11-20 08:21:37",
  "totals": {
   "customers": 690273,
-  "outages": 0,
-  "incidents": 0
+  "outages": 1,
+  "incidents": 1
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": []
+ "towns": [
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "PITTSTON",
+   "customers": 1547,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "11/20/2026 9:45:00 AM"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "KENNEBEC",
+   "town": "PITTSTON",
+   "hamlet": "PITTSTON",
+   "street": "E PITTSTON RD",
+   "customers": 183,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "11/20/2026 9:45:00 AM",
+   "crewstatus": "CMPL ",
+   "cause": "Animal",
+   "incidentnumber": "0047L6"
+  }
+ ]
 }
