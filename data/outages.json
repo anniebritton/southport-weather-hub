@@ -1,37 +1,11 @@
 {
- "lastUpdated": "2026-11-21 21:30:22",
+ "lastUpdated": "2026-11-22 05:13:42",
  "totals": {
   "customers": 690413,
-  "outages": 1,
-  "incidents": 1
+  "outages": 0,
+  "incidents": 0
  },
  "southport": null,
  "lincolnCounty": null,
- "towns": [
-  {
-   "level": "town",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "CARATUNK",
-   "customers": 204,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "11/21/2026 10:15:00 PM"
-  },
-  {
-   "level": "street",
-   "opco": "CMP",
-   "county": "SOMERSET",
-   "town": "CARATUNK",
-   "hamlet": "CARATUNK",
-   "street": "SCHOOLHOUSE BROOK RD",
-   "customers": 5,
-   "Outages": 1,
-   "incidents": 1,
-   "EstRest": "11/21/2026 10:15:00 PM",
-   "crewstatus": "DISP ",
-   "cause": "",
-   "incidentnumber": "0047R6"
-  }
- ]
+ "towns": []
 }
