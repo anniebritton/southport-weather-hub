@@ -1,9 +1,9 @@
 {
- "lastUpdated": "2026-11-27 13:38:35",
+ "lastUpdated": "2026-11-27 20:42:39",
  "totals": {
-  "customers": 690507,
-  "outages": 15,
-  "incidents": 1
+  "customers": 690512,
+  "outages": 377,
+  "incidents": 3
  },
  "southport": null,
  "lincolnCounty": {
@@ -11,35 +11,120 @@
   "opco": "CMP",
   "county": "LINCOLN",
   "customers": 29091,
-  "Outages": 15,
-  "incidents": 1,
-  "EstRest": "11/27/2026 1:45:00 PM"
+  "Outages": 369,
+  "incidents": 2,
+  "EstRest": "11/27/2026 11:00:00 PM"
  },
  "towns": [
   {
    "level": "town",
    "opco": "CMP",
    "county": "LINCOLN",
-   "town": "BOOTHBAY HARBOR",
-   "customers": 2634,
-   "Outages": 15,
+   "town": "NOBLEBORO",
+   "customers": 1470,
+   "Outages": 363,
+   "incidents": 2,
+   "EstRest": "11/27/2026 11:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "WALDOBORO",
+   "customers": 3205,
+   "Outages": 3,
    "incidents": 1,
-   "EstRest": "11/27/2026 1:45:00 PM"
+   "EstRest": "11/27/2026 11:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "JEFFERSON",
+   "customers": 1952,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "11/27/2026 11:00:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "NORWAY",
+   "customers": 3536,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "11/27/2026 10:45:00 PM"
+  },
+  {
+   "level": "town",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "WATERFORD",
+   "customers": 1591,
+   "Outages": 7,
+   "incidents": 1,
+   "EstRest": "11/27/2026 10:45:00 PM"
   },
   {
    "level": "street",
    "opco": "CMP",
    "county": "LINCOLN",
-   "town": "BOOTHBAY HARBOR",
-   "hamlet": "BOOTHBAY HARBOR",
-   "street": "OLD STONEWALL RD",
-   "customers": 8,
-   "Outages": 8,
+   "town": "WALDOBORO",
+   "hamlet": "WALDOBORO",
+   "street": "JARED RD",
+   "customers": 2,
+   "Outages": 2,
    "incidents": 1,
-   "EstRest": "11/27/2026 1:45:00 PM",
-   "crewstatus": "DISP ",
+   "EstRest": "11/27/2026 11:00:00 PM",
+   "crewstatus": "ONST ",
    "cause": "",
-   "incidentnumber": "0048C9"
+   "incidentnumber": "0048CY"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "LINCOLN",
+   "town": "JEFFERSON",
+   "hamlet": "JEFFERSON",
+   "street": "E POND RD",
+   "customers": 59,
+   "Outages": 3,
+   "incidents": 1,
+   "EstRest": "11/27/2026 11:00:00 PM",
+   "crewstatus": "ONST ",
+   "cause": "",
+   "incidentnumber": "0048CY"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "NORWAY",
+   "hamlet": "NORWAY",
+   "street": "OLD PULP MILL LN",
+   "customers": 1,
+   "Outages": 1,
+   "incidents": 1,
+   "EstRest": "11/27/2026 10:45:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "0048DA"
+  },
+  {
+   "level": "street",
+   "opco": "CMP",
+   "county": "OXFORD",
+   "town": "WATERFORD",
+   "hamlet": "WATERFORD",
+   "street": "OLD PULP MILL DR",
+   "customers": 2,
+   "Outages": 2,
+   "incidents": 1,
+   "EstRest": "11/27/2026 10:45:00 PM",
+   "crewstatus": "     ",
+   "cause": "",
+   "incidentnumber": "0048DA"
   }
  ]
 }
